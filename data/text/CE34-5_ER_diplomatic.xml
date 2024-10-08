@@ -230,6 +230,14 @@
           <mapping type="normalized">p</mapping>
         </char>
 
+        <!-- aggiunto 2024-10 -->
+        <char xml:id="Ptilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>
+          <mapping type="diplomatic">P̃</mapping>
+          <mapping type="normalized">P</mapping>
+        </char>
+        
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="qtilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH TILDE"/>
@@ -237,7 +245,6 @@
           <mapping type="diplomatic">q̃</mapping>
           <mapping type="normalized">q</mapping>
         </char>
-
 
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="nscapslonglig">
@@ -6295,7 +6302,10 @@
           <w>incusa<c corresp="#v">u</c>erit</w>
           <lb n="23" xml:id="CE34-5_lb_066v_23"/><w>quod</w>
           <w>ad</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>
             <choice>
               <abbr><am><g ref="#pbardes"/></am>tineat</abbr>
@@ -8498,7 +8508,10 @@
           <lb n="17" xml:id="CE34-5_lb_069v_17"/>
           <w>penetrare</w>
           <w>pr<g ref="#eogon"/>sumpserit</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>su<g ref="#eogon"/></w>
           <w>incurrat</w>
           <w>
@@ -22205,7 +22218,10 @@
             </choice>
           </w>
           <w>sociare</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>suae</w>
           <w>incurrat</w>
           <w>periculum</w>
@@ -25633,7 +25649,10 @@
           <measure quantity="80" type="currency" unit="soldi"><w>LXXX</w></measure>
           <lb n="21" xml:id="CE34-5_lb_091r_21"/>
           <w>aut</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>suae</w>
           <w>Incurrat</w>
           <w>periculum</w>
@@ -28096,7 +28115,10 @@
           <w>in</w>
           <w>capite</w>
           <w>fuerit</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>sue</w>
           <w>Incurrat</w>
           <w>
@@ -35209,7 +35231,10 @@
           <w>regis</w>
           <w>si</w>
           <w>fecerit</w>
-          <w>anime</w>
+          <w><choice>
+            <orig>anime</orig>
+            <reg>animae</reg>
+          </choice></w>
           <w>sue</w>
           <w>Incurrat</w>
           <w>per<g ref="#jnodotenl"/><lb n="19" xml:id="CE34-5_lb_102v_19"/>culu</w>
