@@ -570,7 +570,8 @@
     - sostituire <charDecl> con quella esterna
     - controllare gli usi di etlig, non sembra il carattere giusto al f. 57r 
       v. https://www.fileformat.info/info/unicode/char/1f672/index.htm
-    - mancango moltissimi caratteri speciali: slong, a nella forma aperta (cc)
+    - mancano moltissimi caratteri speciali: slong, a nella forma aperta (cc)
+    - manca gestione punteggiatura
     
     -->
 
@@ -708,8 +709,8 @@
           <w>octabo</w>
           <w>indictione</w>
           <lb n="2" xml:id="CE34-5_lb_057v_02"/>
-          <w>secunda</w>
-          <w><hi rend="black and red">E</hi>t</w>
+          <w>secunda</w>.
+          <w><hi rend="black and red"><g ref="#Eunc"/></hi>t</w>
           <w>post</w>
           <w>advento</w>
           <w>in</w>
