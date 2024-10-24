@@ -19,6 +19,27 @@
 /*                                                                   */
 
 /* ***************************************************************** */
+
+.title {
+  font-style: italic !important;
+}
+
+.titlePart[data-type="main"] {
+  font-style: italic !important;
+  text-align: center !important;
+	font-size: 120% !important;
+}
+
+.head[data-type="main"] {
+  font-style: italic !important;
+  text-align: center !important;
+	font-size: 200% !important;
+}
+
+.label {
+  font-style: italic !important;
+}
+
 .term {
 	background-color: coral;
 }
