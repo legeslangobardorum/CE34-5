@@ -37,7 +37,7 @@
         <edition>Edizioni precedenti delle <title>Leges Langobardorum</title></edition>
         <respStmt xml:id="azzara">
           <resp>Editor</resp>
-          <name ref="#Azzara2005">Azzara-Gasparri</name>
+          <name ref="#Azzara2005a">Azzara-Gasparri</name>
         </respStmt>
         <respStmt xml:id="beyerle">
           <resp>Editor</resp>
@@ -630,9 +630,10 @@
         <p>La seconda fase, più a lungo termine, prevede l’allestimento dell’edizione critica integrata del testo
             dell’<title>Editto</title> e di tutte le <title>Leges</title>, sulla base della collazione e recensione
           completa dei testimoni pervenuti. Questa edizione sarà integrata da un glossario digitale per facilitare la
-          consultazione da parte degli utenti: il software EVT sarà sviluppato per aggiungere questo strumento e per
-          includere una funzione di edizione integrata,un aspetto innovativo che consentirà di gestire i facsimili
-          digitali e le edizioni diplomatiche in connessione con il testo critico stabilito dagli editori.</p>
+          consultazione da parte degli utenti: il software EVT (Rosselli Del Turco 2015, 2019) sarà sviluppato per
+          aggiungere questo strumento e per includere una funzione di edizione integrata,un aspetto innovativo che
+          consentirà di gestire i facsimili digitali e le edizioni diplomatiche in connessione con il testo critico
+          stabilito dagli editori.</p>
         
         <p>Al termine del progetto i testi criticamente definiti di tutti i testimoni selezionati confluiranno nella
           biblioteca digitale ALIM (<ref target="https://alim.unisi.it/">https://alim.unisi.it/</ref>), sostenuta
@@ -1015,7 +1016,8 @@
         <head>Ringraziamenti</head>
         
         <p>Gli autori ringraziano la Biblioteca e Archivio Capitolare di Vercelli e la Biblioteca Capitolare di Ivrea
-          per la concessione delle immagini dell’<title>Edictum</title>.</p>
+          per la concessione delle immagini dell’<title>Edictum</title>. Si ringraziano inoltre tutti i collaboratori
+          che hanno contribuito alla riuscita del progetto.</p>
         
       </div>
       
@@ -1028,6 +1030,899 @@
           dal Bando PRIN 2022 PNRR - D.D. n. 1409 del 14/09/2022.</p>
         
       </div>
+      
+      <div type="paratext" subtype="references">
+        
+        <head>Bibliografia</head>
+        
+        <listBibl>
+
+          <biblStruct type="journalArticle" xml:id="Siemens2012">
+            <analytic>
+              <title level="a">Toward modeling the social edition: An approach to understanding the electronic scholarly
+                edition in the context of new and emerging social media</title>
+              <idno type="DOI">10.1093/llc/fqs013</idno>
+              <title type="short">Toward modeling the social edition</title>
+              <author><forename>Ray</forename><surname>Siemens</surname></author>
+              <author><forename>Meagan</forename><surname>Timney</surname></author>
+              <author><forename>Cara</forename><surname>Leitch</surname></author>
+              <author><forename>Corina</forename><surname>Koolen</surname></author>
+              <author><forename>Alex</forename><surname>Garnett</surname></author>
+              <author><name>with the ETCL, INKE, and PKP Research Groups</name></author>
+            </analytic>
+            <monogr>
+              <title level="j">Literary and Linguistic Computing</title>
+              <idno type="ISSN">0268-1145, 1477-4615</idno>
+              <imprint>
+                <biblScope unit="volume">27</biblScope>
+                <biblScope unit="issue">4</biblScope>
+                <biblScope unit="page">445-461</biblScope>
+                <date>2012</date>
+                <note type="accessed">2015-09-15T16:51:07Z</note>
+                <note type="url">http://llc.oxfordjournals.org/cgi/doi/10.1093/llc/fqs013</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Dold1955">
+            <monogr>
+              <title level="m">Zur ältesten Handschrift des Edictus Rothari: Urfassung des Langobardgesetzes: Zeit und
+                Ort ihrer Entstehung</title>
+              <title type="short">Zur ältesten Handschrift des Edictus Rothari</title>
+              <author><forename>Alban</forename><surname>Dold</surname></author>
+              <imprint>
+                <pubPlace>Stuttgart</pubPlace>
+                <publisher>Kohlhammer</publisher>
+                <date>1955</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Azzara2005a">
+            <monogr>
+              <title level="m">Le leggi dei Longobardi: storia, memoria e diritto di un popolo germanico</title>
+              <title type="short">Le leggi dei Longobardi</title>
+              <idno type="ISBN">88-8334-099-X</idno>
+              <author><forename>Claudio</forename><surname>Azzara</surname></author>
+              <author><forename>Stefano</forename><surname>Gasparri</surname></author>
+              <edition>2. ed</edition>
+              <imprint>
+                <pubPlace>Roma</pubPlace>
+                <publisher>Viella</publisher>
+                <date>2005</date>
+              </imprint>
+            </monogr>
+            <series><title level="s">Altomedioevo</title><biblScope unit="volume">4</biblScope></series>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Moschetti1954">
+            <monogr>
+              <title level="m">Primordi esegetici sulla legislazione longobarda nel sec. IX a Verona, secondo il Cod.
+                vat. lat. 5359.</title>
+              <author><forename>Guiscardo</forename><surname>Moschetti</surname></author>
+              <imprint>
+                <pubPlace>Spoleto</pubPlace>
+                <publisher>Centro italiano di studi sull'alto Medioevo</publisher>
+                <date>1954</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Beyerle1962">
+            <monogr>
+              <title level="m">Leges langobardorum: 643-866</title>
+              <title type="short">Leges langobardorum</title>
+              <author><forename>Franz</forename><surname>Beyerle</surname></author>
+              <imprint>
+                <pubPlace>Witzenhausen</pubPlace>
+                <publisher>Deutschrechtlicher Instituts-Verlag</publisher>
+                <date>1962</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Siewert1993">
+            <monogr>
+              <title level="m">Zu den Leges Langobardorum: Studien zur Uberlieferung und zum volkssprachigen Wortschatz.
+                Fragment Münster. Universitäts- und Landesbibliothek</title>
+              <title type="short">Zu den Leges Langobardorum</title>
+              <author><forename>Klaus</forename><surname>Siewert</surname></author>
+              <imprint>
+                <pubPlace>Göttingen</pubPlace>
+                <publisher>Vandenhoeck &amp; Ruprecht</publisher>
+                <date>1993</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Princi2012">
+            <monogr>
+              <title level="m">Parole longobarde nelle Leges Langobardorum e oltre. Identificazioni e restauri</title>
+              <title type="short">Parole longobarde nelle Leges Langobardorum e oltre</title>
+              <idno type="ISBN">978-88-8098-305-7 88-8098-305-9</idno>
+              <author><forename>Giovanna</forename><surname>Princi Braccini</surname></author>
+              <imprint>
+                <pubPlace>Padova</pubPlace>
+                <publisher>Unipress</publisher>
+                <date>2012</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="Dold1940">
+            <analytic>
+              <title level="a">Zum Langobardengesetz: neue Bruchstücke der ältesten Handschrift des Edictus
+                Rothari</title>
+              <title type="short">Zum Langobardengesetz</title>
+              <author><forename>Alban</forename><surname>Dold</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">Deutsches Archiv für Erforschung des Mittelalters</title>
+              <imprint>
+                <biblScope unit="volume">4</biblScope>
+                <biblScope unit="page">1-52</biblScope>
+                <date>1940</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Rhee1980">
+            <analytic>
+              <title level="a">Iren ind Langobarden: paläographischer und orthographischer Einfluss der Iren auf den
+                Codex Sangallensis 730 (Edictum Rothari)</title>
+              <title type="short">Iren ind Langobarden</title>
+              <author><forename>Florus</forename><surname>van der Rhee</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Atti del 6° Congresso internazionale di studi sull’Alto Medioevo: ‘Longobardi e
+                Lombardia: aspetti di civiltà longobarda’</title>
+              <imprint>
+                <publisher>CISAM</publisher>
+                <date>1980</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="Molinari1995">
+            <analytic>
+              <title level="a">Lessico germanico nelle leggi longobarde</title>
+              <author><forename>Maria Vittoria</forename><surname>Molinari</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">Linguistica e filologia</title>
+              <imprint>
+                <biblScope unit="volume">1</biblScope>
+                <biblScope unit="page">5-20</biblScope>
+                <date>1995</date>
+                <note type="accessed">2017-02-11T16:55:02Z</note>
+                <note type="url">http://www.librinlinea.it/search/public/appl/dettaglio.php?bid=TO01910181</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Muir2006">
+            <monogr>
+              <title level="m">The Exeter anthology of Old English poetry: an edition of Exeter Dean and Chapter MS
+                3501</title>
+              <title type="short">The Exeter anthology of Old English poetry</title>
+              <idno type="ISBN">978-0-85989-629-0</idno>
+              <author><forename>Bernard James</forename><surname>Muir</surname></author>
+              <imprint>
+                <pubPlace>Exeter, Devon</pubPlace>
+                <publisher>University of Exeter press</publisher>
+                <date>2006</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Leoni1981">
+            <monogr>
+              <title level="m">Tre glossari longobardo-latini</title>
+              <author><forename>Albano</forename><surname>Leoni</surname></author>
+              <imprint>
+                <pubPlace>Napoli</pubPlace>
+                <publisher>Giannini</publisher>
+                <date>1981</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Burgio2015">
+            <monogr>
+              <title level="m">Giovanni Battista Ramusio. Dei viaggi di Messer Marco Polo</title>
+              <idno type="ISBN">978-88-6969-000-6</idno>
+              <author><forename>Eugenio</forename><surname>Burgio</surname></author>
+              <author><forename>Samuela</forename><surname>Simion</surname></author>
+              <author><forename>Marina</forename><surname>Buzzoni</surname></author>
+              <imprint>
+                <publisher>Università Ca’ Foscari Venezia, Italia</publisher>
+                <date>2015</date>
+                <note type="accessed">2019-04-30T09:39:07Z</note>
+                <note type="url">http://edizionicafoscari.unive.it/libri/978-88-6969-00-06/</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">Filologie medievali e moderne</title><biblScope unit="volume"
+              >5</biblScope></series>
+          </biblStruct>
+
+          <biblStruct type="conferencePaper" xml:id="Molinari1998">
+            <analytic>
+              <title level="a">Sul codice vercellese delle leggi longobarde</title>
+              <author><forename>Maria Vittoria</forename><surname>Molinari</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Vercelli tra Oriente ed Occidente, tra tarda antichità e Medioevo: atti delle Giornate di
+                studio, Vercelli, 10-11 aprile 1997, 24 novembre 1997</title>
+              <editor><forename>Vittoria</forename><surname>Corazza</surname></editor>
+              <imprint>
+                <pubPlace>Alessandria</pubPlace>
+                <biblScope unit="page">221-247</biblScope>
+                <publisher>Edizioni dell’Orso</publisher>
+                <date>1998</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="Fobelli1989">
+            <analytic>
+              <title level="a">Codici miniati dell'abbazia di Cava: le Leges Langobardorum e il Beda</title>
+              <title type="short">Codici miniati dell'abbazia di Cava</title>
+              <author><forename>Maria Luigia</forename><surname>Fobelli</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">Rassegna storica salernitana</title>
+              <imprint>
+                <biblScope unit="volume">11</biblScope>
+                <biblScope unit="page">35-63</biblScope>
+                <date>1989</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Rotili1978">
+            <monogr>
+              <title level="m">L'arte a Napoli dal 6. al 13. secolo</title>
+              <author><forename>Mario</forename><surname>Rotili</surname></author>
+              <imprint>
+                <pubPlace>Napoli</pubPlace>
+                <publisher>Società editrice napoletana</publisher>
+                <date>1978</date>
+                <note type="accessed">2022-11-26T16:21:35Z</note>
+                <note type="url"
+                  >https://opac.bncf.firenze.sbn.it/bncf-prod/resource?uri=SBL0157832&amp;v=l&amp;dcnr=3</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">Studi e testi di storia e critica dell'arte</title><biblScope unit="volume"
+                >4</biblScope></series>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Azzara2005b">
+            <analytic>
+              <title level="a">"... quod cawerfeda antiqua usque nunc sic fuisset". Consuetudine e codificazione
+                nell'Italia longobarda</title>
+              <author><forename>Claudio</forename><surname>Azzara</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Alto Medioevo mediterraneo</title>
+              <editor><forename>Stefano</forename><surname>Gasparri</surname></editor>
+              <imprint>
+                <pubPlace>Firenze</pubPlace>
+                <biblScope unit="page">251-257</biblScope>
+                <date>2005</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Besta1952">
+            <analytic>
+              <title level="a">Le fonti dell'editto di Rotari</title>
+              <author><forename>Enrico</forename><surname>Besta</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Atti del primo Congresso Internazionale di Studi Longobardi</title>
+              <imprint>
+                <pubPlace>Spoleto</pubPlace>
+                <biblScope unit="page">51-70</biblScope>
+                <date>1952</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Bluhme1868">
+            <monogr>
+              <title level="m">Leges Langobardorum</title>
+              <author><forename>Friedrich</forename><surname>Bluhme</surname></author>
+              <imprint>
+                <pubPlace>Hannover</pubPlace>
+                <date>1868</date>
+                <note type="url">https://www.dmgh.de/mgh_ll_4/index.htm#page/(III)/mode/1up</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">Monumenta Germaniae historica: Leges Langobardorum</title><biblScope unit="volume"
+                >IV</biblScope></series>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="Scardigli1987">
+            <analytic>
+              <title level="a">Le parole longobarde per l'ecdotica dell'Editto di Rotari</title>
+              <author><forename>Piergiuseppe</forename><surname>Scardigli</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">Medioevo e rinascimento</title>
+              <imprint>
+                <biblScope unit="volume">1</biblScope>
+                <biblScope unit="page">53-73</biblScope>
+                <date>1987</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Caprioli1978">
+            <analytic>
+              <title level="a">Satura lanx. 11, Per Liutprando 91</title>
+              <author><forename>Severino</forename><surname>Caprioli</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Studi in memoria di Giuliana D'Amelio. Vol. 1, Studi storico-giuridici</title>
+              <idno type="callNumber">Misc. BST C253.1, Misc. Petrucci C253</idno>
+              <imprint>
+                <pubPlace>Milano</pubPlace>
+                <publisher>Giuffrè</publisher>
+                <date>1978</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Everett2003">
+            <monogr>
+              <title level="m">Literacy in Lombard Italy, c.568–774 | European history 450-1000</title>
+              <idno type="ISBN">978-0-521-81905-3</idno>
+              <author><forename>Nicholas</forename><surname>Everett</surname></author>
+              <imprint>
+                <pubPlace>Cambridge</pubPlace>
+                <publisher>Cambridge University Press</publisher>
+                <date>2003</date>
+                <note type="accessed">2024-10-25T09:12:35Z</note>
+                <note type="url"
+                  >https://www.cambridge.org/us/academic/subjects/history/european-history-450-1000/literacy-lombard-italy-c568774</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">Cambridge Studies in Medieval Life and Thought</title></series>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Ewald1891">
+            <monogr>
+              <title level="m">Gregorii I. Papae registrum epistolarum. Tomus I (Liber I-IV)</title>
+              <author><forename>Paul</forename><surname>Ewald</surname></author>
+              <author><forename>Ludo Moritz</forename><surname>Hartmann</surname></author>
+              <imprint>
+                <pubPlace>Berlino</pubPlace>
+                <date>1891</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="Fruscione2010">
+            <analytic>
+              <title level="a">On "Germanic"</title>
+              <author><forename>Daniela</forename><surname>Fruscione</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">The heroic age</title>
+              <imprint>
+                <biblScope unit="volume">14</biblScope>
+                <date>2010</date>
+                <note type="url">http://www.heroicage.org/issues/14/fruscione.php#a1</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Gasparri1983">
+            <monogr>
+              <title level="m">La cultura tradizionale dei longobardi. Struttura tribale e resistenze pagane</title>
+              <author><forename>Stefano</forename><surname>Gasparri</surname></author>
+              <imprint>
+                <pubPlace>Spoleto</pubPlace>
+                <publisher>CISAM</publisher>
+                <date>1983</date>
+                <note type="accessed">2024-10-25T09:21:28Z</note>
+                <note type="url">https://shop.cisam.org/index.php?route=product/product&amp;product_id=366</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Gasparri2005">
+            <analytic>
+              <title level="a">La memoria storica dei Longobardi</title>
+              <author><forename>Stefano</forename><surname>Gasparri</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Le leggi dei Longobardi</title>
+              <editor><forename>Claudio</forename><surname>Azzara</surname></editor>
+              <editor><forename>Stefano</forename><surname>Gasparri</surname></editor>
+              <imprint>
+                <pubPlace>Roma</pubPlace>
+                <publisher>Viella Libreria Editrice</publisher>
+                <date>2005</date>
+                <note type="accessed">2024-10-25T09:23:30Z</note>
+                <note type="url">http://www.viella.it/libro/9788883340994</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">Altomedioevo</title><biblScope unit="volume">4</biblScope></series>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Gavinelli2022">
+            <analytic>
+              <title level="a">I longobardi tra cultura e costruzione della memoria</title>
+              <author><forename>Simona</forename><surname>Gavinelli</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">I Longobardi in Lombardia (2022)</title>
+              <imprint>
+                <biblScope unit="page">71-82</biblScope>
+                <date>2022</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Gavinelli2003">
+            <analytic>
+              <title level="a">Il vescovo Giuseppe di Ivrea nel circuito culturale carolingio</title>
+              <author><forename>Simona</forename><surname>Gavinelli</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Paolino d'Aquileia e il contributo italiano all'Europa carolingia</title>
+              <editor><forename>Paolo</forename><surname>Chiesa</surname></editor>
+              <imprint>
+                <pubPlace>Udine</pubPlace>
+                <biblScope unit="page">167-196</biblScope>
+                <date>2003</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Herold1557">
+            <monogr>
+              <title level="m">Origines et Germaniae antiquitates</title>
+              <author><forename>B.J.</forename><surname>Herold</surname></author>
+              <imprint>
+                <pubPlace>Basiliae</pubPlace>
+                <date>1557</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="LeGoff1988">
+            <monogr>
+              <title level="m">Histoire et mémoire</title>
+              <author><forename>Jacques</forename><surname>Le Goff</surname></author>
+              <imprint>
+                <pubPlace>Paris</pubPlace>
+                <publisher>Gallimard</publisher>
+                <date>1988</date>
+                <note type="accessed">2024-10-25T09:35:19Z</note>
+                <note type="url"
+                  >https://www.librairie-gallimard.com/livre/9782070324040-histoire-et-memoire-jacques-le-goff/</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="Malaspina2019">
+            <analytic>
+              <title level="a">Il futuro dell’edizione critica (cioè lachmanniana), più o meno digitale. Riflessioni
+                (in)attuali Critical (Lachmannian) Editions - a More or Less Digital Future? Reflections, New and
+                Old</title>
+              <author><forename>Ermanno</forename><surname>Malaspina</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">Storie e linguaggi (special issue: Textual Philology Facing 'Liquid Modernity':
+                Identifying Objects, Evaluating Methods, Exploiting Media)</title>
+              <imprint>
+                <biblScope unit="volume">5</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <biblScope unit="page">35-60</biblScope>
+                <date>2019</date>
+                <note type="accessed">2022-11-29T09:41:21Z</note>
+                <note type="url">https://iris.unito.it/handle/2318/1711908</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Merkel1854">
+            <analytic>
+              <title level="a">Appunti per la storia del diritto longobardo</title>
+              <author><forename>Giovanni</forename><surname>Merkel</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Storia del diritto romano nel Medio Evo</title>
+              <editor><forename>Federico Carlo</forename><surname>Savigny</surname></editor>
+              <imprint>
+                <pubPlace>Torino</pubPlace>
+                <biblScope unit="volume">III</biblScope>
+                <publisher>Giannini e Fiore</publisher>
+                <date>1854</date>
+                <note type="accessed">2024-10-25T09:55:25Z</note>
+                <note type="url"
+                  >https://www.libreriabonfanti.it/dettaglio/diritto/romano/libro/savigny-storia-del-dir-romano-nel-medio-evo-1854-57.html</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Migliorini1962">
+            <monogr>
+              <title level="m">Storia della lingua italiana</title>
+              <idno type="ISBN">978-88-587-8296-5</idno>
+              <author><forename>Bruno</forename><surname>Migliorini</surname></author>
+              <imprint>
+                <pubPlace>Firenze</pubPlace>
+                <publisher>Bompiani</publisher>
+                <date>1962</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Monella2019">
+            <analytic>
+              <title level="a">L’edizione scientifica digitale: la critica del testo nella storia della
+                tradizione</title>
+              <title type="short">L’edizione sinottica digitale</title>
+              <author><forename>Paolo</forename><surname>Monella</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Textual Philology Facing 'Liquid Modernity': Identifying Objects, Evaluating Methods,
+                Exploiting Media</title>
+              <imprint>
+                <publisher>libreriauniversitaria.it edizioni</publisher>
+                <date>2019</date>
+                <note type="accessed">2021-01-30T10:18:08Z</note>
+                <note type="url">https://www.academia.edu/36507666/Ledizione_sinottica_digitale_una_terza_via</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">Storie e linguaggi. Rivista di studi umanistici</title></series>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Mordek1995">
+            <monogr>
+              <title level="m">Bibliotheca capitularium regum Francorum manuscripta: Überlieferung und
+                Traditionszusammenhang der fränkischen Herrschererlasse</title>
+              <title type="short">Bibliotheca capitularium regum Francorum manuscripta</title>
+              <idno type="ISBN">978-3-88612-115-1</idno>
+              <author><forename>Hubert</forename><surname>Mordek</surname></author>
+              <imprint>
+                <publisher>Monumenta Germaniae Historica</publisher>
+                <date>1995</date>
+              </imprint>
+            </monogr>
+            <series><title level="s">MGH Hilfsmittel</title><biblScope unit="volume">15</biblScope></series>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Morlicchio1985">
+            <monogr>
+              <title level="m">Antroponimia Longobarda a Salerno nel IX Secolo. I Nomi del Codes diplomaticus
+                Cavensis</title>
+              <title type="short">Antroponimia Longobarda a Salerno nel IX Secolo. I Nomi del Codes diplomaticus
+                Cavensis. da Elda Morlicchio</title>
+              <idno type="ISBN">978-88-207-1505-2</idno>
+              <author><forename>Elda</forename><surname>Morlicchio</surname></author>
+              <imprint>
+                <pubPlace>Napoli</pubPlace>
+                <publisher>Liguori</publisher>
+                <date>1985</date>
+                <note type="accessed">2024-10-25T10:07:38Z</note>
+                <note type="url"
+                  >https://www.abebooks.it/Antroponimia-Longobarda-Salerno-Secolo-Nomi-Codes/31876679689/bd</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">Romanica neapolitana</title></series>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Muir2007">
+            <monogr>
+              <title level="m">A Digital Facsimile of Oxford, Bodleian Library, MS. Junius 11</title>
+              <idno type="ISBN">978-1-85124-330-3</idno>
+              <author><forename>Bernard J.</forename><surname>Muir</surname></author>
+              <imprint>
+                <pubPlace>Oxford</pubPlace>
+                <publisher>Bodleian Library</publisher>
+                <date>2007</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Pasquali1952">
+            <monogr>
+              <title level="m">Storia della tradizione e critica del testo</title>
+              <author><forename>Giorgio</forename><surname>Pasquali</surname></author>
+              <imprint>
+                <pubPlace>Firenze</pubPlace>
+                <publisher>F. Le Monnier</publisher>
+                <date>1952</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Pedrazzini2007">
+            <monogr>
+              <title level="m">La vita quotidiana dei Longobardi ai tempi di re Rotari</title>
+              <author><forename>Dario</forename><surname>Pedrazzini</surname></author>
+              <imprint>
+                <pubPlace>Imola</pubPlace>
+                <publisher>Angelini Editore</publisher>
+                <date>2007</date>
+                <note type="accessed">2024-10-25T10:54:31Z</note>
+                <note type="url"
+                  >https://www.arborsapientiae.com/libro/4215/la-vita-quotidiana-dei-longobardi-ai-tempi-di-re-rotari-dario-pedrazzini.html</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Radding2006">
+            <monogr>
+              <title level="m">The Corpus Iuris Civilis in the Middle Ages: Manuscripts and Transmission from the Sixth
+                Century to the Juristic Revival</title>
+              <title type="short">The &lt;i&gt;Corpus Iuris Civilis&lt;/i&gt; in the Middle Ages</title>
+              <idno type="ISBN">978-90-474-1155-0</idno>
+              <author><forename>Charles</forename><surname>Radding</surname></author>
+              <author><forename>Antonio</forename><surname>Ciaralli</surname></author>
+              <imprint>
+                <pubPlace>Leiden</pubPlace>
+                <publisher>Brill</publisher>
+                <date>2006</date>
+                <note type="accessed">2024-10-25T10:58:45Z</note>
+                <note type="url">https://brill.com/display/title/13043</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">Brill's Studies in Intellectual History</title><biblScope unit="volume"
+                >147</biblScope></series>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Russo1980">
+            <analytic>
+              <title level="a">Leggi longobarde nel Codice O.I.2. della Biblioteca Capitolare di Modena</title>
+              <author><forename>Giuseppe</forename><surname>Russo</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Atti del 6° Congresso internazionale di studi sull'alto medioevo</title>
+              <imprint>
+                <pubPlace>Spoleto</pubPlace>
+                <biblScope unit="page">607-622</biblScope>
+                <publisher>CISAM</publisher>
+                <date>1980</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="Siewert1992">
+            <analytic>
+              <title level="a">Neues zur Überlieferung der Leges Langobardorum</title>
+              <author><forename>Klaus</forename><surname>Siewert</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">Deutsches Archiv</title>
+              <imprint>
+                <biblScope unit="volume">48</biblScope>
+                <biblScope unit="page">165-166</biblScope>
+                <date>1992</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="Tomasi2012">
+            <analytic>
+              <title level="a">L’edizione digitale e la rappresentazione della conoscenza. Un esempio: Vespasiano da
+                Bisticci e le sue lettere</title>
+              <title type="short">L’edizione digitale e la rappresentazione della conoscenza. Un esempio</title>
+              <author><forename>Francesca</forename><surname>Tomasi</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">Ecdotica</title>
+              <imprint>
+                <biblScope unit="volume">9</biblScope>
+                <biblScope unit="page">264-286</biblScope>
+                <date>2012</date>
+                <note type="accessed">2024-10-25T11:09:02Z</note>
+                <note type="url">https://cris.unibo.it/handle/11585/146345</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="Tosi1982">
+            <analytic>
+              <title level="a">L'Edictus Rothari nei manoscritti bobiensi</title>
+              <author><forename>Michele</forename><surname>Tosi</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">Archivum Bobiense</title>
+              <imprint>
+                <biblScope unit="volume">4</biblScope>
+                <biblScope unit="page">11-71</biblScope>
+                <date>1982</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Villa2005">
+            <analytic>
+              <title level="a">Cultura e scrittura nell’Italia Longobarda, 1 Renovatio e translatio: centri
+                amministrativi ed eredità culturale</title>
+              <title type="short">84. C.Villa-F. Lo Monaco, Cultura e scrittura nell’Italia Longobarda, 1 Renovatio e
+                translatio</title>
+              <author><forename>Claudia</forename><surname>Villa</surname></author>
+              <author><forename>Francesco</forename><surname>Lo Monaco</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Die Langobarden. Herrschaft und Identität</title>
+              <editor><forename>Walter</forename><surname>Pohl</surname></editor>
+              <editor><forename>Paul</forename><surname>Herhard</surname></editor>
+              <imprint>
+                <pubPlace>Wien</pubPlace>
+                <biblScope unit="page">502-511</biblScope>
+                <publisher>Verlag der Ősterreischen Akademie der Wissenschaften</publisher>
+                <date>2005</date>
+                <note type="accessed">2024-10-25T11:13:03Z</note>
+                <note type="url"
+                  >https://www.academia.edu/31583475/84_C_Villa_F_Lo_Monaco_Cultura_e_scrittura_nell_Italia_Longobarda_1_Renovatio_e_translatio_centri_amministrativi_ed_eredit%C3%A0_culturale_in_Die_Langobarden_Herrschaft_und_Identit%C3%A4t_Verlag_der_%C5%90sterreischen_Akademie_der_Wissenschaften_Wien_2005_pp_502_511</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="bookSection" xml:id="Buzzoni2014">
+            <analytic>
+              <title level="a">The Italian 'third way' of editing between globalization and localization</title>
+              <author><forename>Marina</forename><surname>Buzzoni</surname></author>
+              <author><forename>Eugenio</forename><surname>Burgio</surname></author>
+            </analytic>
+            <monogr>
+              <title level="m">Internationalität und Interdisziplinarität der Editionswissenschaft</title>
+              <idno type="ISBN">978-3-11-037235-9</idno>
+              <editor><forename>Michael</forename><surname>Stolz</surname></editor>
+              <editor><forename>Yen-Chun</forename><surname>Chen</surname></editor>
+              <imprint>
+                <pubPlace>Berlin-Boston</pubPlace>
+                <biblScope unit="page">171-180</biblScope>
+                <publisher>De Gruyter</publisher>
+                <date>2014</date>
+                <note type="accessed">2024-10-25T12:29:39Z</note>
+                <note type="url">https://iris.unive.it/handle/10278/36769</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">Beihefte zu Editio</title><biblScope unit="volume">38</biblScope></series>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="Burgio2024">
+            <monogr>
+              <title level="m">Digital Edition of the Devisement dou monde. A Comprehensive Digital Scholarly Edition.
+                Critical Translation and Commentary</title>
+              <author><forename>Eugenio</forename><surname>Burgio</surname></author>
+              <author><forename>Marina</forename><surname>Buzzoni</surname></author>
+              <author><forename>Samuela</forename><surname>Simion</surname></author>
+              <imprint>
+                <pubPlace>Venezia</pubPlace>
+                <publisher>Edizioni Ca' Foscari</publisher>
+                <date>2024</date>
+                <note type="accessed">2024-10-25T12:33:44Z</note>
+                <note type="url">https://edizionicafoscari.unive.it/it/edizioni4/libri/978-88-6969-872-9/</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="RosselliDT2015">
+            <analytic>
+              <title level="a">Edition Visualization Technology: A Simple Tool to Visualize TEI-based Digital
+                Editions</title>
+              <idno type="DOI">10.4000/jtei.1077</idno>
+              <author><name>Roberto Rosselli Del Turco</name></author>
+              <author><name>Giancarlo Buomprisco</name></author>
+              <author><name>Di Pietro Chiara</name></author>
+              <author><name>Kenny Julia</name></author>
+              <author><name>Masotti Raffaele</name></author>
+              <author><name>Pugliese Jacopo</name></author>
+            </analytic>
+            <monogr>
+              <title level="j">Journal of the Text Encoding Initiative</title>
+              <imprint>
+                <biblScope unit="issue">Issue 8</biblScope>
+                <biblScope unit="page">1-21</biblScope>
+                <date>2015</date>
+                <note type="url">http://jtei.revues.org/1077</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+          
+          <biblStruct type="journalArticle" xml:id="RosselliDT2016">
+            <analytic>
+              <title level="a">Il Vercelli Book Digitale teoria e pratica di un progetto di edizione
+                elettronica</title>
+              <author><forename>Roberto</forename><surname>Rosselli Del Turco</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">Schede Umanistiche. Rivista annuale dell’Archivio Umanistico Rinascimentale Bolognese</title>
+              <imprint>
+                <biblScope unit="issue">XXVIII</biblScope>
+                <biblScope unit="page">182-200</biblScope>
+                <date>2016</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="RosselliDT2017">
+            <monogr>
+              <title level="m">The Digital Vercelli Book. A facsimile edition of Vercelli, Biblioteca Capitolare,
+                CXVII</title>
+              <idno type="ISBN">978-88-7590-107-3</idno>
+              <author><forename>Roberto</forename><surname>Rosselli Del Turco</surname></author>
+              <imprint>
+                <publisher>Università di Torino</publisher>
+                <date>2017</date>
+                <note type="accessed">2021-03-21T09:06:43Z</note>
+                <note type="url">https://www.collane.unito.it/oa/items/show/11</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">Collane@unito.it</title></series>
+          </biblStruct>
+
+          <biblStruct type="journalArticle" xml:id="RosselliDT2019">
+            <analytic>
+              <title level="a">Designing an advanced software tool for Digital Scholarly Editions: The inception and
+                development of EVT (Edition Visualization Technology)</title>
+              <idno type="DOI">10.14434/textual.v12i2.27690</idno>
+              <title type="short">Designing an advanced software tool for Digital Scholarly Editions</title>
+              <author><forename>Roberto</forename><surname>Rosselli Del Turco</surname></author>
+            </analytic>
+            <monogr>
+              <title level="j">Textual Cultures</title>
+              <idno type="ISSN">1933-7418, 1559-2936</idno>
+              <imprint>
+                <biblScope unit="volume">12</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <biblScope unit="page">91-111</biblScope>
+                <date>2019</date>
+                <note type="accessed">2020-07-06T10:23:32Z</note>
+                <note type="url">https://scholarworks.iu.edu/journals/index.php/textual/article/view/27690</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="tei_guidelines">
+            <monogr>
+              <title level="m">TEI: Guidelines for Electronic Text Encoding and Interchange</title>
+              <author><name>TEI Consortium</name></author>
+              <imprint>
+                <publisher>TEI Consortium</publisher>
+                <date>2024</date>
+                <note type="accessed">2024-10-24T15:18:15Z</note>
+                <note type="url">http://www.tei-c.org/Guidelines/P5/</note>
+              </imprint>
+            </monogr>
+            <series><title level="s">P5 Version 4.8.0. Last updated on 8th July 2024</title></series>
+          </biblStruct>
+
+        </listBibl>
+        
+      </div>
+      
+      <div type="paratext" subtype="references">
+        
+        <head>Sitografia</head>
+        
+        <p>Sitografia (ultima consultazione per tutti i siti elencati: 2024-10-24)</p>
+        <p>
+        <lb/>ALIM: <ref target="https://alim.unisi.it/">https://alim.unisi.it/</ref>. 
+        <lb/>EVT: <ref target="http://evt.labcd.unipi.it/">http://evt.labcd.unipi.it/</ref>. Development repository: 
+          <ref target="https://github.com/evt-project/evt-viewer-angular">https://github.com/evt-project/evt-viewer-angular</ref> 
+        <lb/>Text Encoding Initiative (TEI): <ref target="http://www.tei-c.org/">http://www.tei-c.org/</ref>. 
+        <lb/>TEI Consortium (eds.), TEI P5: Guidelines for Electronic Text Encoding and Interchange.
+          [4.8.0]. Last updated on 2nd September 2024. TEI Consortium.
+          <ref target="http://www.tei-c.org/Guidelines/P5/">http://www.tei-c.org/Guidelines/P5/</ref>. 
+        <lb/>TEI Boilerplate: <ref target="http://teiboilerplate.org/">http://teiboilerplate.org/</ref>. 
+        <lb/>Consorzio Unicode: <ref target="http://www.unicode.org/">http://www.unicode.org/</ref>. 
+        <lb/>Vercelli Book Digitale: <ref target="http://vbd.humnet.unipi.it/beta2/">http://vbd.humnet.unipi.it/beta2/</ref>. 
+        <lb/>W3C, HTML, The Web’s Core Language, URL: <ref target="http://www.w3.org/HTML/">http://www.w3.org/HTML/</ref>. 
+        <lb/>W3C, Extensible Markup Language, URL: <ref target="http://www.w3.org/XML/">http://www.w3.org/XML/</ref>.
+        </p>
+        
+      </div>
+
       
     </front>
 

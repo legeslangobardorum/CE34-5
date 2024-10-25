@@ -20,6 +20,11 @@
 
 /* ***************************************************************** */
 
+.biblStruct {
+  font-family: Calibri, Helvetica, sans-serif !important;
+  font-size: 140% !important;
+}
+
 .front[data-rend="fontsize_120"] {
   text-align: justify !important;
 	font-size: 120% !important;
