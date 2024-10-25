@@ -5,8 +5,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Edizione digitale dell'Editto di Rotari <title><hi rend="italic">Edictum Rothari</hi>: Ivrea, Biblioteca
-            Capitolare, Cod. XXXIV (5) (ms 3) - 643 d.C.</title></title>
+        <title>Edizione digitale dell'<title>Editto di Rotari</title>: Ivrea, Biblioteca
+            Capitolare, Cod. XXXIV (5)</title>
         <author>Rotari, re longobardo, per mano del notaio Ansoaldo.</author>
         <principal>Marina Buzzoni</principal>
         <principal>Roberto Rosselli Del Turco</principal>
@@ -24,7 +24,7 @@
           <name>Laura Calzavara</name>
         </respStmt>
         <respStmt>
-          <resp>Codifica TEI effettuata da</resp>
+          <resp>Codifica TEI effettuata nel 2019 da</resp>
           <name>Marianna Giardina</name>
         </respStmt>
         <respStmt>
@@ -34,7 +34,7 @@
       </titleStmt>
 
       <editionStmt>
-        <edition>Edizioni precedenti Leges Langobardorum</edition>
+        <edition>Edizioni precedenti delle <title>Leges Langobardorum</title></edition>
         <respStmt xml:id="azzara">
           <resp>Editor</resp>
           <name ref="#Azzara2005">Azzara-Gasparri</name>
@@ -48,16 +48,16 @@
           <name ref="#Bluhme1868">Bluhme</name>
         </respStmt>
       </editionStmt>
-      <extent>
+      <!--<extent>
         <measure quantity="17577" unit="words">Parole: 17577</measure>
         <measure quantity="116089" unit="characters_without_spaces">Caratteri (spazi esclusi): 116089</measure>
-      </extent>
+      </extent>-->
 
       <publicationStmt>
-        <authority>Leges Langobardorum Project</authority>
+        <authority><title>Leges Langobardorum</title> Project</authority>
         <date instant="false">2014-</date>
         <availability status="unknown">
-          <p>Not to ricirculate. Contact the Leges Langobardorum Project researchers for more information.</p>
+          <p>Not to ricirculate. Contact the <title>Leges Langobardorum</title> Project researchers for more information.</p>
         </availability>
       </publicationStmt>
 
@@ -598,40 +598,46 @@
     
     -->
 
-    <front>
+    <front rend="fontsize_120">
+
+      <lb/>
 
       <titlePage>
         <titlePart type="main">Introduzione all’edizione digitale delle <title>Leges Langobardorum</title></titlePart>
       </titlePage>
+      
+      <lb/>
+      <lb/>
 
       <div type="paratext" subtype="intro">
 
       <head>Il progetto editoriale</head>
 
-        <p style="text-align: justify;">Il progetto editoriale delle <title>Leges Langobardorum</title> nasce da
-        una collaborazione tra le Unità di ricerca di un Programma di Rilevante Interesse Nazionale (PRIN PNRR 2022) in
-        cui operano congiuntamente i due autori dell’edizione e si suddivide in due fasi.</p>
-      <p style="text-align: justify;">La prima fase è volta a fornire una edizione diplomatico-interpretativa dei
-        testimoni principali delle <title>Leges</title>, partendo dall’<title>Editto di Rotari</title>
-        (d’ora in poi ER) trasmesso dai due testimoni “piemontesi”, ovvero: Vercelli, Biblioteca Capitolare Eusebiana,
-        CLXXXVIII (ms 2) e Ivrea, Biblioteca Capitolare, XXXIV (5) (ms 3)<note n="1" place="foot" xml:id="ftn0"
-            ><p><hi style="font-size:10pt" xml:space="preserve">  La numerazione progressiva dei testimoni è ripresa da Bluhme (1868).</hi></p></note>.
-        Queste due edizioni saranno le prime ad essere pubblicate, seguiranno a breve termine gli altri due testimoni
-        per i quali è stata ultimata la trascrizione e codifica in formato XML/TEI, ovvero St. Gallen, Stiftsbibliothek,
-        Cod. Sang. 730 (ms 1) e Biblioteca Apostolica Vaticana, Vat. Lat. 5359 (ms 5); altri testimoni selezionati e il
-        testo dei frammenti più significativi saranno inclusi tra le prossime operazioni di trascrizione e annotazione
-        semantica.</p>
-      <p style="text-align: justify;">La seconda fase, più a lungo termine, prevede l’allestimento dell’edizione critica
-        integrata del testo dell’<title>Editto</title> e di tutte le <title>Leges</title>, sulla base
-        della collazione e recensione completa dei testimoni pervenuti. Questa edizione sarà integrata da un glossario
-        digitale per facilitare la consultazione da parte degli utenti: il software EVT sarà sviluppato per aggiungere
-        questo strumento e per includere una funzione di edizione integrata, una funzionalità innovativa che consentirà
-        di gestire facsimili digitali e le edizioni diplomatiche in connessione con il testo critico stabilito dagli
-        editori.</p>
-      <p style="text-align: justify;">Al termine del progetto i testi criticamente definiti di tutti i testimoni
-        selezionati confluiranno poi nella biblioteca digitale ALIM, sostenuta finanziariamente attraverso il PRIN 2015,
-        al quale hanno partecipato sia Marina Buzzoni che Roberto Rosselli Del Turco, la prima in qualità di
-        responsabile dell'Unità di Ricerca di Venezia.</p>
+        <p>Il progetto editoriale delle <title>Leges Langobardorum</title> nasce da una collaborazione tra le Unità di
+          ricerca di un Programma di Rilevante Interesse Nazionale (PRIN 2022 PNRR, CUP H53D23009340001, PI: Marina
+          Buzzoni), in cui operano congiuntamente i due autori dell’edizione, e si suddivide in due fasi.</p>
+        
+        <p>La prima fase è volta a fornire una edizione diplomatico-interpretativa dei testimoni principali delle
+            <title>Leges</title>, partendo dall’<title>Editto di Rotari</title> (d’ora in poi ER) trasmesso dai due
+          testimoni “piemontesi”, ovvero: Vercelli, Biblioteca Capitolare Eusebiana, CLXXXVIII (ms 2) e Ivrea,
+          Biblioteca Capitolare, XXXIV (5) (ms 3)<note n="1" place="foot" xml:id="ftn0">La numerazione progressiva dei
+            testimoni è ripresa da Bluhme (1868).</note>. Queste due edizioni vengono pubblicate per prime, seguiranno gli altri due testimoni per i quali è stata
+          ultimata la trascrizione e codifica in formato XML/TEI, ovvero St. Gallen, Stiftsbibliothek, Cod. Sang. 730
+          (ms 1) e Biblioteca Apostolica Vaticana, Vat. Lat. 5359 (ms 5); ulteriori testimoni e il testo dei frammenti
+          più significativi - selezionati in base all’ipotesi stemmatica in corso di definizione - saranno inclusi tra
+          le prossime operazioni di trascrizione e codifica.</p>
+        
+        <p>La seconda fase, più a lungo termine, prevede l’allestimento dell’edizione critica integrata del testo
+            dell’<title>Editto</title> e di tutte le <title>Leges</title>, sulla base della collazione e recensione
+          completa dei testimoni pervenuti. Questa edizione sarà integrata da un glossario digitale per facilitare la
+          consultazione da parte degli utenti: il software EVT sarà sviluppato per aggiungere questo strumento e per
+          includere una funzione di edizione integrata,un aspetto innovativo che consentirà di gestire i facsimili
+          digitali e le edizioni diplomatiche in connessione con il testo critico stabilito dagli editori.</p>
+        
+        <p>Al termine del progetto i testi criticamente definiti di tutti i testimoni selezionati confluiranno nella
+          biblioteca digitale ALIM (<ref target="https://alim.unisi.it/">https://alim.unisi.it/</ref>), sostenuta
+          finanziariamente attraverso vari progetti di rilevante interesse nazionale, tra cui il PRIN 2015, al quale
+          hanno partecipato sia Marina Buzzoni che Roberto Rosselli Del Turco.</p>
         
       </div>
       
@@ -639,59 +645,58 @@
         
         <head>La posizione dell’<title>Editto di Rotari</title> nel corpus delle Leggi longobarde</head>
 
-        <p style="text-align: justify;">L’ER occupa significativamente la posizione d’apertura in tutti i testimoni che
-        tramandano più di una raccolta di Leggi longobarde. Nel loro complesso le
-        <title>Leges Langobardorum</title> includono le norme promulgate dai re longobardi
-        lungo un arco temporale di più di un secolo, dall’<title>Editto</title> (643) alle
-        <title>Leggi di Astolfo</title> (755), seguite in alcuni codici dai decreti dei
-        prìncipi di Benevento Arechi II e Adelchi, “i quali raccolsero nella Langobardia meridionale l’intera eredità
-        politica dei longobardi dopo la fine del regno indipendente nel nord per mano di Carlo Magno, nel 774.” (Azzara
-        2005, 252). La successione delle raccolte è la seguente: </p>
+        <p>L’ER occupa significativamente la posizione d’apertura in tutti i testimoni che tramandano più di una
+          raccolta di Leggi longobarde. Nel loro complesso le <title>Leges Langobardorum</title> includono le norme
+          promulgate dai re longobardi lungo un arco temporale di più di un secolo, dall’<title>Editto</title> (643)
+          alle <title>Leggi di Astolfo</title> (755), seguite in alcuni codici dai decreti dei prìncipi di Benevento
+          Arechi II e Adelchi, “i quali raccolsero nella Langobardia meridionale l’intera eredità politica dei
+          longobardi dopo la fine del regno indipendente nel nord per mano di Carlo Magno, nel 774.” (Azzara 2005, 252).
+          La successione delle raccolte è la seguente: </p>
 
         <list rend="numbered">
-        <item><hi rend="normalweight baseline" style="font-size:11pt">Editto di Rotari (643)</hi></item>
-        <item><hi rend="normalweight baseline" style="font-size:11pt">Leggi di Grimoaldo (668)</hi></item>
-        <item><hi rend="normalweight baseline" style="font-size:11pt">Leggi di Liutprando (731-735)</hi></item>
-        <item><hi rend="italic normalweight baseline" style="font-size:11pt" xml:space="preserve">Memoratorio de mercedes commacinorum, </hi><hi
-            rend="normalweight baseline" style="font-size:11pt">ovvero “Rubrica sui compensi dei maestri commacini”
-            (Grimoaldo o Liutprando)</hi><note n="2" place="foot" xml:id="ftn1"><p style="text-align: justify;"
-              ><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">  Si tratta di un capitolato d’appalto per i maestri muratori, attribuito a Grimoaldo o a Liutprando.</hi></p></note></item>
-        <item><hi rend="italic normalweight baseline" style="font-size:11pt" xml:space="preserve">Notitia de actoribus regis, </hi><hi
-            rend="normalweight baseline" style="font-size:11pt">ovvero “Avviso per gli attori del Re” (733,
-            Liutprando)</hi><note n="3" place="foot" xml:id="ftn2"><p style="text-align: justify;"
-              ><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">  Un </hi><hi rend="italic normalweight baseline" style="font-size:10pt" xml:space="preserve">praeceptum </hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">risalente a Liutprando per una categoria di pubblici ufficiali amministrativi. </hi></p></note>
-        </item>
-        <item><hi rend="normalweight baseline" style="font-size:11pt">Leggi di Ratchis (745-746)</hi></item>
-        <item><hi rend="normalweight baseline" style="font-size:11pt">Leggi di Astolfo (750-755)</hi></item>
-        <item><hi rend="normalweight baseline" style="font-size:11pt">Leggi dei prìncipi di Benevento.</hi></item>
-      </list>
-      <p style="text-align: justify;">Il corpus è stato utilizzato, con aggiunte e integrazioni, in epoca carolingia; in
-        séguito ha subìto diverse rielaborazioni ed è stato tramandato con sinossi e commenti almeno fino al XIII sec.
-        Maria Vittoria Molinari (1998, 224) sottolinea opportunamente come la complessità e la varietà sia della
-        tradizione manoscritta sia della ricezione delle <title>Leges</title> facciano di questo corpus non un
-        “documento singolo”, bensì composito, definito dall’Autrice come </p>
-      <p style="text-align: justify;">una serie di manifestazioni che rispecchiano l’evolversi di un processo storico
-        che [...] accompagna in prima istanza l’evoluzione politica del regno nei singoli periodi del suo sviluppo e
-        della sua decadenza, per conservarsi poi a lungo, per un certo periodo ancora nell’uso corrente e in seguito
-        come patrimonio giuridico degno di memoria all’interno di élites culturali ristrette, quali le cerchie di notai
-        e giuristi.</p>
-      <p style="text-align: justify;">Se pensiamo dunque alle <title>Leges</title> come a
-        un corpus dalla struttura composita – prospettiva che, una volta accolta, ha importanti ricadute anche dal punto
-        di vista ecdotico –, non sorprende che le raccolte di cui esso è formato abbiano caratteristiche affatto
-        singolari: pur dialogando tutte con l’ER, punto di riferimento imprescindibile, si rapportano a questo testo
-        fondante in maniera diversa. Grimoaldo, aggiungendo otto capitoli all’<title>Editto</title> compie
-        un’operazione completamente nel solco di Rotari, tesa cioè a confermare la rilevanza politica dell’attività
-        legislativa. Le Leggi di Liutprando, invece, si presentano come una continuazione, un completamento e un
-        aggiornamento del testo dell’<title>Editto</title>, tramite per esempio l’inclusione di concreti casi
-        processuali che permettono di valutare le prescrizioni contenute nelle norme dell’ER ed eventualmente precisarle
-        o attualizzarle (cfr. per es. Liut. 138 in cui è riportata una discussione in merito alla definizione di un
-        efferato crimine: non si tratterebbe di un <hi rend="italic" xml:space="preserve">consilium</hi> “complotto
-        segreto”, ma di un vero e proprio <hi rend="italic" xml:space="preserve">humicidium</hi> “omicidio”
-        intenzionale, v. Bluhme 1868, 168). Diverso è anche il fondamento dell’attività legislativa regia: se per Rotari
-        il richiamo all’autorità delle norme orali della <hi rend="italic" xml:space="preserve">gens</hi> sia in
-        apertura (Prologo, Bluhme 1868, 1) che in chiusura del testo (art. 386, Bluhme 1868, 89-90) risulta
-        imprescindibile, l’attività di Liutprando è legittimata, oltre che dall’investitura divina, dal riferimento
-        all’ER come fondamento della tradizione giuridica.</p>
+          <item>1. Editto di Rotari (643)</item>
+          <item>2. Leggi di Grimoaldo (668)</item>
+          <item>3. Leggi di Liutprando (731-735)</item>
+          <item>4. Memoratorio de mercedes commacinorum, ovvero “Rubrica sui compensi dei maestri commacini” (Grimoaldo o
+            Liutprando) <note n="2" place="foot" xml:id="ftn1">Si tratta di un capitolato d’appalto per i maestri
+              muratori, attribuito a Grimoaldo o a Liutprando.</note></item>
+          <item>5. Notitia de actoribus regis, ovvero “Avviso per gli attori del Re” (733, Liutprando)<note n="3"
+              place="foot" xml:id="ftn2">Un <hi rend="italic">praeceptum</hi> risalente a Liutprando per una categoria
+              di pubblici ufficiali amministrativi.</note>
+          </item>
+          <item>6. Leggi di Ratchis (745-746)</item>
+          <item>7. Leggi di Astolfo (750-755)</item>
+          <item>8. Leggi dei prìncipi di Benevento.</item>
+        </list>
+
+        <p>Il corpus è stato utilizzato, con aggiunte e integrazioni, in epoca carolingia; in séguito ha subìto diverse
+          rielaborazioni ed è stato tramandato con sinossi e commenti almeno fino al XIII sec. Maria Vittoria Molinari
+          (1998, 224) sottolinea opportunamente come la complessità e la varietà sia della tradizione manoscritta sia
+          della ricezione delle <title>Leges</title> facciano di questo corpus non un “documento singolo”, bensì
+          composito, definito dall’Autrice come</p>
+
+        <quote rend="block">una serie di manifestazioni che rispecchiano l’evolversi di un processo storico che [...]
+          accompagna in prima istanza l’evoluzione politica del regno nei singoli periodi del suo sviluppo e della sua
+          decadenza, per conservarsi poi a lungo, per un certo periodo ancora nell’uso corrente e in seguito come
+          patrimonio giuridico degno di memoria all’interno di élites culturali ristrette, quali le cerchie di notai e
+          giuristi.</quote>
+
+        <p>Se pensiamo dunque alle <title>Leges</title> come a un corpus dalla struttura composita – prospettiva che,
+          una volta accolta, ha importanti ricadute anche dal punto di vista ecdotico –, non sorprende che le raccolte
+          di cui esso è formato abbiano caratteristiche affatto singolari: pur dialogando tutte con l’ER, punto di
+          riferimento imprescindibile, si rapportano a questo testo fondante in maniera diversa. Grimoaldo, aggiungendo
+          otto capitoli all’<title>Editto</title> compie un’operazione completamente nel solco di Rotari, tesa cioè a
+          confermare la rilevanza politica dell’attività legislativa. Le Leggi di Liutprando, invece, si presentano come
+          una continuazione, un completamento e un aggiornamento del testo dell’<title>Editto</title>, tramite per
+          esempio l’inclusione di concreti casi processuali che permettono di valutare le prescrizioni contenute nelle
+          norme dell’ER ed eventualmente precisarle o attualizzarle (cfr. per es. Liut. 138 in cui è riportata una
+          discussione in merito alla definizione di un efferato crimine: non si tratterebbe di un <hi rend="italic"
+            >consilium</hi> “complotto segreto”, ma di un vero e proprio <hi rend="italic">humicidium</hi> “omicidio”
+          intenzionale, v. Bluhme 1868, 168). Diverso è anche il fondamento dell’attività legislativa regia: se per
+          Rotari il richiamo all’autorità delle norme orali della <hi rend="italic">gens</hi> sia in apertura (Prologo,
+          Bluhme 1868, 1) che in chiusura del testo (art. 386, Bluhme 1868, 89-90) risulta imprescindibile, l’attività
+          di Liutprando è legittimata, oltre che dall’investitura divina, dal riferimento all’ER come fondamento della
+          tradizione giuridica.</p>
         
       </div>
       
@@ -699,28 +704,26 @@
         
       <head>I codici, i “frammenti”, i glossari</head>
 
-        <p style="text-align: justify;">I codici che tramandano le <title>Leges Langobardorum</title>, a
+        <p>I codici che tramandano le <title>Leges Langobardorum</title>, a
         cominciare proprio dall’<title>Editto</title>, sono poco più di una decina (12, contando anche il <title>Codex Heroldinus</title> pervenuto in un’edizione a stampa del 1557) e si collocano su un ampio
         arco cronologico compreso tra la seconda metà del VII sec. e l’XI sec. A questi va aggiunta una serie di
         frammenti (14) che conservano parti dei testi di legge incrementando dunque il numero complessivo dei testimoni,
-        attualmente stimabile in 26.<note n="4" place="foot" xml:id="ftn3"><p style="text-align: justify;"
-              ><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">Il sito </hi><ref
-              target="http://www.leges.uni-koeln.de/en/lex/leges-langobardorum/"><hi
-                rend="normalweight baseline underline color(1155cc)" style="font-size:10pt"
-                >http://www.leges.uni-koeln.de/en/lex/leges-langobardorum/</hi></ref><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> ne indica ad oggi 25, con l’esclusione del perduto </hi><hi
-              rend="italic normalweight baseline" style="font-size:10pt">Codex
-            Heroldinus</hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> (ms 12 secondo Bluhme). Alcuni testimoni trasmettono solo qualche sporadico articolo: per esempio nel Vercelli, Biblioteca Capitolare Eusebiana CXXII (X-XI sec.) è tramandato unicamente ER 153. </hi></p></note>
-        Per ricostruire la storia documentaria delle <hi rend="italic" xml:space="preserve">Leges </hi>è necessario
+        attualmente stimabile in 26.<note n="4" place="foot" xml:id="ftn3">Il sito <ref
+              target="http://www.leges.uni-koeln.de/en/lex/leges-langobardorum/"
+              >http://www.leges.uni-koeln.de/en/lex/leges-langobardorum/</ref> ne indica ad oggi 25, con l’esclusione
+            del perduto Codex Heroldinus (ms 12 secondo Bluhme). Alcuni testimoni trasmettono solo qualche sporadico
+            articolo: per esempio nel Vercelli, Biblioteca Capitolare Eusebiana CXXII (X-XI sec.) è tramandato
+            unicamente ER 153.</note> Per ricostruire la storia documentaria delle <title>Leges</title> è necessario
         tenere in considerazione inoltre i tre glossari longobardo-latini dei secc. X/XI-XIII sec. (Cavense, nel ms 9;
         Matritense, nel ms 8; Vaticano, di probabile origine salernitana) che includono l’interpretazione di termini
         desunti anche dal corpus giuridico, consultabili nell’edizione a cura di Federico Albano Leoni (1981).</p>
-      <p style="text-align: justify;">Il primo studioso ad ordinare i codici noti al suo tempo su base cronologica fu il
+      <p>Il primo studioso ad ordinare i codici noti al suo tempo su base cronologica fu il
         Merkel (1857), ma è con l’edizione di Bluhme (1868) che la denominazione e la numerazione dei manoscritti –
         ancora oggi in uso, a parte inevitabili aggiornamenti dovuti al reperimento di ulteriori testimoni – ricevono
         una sorta di standardizzazione:</p>
         
         <list>
-          
+
           <item><hi rend="bold">ms 1</hi>: <title>Codex Sangallensis</title> 730, II metà del VII sec.; a lungo ritenuto
             di possibile provenienza bobiense, messa recentemente in forte discussione. <note n="5" place="foot"
               xml:id="ftn4">Per l’ipotesi tradizionale si può vedere, tra gli altri, Michele Tosi (1982); Claudia Villa
@@ -729,92 +732,73 @@
             manoscritto vanno aggiunti i frammenti di Zurigo e Karlsruhe di cui dà per la prima volta notizia Alban Dold
             in un saggio del 1940 (si veda anche Dold 1955). Trasmette solo il testo dell’ER in forma pressoché
             completa.</item>
-          <item><hi rend="bold">ms 2</hi>: <title>Codex Vercellensis</title> CLXXXVIII: metà dell’VIII sec., di provenienza incerta.
-            Trasmette le Leggi fino all’art. 139 del codice di Liutprando (originariamente completo).</item>
-          <item><hi rend="bold">ms 3</hi>: <title>Codex Eporedianus</title> XXXIV, inizi del IX sec., di
-            provenienza italiana settentrionale, forse Pavia secondo Mordek (1995). È il primo codice a rendere nota
-            tutta la tradizione delle <title>Leges</title> fino
-              ad Astolfo.</item>
-          <item>ms 4: Codex Helmstadiensis (ora Guelferbytanus 532 [Wolfenbüttel, Herzog August Bibliothek, Helmst.
-            532]). IX o X sec, proveniente forse da Salisburgo, a tratti mutilo.</item>
-          <item>ms 5: <title>Codex Vaticanus</title>, Biblioteca Apostolica Vaticana, Vat. Lat. 5359, IX sec.,
-            proveniente forse da Verona.<note n="6" place="foot" xml:id="ftn5">Il Moschetti (1954) lo data all’inizio
-              del sec. IX e lo attribuisce alla “scuola libraria veronese”. Moschetti (Ibid., 146) sottolinea anche come
-              la frequente presenza di semplificazioni e interpolazioni lasci trapelare una fervida attività di esegesi
-              giuridica preliminare alla copiatura.</note> Oltre alle <title>Leges</title>, trovano spazio nel codice
-            anche i Capitolari di Lotario fino all’anno 832. Trasmette le forme longobarde in modo piuttosto impreciso,
-            es. ER 224 <hi rend="italic">grada egiseleos</hi> per (in) <hi rend="italic">gaida et gisil</hi> «col
-            bastone e con la freccia».</item>
-          <item>ms 6: <title>Codex Blankenburgensis</title> 52, ora Guelferbytanus 130 [Wolfenbüttel, Herzog August
-            Bibliothek, Blankenb. 130], IX-X sec., di provenienza bavarese.</item>
-          <item>ms 7: <title>Codex Parisiacus Latinus</title> 4613 [Parigi, Bibliothèque Nationale, Lat. 4613], X sec.,
-            di provenienza italiana settentrionale.</item>
-          <item>ms 8: <title>Codex Matritensis</title> 413 [Madrid, Biblioteca Nacional, 413], X sec., proveniente
-            dall’Italia meridionale, forse da Capua.</item>
-          <item>ms 9: <title>Codex Cavensis</title> [Cava dei Tirreni, Biblioteca della Badia, 4], del 1005, proveniente
-            da Cava dei Tirreni o da Benevento.</item>
-          <item>ms 10: <title>Codex Parisiacus Latinus</title> 4614 [Parigi, Bibliothèque Nationale, Lat. 4614], X-XI
-            sec., di provenienza transalpina e spesso dipendente dal ms 1.</item>
-          <item>ms 11: <title>Codex Gothanus</title> 84 [Gotha, Forschungs- und Landesbibliothek, Memb. I 84], fine del
-            X sec., proveniente da Fulda.</item>
-          <item>ms 12: <title>Codex Heroldinus</title>, IX sec., perduto e preservato in un’edizione a stampa
-            cinquecentesca dal cui curatore prende l’attuale denominazione (Herold 1557); considerato poco affidabile
-            per i termini longobardi.</item>
+          <item><hi rend="bold">ms 2</hi>: <title>Codex Vercellensis</title> CLXXXVIII: metà dell’VIII sec., di
+            provenienza incerta. Trasmette le Leggi fino all’art. 139 del codice di Liutprando (originariamente
+            completo).</item>
+          <item><hi rend="bold">ms 3</hi>: <title>Codex Eporedianus</title> XXXIV, inizi del IX sec., di provenienza
+            italiana settentrionale, forse Pavia secondo Mordek (1995). È il primo codice a rendere nota tutta la
+            tradizione delle <title>Leges</title> fino ad Astolfo.</item>
+          <item><hi rend="bold">ms 4</hi>: Codex Helmstadiensis (ora Guelferbytanus 532 [Wolfenbüttel, Herzog August
+            Bibliothek, Helmst. 532]). IX o X sec, proveniente forse da Salisburgo, a tratti mutilo.</item>
+          <item><hi rend="bold">ms 5</hi>: <title>Codex Vaticanus</title>, Biblioteca Apostolica Vaticana, Vat. Lat.
+            5359, IX sec., proveniente forse da Verona.<note n="6" place="foot" xml:id="ftn5">Il Moschetti (1954) lo
+              data all’inizio del sec. IX e lo attribuisce alla “scuola libraria veronese”. Moschetti (Ibid., 146)
+              sottolinea anche come la frequente presenza di semplificazioni e interpolazioni lasci trapelare una
+              fervida attività di esegesi giuridica preliminare alla copiatura.</note> Oltre alle <title>Leges</title>,
+            trovano spazio nel codice anche i Capitolari di Lotario fino all’anno 832. Trasmette le forme longobarde in
+            modo piuttosto impreciso, es. ER 224 <hi rend="italic">grada egiseleos</hi> per (in) <hi rend="italic">gaida
+              et gisil</hi> «col bastone e con la freccia».</item>
+          <item><hi rend="bold">ms 6</hi>: <title>Codex Blankenburgensis</title> 52, ora Guelferbytanus 130
+            [Wolfenbüttel, Herzog August Bibliothek, Blankenb. 130], IX-X sec., di provenienza bavarese.</item>
+          <item><hi rend="bold">ms 7</hi>: <title>Codex Parisiacus Latinus</title> 4613 [Parigi, Bibliothèque Nationale,
+            Lat. 4613], X sec., di provenienza italiana settentrionale.</item>
+          <item><hi rend="bold">ms 8</hi>: <title>Codex Matritensis</title> 413 [Madrid, Biblioteca Nacional, 413], X
+            sec., proveniente dall’Italia meridionale, forse da Capua.</item>
+          <item><hi rend="bold">ms 9</hi>: <title>Codex Cavensis</title> [Cava dei Tirreni, Biblioteca della Badia, 4],
+            del 1005, proveniente da Cava dei Tirreni o da Benevento.</item>
+          <item><hi rend="bold">ms 10</hi>: <title>Codex Parisiacus Latinus</title> 4614 [Parigi, Bibliothèque
+            Nationale, Lat. 4614], X-XI sec., di provenienza transalpina e spesso dipendente dal ms 1.</item>
+          <item><hi rend="bold">ms 11</hi>: <title>Codex Gothanus</title> 84 [Gotha, Forschungs- und Landesbibliothek,
+            Memb. I 84], fine del X sec., proveniente da Fulda.</item>
+          <item><hi rend="bold">ms 12</hi>: <title>Codex Heroldinus</title>, IX sec., perduto e preservato in
+            un’edizione a stampa cinquecentesca dal cui curatore prende l’attuale denominazione (Herold 1557);
+            considerato poco affidabile per i termini longobardi.</item>
+
         </list>
 
-        <p style="text-align: justify;">Il quadro dei “frammenti” che conservano parti, talvolta anche molto ridotte, dei
-        testi di legge è assai variegato e ancora in corso di definizione.
-          <note n="7" place="foot" xml:id="ftn6">In realtà l’etichetta “frammenti” è utilizzata in riferimento a
-            tipologie testuali anche molto diverse tra di loro, tra cui, per esempio, articoli sparsi e compendi. Anche
-            questo aspetto meriterebbe un approfondimento critico.</note>
-        Qui di séguito si fornisce un elenco di quanto segnalato dalla critica fino ad oggi, utilizzando, ove possibile,
-        i <hi rend="italic">sigla</hi> di Mordek (1995):</p>
+        <p>Il quadro dei “frammenti” che conservano parti, talvolta anche molto ridotte, dei testi di legge è assai
+          variegato e ancora in corso di definizione.<note n="7" place="foot" xml:id="ftn6">In realtà l’etichetta
+            “frammenti” è utilizzata in riferimento a tipologie testuali anche molto diverse tra di loro, tra cui, per
+            esempio, articoli sparsi e compendi. Anche questo aspetto meriterebbe un approfondimento critico.</note> Qui
+          di séguito si fornisce un elenco di quanto segnalato dalla critica fino ad oggi, utilizzando, ove possibile, i
+            <hi rend="italic">sigla</hi> di Mordek (1995):</p>
+        
+        <list>
 
-        <p style="text-align: justify;"><hi rend="normalweight baseline" style="font-size:11pt">Modena, Biblioteca
-          Capitolare, O.I.2, fine X sec.</hi><note n="8" place="foot" xml:id="ftn7">
-            Le immagini digitali dell’intero codice sono disponibili al sito: <ref
-              target="http://archiviodiocesano.mo.it/archivio/flip/ACMo-OI-2/"><hi
-                rend="normalweight baseline underline color(1155cc)" style="font-size:10pt"
-                >http://archiviodiocesano.mo.it/archivio/flip/ACMo-OI-2/</hi></ref><anchor n="2" type="commentRangeEnd"
-              /><note n="2" place="comment" resp="#Roberto_Rosselli_Del_Turco"><date when="2024-10-24T16:18:22Z"/><hi
-                rend="normalweight baseline" style="font-size:11pt">URL valido ma richiede Flash, lo aggiungo tra
-                parentesi.</hi></note>
-            <hi rend="normalweight baseline" style="font-size:10pt">(N</hi><hi style="font-size:10pt">B: questa pagina
-              richiede il software Flash)</hi><hi rend="normalweight baseline" style="font-size:10pt">. Sul codice di
-              Modena si può vedere anche Russo
-        (1980).</hi></note> [Mo]</p>
-      <p style="text-align: justify;"><hi rend="normalweight baseline" style="font-size:11pt">St. Paul im Lavanttal
-          (Austria), Archiv des Benediktinerstiftes 4/1, IX o X sec.</hi><note n="9" place="foot" xml:id="ftn8"><p
-            style="text-align: justify;"
-              ><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> Le immagini digitali dell’intero codice sono disponibili al sito </hi><ref
-              target="http://www.stgallplan.org/stgallmss/viewItem.do?pageArk=p21198-zz00296kcd&amp;ark=p21198-zz00296kbw"
-                ><hi rend="normalweight baseline underline color(1155cc)" style="font-size:10pt"
-                >http://www.stgallplan.org/stgallmss/viewItem.do?pageArk=p21198-zz00296kcd&amp;ark=p21198-zz00296kbw</hi></ref><hi
-              rend="normalweight baseline" style="font-size:10pt"
-        >.</hi></p></note> [S]</p>
-      <p style="text-align: justify;"><hi rend="normalweight baseline" style="font-size:11pt">Vercelli, Biblioteca
-          Capitolare Eusebiana CXXII, X-XI sec.</hi><note n="10" place="foot" xml:id="ftn9"><p
-            style="text-align: justify;">
-            <hi rend="normalweight baseline" style="font-size:10pt">Il codice riporta il cap. 153 dell’ER in coda alla
-              sezione contenuta ai ff. 161v-162r.</hi></p></note></p>
-      <p style="text-align: justify;"><hi rend="normalweight baseline" style="font-size:11pt">Frammento di Assisi
-          (Archivio della Cattedrale, framm. fasc. I, n. 3.6)</hi></p>
-      <p style="text-align: justify;"><hi rend="normalweight baseline" style="font-size:11pt">Frammenti di Montecassino
-          (Archivio dell’Abbazia, n. 90; n. 175, prima metà del X sec. [Mc])</hi></p>
-      <p style="text-align: justify;"><hi rend="normalweight baseline" style="font-size:11pt">Frammenti di Monaco
-          (Bayerische Staatsbibliothek, Lat. 3519, XII sec. [M11]; 5260, XII sec. [M10])</hi></p>
-      <p style="text-align: justify;"
-          >Frammenti di Roma (Biblioteca Vaticana, <hi rend="normalweight baseline background(white)" style="font-size:11pt" xml:space="preserve">Chigi F. IV. 75, ca. 1000 [V5]; </hi><hi
-          rend="normalweight baseline" style="font-size:11pt">Vat. Lat. 1468, XI sec.; Vat. Lat. 5001, XIII sec., di
-          prob. provenienza salernitana)</hi></p>
-      <p style="text-align: justify;"><hi rend="normalweight baseline" style="font-size:11pt">Frammenti di Salisburgo
-          (Erzabtei St. Peter, framm. 20, seconda metà del IX sec., di provenienza italiana o tedesca sud-orientale;
-          a.IX.32, prima metà dell’XI sec. [Sa])</hi></p>
-      <p style="text-align: justify;"><hi rend="normalweight baseline" style="font-size:11pt">Frammento di Münster
-          (Universitätsbibliothek, “</hi><hi rend="normalweight baseline background(white)" style="font-size:11pt"
-          >Privatbesitz Siewert”</hi><hi rend="normalweight baseline" style="font-size:11pt">, IX sec.)</hi><note n="11"
-          place="foot" xml:id="ftn10"><p style="text-align: justify;"
-            ><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">  Cfr. Siewert (1992, 166); (1993, 189-236).</hi></p></note></p>
+          <item>Modena, Biblioteca Capitolare, O.I.2, fine X sec.<note n="8" place="foot" xml:id="ftn7">Le immagini
+              digitali dell’intero codice sono disponibili al sito: <ref
+                target="http://archiviodiocesano.mo.it/archivio/flip/ACMo-OI-2/"
+                >http://archiviodiocesano.mo.it/archivio/flip/ACMo-OI-2/</ref> (NB: questa pagina richiede il software
+              Flash). Sul codice di Modena si può vedere anche Russo (1980).</note> [Mo]</item>
+          <item>St. Paul im Lavanttal (Austria), Archiv des Benediktinerstiftes 4/1, IX o X sec.<note n="9" place="foot"
+              xml:id="ftn8">Le immagini digitali dell’intero codice sono disponibili al sito <ref
+                target="http://www.stgallplan.org/stgallmss/viewItem.do?pageArk=p21198-zz00296kcd&amp;ark=p21198-zz00296kbw"
+                >http://www.stgallplan.org/stgallmss/viewItem.do?pageArk=p21198-zz00296kcd&amp;ark=p21198-zz00296kbw</ref>.</note>
+            [S]</item>
+          <item>Vercelli, Biblioteca Capitolare Eusebiana CXXII, X-XI sec.<note n="10" place="foot" xml:id="ftn9">Il
+              codice riporta il cap. 153 dell’ER in coda alla sezione contenuta ai ff. 161v-162r.</note></item>
+          <item>Frammento di Assisi (Archivio della Cattedrale, framm. fasc. I, n. 3.6)</item>
+          <item>Frammenti di Montecassino (Archivio dell’Abbazia, n. 90; n. 175, prima metà del X sec. [Mc])</item>
+          <item>Frammenti di Monaco (Bayerische Staatsbibliothek, Lat. 3519, XII sec. [M11]; 5260, XII sec.
+            [M10])</item>
+          <item>Frammenti di Roma (Biblioteca Vaticana, Chigi F. IV. 75, ca. 1000 [V5]; Vat. Lat. 1468, XI sec.; Vat.
+            Lat. 5001, XIII sec., di prob. provenienza salernitana)</item>
+          <item>Frammenti di Salisburgo (Erzabtei St. Peter, framm. 20, seconda metà del IX sec., di provenienza
+            italiana o tedesca sud-orientale; a.IX.32, prima metà dell’XI sec. [Sa])</item>
+          <item>Frammento di Münster (Universitätsbibliothek, “Privatbesitz Siewert”, IX sec.)<note n="11" place="foot"
+              xml:id="ftn10">Cfr. Siewert (1992, 166); (1993, 189-236).</note></item>
+
+        </list>
 
       </div>
       
@@ -823,13 +807,11 @@
         <head>Sulle principali edizioni dell’<title>Editto di Rotari</title> e sulla opportunità di proporne una
           nuova</head>
 
-        <p style="text-align: justify;">L’edizione di riferimento per il testo dell’ER ─ e di fatto per l’intero corpus di
+        <p>L’edizione di riferimento per il testo dell’ER ─ e di fatto per l’intero corpus di
         Leggi longobarde ─ è ancora quella allestita da Friedrich Bluhme nel 1868 per i <title>Monumenta
           Germaniae Historica</title>, ora interamente consultabile anche online.<note n="12" place="foot" xml:id="ftn11"
-            ><p style="text-align: justify;">
-            <ref target="https://www.dmgh.de/mgh_ll_4/index.htm#page/(III)/mode/1up"><hi rend="underline color(1155cc)"
-                style="font-size:10pt"
-            >https://www.dmgh.de/mgh_ll_4/index.htm#page/(III)/mode/1up</hi></ref><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">. </hi></p></note>
+            ><ref target="https://www.dmgh.de/mgh_ll_4/index.htm#page/(III)/mode/1up"
+              >https://www.dmgh.de/mgh_ll_4/index.htm#page/(III)/mode/1up</ref>.</note>
         Nel 1947 Franz Beyerle pubblica <title>Die Gesetze der Langobarden</title>, opera ristampata
         anastaticamente nel 1962. In ambito italiano, Claudio Azzara (in Azzara/Gasparri 2005) propone un’importante
         traduzione del testo delle Leggi, alla quale affianca un’“edizione” dell’originale che prende le mosse dal
@@ -837,238 +819,216 @@
         quale ragione chi scrive reputi opportuno proporre una nuova edizione
         dell’<title>Editto</title> e quale formato tale edizione debba preferibilmente
         avere. Le motivazioni di tale scelta si possono riassumere in quattro punti:</p>
-      <p style="text-align: justify;"
-          ><hi rend="normalweight baseline" style="font-size:11pt" xml:space="preserve">(1) le edizioni attualmente a disposizione degli studiosi sono di fatto tutte basate sul codice sangallese, il più antico, che non necessariamente tramanda i termini longobardi nella forma maggiormente “interessante” – almeno per i filologi germanici (per es. ER 225, ms 1: </hi><hi
-          rend="italic normalweight baseline" style="font-size:11pt"
-          >andegauuer//cetharigauuere</hi><hi rend="normalweight baseline" style="font-size:11pt" xml:space="preserve"> per </hi><hi rend="italic normalweight baseline" style="font-size:11pt" xml:space="preserve">andegauuerc et harigauuere </hi><hi
-          rend="normalweight baseline" style="font-size:11pt">“oggetti d’uso quotidiano e armi”).</hi><note n="13"
-          place="foot" xml:id="ftn12"><p style="text-align: justify;">
-            <hi rend="italic normalweight baseline" style="font-size:10pt">res suas proprias, id est andagauuerc et
-              harigauuere, secundum legem Langobardorum habeat</hi><hi rend="normalweight baseline"
-              style="font-size:10pt"
-        >.</hi></p></note><hi rend="normalweight baseline" style="font-size:11pt" xml:space="preserve"> Inoltre, la </hi><hi rend="italic normalweight baseline" style="font-size:11pt" xml:space="preserve">facies </hi><hi rend="normalweight baseline" style="font-size:11pt" xml:space="preserve">linguistica del sangallese rischia di essere fuorviante per il lettore, perché lo potrebbe indurre a considerare i longobardismi – o la maggior parte di essi – dei termini cristallizzati;  </hi></p>
-      <p style="text-align: justify;"><hi rend="normalweight baseline" style="font-size:11pt">(2) è utile tenere conto
-          dei “frammenti” più di quanto, per diverse ragioni, sia stato fatto finora;</hi></p>
-      <p style="text-align: justify;"
-          ><hi rend="normalweight baseline" style="font-size:11pt" xml:space="preserve">(3) non è mai stata condotta una </hi><hi
-          rend="italic normalweight baseline" style="font-size:11pt"
-        >recensio</hi><hi rend="normalweight baseline" style="font-size:11pt" xml:space="preserve"> completa dei testimoni;</hi></p>
-      <p style="text-align: justify;"><hi rend="normalweight baseline" style="font-size:11pt">(4) le edizioni prodotte
-          fino ad oggi sono spesso state considerate non pienamente soddisfacenti dagli stessi esperti di lingua e
-          cultura longobarda.</hi></p>
-      <p style="text-align: justify;">Maria Vittoria Molinari (1998, 234), per esempio, giudica il testo restituito da
-        Bluhme, che segue una prassi editoriale di tipo sostanzialmente ricostruttivo, “leggibile, ma <hi rend="italic"
-          >astorico</hi> [corsivo nostro] sia dal punto di vista della lingua che del contenuto”. Bluhme, inoltre, non
-        può ovviamente tener conto nella sua edizione dei frammenti rinvenuti dagli anni trenta del Novecento in poi. </p>
-      <p style="text-align: justify;">Franz Beyerle (1947) assume come base il testo di Bluhme, discostandosene ed
-        emendandolo secondo necessità. Inoltre, non prende in considerazione i (nuovi) frammenti rinvenuti da Alban Dold
-        negli anni trenta, di cui lo studioso dà notizia per la prima volta in un articolo del 1940 (Dold 1940,
-        1-52).</p>
-      <p style="text-align: justify;">Claudio Azzara (in Azzara/Gasparri 2005) utilizza come punto di partenza
-          Beyerle,<note n="14" place="foot" xml:id="ftn13"><p style="text-align: justify;"
-            ><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">  “che costituisce ormai il principale riferimento per gli storici” (p. lx).</hi></p></note>
-        ma se ne allontana in punti specifici, in ragione di non ulteriormente precisate “critiche testuali che si è
-        ritenuto di dover formulare” e dopo aver esaminato sia alcuni codici considerati “fondamentali” (S. Gallo,
-        Vercelli, Vaticano 5359, Madrid, Cava dei Tirreni), sia l'edizione di Bluhme. L’autore sembra comunque ben
-        consapevole della sostanziale fragilità del metodo ecdotico da lui praticato quando avverte il lettore che:
-        “[l]a presente edizione rappresenta solo un avvio, un primo passo, verso una futura edizione critica”
-        (Azzara/Gasparri 2005, lx).</p>
-      <p style="text-align: justify;">Già Severino Caprioli (1978, 213-217) auspicava, inoltre, che una nuova edizione
-        critica del testo edittale procedesse non solo da una recensione completa dei diversi testimoni che contengono
-        le Leggi longobarde, ma anche (e forse soprattutto) da una recensione di tutti quei “brandelli di testo” (cioè
-        norme o parti di norme tratte dall’<title>Editto</title>) che si trovano utilizzati e citati in atti
-        privati e pubblici “rogati in aree in cui vigeva il diritto longobardo, ancora secoli dopo la caduta del regno”.
-        Il ruolo dei frammenti è dunque da esaminare attentamente e da ripensare nel contesto più ampio di una
-        <hi rend="italic" xml:space="preserve">recensio </hi>completa.</p>
+        
+        <list>
+
+          <item>(1) le edizioni attualmente a disposizione degli studiosi sono di fatto tutte basate sul codice
+            sangallese, il più antico, che non necessariamente tramanda i termini longobardi nella forma maggiormente
+            “interessante” – almeno per i filologi germanici (per es. ER 225, ms 1: <hi rend="italic"
+              >andegauuer//cetharigauuere</hi> per <hi rend="italic">andegauuerc et harigauuere </hi> “oggetti d’uso
+            quotidiano e armi”).<note n="13" place="foot" xml:id="ftn12">
+              <hi rend="italic">res suas proprias, id est andagauuerc et harigauuere, secundum legem Langobardorum
+                habeat</hi>.</note>Inoltre, la <hi rend="italic">facies</hi> linguistica del sangallese rischia di
+            essere fuorviante per il lettore, perché lo potrebbe indurre a considerare i longobardismi – o la maggior
+            parte di essi – dei termini cristallizzati;</item>
+          <item>(2) è utile tenere conto dei “frammenti” più di quanto, per diverse ragioni, sia stato fatto
+            finora;</item>
+          <item>(3) non è mai stata condotta una <hi rend="italic">recensio</hi> completa dei testimoni;</item>
+          <item>(4) le edizioni prodotte fino ad oggi sono spesso state considerate non pienamente soddisfacenti dagli
+            stessi esperti di lingua e cultura longobarda.</item>
+
+        </list>
+
+        <p>Maria Vittoria Molinari (1998, 234), per esempio, giudica il testo restituito da Bluhme, che segue una prassi
+          editoriale di tipo sostanzialmente ricostruttivo, “leggibile, ma <hi rend="italic">astorico</hi> [corsivo
+          nostro] sia dal punto di vista della lingua che del contenuto”. Bluhme, inoltre, non può ovviamente tener
+          conto nella sua edizione dei frammenti rinvenuti dagli anni trenta del Novecento in poi. </p>
+
+        <p>Franz Beyerle (1947) assume come base il testo di Bluhme, discostandosene ed emendandolo secondo necessità.
+          Inoltre, non prende in considerazione i (nuovi) frammenti rinvenuti da Alban Dold negli anni trenta, di cui lo
+          studioso dà notizia per la prima volta in un articolo del 1940 (Dold 1940, 1-52).</p>
+
+        <p>Claudio Azzara (in Azzara/Gasparri 2005) utilizza come punto di partenza Beyerle,<note n="14" place="foot"
+            xml:id="ftn13">“che costituisce ormai il principale riferimento per gli storici” (p. lx).</note>
+          ma se ne allontana in punti specifici, in ragione di non ulteriormente precisate “critiche testuali che si è
+          ritenuto di dover formulare” e dopo aver esaminato sia alcuni codici considerati “fondamentali” (S. Gallo,
+          Vercelli, Vaticano 5359, Madrid, Cava dei Tirreni), sia l'edizione di Bluhme. L’autore sembra comunque ben
+          consapevole della sostanziale fragilità del metodo ecdotico da lui praticato quando avverte il lettore che:
+          “[l]a presente edizione rappresenta solo un avvio, un primo passo, verso una futura edizione critica”
+          (Azzara/Gasparri 2005, lx).</p>
+
+        <p>Già Severino Caprioli (1978, 213-217) auspicava, inoltre, che una nuova edizione critica del testo edittale
+          procedesse non solo da una recensione completa dei diversi testimoni che contengono le Leggi longobarde, ma
+          anche (e forse soprattutto) da una recensione di tutti quei “brandelli di testo” (cioè norme o parti di norme
+          tratte dall’<title>Editto</title>) che si trovano utilizzati e citati in atti privati e pubblici “rogati in
+          aree in cui vigeva il diritto longobardo, ancora secoli dopo la caduta del regno”. Il ruolo dei frammenti è
+          dunque da esaminare attentamente e da ripensare nel contesto più ampio di una <hi rend="italic">recensio</hi>
+          completa.</p>
         
       </div>
       
-      <div type="paratext" subtype="intro">
-        
-      <head>Perché una nuova edizione digitale?</head>
+      <div subtype="intro" type="paratext">
 
-        <p style="text-align: justify;">Stabilita l’opportunità di proporre una nuova edizione dell’<title>Editto</title>, si pone il quesito di quale formato essa debba avere. </p>
-      <p style="text-align: justify;">Un’edizione che parta dalla resa diplomatico-interpretativa dei manoscritti (nel
-        nostro caso inizialmente quelli “piemontesi”) e che ne restituisca anche le immagini digitali, è in grado, più e
-        meglio di un’edizione cartacea, di valorizzare la dimensione storica di ciascun testimone. Contemporaneamente, è
-        possibile presentare al lettore, nello stesso ambiente virtuale, anche il testo criticamente stabilito, ove i
-        curatori lo ritengano necessario.</p>
-      <p style="text-align: justify;">L’edizione digitale facilita lo studio dei termini longobardi (e delle rispettive
-        glosse latine quando presenti) non in isolamento, ma nel loro contesto di trasmissione, rendendo più agevoli
-        anche i confronti, sia sincronici sia diacronici, tra forme e grafie. </p>
-      <p style="text-align: justify;">L’edizione verrà arricchita da strumenti per l’analisi lessicale e testuale, tra
-        cui un glossario dei termini longobardi e delle glosse latine, la cui utilità a fini di ricerca è stata
-        dimostrata dalla loro applicazione anche a numerosi altri progetti.<note n="15" place="foot" xml:id="ftn14"><p
-            style="text-align: justify;">
-            <hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">Per ragioni di spazio si citerà come esempio un progetto di area italiana diretto da Francesco Stella: </hi><hi
-              rend="italic normalweight baseline" style="font-size:10pt">Corpus Rhythmorum Musicum (Saec. IV-IX), I:
-              Songs from Non-Liturgical Sources, 1.
-              Lyrics</hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">, di cui è stata prodotta un’edizione cartacea e due digitali (una su CD-rom, l’altra disponibile online) </hi><ref
-              target="http://www.corimu.unisi.it/"><hi rend="normalweight baseline underline color(1155cc)"
-                style="font-size:10pt">http://www.corimu.unisi.it/</hi></ref><hi style="font-size:10pt"
-          >.</hi></p></note>
-      </p>
-      <p style="text-align: justify;">Un aspetto da non sottovalutare, inoltre, è l’esistenza nella tradizione
-        documentaria edittale e, in generale, delle Leggi longobarde di manoscritti miniati: i codici meridionali
-        (Cavensis e Matritensis) contengono una serie di immagini di straordinaria importanza iconografica che
-        raffigurano i re e prìncipi legislatori (si vedano Dold 1955, Rotili 1978, Fobelli 1989); il frammento di Modena
-        fornisce un’illustrazione dell’accigliato re Ratchis e di Astolfo al f. 42r, in apertura a un compendio di
-        <hi rend="italic" xml:space="preserve">Leges </hi>che inizia al f. 42v.<note n="16" place="foot" xml:id="ftn15"
-            ><p style="text-align: justify;">
-            <ref target="http://archiviodiocesano.mo.it/archivio/flip/ACMo-OI-2/"><hi
-                rend="normalweight baseline underline color(1155cc)" style="font-size:10pt"
-                >http://archiviodiocesano.mo.it/archivio/flip/ACMo-OI-2/</hi></ref><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">  (</hi><hi
-              style="font-size:10pt">NB: questa pagina richiede il software Flash</hi><hi rend="normalweight baseline"
-              style="font-size:10pt">).</hi></p></note> Anche nei codici privi di immagini possono ricorrere dei motivi
-        ornamentali riconducibili a cicli o a “scuole” iconografiche (è il caso, ad esempio, del sangallese e del
-        vercellese; v. sotto, sez. 7). L’ambiente digitale può dunque più opportunamente e più facilmente mettere in
-        evidenza le specificità del rapporto testo-immagine perlomeno in alcuni testimoni dell’ER. </p>
-      <p style="text-align: justify;">In sintesi, l’edizione digitale rappresenta un valore aggiunto dal punto di vista
-        non solo e non tanto pratico (diverse modalità di visualizzazione e di consultazione del testo), ma soprattutto
-        teorico, ponendosi in linea con l’approccio “storico” che informa le virtuose prassi ecdotiche della scuola
-        italiana a partire già da Giorgio Pasquali (1934)<note n="17" place="foot" xml:id="ftn16"><p
-            style="text-align: justify;"
-            ><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> Sulla “terza via” italiana nella prassi editoriale si può vedere Buzzoni/Burgio (2014) e la bibliografia ivi citata.</hi></p></note>
-        e che è mirabilmente richiamato da Maria Vittoria Molinari nel saggio <title>Lessico germanico nelle
-          leggi longobarde</title> (Molinari 1995, 5), quando l’Autrice afferma che:</p>
-      <p style="text-align: justify;">[l]e metodologie più aggiornate […] prendono in considerazione non il dato
-        linguistico in sé e per sé, ma <hi rend="italic" xml:space="preserve">il documento che lo tramanda </hi>[corsivo
-        nostro], da considerarsi dunque non come un “contenitore” di relitti appartenenti ad una entità linguistica
-        estranea, ma come testimone esso stesso nella sua totalità di una situazione storico-linguistica viva ed
-        attuale.</p>
-      <p style="text-align: justify;"><anchor n="0" type="commentRangeStart"
-          /><hi rend="background(cyan)" xml:space="preserve">Il modello per </hi><title>L’Editto di Rotari digitale</title><anchor n="0" type="commentRangeEnd"/><note n="0" place="comment"
-          resp="#Roberto_Rosselli_Del_Turco"><date when="2024-10-24T11:12:16Z"/><hi rend="normalweight baseline"
-            style="font-size:11pt">Anche DEDM e ...</hi></note>
-        <hi rend="background(cyan)" xml:space="preserve">(e dunque anche per i testimoni che verranno proposti per primi) è rappresentato dal </hi><hi
-          rend="italic background(cyan)">Vercelli Book Digitale</hi><note n="18" place="foot" xml:id="ftn17"><p
-            style="text-align: justify;"><hi style="font-size:10pt" xml:space="preserve"> Link diretto:</hi>
-            <ref target="http://vbd.humnet.unipi.it/beta2/"><hi rend="normalweight baseline underline color(1155cc)"
-                style="font-size:10pt">http://vbd.humnet.unipi.it/beta2/</hi></ref><hi rend="normalweight baseline"
-              style="font-size:10pt">.</hi></p></note>
-        <hi rend="background(cyan)">(2003 →), progetto coordinato da Roberto Rosselli Del Turco che ha l’analogo scopo
-          di fornire un’edizione diplomatico-interpretativa dei testi contenuti nell’omonimo codice (Vercelli,
-          Biblioteca Capitolare, CXVII) di cui vengono offerte immagini digitali ad alta risoluzione, nonché strumenti
-          di consultazione e analisi linguistica</hi> (Rosselli Del Turco 2017). Per maggiori dettagli si veda
-        sotto.</p>
-      <p style="text-align: justify;">L’esperienza acquisita nel corso del progetto di edizione del Devisement dou monde
-        di Marco Polo (Burgio Buzzoni e Simion 2024), inoltre, è stata preziosa dal metodologico in quanto ha richiesto
-        un workflow e una supervisione del lavoro dei numerosi collaboratori molto simile a quanto è stato poi
-        effettuato per l’ER digitale<hi rend="background(cyan)">.</hi></p>
-        
+        <head>Perché una nuova edizione digitale?</head>
+
+        <p>Stabilita l’opportunità di proporre una nuova edizione dell’<title>Editto</title>, si pone il quesito di
+          quale formato essa debba avere.</p>
+
+        <p>Un’edizione che parta dalla resa diplomatico-interpretativa dei manoscritti (nel nostro caso inizialmente
+          quelli “piemontesi”) e che ne restituisca anche le immagini digitali, è in grado, più e meglio di un’edizione
+          cartacea, di valorizzare la dimensione storica di ciascun testimone. Contemporaneamente, è possibile
+          presentare al lettore, nello stesso ambiente virtuale, anche il testo criticamente stabilito, ove i curatori
+          lo ritengano necessario.</p>
+
+        <p>L’edizione digitale facilita lo studio dei termini longobardi (e delle rispettive glosse latine quando
+          presenti) non in isolamento, ma nel loro contesto di trasmissione, rendendo più agevoli anche i confronti, sia
+          sincronici sia diacronici, tra forme e grafie. </p>
+
+        <p>L’edizione verrà arricchita da strumenti per l’analisi lessicale e testuale, tra cui un glossario dei termini
+          longobardi e delle glosse latine, la cui utilità a fini di ricerca è stata dimostrata dalla loro applicazione
+          anche a numerosi altri progetti.<note n="15" place="foot" xml:id="ftn14">Per ragioni di spazio si citerà come
+            esempio un progetto di area italiana diretto da Francesco Stella: 
+            <title>Corpus Rhythmorum Musicum (Saec. IV-IX), I: Songs from Non-Liturgical Sources, 1. Lyrics</title>, di
+            cui è stata prodotta un’edizione cartacea e due digitali (una su CD-rom, l’altra disponibile online) <ref
+                target="http://www.corimu.unisi.it/">http://www.corimu.unisi.it/</ref>.</note></p>
+
+        <p>Un aspetto da non sottovalutare, inoltre, è l’esistenza nella tradizione documentaria edittale e, in
+          generale, delle Leggi longobarde di manoscritti miniati: i codici meridionali (Cavensis e Matritensis)
+          contengono una serie di immagini di straordinaria importanza iconografica che raffigurano i re e prìncipi
+          legislatori (si vedano Dold 1955, Rotili 1978, Fobelli 1989); il frammento di Modena fornisce un’illustrazione
+          dell’accigliato re Ratchis e di Astolfo al f. 42r, in apertura a un compendio di
+          <title>Leges</title> che inizia al f. 42v.<note n="16" place="foot"
+            xml:id="ftn15"><ref target="http://archiviodiocesano.mo.it/archivio/flip/ACMo-OI-2/">http://archiviodiocesano.mo.it/archivio/flip/ACMo-OI-2/</ref>
+            (NB: questa pagina richiede il software Flash).</note> Anche nei codici privi di immagini possono ricorrere dei
+          motivi ornamentali riconducibili a cicli o a “scuole” iconografiche (è il caso, ad esempio, del sangallese e
+          del vercellese; v. sotto, sez. 7). L’ambiente digitale può dunque più opportunamente e più facilmente mettere
+          in evidenza le specificità del rapporto testo-immagine perlomeno in alcuni testimoni dell’ER.</p>
+
+        <p>In sintesi, l’edizione digitale rappresenta un valore aggiunto dal punto di vista non solo e non tanto
+          pratico (diverse modalità di visualizzazione e di consultazione del testo), ma soprattutto teorico, ponendosi
+          in linea con l’approccio “storico” che informa le virtuose prassi ecdotiche della scuola italiana a partire
+          già da Giorgio Pasquali (1934)<note n="17" place="foot" xml:id="ftn16">Sulla “terza via” italiana nella prassi
+            editoriale si può vedere Buzzoni/Burgio (2014) e la bibliografia ivi citata.</note>
+          e che è mirabilmente richiamato da Maria Vittoria Molinari nel saggio <title>Lessico germanico nelle leggi
+            longobarde</title> (Molinari 1995, 5), quando l’Autrice afferma che:</p>
+
+        <quote rend="block">[l]e metodologie più aggiornate […] prendono in considerazione non il dato linguistico in sé
+          e per sé, ma <hi rend="italic">il documento che lo tramanda</hi> [corsivo nostro], da considerarsi dunque non
+          come un “contenitore” di relitti appartenenti ad una entità linguistica estranea, ma come testimone esso
+          stesso nella sua totalità di una situazione storico-linguistica viva ed attuale.</quote>
+
+        <p>Il modello per <title>L’Editto di Rotari digitale</title> (e dunque anche per i testimoni che verranno
+          proposti per primi) è rappresentato dal <title>Vercelli Book Digitale</title><note n="18" place="foot"
+            xml:id="ftn17">Link diretto: <ref target="http://vbd.humnet.unipi.it/beta2/"
+              >http://vbd.humnet.unipi.it/beta2/</ref>.</note>, progetto coordinato da Roberto Rosselli Del Turco che ha
+          l’analogo scopo di fornire un’edizione diplomatico-interpretativa dei testi contenuti nell’omonimo codice
+          (Vercelli, Biblioteca Capitolare, CXVII) di cui vengono offerte immagini digitali ad alta risoluzione, nonché
+          strumenti di consultazione e analisi linguistica (Rosselli Del Turco 2017).</p>
+        <p>L’esperienza acquisita nel corso del progetto di edizione del <title>Devisement dou monde</title> (Burgio,
+          Buzzoni e Simion 2024), inoltre, è stata preziosa dal punto di vista metodologico in quanto ha richiesto un
+            <hi rend="italic">workflow</hi> e una supervisione del lavoro dei numerosi collaboratori molto simile a
+          quanto è stato poi effettuato per l’ER digitale.</p>
+
       </div>
       
       <div type="paratext" subtype="intro">
         
       <head>La scelta dei testimoni piemontesi come punto di partenza</head>
 
-        <p style="text-align: justify;">Il progetto di edizione integrata prende le mosse dai codici “piemontesi” dell’ER,
-        di cui si fornisce un’edizione diplomatico-interpretativa corredata delle immagini digitali dei manoscritti.</p>
-      <p style="text-align: justify;">Il <hi rend="italic" xml:space="preserve">Codex Vercellensis </hi>CLXXXVIII (ms 2,
-        VIII sec.) deve la sua importanza al fatto che, insieme con il sangallese (ms 1, VII sec.), è l’unico testimone
-        di epoca pienamente longobarda; trasmette le Leggi fino a Liutprando, originariamente documentate nella loro
-        interezza, ma ora conservate solo fino all’art. 139 (anno 733) a causa di una lacuna. Il codice è servito come
-        base per l’edizione ottocentesca – in realtà eclettica, in quanto attinta da più fonti – di Carlo Baudi di Vesme
-        per la grande collezione <title>Historiae Patriae Monumenta</title>, pubblicata a Torino nel 1846.<note
-          n="19" place="foot" xml:id="ftn18"><p style="text-align: justify;">
-            <hi rend="italic normalweight baseline background(white)" style="font-size:10pt">Edicta regum Langobardorum
-              edita ad fidem optimorum codicum opera et studio Caroli Baudi a Vesme ex curatoribus Historiae patriae
-              promovendis</hi><hi rend="normalweight baseline background(white)" style="font-size:10pt">, Augustae
-              Taurinorum 1846.</hi></p></note> Vergato in onciale, presenta al pari del sangallese una modalità di
-        ornamentazione che ricondurrebbe a modelli irlandesi secondo quanto sostenuto da von der Rhee (1980). Tale
-        ipotesi interpretativa, usata dal von der Rhee per avanzare la proposta che l’antigrafo del sangallese possa
-        aver acquisito la patina irlandese nello <hi rend="italic">scriptorium</hi> di Bobbio, è tuttavia da verificare
-        alla luce del ridimensionamento del ruolo di quest’ultimo per la produzione manoscritta longobarda (si veda
-        Villa/Lo Monaco 2005). </p>
-      <p style="text-align: justify;">Il <hi rend="italic" xml:space="preserve">Codex Eporedianus </hi>XXXIV (ms 3, IX
-        sec.) rivela una struttura e un criterio di composizione diversi: contiene tutte le
-        <hi rend="italic" xml:space="preserve">Leges, </hi>l’<hi rend="italic" xml:space="preserve">Admonitio generalis </hi>e
-        alcuni capitolari (tra cui quelli di Pipino, Carlo Magno, Lotario) e mostra, conformemente a quanto richiesto
-        dalla politica purista dell’epoca carolingia, un latino più sorvegliato rispetto ai volgarismi che
-        caratterizzano i due codici più antichi (sangallese e vercellese).<note n="20" place="foot" xml:id="ftn19"><p
-            style="text-align: justify;"
-              ><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> Ecco la descrizione delle caratteristiche fisiche del codice che dà il Mordek (1995, 178): “Um 830; Pavia. Dickes Pergament, 168 foll. (gezählt I, 1-167), ca. 265 x 170 mm (ca. 205 - 215 x125-130 mm), karolingische Minuskel, mehrere Hände, 26 Zeilen; in drei Teilen verfertigt: 1 -56, 57 -104, 105 -167. Lagen: 3 IV</hi><hi
-              rend="normalweight superscript" style="font-size:10pt"
-              >23</hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> + III</hi><hi
-              rend="normalweight superscript" style="font-size:10pt"
-              >29</hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> + IV</hi><hi
-              rend="normalweight superscript" style="font-size:10pt"
-              >37</hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> + III</hi><hi
-              rend="normalweight superscript" style="font-size:10pt">43</hi><hi rend="normalweight baseline"
-              style="font-size:10pt">+ IV</hi><hi rend="normalweight superscript" style="font-size:10pt"
-              >51</hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> + (l+ II )</hi><hi
-              rend="normalweight superscript" style="font-size:10pt"
-              >56</hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> + 9 IV</hi><hi
-              rend="normalweight superscript" style="font-size:10pt"
-              >128</hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> + III</hi><hi rend="normalweight superscript" style="font-size:10pt" xml:space="preserve">134 </hi><hi
-              rend="normalweight baseline" style="font-size:10pt">+ 4 IV</hi><hi rend="normalweight superscript"
-              style="font-size:10pt"
-              >166</hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> + l</hi><hi
-              rend="normalweight superscript" style="font-size:10pt"
-              >167</hi><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve">. […]. Rubriken in Capitalis rustica und Unziale, Teil I: in dunkelbrauner Texttinte (außer fol. 56: rote Überschrift), Teil II: oft mit roten Füllungen, Teil III: wie Teil II oder nur in Texttinte; Initialen von Teil I: nur in Texttinte, Teil II: mit roten Füllungen und Schattenstrichen, Teil III: wie Teil II oder nur in Texttinte. Neuzeitlicher Ledereinband mit eingeprägten Ornamenten (blind und Gold). Auf dem Rücken: </hi><hi
-              rend="italic normalweight baseline" style="font-size:10pt">EDICTA REGUM LANGOBARDORUM CAPITULARIA REGUM
-              FRANCORUM. CODEX MEMBRANEUS SAECULI X</hi><hi rend="normalweight baseline" style="font-size:10pt"
-            >”.</hi></p></note> L’ER è contenuto ai ff. 57r-104v. e risulta vergato, come del resto i rimanenti testi,
-        in grafia carolina. L’eporediese è un codice di notevole importanza sia linguistico-testuale che culturale: è
-        sulla base di questo manoscritto (f. 57) che Bluhme (1868, 1) ricostruisce la titolatura (<hi rend="italic">In
-          nomine domini incipit edictum, quem renovavit dominus Rothari, vir excellentissimo, rex genti Langobardorum
-          cum primatos iudices suos</hi>) e, soprattutto, il prologo dell’ER
-        (<hi rend="italic" xml:space="preserve">Incipit Prologus. Ego in Dei nomine Rothari </hi>[...]), mancanti sia
-        nel sangallese che nel vercellese. Anche l’elenco dei <hi rend="italic" xml:space="preserve">capitula </hi>è
-        riportato secondo il codice di Ivrea (f. 58), posto sulla colonna di sinistra accanto al Vaticano, che presenta
-        alcune variazioni nella successione degli articoli (Bluhme 1868, 3). Dal punto di vista culturale, l’<hi
-          rend="italic">Eporedianus</hi> XXXIV si inserisce in un progetto di ampio respiro, promosso all’interno di un
-        centro scrittorio dinamico e specializzato quale è quello di Ivrea in particolare durante il lungo periodo di
-        attività riferibile alla prestigiosa figura del vescovo Giuseppe (825?-855?), che aveva una formazione
-        “soprattutto di matrice giuridica, avviata probabilmente nei centri della Francia settentrionale, e poi
-        perfezionata in Italia nel quadro delle relazioni della sua prestigiosa carriera” (Gavinelli 2003, 175). Della
-        trentina di manoscritti conservati nella Biblioteca Capitolare di Ivrea e ascrivibili al IX sec., la gran parte
-        è riconducibile proprio all’episcopato di Giuseppe, che promuove anche l’importazione di codici, grazie ai
-        contatti con i centri transalpini più rappresentativi (per esempio quelli della Francia nord-occidentale, S.
-        Bertin, S. Vaast di Arras, e S. Amand; ma anche Lione), e con l’ambiente della corte pavese. Oltre ai lussuosi
-        libri liturgici per il culto, alcuni dei quali riccamente illustrati, e ai più modesti codici per uso
-        scolastico, un importante gruppo è costituito dai manoscritti giuridici, che tramandano testi di normativa sia
-        ecclesiastica sia “civile” (in particolare: <hi rend="italic" xml:space="preserve">Leges </hi>e dei capitolari
-          carolingi).<note n="21" place="foot" xml:id="ftn20"><p style="text-align: justify;"
-              ><hi rend="normalweight baseline" style="font-size:10pt" xml:space="preserve"> A tal proposito, nota giustamente Gavinelli (2003, 182) che in qualità di </hi><hi
-              rend="italic normalweight baseline" style="font-size:10pt">consiliarii regii</hi><hi
-              rend="normalweight baseline" style="font-size:10pt">, i vescovi carolingi “erano tenuti ad incrementare la
-              competenza del diritto”. Si veda anche la bibliografia ivi citata.</hi>
-          </p></note> Nove sono i codici carolingi di argomento legale della Biblioteca Capitolare di Ivrea, spesso in
-        esemplare doppio, per la maggior parte dei quali Gavinelli (2003, 182) ipotizza un diretto intervento di
-        pianificazione da parte del vescovo. Tra questi, figura anche
-        l’<hi rend="italic" xml:space="preserve">Eporedianus </hi>XXXIV, copiato quasi sicuramente in area pavese, e che
-        pare dialogare (soprattutto per la parte dei capitolari, ff. 1-56) con il codice XXXIII, aperto “da una rassegna
-        di leggi romano-barbariche [...] e proseguito, secondo la diffusa tipologia del genere, da una compilazione di
-        capitolari dell’Italia settentrionale” (Ibid., 185).</p>
-      <p style="text-align: justify;">I codici da cui prende le mosse il nostro progetto editoriale, quindi, sebbene per
-        motivi diversi, si presentano come due testimoni cruciali della storia documentaria dell’ER.</p>
+        <p>Il progetto di edizione integrata prende le mosse dai codici “piemontesi” dell’ER, di cui si fornisce
+          un’edizione diplomatico-interpretativa corredata delle immagini digitali dei manoscritti.</p>
+
+        <p>Il <title>Codex Vercellensis </title>CLXXXVIII (ms 2, VIII sec.) deve la sua importanza al fatto che, insieme
+          con il sangallese (ms 1, VII sec.), è l’unico testimone di epoca pienamente longobarda; trasmette le Leggi
+          fino a Liutprando, originariamente documentate nella loro interezza, ma ora conservate solo fino all’art. 139
+          (anno 733) a causa di una lacuna. Il codice è servito come base per l’edizione ottocentesca – in realtà
+          eclettica, in quanto attinta da più fonti – di Carlo Baudi di Vesme per la grande collezione <title>Historiae
+            Patriae Monumenta</title>, pubblicata a Torino nel 1846.<note n="19" place="foot" xml:id="ftn18"
+              ><title>Edicta regum Langobardorum edita ad fidem optimorum codicum opera et studio Caroli Baudi a Vesme
+              ex curatoribus Historiae patriae promovendis</title>, Augustae Taurinorum 1846.</note> Vergato in onciale,
+          presenta al pari del sangallese una modalità di ornamentazione che ricondurrebbe a modelli irlandesi secondo
+          quanto sostenuto da von der Rhee (1980). Tale ipotesi interpretativa, usata dal von der Rhee per avanzare la
+          proposta che l’antigrafo del sangallese possa aver acquisito la patina irlandese nello <hi rend="italic"
+            >scriptorium</hi> di Bobbio, è tuttavia da verificare alla luce del ridimensionamento del ruolo di
+          quest’ultimo per la produzione manoscritta longobarda (si veda Villa/Lo Monaco 2005).</p>
+
+        <p>Il <title>Codex Eporedianus </title>XXXIV (ms 3, IX sec.) rivela una struttura e un criterio di composizione
+          diversi: contiene tutte le <title>Leges</title>, l’<title>Admonitio generalis </title> e alcuni capitolari
+          (tra cui quelli di Pipino, Carlo Magno, Lotario) e mostra, conformemente a quanto richiesto dalla politica
+          purista dell’epoca carolingia, un latino più sorvegliato rispetto ai volgarismi che caratterizzano i due
+          codici più antichi (sangallese e vercellese).<note n="20" place="foot" xml:id="ftn19">Ecco la
+            descrizione<!-- CHECK numeri in apice --> delle caratteristiche fisiche del codice che dà il Mordek (1995,
+            178): “Um 830; Pavia. Dickes Pergament, 168 foll. (gezählt I, 1-167), ca. 265 x 170 mm (ca. 205 - 215
+            x125-130 mm), karolingische Minuskel, mehrere Hände, 26 Zeilen; in drei Teilen verfertigt: 1 -56, 57 -104,
+            105 -167. Lagen: 3 IV23 + III29 + IV37 + III43+ IV51 + (l+ II )56 + 9 IV128 + III134 + 4 IV166 + l167. […].
+            Rubriken in Capitalis rustica und Unziale, Teil I: in dunkelbrauner Texttinte (außer fol. 56: rote
+            Überschrift), Teil II: oft mit roten Füllungen, Teil III: wie Teil II oder nur in Texttinte; Initialen von
+            Teil I: nur in Texttinte, Teil II: mit roten Füllungen und Schattenstrichen, Teil III: wie Teil II oder nur
+            in Texttinte. Neuzeitlicher Ledereinband mit eingeprägten Ornamenten (blind und Gold). Auf dem Rücken:
+              <title>EDICTA REGUM LANGOBARDORUM CAPITULARIA REGUM FRANCORUM. CODEX MEMBRANEUS SAECULI X</title>”.</note>
+          L’ER è contenuto ai ff. 57r-104v. e risulta vergato, come del resto i rimanenti testi, in grafia carolina.
+          L’eporediese è un codice di notevole importanza sia linguistico-testuale che culturale: è sulla base di questo
+          manoscritto (f. 57) che Bluhme (1868, 1) ricostruisce la titolatura (<hi rend="italic">In nomine domini
+            incipit edictum, quem renovavit dominus Rothari, vir excellentissimo, rex genti Langobardorum cum primatos
+            iudices suos</hi>) e, soprattutto, il prologo dell’ER
+          (<hi rend="italic" xml:space="preserve">Incipit Prologus. Ego in Dei nomine Rothari </hi>[...]), mancanti sia
+          nel sangallese che nel vercellese. Anche l’elenco dei <hi rend="italic" xml:space="preserve">capitula </hi>è
+          riportato secondo il codice di Ivrea (f. 58), posto sulla colonna di sinistra accanto al Vaticano, che
+          presenta alcune variazioni nella successione degli articoli (Bluhme 1868, 3). Dal punto di vista culturale,
+            l’<hi rend="italic">Eporedianus</hi> XXXIV si inserisce in un progetto di ampio respiro, promosso
+          all’interno di un centro scrittorio dinamico e specializzato quale è quello di Ivrea in particolare durante il
+          lungo periodo di attività riferibile alla prestigiosa figura del vescovo Giuseppe (825?-855?), che aveva una
+          formazione “soprattutto di matrice giuridica, avviata probabilmente nei centri della Francia settentrionale, e
+          poi perfezionata in Italia nel quadro delle relazioni della sua prestigiosa carriera” (Gavinelli 2003, 175).
+          Della trentina di manoscritti conservati nella Biblioteca Capitolare di Ivrea e ascrivibili al IX sec., la
+          gran parte è riconducibile proprio all’episcopato di Giuseppe, che promuove anche l’importazione di codici,
+          grazie ai contatti con i centri transalpini più rappresentativi (per esempio quelli della Francia
+          nord-occidentale, S. Bertin, S. Vaast di Arras, e S. Amand; ma anche Lione), e con l’ambiente della corte
+          pavese. Oltre ai lussuosi libri liturgici per il culto, alcuni dei quali riccamente illustrati, e ai più
+          modesti codici per uso scolastico, un importante gruppo è costituito dai manoscritti giuridici, che tramandano
+          testi di normativa sia ecclesiastica sia “civile” (in particolare: <title>Leges</title> e dei capitolari
+            carolingi).<note n="21" place="foot" xml:id="ftn20">A tal proposito, nota giustamente Gavinelli (2003, 182)
+            che in qualità di <hi rend="italic">consiliarii regii</hi>, i vescovi carolingi “erano tenuti ad
+            incrementare la competenza del diritto”. Si veda anche la bibliografia ivi citata.</note> Nove sono i codici
+          carolingi di argomento legale della Biblioteca Capitolare di Ivrea, spesso in esemplare doppio, per la maggior
+          parte dei quali Gavinelli (2003, 182) ipotizza un diretto intervento di pianificazione da parte del vescovo.
+          Tra questi, figura anche l’<title>Eporedianus </title> XXXIV, copiato quasi sicuramente in area pavese, e che
+          pare dialogare (soprattutto per la parte dei capitolari, ff. 1-56) con il codice XXXIII, aperto “da una
+          rassegna di leggi romano-barbariche [...] e proseguito, secondo la diffusa tipologia del genere, da una
+          compilazione di capitolari dell’Italia settentrionale” (Ibid., 185).</p>
+
+        <p>I codici da cui prende le mosse il nostro progetto editoriale, quindi, sebbene per motivi diversi, si
+          presentano come due testimoni cruciali della storia documentaria dell’ER.</p>
 
       </div>
       
-      <!--<div type="paratext" subtype="references">
+      <div type="paratext" subtype="intro">
         
-        <head>Bibliografia</head>
+        <head>Criteri editoriali</head>
         
-
+        <p>Come anticipato nelle sezioni precedenti, il testo dell’ER è offerto in edizione diplomatico-interpretativa.</p>
           
-          <biblStruct type="book">
+      </div>
 
-            <monogr>
-              <title level="m">TEI: Guidelines for Electronic Text Encoding and Interchange</title>
-              <editor><name>TEI Consortium</name></editor>
-              <imprint>
-                <publisher>TEI Consortium</publisher>
-                <date>2024</date>
-                <note type="accessed">2022-11-14T15:18:15Z</note>
-                <note type="url">http://www.tei-c.org/Guidelines/P5/</note>
-              </imprint>
-            </monogr>
-            <series><title level="s">P5 Version 4.8.0. Last updated on 8th July 2024</title></series>
-          </biblStruct>
-          
-      </div>-->
-
+      <div type="paratext" subtype="intro">
+        
+        <head>Ringraziamenti</head>
+        
+        <p>Gli autori ringraziano la Biblioteca e Archivio Capitolare di Vercelli e la Biblioteca Capitolare di Ivrea
+          per la concessione delle immagini dell’<title>Edictum</title>.</p>
+        
+      </div>
+      
+      <div type="paratext" subtype="buro">
+        
+        <p rend="italic">Progetto PRIN 2022 PNRR - Missione 4 “Istruzione e Ricerca” del Piano Nazionale di Ripresa e Resilienza;
+          componente C2 – investimento 1.1, Fondo per il Programma Nazionale di Ricerca e Progetti di Rilevante
+          Interesse Nazionale (PRIN), dal titolo <title>A digital scholarly edition of the "Leges Langobardorum": social
+            memory, historical legacy and valorisation of cultural heritage</title> - CUP H53D23009340001 - finanziato
+          dal Bando PRIN 2022 PNRR - D.D. n. 1409 del 14/09/2022.</p>
+        
+      </div>
+      
     </front>
 
     <body>

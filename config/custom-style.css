@@ -20,6 +20,11 @@
 
 /* ***************************************************************** */
 
+.front[data-rend="fontsize_120"] {
+  text-align: justify !important;
+	font-size: 120% !important;
+}
+
 .title {
   font-style: italic !important;
 }
@@ -27,7 +32,7 @@
 .titlePart[data-type="main"] {
   font-style: italic !important;
   text-align: center !important;
-	font-size: 120% !important;
+	font-size: 140% !important;
 }
 
 .head[data-type="main"] {
