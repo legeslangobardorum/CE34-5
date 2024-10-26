@@ -20,9 +20,20 @@
 
 /* ***************************************************************** */
 
-.biblStruct {
-  font-family: Calibri, Helvetica, sans-serif !important;
-  font-size: 140% !important;
+.hi[data-rend="superscript"] {
+  vertical-align: super !important;
+}
+
+.fw[data-rend="align-center"], .fw[data-place="top-center"] {
+  text-align: center !important;
+}
+
+.fw[data-rend="align-right"], .fw[data-place="top-right"] {
+  text-align: right !important;
+}
+
+.fw[data-rend="align-left"], .fw[data-place="top-left"] {
+  text-align: left !important;
 }
 
 .front[data-rend="fontsize_120"] {
@@ -50,9 +61,9 @@
   font-style: italic !important;
 }
 
-.term {
+/* .term {
 	background-color: coral;
-}
+} */
 
 .figDesc {
 	display: block;

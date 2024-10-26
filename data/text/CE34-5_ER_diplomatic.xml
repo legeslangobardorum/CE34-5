@@ -62,6 +62,7 @@
       </publicationStmt>
 
       <sourceDesc>
+
         <msDesc>
           <msIdentifier>
             <country>Italia</country>
@@ -89,7 +90,7 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="parchment">
-                <support>Parchment.</support>
+                <support>Pergamena.</support>
                 <extent>
                   <measure type="leaves">Il codice è composto da 168 foll.</measure>
                   <measure type="dimensions"> -- </measure>
@@ -116,6 +117,26 @@
           </history>
 
         </msDesc>
+
+        <!-- ########## Lista Persone ########## -->
+        <listPerson>
+          <head>Lista Persone</head>
+          
+          <person source="http://www.treccani.it/enciclopedia/rotari_(Dizionario-Biografico)" xml:id="Rothari">
+            <persName>Rotari</persName>
+            <sex>M</sex>
+            <birth>606</birth>
+            <death>652</death>
+            <floruit>636-652</floruit>
+            <occupation>Rex Langobardorum et Italiae 636-652</occupation>
+            <note>Duca longobardo di Brescia, nato agli inizi del VII secolo, nel 636 venne eletto re dei Longobardi
+              dopo la morte del predecessore Arioaldo. V. anche la voce corrispondente sul <ref
+                target="http://www.treccani.it/enciclopedia/rotari_(Dizionario-Biografico)">Dizionario Biografico degli
+                italiani</ref> e su <ref target="http://dbpedia.org/page/Rotari">DBpedia</ref>.</note>
+          </person>
+          
+        </listPerson>
+
       </sourceDesc>
     </fileDesc>
 
@@ -228,6 +249,14 @@
           <mapping type="normalized">n</mapping>
         </char>
 
+        <!-- aggiunto 2024-10 -->
+        <char xml:id="Ntilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH TILDE"/>
+          <mapping type="codepoint">U+00D1</mapping>
+          <mapping type="diplomatic">Ñ</mapping>
+          <mapping type="normalized">N</mapping>
+        </char>
+        
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="fourdot">
           <unicodeProp name="Name" value="FOUR DOT PUNCTUATION"/>
@@ -584,7 +613,7 @@
     </revisionDesc>
   </teiHeader>
 
-  <text n="Editto di Rotari" type="prose" xml:id="CE34-5">
+  <text n="Edictum  Rothari" type="prose" xml:id="CE34-5">
 
     <!-- TODO:
     
@@ -957,16 +986,20 @@
           diversi: contiene tutte le <title>Leges</title>, l’<title>Admonitio generalis </title> e alcuni capitolari
           (tra cui quelli di Pipino, Carlo Magno, Lotario) e mostra, conformemente a quanto richiesto dalla politica
           purista dell’epoca carolingia, un latino più sorvegliato rispetto ai volgarismi che caratterizzano i due
-          codici più antichi (sangallese e vercellese).<note n="20" place="foot" xml:id="ftn19">Ecco la
-            descrizione<!-- CHECK numeri in apice --> delle caratteristiche fisiche del codice che dà il Mordek (1995,
-            178): “Um 830; Pavia. Dickes Pergament, 168 foll. (gezählt I, 1-167), ca. 265 x 170 mm (ca. 205 - 215
-            x125-130 mm), karolingische Minuskel, mehrere Hände, 26 Zeilen; in drei Teilen verfertigt: 1 -56, 57 -104,
-            105 -167. Lagen: 3 IV23 + III29 + IV37 + III43+ IV51 + (l+ II )56 + 9 IV128 + III134 + 4 IV166 + l167. […].
-            Rubriken in Capitalis rustica und Unziale, Teil I: in dunkelbrauner Texttinte (außer fol. 56: rote
-            Überschrift), Teil II: oft mit roten Füllungen, Teil III: wie Teil II oder nur in Texttinte; Initialen von
-            Teil I: nur in Texttinte, Teil II: mit roten Füllungen und Schattenstrichen, Teil III: wie Teil II oder nur
-            in Texttinte. Neuzeitlicher Ledereinband mit eingeprägten Ornamenten (blind und Gold). Auf dem Rücken:
-              <title>EDICTA REGUM LANGOBARDORUM CAPITULARIA REGUM FRANCORUM. CODEX MEMBRANEUS SAECULI X</title>”.</note>
+          codici più antichi (sangallese e vercellese).
+          <note n="20" place="foot" xml:id="ftn19">Ecco la descrizione<!-- CHECK numeri in apice --> delle
+            caratteristiche fisiche del codice che dà il Mordek (1995, 178): “Um 830; Pavia. Dickes Pergament, 168 foll.
+            (gezählt I, 1-167), ca. 265 x 170 mm (ca. 205 - 215 x125-130 mm), karolingische Minuskel, mehrere Hände, 26
+            Zeilen; in drei Teilen verfertigt: 1 -56, 57 -104, 105 -167. Lagen: 3 IV<hi rend="superscript">23</hi> +
+              III<hi rend="superscript">29</hi> + IV<hi rend="superscript">37</hi> + III<hi rend="superscript">43</hi> +
+              IV<hi rend="superscript">51</hi> + (l + II )<hi rend="superscript">56</hi> + 9 IV<hi rend="superscript"
+              >128</hi> + III<hi rend="superscript">134</hi> + 4 IV<hi rend="superscript">166</hi> + l<hi
+              rend="superscript">167</hi>. […]. Rubriken in Capitalis rustica und Unziale, Teil I: in dunkelbrauner
+            Texttinte (außer fol. 56: rote Überschrift), Teil II: oft mit roten Füllungen, Teil III: wie Teil II oder
+            nur in Texttinte; Initialen von Teil I: nur in Texttinte, Teil II: mit roten Füllungen und Schattenstrichen,
+            Teil III: wie Teil II oder nur in Texttinte. Neuzeitlicher Ledereinband mit eingeprägten Ornamenten (blind
+            und Gold). Auf dem Rücken: <title>EDICTA REGUM LANGOBARDORUM CAPITULARIA REGUM FRANCORUM. CODEX MEMBRANEUS
+              SAECULI X</title>”.</note>
           L’ER è contenuto ai ff. 57r-104v. e risulta vergato, come del resto i rimanenti testi, in grafia carolina.
           L’eporediese è un codice di notevole importanza sia linguistico-testuale che culturale: è sulla base di questo
           manoscritto (f. 57) che Bluhme (1868, 1) ricostruisce la titolatura (<hi rend="italic">In nomine domini
@@ -1007,8 +1040,48 @@
         
         <head>Criteri editoriali</head>
         
-        <p>Come anticipato nelle sezioni precedenti, il testo dell’ER è offerto in edizione diplomatico-interpretativa.</p>
+        <p>Come anticipato nelle sezioni precedenti, il testo dell’ER è offerto in edizione diplomatico-interpretativa.
+          Il livello diplomatico e quello interpretativo si riflettono nella codifica del testo tràdito dai due
+          testimoni e nella successiva visualizzazione tramite il software EVT, che permette al lettore di passare
+          agevolmente da un livello all’altro selezionandolo da un menu a tendina nella finestra di visualizzazione.</p>
+        
+        <p>L’attività ermeneutica e critica si è svolta in primo luogo nella trascrizione dei testimoni condotta a
+          séguito di un esame autoptico dei manoscritti, ma anche nella successiva (o contemporanea, a seconda del modus
+          operandi prediletto dall’editore ) fase di annotazione semantica dei testi. La codifica per mezzo del formato
+          XML/TEI, infatti, consente di inserire le operazioni critiche, come l’individuazione di una lacuna e
+          successiva integrazione, l’espansione di abbreviazioni e la correzione degli errori scribali, direttamente nel
+          markup TEI. Per questo motivo la codifica è, di per sé, un atto ermeneutico.</p>
+
+        <p>Le integrazioni, ad esempio, sono marcate per mezzo dell'elemento &lt;supplied&gt;, in modo da renderle
+          evidenti nella visualizzazione finale, incluso anche l’autore della stessa. Per tale scopo, infatti, è
+          possibile utilizzare l'attributo @resp, con un valore che può essere una semplice stringa di testo, o puntare
+          ai dati di una persona. Anche per le abbreviazioni sono visibili gli interventi degli editori nel testo grazie
+          agli elementi &lt;ex&gt; che riportano l'espansione dell'abbreviazione a cura del filologo. Molti di questi
+          elementi rientrano in un elemento contenitore, &lt;choice&gt;, che viene utilizzato per proporre i due livelli
+          di edizione:</p>
+        
+        <list type="unnumbered">
           
+          <item>il contenuto degli elementi &lt;abbr&gt; (abbreviazione), &lt;orig&gt; (forma ortografica non standard)
+            e &lt;sic&gt; (forma ritenuta errata dal filologo) viene selezionato per essere visualizzato nel livello
+            diplomatico (insieme ad altri elementi che descrivono caratteristiche del documento);</item>
+          
+          <item>gli elementi “gemelli” &lt;expan&gt; (espansione di un'abbreviazione, include al suo interno il già
+            citato &lt;ex&gt;), &lt;reg&gt; (forma normalizzata sul piano ortografico) e &lt;corr&gt; (correzione
+            proposta dall’editore per la forma errata individuata con &lt;sic&gt;), viceversa, vanno a popolare il testo
+            del livello interpretativo.</item>
+          
+        </list>
+
+        <p>Sempre nell’ambito del livello diplomatico, sono molti gli elementi che consentono al filologo di descrivere
+          il documento in dettaglio: aggiunte (&lt;add&gt;) e cancellazioni (&lt;del&gt;), lacune (&lt;gap/&gt;) e
+          trasposizioni di brani di testo (&lt;transpose&gt;), danni subiti dal materiale di supporto (&lt;damage&gt;) e
+          spazi anomali all’interno del testo (&lt;space&gt;). Un altro attributo dedicato alla descrizione e
+          visualizzazione del documento originale è @rend, da noi utilizzato, ad esempio, per individuare le rubriche
+          nei capitula delle disposizioni dell’Editto di Rotari, si veda la marcatura &lt;seg type="line"
+          rend="rubric"&gt;.</p>
+
+        <p></p>
       </div>
 
       <div type="paratext" subtype="intro">
@@ -1935,24 +2008,22 @@
         <fw place="top-right" type="fol">57</fw>
 
         <head>
-          <lb n="1" xml:id="CE34-5_lb_057r_1"/>
-          <w><hi rend="init[x.y] red">I</hi>N</w>
+          <lb n="1" xml:id="CE34-5_lb_057r_1"/><w><hi rend="init[x.y] red">I</hi>N</w>
           <w>NOMINE</w>
           <w>
             <choice>
-              <abbr>D<am><g ref="#ntilde"/></am>I</abbr>
+              <abbr>D<am><g ref="#Ntilde"/></am>I</abbr>
               <expan>D<ex>OMI</ex>NI</expan>
             </choice>
           </w>
           <w>INCIP<hi rend="smallcap">I</hi>T</w>
-          <lb n="2" xml:id="CE34-5_lb_057r_2"/>
-          <w>EDICT<c corresp="#ucap">V</c>M</w>
+          <lb n="2" xml:id="CE34-5_lb_057r_2"/><w>EDICT<c corresp="#ucap">V</c>M</w>
           <w>Q<c corresp="#ucap">V</c>EM</w>
           <w>RE<lb n="3" xml:id="CE34-5_lb_057r_3"/>NOVA<c corresp="#vcap">U</c>IT</w>
           <w>
             <choice>
               <abbr>DO<am><g ref="#Mtilde"/></am></abbr>
-              <expan>DOM<ex>MINUS</ex></expan>
+              <expan>DO<ex>MINUS</ex></expan>
             </choice>
           </w>
           <persName ref="#Rothari"><w>ROTHA<lb n="4" xml:id="CE34-5_lb_057r_4"/>RI</w></persName>
@@ -1980,10 +2051,7 @@
 
       <div subtype="edition_text" type="prose" xml:id="CE34-5_ER_Prologus">
         <head>
-          <lb n="8" xml:id="CE34-5_lb_057r_8"/>
-          <w>
-            <choice>
-              <abbr>INC<hi rend="smallcap">I</hi><am><g ref="#Ptilde"/></am></abbr>
+          <lb n="8" xml:id="CE34-5_lb_057r_8"/><w><choice><abbr>INC<hi rend="smallcap">I</hi><am><g ref="#Ptilde"/></am></abbr>
               <expan>INCIP<ex>IT</ex></expan>
             </choice>
           </w>
@@ -1999,12 +2067,15 @@
             </choice>
           </w>
           <w>nomine</w>
-          <persName ref="#Rothari"><w>rothari</w></persName>
+          <persName ref="#Rothari"><w><choice>
+            <orig>rothari</orig>
+            <reg>Rothari</reg>
+          </choice></w></persName>
           <w>vir</w>
           <w>
             <choice>
               <abbr>exel<am><g ref="#ltailstrok"/></am></abbr>
-              <expan>exell<ex>entissimus</ex></expan>
+              <expan>excell<ex>entissimus</ex></expan>
             </choice>
           </w>
           <w>rex</w>
@@ -2071,7 +2142,10 @@
           <w>langobardorum</w>
           <w>ex</w>
           <w>quo</w>
-          <persName ref="#Alboin"><w>alboin</w></persName>
+          <persName ref="#Alboin"><w><choice>
+            <orig>alboin</orig>
+            <reg>Alboin</reg>
+          </choice></w></persName>
           <w>tunc</w>
           <w>temporis</w>
           <lb n="4" xml:id="CE34-5_lb_057v_4"/>
@@ -2122,7 +2196,10 @@
           <lb n="9" xml:id="CE34-5_lb_057v_9"/>
           <w>adsiduas</w>
           <w>fatigat<g ref="#jnodotenl"/>ones</w>
-          <w>paupe<g ref="#rum"/></w>
+          <w><choice>
+            <abbr>paupe<am><g ref="#rum"/></am></abbr>
+            <expan>paupe<ex><g ref="#rum"/></ex></expan>
+          </choice></w>
           <w>quam</w>
           <w><g ref="#openetlig"/>iam</w>
           <lb n="10" xml:id="CE34-5_lb_057v_10"/>
@@ -2257,11 +2334,10 @@
           <w>memoria</w>
           <w><hi rend="black and red">N</hi>omina</w>
           <w>regum</w>
-          <w>ante</w>
           <w>
             <choice>
-              <abbr>cessor<am><g ref="#utilde"/></am></abbr>
-              <expan>cessoru<ex>m</ex></expan>
+              <orig>ante <abbr>cessor<am><g ref="#utilde"/></am></abbr></orig>
+              <reg><expan>antecessoru<ex>m</ex></expan></reg>
             </choice>
           </w>
           <w>
@@ -2273,7 +2349,10 @@
           <lb n="22" xml:id="CE34-5_lb_057v_22"/>
           <w>ex</w>
           <w>quo</w>
-          <w>ingente</w>
+         <choice>
+            <orig><w>ingente</w></orig>
+            <reg><w>in</w> <w>gente</w></reg>
+          </choice>
           <w>
             <choice>
               <abbr>n<am><g ref="#rmacr"/></am>a</abbr>
@@ -2321,12 +2400,18 @@
           <lb n="25" xml:id="CE34-5_lb_057v_25"/>
           <w><hi rend="black and red">F</hi>uit</w>
           <w>primus</w>
-          <persName ref="#Agimuld"><w>agilmund</w></persName>
+          <persName ref="#Agilmund"><w><choice>
+            <orig>agilmund</orig>
+            <reg>Agilmund</reg>
+          </choice></w></persName>
           <w>rex</w>
           <w>ex</w>
           <w>genere</w>
-          <persName xml:lang="lng"><!-- CHECK manca ref -->
-            <surname><w>gunzingus</w></surname>
+          <persName xml:lang="lng" ref="#Gugingus"><!-- CHECK ref; per la critica: dittografia? -->
+            <w><choice>
+              <orig>gunzingus</orig>
+              <reg>Gunzingus</reg>
+            </choice></w>
           </persName>
           <lb n="26" xml:id="CE34-5_lb_057v_26"/>
           <persName ref="#Laamisio"><w><hi rend="black and red">L</hi>aamisio</w></persName>
@@ -2334,7 +2419,10 @@
           <persName ref="#Geldehoc"><w><hi rend="cap">G</hi>eldehoc</w></persName>
           <persName ref="#Godeoch"><w><hi rend="cap">G</hi>odeoch</w></persName>
           <w>filius</w>
-          <lb/><add place="below" rend="align-right"><persName ref="#Zeldehoc"><w>zeldehoc</w></persName></add><!-- CHECK add o lb? -->
+          <lb/><add place="below" rend="align-right"><persName ref="#Zeldehoc"><w><choice>
+            <orig>zeldehoc</orig>
+            <reg>Zeldehoc</reg>
+          </choice></w></persName></add><!-- CHECK add o lb? -->
   
         <pb n="058r" xml:id="CE34-5_folio_058r"/>
   
@@ -2343,34 +2431,66 @@
           <lb n="1" xml:id="CE34-5_lb_058r_01"/>
           <persName ref="#Gaffo"><w><hi rend="black and red">G</hi>affo</w></persName>
           <w>filius</w>
-          <persName ref="#Godehoc"><w>godehoc</w></persName>
+          <persName ref="#Godehoc"><w><choice>
+            <orig>godehoc</orig>
+            <reg>Godehoc</reg>
+          </choice></w></persName>
           <lb n="2" xml:id="CE34-5_lb_058r_02"/>
           <persName ref="#Tatto"><w><hi rend="black and red">T</hi>atto</w></persName>
           <w>filius</w>
-          <persName ref="#Gafoni"><w>gafoni</w></persName>
-          <persName ref="#Tato"><w>tato</w></persName>
+          <persName ref="#Gafoni"><w><choice>
+            <orig>gafoni</orig>
+            <reg>Gafoni</reg>
+          </choice></w></persName>
+          <persName ref="#Tato"><w><choice>
+            <orig>tato</orig>
+            <reg>Tato</reg>
+          </choice></w></persName>
           <w><g ref="#openetlig"/></w>
-          <persName ref="#Winigis"><w><c corresp="#v">u</c><c corresp="#v">u</c>inigis</w></persName>
+          <persName ref="#Winigis"><w><choice>
+            <orig><c corresp="#v">u</c><c corresp="#v">u</c>inigis</orig>
+            <reg>Winigis</reg>
+          </choice></w></persName>
           <w>filii</w>
-          <persName ref="#Gafoni"><w>gafoni</w></persName>
+          <persName ref="#Gafoni"><w><choice>
+            <orig>gafoni</orig>
+            <reg>Gafoni</reg>
+          </choice></w></persName>
           <lb n="3" xml:id="CE34-5_lb_058r_03"/>
-          <persName ref="#Waccho"><w><hi rend="black and red"><c corresp="#vcap">u</c><c corresp="#v"
-              >u</c></hi>accho</w></persName>
+          <persName ref="#Waccho"><w><choice>
+            <orig><hi rend="black and red"><c corresp="#vcap">u</c><c corresp="#v">u</c></hi>accho</orig>
+            <reg>Waccho</reg>
+          </choice></w></persName>
           <w>filius</w>
-          <persName ref="#Winigis"><w><c corresp="#v">u</c><c corresp="#v">u</c>inigis</w></persName>
+          <persName ref="#Winigis"><w><choice>
+            <orig><c corresp="#v">u</c><c corresp="#v">u</c>inigis</orig>
+            <reg>Winigis</reg>
+          </choice></w></persName>
           <w>nepus</w>
-          <persName ref="#Tatoni"><w>tatoni</w></persName>
+          <persName ref="#Tatoni"><w><choice>
+            <orig>tatoni</orig>
+            <reg>Tatoni</reg>
+          </choice></w></persName>
           <lb n="4" xml:id="CE34-5_lb_058r_04"/>
-          <persName ref="#Waltari"><w><c corresp="#vcap">u</c><c corresp="#v">u</c>altari</w></persName>
+          <persName ref="#Waltari"><w><choice>
+            <orig><c corresp="#vcap">u</c><c corresp="#v">u</c>altari</orig>
+            <reg>Waltari</reg>
+          </choice></w></persName>
           <lb n="5" xml:id="CE34-5_lb_058r_05"/>
           <persName ref="#Audoin"><w><hi rend="black and red">A</hi>udoin</w></persName>
           <w>ex</w>
           <w>genere</w>
-          <persName><surname><w>gausus</w></surname></persName>
+          <persName ref="#Gausus"><w><choice>
+            <orig>gausus</orig>
+            <reg>Gausus</reg>
+          </choice></w></persName>
           <lb n="6" xml:id="CE34-5_lb_058r_06"/>
           <persName ref="#Alboin"><w><hi rend="black and red">A</hi>lboin</w></persName>
           <w>filius</w>
-          <persName ref="#Audoin"><w>audoin</w></persName>
+          <persName ref="#Audoin"><w><choice>
+            <orig>audoin</orig>
+            <reg>Audoin</reg>
+          </choice></w></persName>
           <w>qui</w>
           <w>exercito</w>
           <w>ut</w>
@@ -2392,32 +2512,43 @@
           <persName ref="#Clef"><w><hi rend="black and red">C</hi>lef</w></persName>
           <w>ex</w>
           <w>genere</w>
-          <persName xml:lang="lng">
-            <surname><w>beleos</w></surname>
-          </persName>
+          <persName xml:lang="lng" ref="#Beleos"><w><choice>
+            <orig>beleos</orig>
+            <reg>Beleos</reg>
+          </choice></w></persName>
           <lb n="8" xml:id="CE34-5_lb_058r_08"/>
           <persName ref="#Authari"><w><hi rend="black and red">A</hi>uthari</w></persName>
           <w>filius</w>
-          <persName ref="#Clef"><w>clef</w></persName>
+          <persName ref="#Clef"><w><choice>
+            <orig>clef</orig>
+            <reg>Clef</reg>
+          </choice></w></persName>
           <lb n="9" xml:id="CE34-5_lb_058r_09"/>
           <persName ref="#Aginulf"><w><hi rend="black and red">A</hi>ginulf</w></persName>
           <w>turingus</w>
           <w>ex</w>
           <w>genere</w>
-          <persName ref="#Anawain">
-            <surname><w>anawain</w></surname>
+          <persName ref="#Anawain"><w><choice>
+              <orig>anawain</orig>
+              <reg>Anawain</reg>
+            </choice></w>
           </persName>
           <lb n="10" xml:id="CE34-5_lb_058r_10"/>
           <persName ref="#Adawald"><w><hi rend="black and red">A</hi>dal<c corresp="#v">u</c><c corresp="#v"
               >u</c>ald</w></persName>
           <w>filius</w>
-          <persName ref="#Aginulf"><w>aginulf</w></persName>
+          <persName ref="#Aginulf"><w><choice>
+            <orig>aginulf</orig>
+            <reg>Aginulf</reg>
+          </choice></w></persName>
           <lb n="11" xml:id="CE34-5_lb_058r_11"/>
           <persName ref="#Arioald"><w><hi rend="black and red">A</hi>rioald</w></persName>
           <w>ex</w>
           <w>genere</w>
-          <persName ref="#Caupus">
-            <surname><w>caupus</w></surname>
+          <persName ref="#Caupus"><w><choice>
+            <orig>caupus</orig>
+            <reg>Caupus</reg>
+          </choice></w>
           </persName>
           <lb n="12" xml:id="CE34-5_lb_058r_12"/>
           <w><hi rend="black and red">S</hi>edecimus</w>
@@ -2437,58 +2568,117 @@
               <expan>sup<ex>ra</ex></expan>
             </choice>
           </w>
-          <persName ref="#Rothari"><w>rothari</w></persName>
+          <persName ref="#Rothari"><w><choice>
+            <orig>rothari</orig>
+            <reg>Rothari</reg>
+          </choice></w></persName>
           <w>rex</w>
           <lb n="13" xml:id="CE34-5_lb_058r_13"/>
           <w>filius</w>
-          <persName ref="#Nanding"><w>nanding</w></persName>
+          <persName ref="#Nanding"><w><choice>
+            <orig>nanding</orig>
+            <reg>Nanding</reg>
+          </choice></w></persName>
           <w>ex</w>
           <w>genere</w>
-          <persName ref="#Harodus">
-            <surname><w>harodus</w></surname>
+          <persName ref="#Harodus"><w><choice>
+            <orig>harodus</orig>
+            <reg>Harodus</reg>
+          </choice></w>
           </persName>
           <lb n="14" xml:id="CE34-5_lb_058r_14"/>
           <persName ref="#Nanding"><w><hi rend="black and red">N</hi>anding</w></persName>
           <w>filius</w>
-          <persName ref="#Nozuni"><w>nozuni</w></persName>
+          <persName ref="#Nozuni"><w><choice>
+            <orig>nozuni</orig>
+            <reg>Nozuni</reg>
+          </choice></w></persName>
           <persName ref="#Nozo"><w><hi rend="black and red">N</hi>ozo</w></persName>
           <w>filius</w>
-          <persName ref="#Adamundi"><w>adamundi</w></persName>
+          <persName ref="#Adamundi"><w><choice>
+            <orig>adamundi</orig>
+            <reg>Adamundi</reg>
+          </choice></w></persName>
           <lb n="15" xml:id="CE34-5_lb_058r_15"/>
           <persName ref="#Alamund"><w><hi rend="black and red">A</hi>lamund</w></persName>
           <w>filius</w>
-          <persName ref="#Alaman"><w>alaman</w></persName>
+          <persName ref="#Alaman"><w><choice>
+            <orig>alaman</orig>
+            <reg>Alaman</reg>
+          </choice></w></persName>
           <persName ref="#Alaman"><w>Alaman</w></persName>
           <w>filius</w>
-          <persName ref="#Hilzuni"><w>hilzuni</w></persName>
+          <persName ref="#Hilzuni"><w><choice>
+            <orig>hilzuni</orig>
+            <reg>Hilzuni</reg>
+          </choice></w></persName>
           <lb n="16" xml:id="CE34-5_lb_058r_16"/>
           <persName ref="#Hilzo"><w><hi rend="black and red">H</hi>ilzo</w></persName>
           <w>filius</w>
-          <persName ref="#Wehiloni"><w><c corresp="#v">u</c><c corresp="#v">u</c>ehiloni</w></persName>
-          <persName ref="#Weilo"><w><c corresp="#v">u</c><c corresp="#v">u</c>eilo</w></persName>
+          <persName ref="#Wehilo"><w><choice>
+            <orig><c corresp="#v">u</c><c corresp="#v">u</c>ehiloni</orig>
+            <reg>Wehiloni</reg>
+          </choice></w></persName>
+          <persName ref="#Weilo"><w><choice>
+            <orig><c corresp="#v">u</c><c corresp="#v">u</c>eilo</orig>
+            <reg>Weilo</reg>
+          </choice></w></persName>
           <w>filius</w>
-          <persName ref="#Wechoni"><w><c corresp="#v">u</c><c corresp="#v">u</c>echoni</w></persName>
+          <persName ref="#Wechoni"><w><choice>
+            <orig><c corresp="#v">u</c><c corresp="#v">u</c>echoni</orig>
+            <reg>Wechoni</reg>
+          </choice></w></persName>
           <lb n="17" xml:id="CE34-5_lb_058r_17"/>
-          <persName ref="#Weccho"><w><c corresp="#vcap">u</c><c corresp="#vcap">u</c>eccho</w></persName>
+          <persName ref="#Weccho"><w><choice>
+            <orig><c corresp="#vcap">u</c><c corresp="#vcap">u</c>eccho</orig>
+            <reg>Weccho</reg>
+          </choice></w></persName>
           <w>filius</w>
-          <persName ref="#Frochii"><w>frocchii</w></persName>
-          <persName ref="#Froccho"><w>froccho</w></persName>
+          <persName ref="#Froccho"><w><choice>
+            <orig>frocchii</orig>
+            <reg>Frocchii</reg>
+          </choice></w></persName>
+          <persName ref="#Froccho"><w><choice>
+            <orig>froccho</orig>
+            <reg>Froccho</reg>
+          </choice></w></persName>
           <w>filius</w>
-          <persName ref="#Wachoni"><w><c corresp="#v">u</c><c corresp="#v">u</c>achoni</w></persName>
+          <persName ref="#Wacho"><w><choice>
+            <orig><c corresp="#v">u</c><c corresp="#v">u</c>achoni</orig>
+            <reg>Wachoni</reg>
+          </choice></w></persName>
           <lb n="18" xml:id="CE34-5_lb_058r_18"/>
-          <persName ref="#Wacho"><w><c corresp="#vcap">u</c><c corresp="#vcap">u</c>acho</w></persName>
+          <persName ref="#Wacho"><w><choice>
+            <orig><c corresp="#vcap">u</c><c corresp="#vcap">u</c>acho</orig>
+            <reg>Wacho</reg>
+          </choice></w></persName>
           <w>filius</w>
-          <persName ref="#Mammoni"><w>mammoni</w></persName>
-          <persName ref="#Mammo"><w>mammo</w></persName>
+          <persName ref="#Mammo"><w><choice>
+            <orig>mammoni</orig>
+            <reg>Mammoni</reg>
+          </choice></w></persName>
+          <persName ref="#Mammo"><w><choice>
+            <orig>mammo</orig>
+            <reg>Mammo</reg>
+          </choice></w></persName>
           <w>filius</w>
-          <persName ref="#Obbora"><w>obbora</w></persName>
+          <persName ref="#Obbora"><w><choice>
+            <orig>obbora</orig>
+            <reg>Obbora</reg>
+          </choice></w></persName>
         </p>
         
+        <lb/>
+        
         <trailer><supplied>EXPLICIT NOMINA REGUM</supplied></trailer>
+        
+        <lb/>
 
       </div>
 
       <div subtype="edition_text" type="prose" xml:id="CE34-5_ER_rubriche_iniziali">
+
+        <lb/>
 
         <head><supplied>INCIPIT CAPITULA AD INQUIRENDUM</supplied></head><!-- CHECK bluhme lo riferisce al vatlat 5359 -->
 
@@ -16583,8 +16773,12 @@
             </choice>
           </w>
           <lb n="22" xml:id="CE34-5_lb_077v_22"/>
-          <w>ante</w>
-          <w>cessorum</w>
+          <w>
+            <choice>
+              <orig>ante cessorum</orig>
+              <reg>antecessorum</reg>
+            </choice>
+          </w>
           <w>suorum</w>
           <w>dicat</w>
           <w>Et</w>
@@ -38500,7 +38694,10 @@
           </w>
           <w>ma<lb n="18" xml:id="CE34-5_lb_104v_18"/>nus</w>
           <persName ref="#Ansoald">
-            <w>ansoaldi</w>
+            <w><choice>
+              <orig>ansoaldi</orig>
+              <reg>Ansoaldi</reg>
+            </choice></w>
           </persName>
           <w>notario</w>
           <w>
