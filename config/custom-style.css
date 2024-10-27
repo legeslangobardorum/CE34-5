@@ -20,6 +20,19 @@
 
 /* ***************************************************************** */
 
+.supplied::before {
+    content:"[";
+}
+
+.supplied::after {
+    content:"]";
+}
+
+.add[data-rend="align-right"] {
+  display: inline !important;
+  margin-left: 300px !important;
+}
+
 .hi[data-rend="superscript"] {
   vertical-align: super !important;
 }
