@@ -94,7 +94,7 @@
    "toolPinAppEntries": true,
    "toolImageTextLinking": true,
 
-   "namedEntitiesSelector": false,
+   "namedEntitiesSelector": true,
    "namedEntitiesToHandle": [
       {
          "tagName": "persName",
@@ -109,7 +109,7 @@
       {
          "tagName": "orgName",
          "label": "Organizations",
-         "available": true
+         "available": false
       }
    ],
    "otherEntitiesToHandle": [
@@ -118,6 +118,12 @@
          "label": "Role Name",
          "available": false,
          "color": "#cfc"
+      },
+      {
+         "tagName": "term",
+         "label": "Langobardic",
+         "available": true,
+         "color": "#7FFFD4"
       },
       {
          "tagName": "measure",
@@ -233,6 +239,7 @@
    "imageNormalizationCoefficient": 1200,
 
    "languages": [
+      "en",
       "it"
    ],
    "showObjectSelector": false,

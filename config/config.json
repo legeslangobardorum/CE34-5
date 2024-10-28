@@ -121,9 +121,9 @@
       },
       {
          "tagName": "term",
-         "label": "Longobardo",
+         "label": "Langobardic",
          "available": true,
-         "color": "#FF7F50"
+         "color": "#7FFFD4"
       },
       {
          "tagName": "measure",
@@ -239,6 +239,7 @@
    "imageNormalizationCoefficient": 1200,
 
    "languages": [
+      "en",
       "it"
    ],
    "showObjectSelector": false,
