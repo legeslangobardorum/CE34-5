@@ -148,6 +148,18 @@
           Interesse Nazionale (PRIN), dal titolo <title>A digital scholarly edition of the "Leges Langobardorum": social
             memory, historical legacy and valorisation of cultural heritage</title> - CUP H53D23009340001 - finanziato
           dal Bando PRIN 2022 PNRR - D.D. n. 1409 del 14/09/2022.</p>
+
+        <p>Il progetto si compone di due unità di ricerca:
+        
+        <list>
+          
+          <item>Unità di Ca' Foscari Venezia: prof.ssa Marina Buzzoni (PI), prof.ssa Martina Venuti, prof. Franz Fischer</item>
+
+          <item>Unità di Torino: prof. Roberto Rosselli Del Turco, prof. Ermanno Malaspina</item>
+
+        </list>
+        </p>
+
       </projectDesc>
 
       <editorialDecl>
@@ -2205,7 +2217,10 @@
           <w>provincia</w>
           <placeName ref="#Italia"><w>Ital<g ref="#jnodotenl"/><g ref="#eogon"/></w></placeName>
           <lb n="3" xml:id="CE34-5_lb_057v_3"/>
-          <w>langobardorum</w>
+          <w><choice>
+            <orig>langobardorum</orig>
+            <reg>Langobardorum</reg>
+          </choice></w>
           <w>ex</w>
           <w>quo</w>
           <persName ref="#Alboin"><w><choice>
@@ -2230,7 +2245,7 @@
           <w>anno</w>
           <w>septuagesimo</w>
           <w>sexto</w>
-          <w>feliciter</w>
+          <w>feliciter</w><pc>.</pc>
         </p>
         <p>
           <lb n="6" xml:id="CE34-5_lb_057v_6"/>
@@ -2249,7 +2264,7 @@
           </w>
           <w>fuit</w>
           <w>sollicitudinis</w>
-          <w>cura</w>
+          <w>cura</w><choice><orig>.</orig><reg>,</reg></choice>
           <w>id</w>
           <w>est</w>
           <w>subter</w>
@@ -12857,7 +12872,8 @@
             </choice>
           </w>
           <w>fuerit</w>
-          <w>acsi</w>
+          <w>ac</w>
+          <w>si</w>
           <w>eum</w>
           <lb n="15" xml:id="CE34-5_lb_072v_15"/>
           <w>occidiss<g ref="#openetlig"/></w>
@@ -13694,7 +13710,10 @@
           <w>ministerialem</w>
           <lb n="9" xml:id="CE34-5_lb_073v_09"/>
           <w>brachium</w>
-          <w>au</w>
+          <w><choice>
+            <sic>au</sic>
+            <corr>aut</corr>
+          </choice></w>
           <w>coxa</w>
           <w>transfora<c corresp="#v">u</c>erit</w>
           <w>
@@ -13763,7 +13782,7 @@
           <w>caput</w>
           <w>fecerit</w>
           <w>ut</w>
-          <w>cautica</w>
+          <w>cutica</w>
           <w>
             <choice>
               <abbr>tant<am><g ref="#utilde"/></am></abbr>
@@ -13842,7 +13861,11 @@
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>III</w></measure>
           <w>amplius</w>
-          <w>nonnomerentur</w>
+          <w>non</w>
+          <w><choice>
+            <orig>nomerentur</orig>
+            <reg>numerentur</reg>
+          </choice></w>
         </p>
         <p n="104" xml:id="CE34-5_p_073v_104"><lb n="18" type="rubric" xml:id="CE34-5_lb_073v_18"/>
           <label><num><w>CIIII</w></num></label>
@@ -13949,7 +13972,7 @@
             </choice>
           </w>
           <w>ser<c corresp="#v">u</c>um</w>
-          <w>al<g ref="#jnodotenl"/>enu</w>
+          <w>al<g ref="#jnodotenl"/>enum</w>
           <w>rusticano<add place="above"><g ref="#utilde"/></add></w>
           <lb n="24" xml:id="CE34-5_lb_073v_24"/>
           <w>naso</w>
@@ -15165,11 +15188,10 @@
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>aldium</w>
-          <w>al<g ref="#jnodotenl"/></w>
           <w>
             <choice>
-              <abbr>n<am><g ref="#utilde"/></am></abbr>
-              <expan>nu<ex>m</ex></expan>
+              <sic><abbr>al<g ref="#jnodotenl"/>on<am><g ref="#utilde"/></am></abbr></sic>
+              <corr><expan>al<g ref="#jnodotenl"/>enu<ex>m</ex></expan></corr>
             </choice>
           </w>
           <w>occiderit</w>
@@ -15294,7 +15316,10 @@
             </choice>
           </w>
           <w>ser<c corresp="#v">u</c>um</w>
-          <w>bobulcu</w>
+          <w><choice>
+            <abbr>bobulc<am><g ref="#umacr"/></am></abbr>
+            <expan>bobulcu<ex>m</ex></expan>
+          </choice></w>
           <w>de</w>
           <w>sala</w>
           <lb n="24" xml:id="CE34-5_lb_075r_24"/>
@@ -15529,33 +15554,40 @@
           <w>qualem</w>
           <w>
             <choice>
-              <abbr>liber<am><g ref="#utilde"/></am></abbr>
-              <expan>liberu<ex>m</ex></expan>
+              <sic><abbr>liber<am><g ref="#utilde"/></am></abbr></sic>
+              <corr><expan>lucru<ex>m</ex></expan></corr>
             </choice>
           </w>
           <w>facere</w>
           <lb n="13" xml:id="CE34-5_lb_075v_13"/>
           <w>potuit</w>
-          <w><hi rend="cap">I</hi>ta</w>
+          <w><choice>
+            <orig>Ita</orig>
+            <reg>ita</reg>
+          </choice></w>
           <w>conponatur</w>
-          <add hand="scribe_2" place="inline">
-            <!-- fa parte della legge successiva -->
-            <w>ex</w>
-            <w>ip</w>
-            <w>arborem</w>
-            <w>occiderit</w>
-            <w>aut</w>
-            <w>co</w>
-            <w>libr</w>
-            <lb rend="align_right" type="extra"/>
-            <w>
-              <choice>
-                <abbr>dann<am><g ref="#utilde"/></am></abbr>
-                <expan>dannu<ex>m</ex></expan>
-              </choice>
-            </w>
-            <w>fecerit</w>
-          </add>
+          <seg corresp="#CE34-5_seg_075v_16" type="diplomatic" xml:id="CE34-5_seg_075v_13">
+            <add hand="scribe_2" place="inline">
+              <metamark>·|</metamark><!-- CHECK -->
+              <w>ex</w>
+              <w>ip<supplied>sum</supplied></w>
+              <w>arborem</w>
+              <w>occiderit</w>
+              <w>aut</w>
+              <w><choice>
+                  <orig>colibet</orig>
+                  <reg>quolibet</reg>
+                </choice></w>
+              <lb rend="align_right" type="extra"/>
+              <w>
+                <choice>
+                  <orig><abbr>dann<am><g ref="#utilde"/></am></abbr></orig>
+                  <reg><expan>damnu<ex>m</ex></expan></reg>
+                </choice>
+              </w>
+              <w>fecerit</w>
+            </add>
+          </seg>
         </p>
         <p n="138" xml:id="CE34-5_p_075v_138"><lb n="14" type="rubric" xml:id="CE34-5_lb_075v_14"
                 /><label><num><w>CXXXUIII</w></num></label>
@@ -15589,15 +15621,43 @@
             <orig>Inciderint</orig>
             <reg>inciderint</reg>
           </choice></w>
-          <add hand="scribe_2" place="inrasura">
-            <unclear reason="faded">
-              <w><g ref="#openetlig"/></w>
-              <w>aliu</w>
-              <w>omine</w>
-              <w>supveniente</w>
+          <subst>
+            <del rend="overwrite">aut</del>
+            <del rend="erasure"><gap extent="unknown"/></del>
+            <add hand="scribe_2" place="inrasura">
+              <unclear reason="faded">
+                <w><g ref="#openetlig"/></w>
+                <w>aliu</w>
+                <w>omine</w>
+                <w><choice>
+                  <abbr>su<g ref="#pbardes"/>veniente</abbr>
+                  <expan>sup<ex>er</ex>veniente</expan>
+                </choice></w>
+              </unclear>
+            </add>
+          </subst>
+          <seg corresp="#CE34-5_seg_075v_13" type="interpretative" xml:id="CE34-5_seg_075v_16">
+            <add hand="scribe_2" place="inline">
+              <metamark>·|</metamark><!-- CHECK -->
               <w>ex</w>
-            </unclear>
-          </add>
+              <w>ip<supplied>sum</supplied></w>
+              <w>arborem</w>
+              <w>occiderit</w>
+              <w>aut</w>
+              <w><choice>
+                <orig>colibet</orig>
+                <reg>quolibet</reg>
+              </choice></w>
+              <lb rend="align_right" type="extra"/>
+              <w>
+                <choice>
+                  <orig><abbr>dann<am><g ref="#utilde"/></am></abbr></orig>
+                  <reg><expan>damnu<ex>m</ex></expan></reg>
+                </choice>
+              </w>
+              <w>fecerit</w>
+            </add>
+          </seg>
           <w>tunc</w>
           <w><choice>
             <orig>Incidentes</orig>
@@ -15605,11 +15665,10 @@
           </choice></w>
           <lb n="17" xml:id="CE34-5_lb_075v_17"/>
           <w>arborem</w>
-          <w>quanti</w>
           <w>
             <choice>
-              <abbr>cumq<am><g ref="#twodot"/></am></abbr>
-              <expan>cumq<ex>ue</ex></expan>
+              <abbr>quanticumq<am><g ref="#twodot"/></am></abbr>
+              <expan>quanticumq<ex>ue</ex></expan>
             </choice>
           </w>
           <w>fuerint</w>
@@ -15825,13 +15884,13 @@
             </w>
           </add>
           <w>occidiss<g ref="#openetlig"/></w>
-          <w>eum</w>
-          <w>
-            <choice>
-              <abbr>con<am><g ref="#ptilde"/></am></abbr>
-              <expan>conp<ex>onat</ex></expan>
-            </choice>
-          </w>
+          <del rend="expunction"><w>eum</w></del>
+          <surplus><w>
+              <choice>
+                <abbr>con<am><g ref="#ptilde"/></am></abbr>
+                <expan>conp<ex>onat</ex></expan>
+              </choice>
+            </w></surplus>
         </p>
         <p n="141" xml:id="CE34-5_p_076r_141"><lb n="6" type="rubric" xml:id="CE34-5_lb_076r_06"
                 /><label><num><w>CXLI</w></num></label>

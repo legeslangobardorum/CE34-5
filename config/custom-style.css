@@ -20,6 +20,22 @@
 
 /* ***************************************************************** */
 
+.interpretativeEdition .surplus {
+  display: none !important;
+}
+
+.diplomaticEdition .surplus {
+  border-bottom: 3px dotted red !important;
+}
+
+.diplomaticEdition .seg[data-type="interpretative"] {
+  display: none !important;
+}
+
+.interpretativeEdition .seg[data-type="diplomatic"] {
+  display: none !important;
+}
+
 .supplied::before {
     content:"[";
 }
