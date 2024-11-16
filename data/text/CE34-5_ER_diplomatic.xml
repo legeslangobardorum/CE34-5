@@ -603,6 +603,12 @@
           <mapping type="diplomatic">̉</mapping>
         </char>
         
+        <char xml:id="combcurl">
+          <unicodeProp name="Name" value="COMBINING CURL HIGH POSITION"/>
+          <mapping type="codepoint">U+1DCE</mapping>
+          <mapping type="diplomatic">᷎</mapping>
+        </char>
+        
         <char xml:id="combcurlhigh">
           <unicodeProp name="Name" value="COMBINING CURL HIGH POSITION"/>
           <mapping type="codepoint">U+F1C5</mapping>
@@ -15023,7 +15029,7 @@
           <w>aut</w>
           <w>sanari</w>
   
-        <pb n="75r" xml:id="CE34-5_folio_075r"/>
+        <pb n="075r" xml:id="CE34-5_folio_075r"/>
   
         <fw place="top-right" type="fol"><add hand="unknown">75</add></fw>
 
@@ -15388,7 +15394,7 @@
           <measure quantity="16" type="currency" unit="soldi"><w>XVI</w></measure>
         </p>
 
-        <pb n="75v" xml:id="CE34-5_folio_075v"/>
+        <pb n="075v" xml:id="CE34-5_folio_075v"/>
 
         <p n="135" xml:id="CE34-5_p_075v_135">
           <lb n="1" type="rubric" xml:id="CE34-5_lb_075v_01"/><label><num><w>CXXXV</w></num></label>
@@ -15825,7 +15831,7 @@
           <w>dare</w>
           <w><c corresp="#v">u</c>oluerit</w>
   
-        <pb n="076r" xml:id="CE34-5_folio_076r"/><w>76r</w>
+        <pb n="076r" xml:id="CE34-5_folio_076r"/>
   
         <fw place="top-right" type="fol"><add hand="unknown">76</add></fw>
 
@@ -16896,8 +16902,7 @@
           <w><hi rend="cap">N</hi>am</w>
           <w>si</w>
           <w>contigerit</w>
-          <w>trans</w>
-          <w>se</w>
+          <w>trans<supplied>i</supplied>re</w>
           <w>ipsum</w>
           <w>fogo</w>
           <w>
@@ -18244,7 +18249,7 @@
             <w><g ref="#openetlig"/></w>
             <w>ille</w>
             <w>cui</w>
-            <w>insidiat<g ref="#uslig"/></w>
+            <w>insidiat<g ref="#combcurlhigh"/></w>
           </add>
           <w>filius</w>
           <lb n="12" xml:id="CE34-5_lb_079r_12"/>
