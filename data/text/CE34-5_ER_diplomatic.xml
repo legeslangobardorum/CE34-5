@@ -716,6 +716,8 @@
     - cercare tutti i casi di abbreviazione -tur (t<g ref="#ur"/>) e marcarli
     - cercare tutti i casi di <hi rend="cap">I</hi> in modo da controllare quando serve normalizzazione e quando
       punteggiatura perché maiuscola vera
+    - carattere per us non sembra combining
+    - 93r 16 glifo L finale
 
     - manca gestione punteggiatura
     
