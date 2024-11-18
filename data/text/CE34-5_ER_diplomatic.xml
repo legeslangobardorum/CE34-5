@@ -325,6 +325,13 @@
           <mapping type="normalized">q</mapping>
         </char>
 
+        <glyph xml:id="slong">
+          <localProp name="Name" value="LATIN SMALL LETTER LONG S"/>
+          <mapping type="codepoint">U+017F</mapping>
+          <mapping type="diplomatic">ſ</mapping>
+          <mapping type="normalized">s</mapping>
+        </glyph>
+
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="nscapslonglig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE SMALL CAPITAL N LONG S"/>
@@ -647,6 +654,24 @@
           <mapping type="diplomatic">ƀ</mapping>
           <mapping type="normalized">b</mapping>
         </char>
+
+        <!-- BREVIGRAFI CHECK -->
+
+        <char xml:id="Itwodot">
+          <localProp name="Name" value="LATIN CAPITAL LETTER I WITH TWO MIDDLE DOTS"/>
+          <mapping type="diplomatic">·I·</mapping>
+        </char>
+
+        <char xml:id="slongdot">
+          <localProp name="Name" value="LATIN SMALL LETTER LONG S WITH MIDDLE DOT"/>
+          <mapping type="diplomatic">ſ·</mapping>
+        </char>
+
+        <char xml:id="slongtwodot">
+          <localProp name="Name" value="LATIN SMALL LETTER LONG S WITH TWO MIDDLE DOTS"/>
+          <mapping type="diplomatic">·ſ·</mapping>
+        </char>
+
 
       </charDecl>
 
@@ -30056,8 +30081,8 @@
           <w>ipsum</w>
           <w>mancipium</w>
           <w><g ref="#openetlig"/></w>
-          <lb n="13" xml:id="CE34-5_lb_093r_13"/>
           <w>alium</w>
+          <lb n="13" xml:id="CE34-5_lb_093r_13"/>
           <w>similem</w>
           <w>de</w>
           <w>suis</w>
@@ -30124,8 +30149,7 @@
           <w>in</w>
           <w>curte</w>
           <w>regis</w>
-          <w>in</w>
-          <w>de</w>
+          <w>unde</w>
           <w>
             <choice>
               <abbr>e<am><g ref="#utilde"/></am></abbr>
@@ -30288,20 +30312,19 @@
           <w><g ref="#openetlig"/></w>
           <w>in</w>
           <w>sacro</w>
-          <w>alterio</w>
+          <w>altario</w>
           <lb n="27" xml:id="CE34-5_lb_093r_27"/>
           <w>ubi</w>
           <w>iniuria</w>
           <w>facta</w>
           <w>est</w>
-          <w>ponatur</w>
+          <w>ponantur</w>
         </p>
 
         <pb n="093v" xml:id="CE34-5_folio_093v"/>
 
         <p n="273" xml:id="CE34-5_p_093v_273">
-          <lb n="1" type="rubric" xml:id="CE34-5_lb_093v_01"
-                /><label><num><w>CCLXXIII</w></num></label>
+          <lb n="1" type="rubric" xml:id="CE34-5_lb_093v_01"/><label><num><w>CCLXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w><choice>
@@ -30388,7 +30411,13 @@
           <w><g ref="#openetlig"/></w>
           <w>si</w>
           <w>ille</w>
-          <add hand="scribe_2" place="above"><w>somo</w></add>
+          <add hand="scribe_2" place="above">
+            <choice>
+              <abbr><am><g ref="#slongtwodot"/></am></abbr><!-- CHECK need new g -->
+              <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan><!-- CHECK meaning -->
+            </choice>
+            <w>somo</w>
+          </add>
           <w>cuius</w>
           <w>curtes</w>
           <w>fuerit</w>
@@ -30416,7 +30445,7 @@
           <w>aut</w>
           <w>ante<lb n="7" xml:id="CE34-5_lb_093v_07"/>steterit</w>
           <w>nullum</w>
-          <w>peritus</w>
+          <w>penitus</w>
           <w>qui</w>
           <w>ser<c corresp="#v">u</c>um</w>
           <w>sequitur</w>
@@ -30449,7 +30478,8 @@
           <lb n="9" xml:id="CE34-5_lb_093v_09"/>
           <w><g ref="#openetlig"/></w>
           <w>qui</w>
-          <w>ser<c corresp="#v">u</c>us</w>
+          <w>ser<c corresp="#v">u</c>um</w>
+          <w><g ref="#openetlig"/></w>
           <w>antesteterit</w>
           <w>aut</w>
           <w>de</w>
@@ -30607,7 +30637,16 @@
           <w>aut</w>
           <w>aberrare</w>
           <w>ille</w>
-          <add hand="scribe_2" place="above"><w>so</w></add>
+          <add hand="scribe_2" place="above">
+            <choice>
+              <abbr><am><g ref="#slongtwodot"/></am></abbr>
+              <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan><!-- CHECK meaning -->
+            </choice>
+            <w><choice>
+              <abbr><am><g ref="#omacr"/></am></abbr>
+              <expan>o<ex>mo</ex></expan>
+            </choice></w>
+          </add>
           <w>qui</w>
           <w>eum</w>
           <w>suscepit</w>
@@ -30652,11 +30691,12 @@
               <expan>eu<ex>m</ex></expan>
             </choice>
           </w>
-          <w>postea</w>
+          <w>post</w>
+          <w>se</w>
           <w>habu<add hand="scribe_2" place="above">it</add></w>
         </p>
-        <p n="275" xml:id="CE34-5_p_093v_275"><lb n="19" type="rubric" xml:id="CE34-5_lb_093v_19"
-                /><label><num><w>CCLXXV</w></num></label>
+        <p n="275" xml:id="CE34-5_p_093v_275">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_093v_19"/><label><num><w>CCLXXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>mancipium</w>
           <w>al<g ref="#jnodotenl"/>enum</w>
@@ -30798,7 +30838,10 @@
           <w><c corresp="#v">u</c>iam</w>
           <w>ostenderit</w>
           <w><g ref="#openetlig"/></w>
-          <w>mancipis</w>
+          <w><choice>
+            <sic>mancipis</sic>
+            <corr>mancipius</corr>
+          </choice></w>
   
         <pb n="094r" xml:id="CE34-5_folio_094r"/>
   
@@ -33122,8 +33165,8 @@
           </w>
           <w>mi<add hand="scribe_2" place="above">sit</add></w>
         </p>
-        <p n="312" xml:id="CE34-5_p_096r_312"><lb n="26" type="rubric" xml:id="CE34-5_lb_096r_26"
-                /><label><num><w>CCCXII</w></num></label>
+        <p n="312" xml:id="CE34-5_p_096r_312">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_096r_26"/><label><num><w>CCCXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fera</w>
           <w><choice>
@@ -33135,7 +33178,7 @@
           <w><c corresp="#v">u</c>ulnerata</w>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
-          <w><hi rend="cap">D</hi>e</w>
+          <lb n="27" type="rubric" xml:id="CE34-5_lb_096r_27"/>
           <w>fera</w>
           <w>ab</w>
           <w>al<g ref="#jnodotenl"/>io</w>
