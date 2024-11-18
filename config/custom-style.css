@@ -20,6 +20,22 @@
 
 /* ***************************************************************** */
 
+.diplomaticEdition .add[data-place = "margin"],
+.add[data-place = "margin-right"],
+.add[data-place = "margin-left"] {
+    width: 20% !important;
+    float: right !important;
+    padding-left: 3% !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 3% !important;
+    text-align: left;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    background-color: beige !important;
+    font-size: 90%;
+}
+
 .interpretativeEdition .surplus {
   display: none !important;
 }
