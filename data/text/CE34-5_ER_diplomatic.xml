@@ -576,6 +576,13 @@
           <mapping type="normalized">ae</mapping>
         </char>
 
+        <glyph xml:id="cogon">
+          <localProp name="Name" value="LATIN SMALL LETTER C WITH OGONEK"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E476</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">c</mapping>
+        </glyph>
+        
         <!-- aggiunto 2019-03-13 -->
         <char xml:id="xtilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER X WITH TILDE"/>
@@ -2323,6 +2330,7 @@
           <w>sexto</w>
           <w>feliciter</w><pc>.</pc>
         </p>
+
         <p>
           <lb n="6" xml:id="CE34-5_lb_057v_6"/>
           <w><hi rend="black and red">Q</hi>uanta</w>
@@ -7819,8 +7827,9 @@
           <w>eius</w>
           <w>infiscent<g ref="#ur"/></w>
         </p>
-        <p n="2" xml:id="CE34-5_p_066r_02"><lb n="22" type="rubric" xml:id="CE34-5_lb_066r_22"
-              /><label><num><w>II</w></num></label>
+
+        <p n="2" xml:id="CE34-5_p_066r_02">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_066r_22"/><label><num><w>II</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>cum</w>
@@ -7906,7 +7915,9 @@
           <w>occidere</w>
           <w>iussit</w>
         </p>
-        <p n="3" xml:id="CE34-5_p_066v_03"><lb n="3" type="rubric" xml:id="CE34-5_lb_066v_03"
+
+        <p n="3" xml:id="CE34-5_p_066v_03">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_066v_03"
               /><label><num><w>III</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -7932,7 +7943,9 @@
           <w>eius</w>
           <w>infescentur</w>
         </p>
-        <p n="4" xml:id="CE34-5_p_066v_04"><lb n="6" type="rubric" xml:id="CE34-5_lb_066v_06"
+
+        <p n="4" xml:id="CE34-5_p_066v_04">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_066v_06"
               /><label><num><w>IIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -7959,7 +7972,9 @@
           <w>eius</w>
           <w>infiscent<g ref="#ur"/></w>
         </p>
-        <p n="5" xml:id="CE34-5_p_066v_05"><lb n="8" type="rubric" xml:id="CE34-5_lb_066v_08"
+
+        <p n="5" xml:id="CE34-5_p_066v_05">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_066v_08"
               /><label><num><w>V</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -8002,7 +8017,9 @@
           </w>
           <measure quantity="900" type="currency" unit="soldi"><w>dcccc</w></measure>
         </p>
-        <p n="6" xml:id="CE34-5_p_066v_06"><lb n="11" type="rubric" xml:id="CE34-5_lb_066v_11"
+
+        <p n="6" xml:id="CE34-5_p_066v_06">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_066v_11"
               /><label><num><w>VI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -8055,7 +8072,9 @@
           <w>incurrat</w>
           <w>periculum</w>
         </p>
-        <p n="7" xml:id="CE34-5_p_066v_07"><lb n="16" type="rubric" xml:id="CE34-5_lb_066v_16"
+
+        <p n="7" xml:id="CE34-5_p_066v_07">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_066v_16"
               /><label><num><w>VII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -8103,7 +8122,9 @@
             </choice>
           </w>
         </p>
-        <p n="8" xml:id="CE34-5_p_066v_08"><lb n="20" type="rubric" xml:id="CE34-5_lb_066v_20"
+
+        <p n="8" xml:id="CE34-5_p_066v_08">
+          <lb n="20" type="rubric" xml:id="CE34-5_lb_066v_20"
               /><label><num><w>VIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -8141,7 +8162,9 @@
           <w>culpabilis</w>
           <w>regi</w>
         </p>
-        <p n="9" xml:id="CE34-5_p_066v_09"><lb n="22" type="rubric" xml:id="CE34-5_lb_066v_22"
+
+        <p n="9" xml:id="CE34-5_p_066v_09">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_066v_22"
               /><label><num><w>VIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -8320,7 +8343,9 @@
           <w>iniectum</w>
           <w>fuerit</w>
         </p>
-        <p n="10" xml:id="CE34-5_p_067r_10"><lb n="8" type="rubric" xml:id="CE34-5_lb_067r_08"
+
+        <p n="10" xml:id="CE34-5_p_067r_10">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_067r_08"
               /><label><num><w>X</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -8358,7 +8383,9 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
-        <p n="11" xml:id="CE34-5_p_067r_11"><lb n="11" type="rubric" xml:id="CE34-5_lb_067r_11"
+
+        <p n="11" xml:id="CE34-5_p_067r_11">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_067r_11"
               /><label><num><w>XI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>consilio</w>
@@ -8453,7 +8480,9 @@
             </w>
           </term>
         </p>
-        <p n="12" xml:id="CE34-5_p_067r_12"><lb n="17" type="rubric" xml:id="CE34-5_lb_067r_17"
+
+        <p n="12" xml:id="CE34-5_p_067r_12">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_067r_17"
               /><label><num><w>XII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>duo</w>
@@ -8703,7 +8732,8 @@
       </div>
 
       <div n="Capp. 14-145" subtype="reati_contro_privati" type="capitula" xml:id="CE34-5_div_14-145">
-        <p n="14" xml:id="CE34-5_p_067v_14"><lb n="9" type="rubric" xml:id="CE34-5_lb_067v_09"
+        <p n="14" xml:id="CE34-5_p_067v_14">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_067v_09"
               /><label><num><w>XIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -8828,7 +8858,9 @@
           </w>
           <measure quantity="70" type="currency" unit="soldi"><w>LXX</w></measure>
         </p>
-        <p n="15" xml:id="CE34-5_p_067v_15"><lb n="17" type="rubric" xml:id="CE34-5_lb_067v_17"
+
+        <p n="15" xml:id="CE34-5_p_067v_15">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_067v_17"
               /><label><num><w>XV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#grabworfin" xml:id="CE34-5_term_grabworfin_15" xml:lang="lng">
@@ -8889,7 +8921,9 @@
           <w>regis</w>
           <w>exegat</w>
         </p>
-        <p n="16" xml:id="CE34-5_p_067v_16"><lb n="23" type="rubric" xml:id="CE34-5_lb_067v_23"
+
+        <p n="16" xml:id="CE34-5_p_067v_16">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_067v_23"
               /><label><num><w>XVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#rairaub" xml:id="CE34-5_term_rairaub_16" xml:lang="lng">
@@ -9002,7 +9036,9 @@
           </w>
           <w>gener<g ref="#openetlig"/><g ref="#ur"/></w>
         </p>
-        <p n="17" xml:id="CE34-5_p_068r_17"><lb n="4" type="rubric" xml:id="CE34-5_lb_068r_04"
+
+        <p n="17" xml:id="CE34-5_p_068r_17">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_068r_04"
               /><label><num><w>XVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -9132,8 +9168,9 @@
             </choice>
           </w>
         </p>
-        <p n="18" xml:id="CE34-5_p_068r_18"><lb n="12" type="rubric" xml:id="CE34-5_lb_068r_12"
-                /><label><num><w>XVIII</w></num></label>
+
+        <p n="18" xml:id="CE34-5_p_068r_18">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_068r_12"/><label><num><w>XVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>ex</w>
@@ -9198,8 +9235,9 @@
           </choice></w>
           <w>fuerit</w>
         </p>
-        <p n="19" xml:id="CE34-5_p_068r_19"><lb n="17" type="rubric" xml:id="CE34-5_lb_068r_17"
-                /><label><num><w>XVIIII</w></num></label>
+
+        <p n="19" xml:id="CE34-5_p_068r_19">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_068r_17"/><label><num><w>XVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -9382,7 +9420,9 @@
           <w>occisus</w>
           <w>fuerit</w>
         </p>
-        <p n="20" xml:id="CE34-5_p_068v_20"><lb n="3" type="rubric" xml:id="CE34-5_lb_068v_03"
+
+        <p n="20" xml:id="CE34-5_p_068v_20">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_068v_03"
               /><label><num><w>XX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -9417,7 +9457,9 @@
             </choice>
           </w>
         </p>
-        <p n="21" xml:id="CE34-5_p_068v_21"><lb n="5" type="rubric" xml:id="CE34-5_lb_068v_05"
+
+        <p n="21" xml:id="CE34-5_p_068v_21">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_068v_05"
               /><label><num><w>XXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -9455,7 +9497,9 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
-        <p n="22" xml:id="CE34-5_p_068v_22"><lb n="7" type="rubric" xml:id="CE34-5_lb_068v_07"
+
+        <p n="22" xml:id="CE34-5_p_068v_22">
+          <lb n="7" type="rubric" xml:id="CE34-5_lb_068v_07"
               /><label><num><w>XXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -9501,8 +9545,9 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
-        <p n="23" xml:id="CE34-5_p_068v_23"><lb n="10" type="rubric" xml:id="CE34-5_lb_068v_10"
-                /><label><num><w>XXIII</w></num></label>
+
+        <p n="23" xml:id="CE34-5_p_068v_23">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_068v_10"/><label><num><w>XXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>dux</w>
           <w>exercitalem</w>
@@ -9542,8 +9587,9 @@
             </choice>
           </w>
         </p>
-        <p n="24" xml:id="CE34-5_p_068v_24"><lb n="13" type="rubric" xml:id="CE34-5_lb_068v_13"
-                /><label><num><w>XXXIIII</w></num></label>
+
+        <p n="24" xml:id="CE34-5_p_068v_24">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_068v_13"/><label><num><w>XXXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>gastaldius</w>
           <w>exercitalem</w>
@@ -9575,7 +9621,9 @@
             <reg>inveniat</reg>
           </choice></w>
         </p>
-        <p n="25" xml:id="CE34-5_p_068v_25"><lb n="16" type="rubric" xml:id="CE34-5_lb_068v_16"
+
+        <p n="25" xml:id="CE34-5_p_068v_25">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_068v_16"
               /><label><num><w>XXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -9645,7 +9693,9 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
-        <p n="26" xml:id="CE34-5_p_068v_26"><lb n="21" type="rubric" xml:id="CE34-5_lb_068v_21"
+
+        <p n="26" xml:id="CE34-5_p_068v_26">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_068v_21"
               /><label><num><w>XXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#wegworin" xml:id="CE34-5_term_wegworin_26" xml:lang="lng">
@@ -9712,8 +9762,9 @@
             </choice>
           </w>
         </p>
-        <p n="27" xml:id="CE34-5_p_068v_27"><lb n="26" type="rubric" xml:id="CE34-5_lb_068v_26"
-                /><label><num><w>XXVII</w></num></label>
+
+        <p n="27" xml:id="CE34-5_p_068v_27">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_068v_26"/><label><num><w>XXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -9810,8 +9861,9 @@
             </choice>
           </w>
         </p>
-        <p n="28" xml:id="CE34-5_p_069r_28"><lb n="5" type="rubric" xml:id="CE34-5_lb_069r_05"
-                /><label><num><w>XXVIII</w></num></label>
+
+        <p n="28" xml:id="CE34-5_p_069r_28">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_069r_05"/><label><num><w>XXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>ser<c corresp="#v">u</c>o</w>
@@ -9840,8 +9892,9 @@
             </choice>
           </w>
         </p>
-        <p n="29" xml:id="CE34-5_p_069r_29"><lb n="7" type="rubric" xml:id="CE34-5_lb_069r_07"
-                /><label><num><w>XXVIIII</w></num></label>
+
+        <p n="29" xml:id="CE34-5_p_069r_29">
+          <lb n="7" type="rubric" xml:id="CE34-5_lb_069r_07"/><label><num><w>XXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -9910,7 +9963,9 @@
             </choice>
           </w>
         </p>
-        <p n="30" xml:id="CE34-5_p_069r_30"><lb n="12" type="rubric" xml:id="CE34-5_lb_069r_12"
+
+        <p n="30" xml:id="CE34-5_p_069r_30">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_069r_12"
               /><label><num><w>XXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#marhworfin" xml:id="CE34-5_term_marhworfin_30" xml:lang="lng">
@@ -10005,7 +10060,9 @@
             </choice>
           </w>
         </p>
-        <p n="31" xml:id="CE34-5_p_069r_31"><lb n="16" type="rubric" xml:id="CE34-5_lb_069r_16"
+
+        <p n="31" xml:id="CE34-5_p_069r_31">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_069r_16"
               /><label><num><w>XXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#walupaus" xml:lang="lng">
@@ -10084,8 +10141,9 @@
             <w>transfigura<c corresp="#v">u</c>erit</w>
           </gloss>
         </p>
-        <p n="32" xml:id="CE34-5_p_069r_32"><lb n="21" type="rubric" xml:id="CE34-5_lb_069r_21"
-                /><label><num><w>XXXII</w></num></label>
+
+        <p n="32" xml:id="CE34-5_p_069r_32">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_069r_21"/><label><num><w>XXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -10203,8 +10261,9 @@
           </choice></w>
           <w>clam<g ref="#openetlig"/></w>
         </p>
-        <p n="33" xml:id="CE34-5_p_069v_33"><lb n="3" type="rubric" xml:id="CE34-5_lb_069v_03"
-                /><label><num><w>XXXIII</w></num></label>
+
+        <p n="33" xml:id="CE34-5_p_069v_33">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_069v_03"/><label><num><w>XXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>in</w>
@@ -10256,8 +10315,9 @@
             </choice>
           </w>
         </p>
-        <p n="34" xml:id="CE34-5_p_069v_34"><lb n="7" type="rubric" xml:id="CE34-5_lb_069v_07"
-                /><label><num><w>XXXIIII</w></num></label>
+
+        <p n="34" xml:id="CE34-5_p_069v_34">
+          <lb n="7" type="rubric" xml:id="CE34-5_lb_069v_07"/><label><num><w>XXXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -10328,7 +10388,9 @@
             </choice>
           </w>
         </p>
-        <p n="35" xml:id="CE34-5_p_069v_35"><lb n="11" type="rubric" xml:id="CE34-5_lb_069v_11"
+
+        <p n="35" xml:id="CE34-5_p_069v_35">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_069v_11"
               /><label><num><w>XXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>scandala</w>
@@ -10414,8 +10476,9 @@
           <w>facta</w>
           <w>est</w>
         </p>
-        <p n="36" xml:id="CE34-5_p_069v_36"><lb n="16" type="rubric" xml:id="CE34-5_lb_069v_16"
-                /><label><num><w>XXXVI</w></num></label>
+
+        <p n="36" xml:id="CE34-5_p_069v_36">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_069v_16"/><label><num><w>XXXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -10460,8 +10523,9 @@
           <w>a</w>
           <w>rege</w>
         </p>
-        <p n="37" xml:id="CE34-5_p_069v_37"><lb n="19" type="rubric" xml:id="CE34-5_lb_069v_19"
-                /><label><num><w>XXXVII</w></num></label>
+
+        <p n="37" xml:id="CE34-5_p_069v_37">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_069v_19"/><label><num><w>XXXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -10583,8 +10647,9 @@
             </choice>
           </w>
         </p>
-        <p n="38" xml:id="CE34-5_p_069v_38"><lb n="25" type="rubric" xml:id="CE34-5_lb_069v_25"
-                /><label><num><w>XXXVIII</w></num></label>
+
+        <p n="38" xml:id="CE34-5_p_069v_38">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_069v_25"/><label><num><w>XXXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>in</w>
@@ -10673,8 +10738,9 @@
           <w>edictum</w>
           <w>legitur</w>
         </p>
-        <p n="39" xml:id="CE34-5_p_070r_39"><lb n="4" type="rubric" xml:id="CE34-5_lb_070r_04"
-                /><label><num><w>XXXVIIII</w></num></label>
+
+        <p n="39" xml:id="CE34-5_p_070r_39">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_070r_04"/><label><num><w>XXXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>liber</w>
           <w>homo</w>
@@ -10768,7 +10834,9 @@
             </choice>
           </w>
         </p>
-        <p n="40" xml:id="CE34-5_p_070r_40"><lb n="9" type="rubric" xml:id="CE34-5_lb_070r_09"
+
+        <p n="40" xml:id="CE34-5_p_070r_40">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_070r_09"
               /><label><num><w>XL</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
@@ -10849,7 +10917,9 @@
           <w>aut</w>
           <w>feritas</w>
         </p>
-        <p n="41" xml:id="CE34-5_p_070r_41"><lb n="13" type="rubric" xml:id="CE34-5_lb_070r_13"
+
+        <p n="41" xml:id="CE34-5_p_070r_41">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_070r_13"
               /><label><num><w>XLI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>hominem</w>
@@ -10957,7 +11027,9 @@
           <w>male</w>
           <w>tracta<c corresp="#v">u</c>it</w>
         </p>
-        <p n="42" xml:id="CE34-5_p_070r_42"><lb n="20" type="rubric" xml:id="CE34-5_lb_070r_20"
+
+        <p n="42" xml:id="CE34-5_p_070r_42">
+          <lb n="20" type="rubric" xml:id="CE34-5_lb_070r_20"
               /><label><num><w>XLII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>hominem</w>
@@ -11000,8 +11072,9 @@
             </choice>
           </w>
         </p>
-        <p n="43" xml:id="CE34-5_p_070r_43"><lb n="24" type="rubric" xml:id="CE34-5_lb_070r_24"
-                /><label><num><w>XLIII</w></num></label>
+
+        <p n="43" xml:id="CE34-5_p_070r_43">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_070r_24"/><label><num><w>XLIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -11120,8 +11193,9 @@
           <w>non</w>
           <w>nomerentur</w>
         </p>
-        <p n="44" xml:id="CE34-5_p_070v_44"><lb n="3" type="rubric" xml:id="CE34-5_lb_070v_03"
-                /><label><num><w>XLIIII</w></num></label>
+
+        <p n="44" xml:id="CE34-5_p_070v_44">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_070v_03"/><label><num><w>XLIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>alium</w>
@@ -11164,7 +11238,9 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
-        <p n="45" xml:id="CE34-5_p_070v_45"><lb n="5" type="rubric" xml:id="CE34-5_lb_070v_05"
+
+        <p n="45" xml:id="CE34-5_p_070v_45">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_070v_05"
               /><label><num><w>XLV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plagas</w>
@@ -11222,7 +11298,9 @@
             <w>inimicit<g ref="#jnodotenl"/>ia</w>
           </gloss>
         </p>
-        <p n="46" xml:id="CE34-5_p_070v_46"><lb n="8" type="rubric" xml:id="CE34-5_lb_070v_08"
+
+        <p n="46" xml:id="CE34-5_p_070v_46">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_070v_08"
               /><label><num><w>XLVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -11303,8 +11381,9 @@
           <w>non</w>
           <w>nomerentur</w>
         </p>
-        <p n="47" xml:id="CE34-5_p_070v_47"><lb n="12" type="rubric" xml:id="CE34-5_lb_070v_12"
-                /><label><num><w>XLVII</w></num></label>
+
+        <p n="47" xml:id="CE34-5_p_070v_47">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_070v_12"/><label><num><w>XLVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -11434,8 +11513,9 @@
           <w>ad</w>
           <w>mano</w>
         </p>
-        <p n="48" xml:id="CE34-5_p_070v_48"><lb n="19" type="rubric" xml:id="CE34-5_lb_070v_19"
-                /><label><num><w>XLVIII</w></num></label>
+
+        <p n="48" xml:id="CE34-5_p_070v_48">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_070v_19"/><label><num><w>XLVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>oculo</w>
           <w>e<c corresp="#v">u</c>ulso</w>
@@ -11491,8 +11571,9 @@
           <w>oculo</w>
           <w>excussit</w>
         </p>
-        <p n="49" xml:id="CE34-5_p_070v_49"><lb n="23" type="rubric" xml:id="CE34-5_lb_070v_23"
-                /><label><num><w>XLVIIIII</w></num></label>
+
+        <p n="49" xml:id="CE34-5_p_070v_49">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_070v_23"/><label><num><w>XLVIIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>naso</w>
           <w>absciso</w>
@@ -11519,7 +11600,9 @@
             </choice>
           </w>
         </p>
-        <p n="50" xml:id="CE34-5_p_070v_50"><lb n="25" type="rubric" xml:id="CE34-5_lb_070v_25"/><label><num>
+
+        <p n="50" xml:id="CE34-5_p_070v_50">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_070v_25"/><label><num>
               <w>L</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>labro</w>
@@ -11642,7 +11725,9 @@
             <expan>adp<ex>re</ex>ti<g ref="#openetlig"/>ur</expan>
           </choice></w>
         </p>
-        <p n="52" xml:id="CE34-5_p_071r_52"><lb n="5" type="rubric" xml:id="CE34-5_lb_071r_05"
+
+        <p n="52" xml:id="CE34-5_p_071r_52">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_071r_05"
               /><label><num><w>LII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>dentes</w>
@@ -11670,7 +11755,9 @@
           </w>
           <measure quantity="8" type="currency" unit="soldi"><w>VIII</w></measure>
         </p>
-        <p n="53" xml:id="CE34-5_p_071r_53"><lb n="7" type="rubric" xml:id="CE34-5_lb_071r_07"
+
+        <p n="53" xml:id="CE34-5_p_071r_53">
+          <lb n="7" type="rubric" xml:id="CE34-5_lb_071r_07"
               /><label><num><w>LIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aure</w>
@@ -11697,7 +11784,9 @@
             </choice>
           </w>
         </p>
-        <p n="54" xml:id="CE34-5_p_071r_54"><lb n="9" type="rubric" xml:id="CE34-5_lb_071r_09"
+
+        <p n="54" xml:id="CE34-5_p_071r_54">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_071r_09"
               /><label><num><w>LIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -11721,7 +11810,9 @@
           </w>
           <measure quantity="12" type="currency" unit="soldi"><w>XII</w></measure>
         </p>
-        <p n="55" xml:id="CE34-5_p_071r_55"><lb n="11" type="rubric" xml:id="CE34-5_lb_071r_11"
+
+        <p n="55" xml:id="CE34-5_p_071r_55">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_071r_11"
               /><label><num><w>LV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
@@ -11756,7 +11847,9 @@
           <w>cicatrix</w>
           <w>pareat</w>
         </p>
-        <p n="56" xml:id="CE34-5_p_071r_56"><lb n="14" type="rubric" xml:id="CE34-5_lb_071r_14"
+
+        <p n="56" xml:id="CE34-5_p_071r_56">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_071r_14"
               /><label><num><w>LVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
@@ -11801,7 +11894,9 @@
           </w>
           <measure quantity="16" type="currency" unit="soldi"><w>XVI</w></measure>
         </p>
-        <p n="57" xml:id="CE34-5_p_071r_57"><lb n="16" type="rubric" xml:id="CE34-5_lb_071r_16"
+
+        <p n="57" xml:id="CE34-5_p_071r_57">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_071r_16"
               /><label><num><w>LVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
@@ -11833,8 +11928,9 @@
           </w>
           <measure quantity="10" type="currency" unit="soldi"><w>X</w></measure>
         </p>
-        <p n="58" xml:id="CE34-5_p_071r_58"><lb n="18" type="rubric" xml:id="CE34-5_lb_071r_18"
-                /><label><num><w>LVIII</w></num></label>
+
+        <p n="58" xml:id="CE34-5_p_071r_58">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_071r_18"/><label><num><w>LVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>alium</w>
@@ -11862,8 +11958,9 @@
           </w>
           <measure quantity="8" type="currency" unit="soldi"><w>VIII</w></measure>
         </p>
-        <p n="59" xml:id="CE34-5_p_071r_59"><lb n="20" type="rubric" xml:id="CE34-5_lb_071r_20"
-                /><label><num><w>LVIIII</w></num></label>
+
+        <p n="59" xml:id="CE34-5_p_071r_59">
+          <lb n="20" type="rubric" xml:id="CE34-5_lb_071r_20"/><label><num><w>LVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -11890,7 +11987,9 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
-        <p n="60" xml:id="CE34-5_p_071r_60"><lb n="22" type="rubric" xml:id="CE34-5_lb_071r_22"
+
+        <p n="60" xml:id="CE34-5_p_071r_60">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_071r_22"
               /><label><num><w>LX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
@@ -11947,7 +12046,9 @@
           </w>
           <measure quantity="8" type="currency" unit="soldi"><w>VIII</w></measure>
         </p>
-        <p n="61" xml:id="CE34-5_p_071r_61"><lb n="25" type="rubric" xml:id="CE34-5_lb_071r_25"
+
+        <p n="61" xml:id="CE34-5_p_071r_61">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_071r_25"
               /><label><num><w>LXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>numero</w>
@@ -12009,7 +12110,9 @@
             <corr>conponentur</corr>
           </choice></w><pc>.</pc>
         </p>
-        <p n="62" xml:id="CE34-5_p_071v_62"><lb n="3" type="rubric" xml:id="CE34-5_lb_071v_03"
+
+        <p n="62" xml:id="CE34-5_p_071v_62">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_071v_03"
               /><label><num><w>LXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>incisione</w>
@@ -12078,7 +12181,9 @@
             </choice>
           </w>
         </p>
-        <p n="63" xml:id="CE34-5_p_071v_63"><lb n="8" type="rubric" xml:id="CE34-5_lb_071v_08"
+
+        <p n="63" xml:id="CE34-5_p_071v_63">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_071v_08"
               /><label><num><w>LXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digita</w>
@@ -12108,8 +12213,9 @@
             </choice>
           </w>
         </p>
-        <p n="64" xml:id="CE34-5_p_071v_64"><lb n="11" type="rubric" xml:id="CE34-5_lb_071v_11"
-                /><label><num><w>LXIIII</w></num></label>
+
+        <p n="64" xml:id="CE34-5_p_071v_64">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_071v_11"/><label><num><w>LXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>secundum</w>
           <w>digitum</w>
@@ -12135,7 +12241,9 @@
           </w>
           <measure quantity="16" type="currency" unit="soldi"><w>XVI</w></measure>
         </p>
-        <p n="65" xml:id="CE34-5_p_071v_65"><lb n="13" type="rubric" xml:id="CE34-5_lb_071v_13"
+
+        <p n="65" xml:id="CE34-5_p_071v_65">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_071v_13"
               /><label><num><w>LXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
@@ -12162,7 +12270,9 @@
           </w>
           <measure quantity="5" type="currency" unit="soldi"><w>V</w></measure>
         </p>
-        <p n="66" xml:id="CE34-5_p_071v_66"><lb n="15" type="rubric" xml:id="CE34-5_lb_071v_15"
+
+        <p n="66" xml:id="CE34-5_p_071v_66">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_071v_15"
               /><label><num><w>LXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quartum</w>
@@ -12181,8 +12291,9 @@
           </w>
           <measure quantity="8" type="currency" unit="soldi"><w>VIII</w></measure>
         </p>
-        <p n="67" xml:id="CE34-5_p_071v_67"><lb n="16" type="rubric" xml:id="CE34-5_lb_071v_16"
-                /><label><num><w>LXVII</w></num></label>
+
+        <p n="67" xml:id="CE34-5_p_071v_67">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_071v_16"/><label><num><w>LXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quintum</w>
           <w>digitum</w>
@@ -12201,8 +12312,9 @@
           </w>
           <measure quantity="16" type="currency" unit="soldi"><w>XVI</w></measure>
         </p>
-        <p n="68" xml:id="CE34-5_p_071v_68"><lb n="17" type="rubric" xml:id="CE34-5_lb_071v_17"
-                /><label><num><w>LXVIII</w></num></label>
+
+        <p n="68" xml:id="CE34-5_p_071v_68">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_071v_17"/><label><num><w>LXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>incisione</w>
           <w>pedum</w>
@@ -12255,8 +12367,9 @@
             </choice>
           </w>
         </p>
-        <p n="69" xml:id="CE34-5_p_071v_69"><lb n="21" type="rubric" xml:id="CE34-5_lb_071v_21"
-                /><label><num><w>LXVIIII</w></num></label>
+
+        <p n="69" xml:id="CE34-5_p_071v_69">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_071v_21"/><label><num><w>LXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -12283,7 +12396,9 @@
           </w>
           <measure quantity="16" type="currency" unit="soldi"><w>XVI</w></measure>
         </p>
-        <p n="70" xml:id="CE34-5_p_071v_70"><lb n="22" type="rubric" xml:id="CE34-5_lb_071v_22"
+
+        <p n="70" xml:id="CE34-5_p_071v_70">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_071v_22"
               /><label><num><w>LXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>secundo</w>
@@ -12326,7 +12441,9 @@
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>VI</w></measure>
         </p>
-        <p n="71" xml:id="CE34-5_p_071v_71"><lb n="24" type="rubric" xml:id="CE34-5_lb_071v_24"
+
+        <p n="71" xml:id="CE34-5_p_071v_71">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_071v_24"
               /><label><num><w>LXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>tertium</w>
@@ -12347,7 +12464,9 @@
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>III</w></measure>
         </p>
-        <p n="72" xml:id="CE34-5_p_071v_72"><lb n="25" type="rubric" xml:id="CE34-5_lb_071v_25"
+
+        <p n="72" xml:id="CE34-5_p_071v_72">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_071v_25"
               /><label><num><w>LXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quartum</w>
@@ -12367,8 +12486,9 @@
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>III</w></measure>
         </p>
-        <p n="73" xml:id="CE34-5_p_071v_73"><lb n="26" type="rubric" xml:id="CE34-5_lb_071v_26"
-                /><label><num><w>LXIII</w></num></label>
+
+        <p n="73" xml:id="CE34-5_p_071v_73">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_071v_26"/><label><num><w>LXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -12522,7 +12642,9 @@
             </w>
           </gloss>
         </p>
-        <p n="75" xml:id="CE34-5_p_072r_75"><lb n="11" type="rubric" xml:id="CE34-5_lb_072r_11"
+
+        <p n="75" xml:id="CE34-5_p_072r_75">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_072r_11"
               /><label><num><w>LXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>infantes</w>
@@ -12638,8 +12760,9 @@
             </choice>
           </w>
         </p>
-        <p n="76" xml:id="CE34-5_p_072r_76"><lb n="19" type="rubric" xml:id="CE34-5_lb_072r_19"
-                /><label><num><w>LXXVI</w></num></label>
+
+        <p n="76" xml:id="CE34-5_p_072r_76">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_072r_19"/><label><num><w>LXXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aldius</w>
           <w><g ref="#openetlig"/></w>
@@ -12656,8 +12779,9 @@
           <w>probati</w>
           <w>sunt</w>
         </p>
-        <p n="77" xml:id="CE34-5_p_072r_77"><lb n="21" type="rubric" xml:id="CE34-5_lb_072r_21"
-                /><label><num><w>LXXVII</w></num></label>
+
+        <p n="77" xml:id="CE34-5_p_072r_77">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_072r_21"/><label><num><w>LXXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -12753,8 +12877,9 @@
           <w>non</w>
           <w>nomer<g ref="#openetlig"/>ur</w>
         </p>
-        <p n="78" xml:id="CE34-5_p_072r_78"><lb n="26" type="rubric" xml:id="CE34-5_lb_072r_26"
-                /><label><num><w>LXXVIII</w></num></label>
+
+        <p n="78" xml:id="CE34-5_p_072r_78">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_072r_26"/><label><num><w>LXXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>aldium</w>
@@ -12830,8 +12955,9 @@
           <w>non</w>
           <w>nomerentur</w>
         </p>
-        <p n="79" xml:id="CE34-5_p_072v_79"><lb n="5" type="rubric" xml:id="CE34-5_lb_072v_05"
-                /><label><num><w>LXXVIIII</w></num></label>
+
+        <p n="79" xml:id="CE34-5_p_072v_79">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_072v_05"/><label><num><w>LXXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>aldium</w>
@@ -12868,7 +12994,9 @@
           <w>mer<lb n="8" xml:id="CE34-5_lb_072v_08"/>cedes</w>
           <w>medici</w>
         </p>
-        <p n="80" xml:id="CE34-5_p_072v_80"><lb n="9" type="rubric" xml:id="CE34-5_lb_072v_09"
+
+        <p n="80" xml:id="CE34-5_p_072v_80">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_072v_09"
               /><label><num><w>LXXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
@@ -12908,8 +13036,9 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
-        <p n="81" xml:id="CE34-5_p_072v_81"><lb n="12" type="rubric" xml:id="CE34-5_lb_072v_12"
-                /><label><num><w>LXXXI</w></num></label>
+
+        <p n="81" xml:id="CE34-5_p_072v_81">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_072v_12"/><label><num><w>LXXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>oculo</w>
           <w><c corresp="#v">u</c>ulso</w>
@@ -12961,8 +13090,9 @@
             </choice>
           </w>
         </p>
-        <p n="82" xml:id="CE34-5_p_072v_82"><lb n="16" type="rubric" xml:id="CE34-5_lb_072v_16"
-                /><label><num><w>LXXXII</w></num></label>
+
+        <p n="82" xml:id="CE34-5_p_072v_82">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_072v_16"/><label><num><w>LXXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>naso</w>
           <w>absciso</w>
@@ -13005,8 +13135,9 @@
           <w>mercedes</w>
           <w>medici</w>
         </p>
-        <p n="83" xml:id="CE34-5_p_072v_83"><lb n="19" type="rubric" xml:id="CE34-5_lb_072v_19"
-                /><label><num><w>LXXXIII</w></num></label>
+
+        <p n="83" xml:id="CE34-5_p_072v_83">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_072v_19"/><label><num><w>LXXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aure</w>
           <w>
@@ -13045,8 +13176,9 @@
           <w>mercedes</w>
           <w>medici</w>
         </p>
-        <p n="84" xml:id="CE34-5_p_072v_84"><lb n="22" type="rubric" xml:id="CE34-5_lb_072v_22"
-                /><label><num><w>LXXXIIII</w></num></label>
+
+        <p n="84" xml:id="CE34-5_p_072v_84">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_072v_22"/><label><num><w>LXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>labro</w>
           <w>absciso</w>
@@ -13083,8 +13215,9 @@
           <w>merce<lb n="25" xml:id="CE34-5_lb_072v_25"/>des</w>
           <w>medici</w>
         </p>
-        <p n="85" xml:id="CE34-5_p_072v_85"><lb n="26" type="rubric" xml:id="CE34-5_lb_072v_26"
-                /><label><num><w>LXXXV</w></num></label>
+
+        <p n="85" xml:id="CE34-5_p_072v_85">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_072v_26"/><label><num><w>LXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>dentes</w>
           <w>excussos</w>
@@ -13155,8 +13288,9 @@
             </choice>
           </w>
         </p>
-        <p n="86" xml:id="CE34-5_p_073r_86"><lb n="4" type="rubric" xml:id="CE34-5_lb_073r_04"
-                /><label><num><w>LXXXVI</w></num></label>
+
+        <p n="86" xml:id="CE34-5_p_073r_86">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_073r_04"/><label><num><w>LXXXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>maxillares</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -13204,8 +13338,9 @@
             </choice>
           </w>
         </p>
-        <p n="87" xml:id="CE34-5_p_073r_87"><lb n="6" type="rubric" xml:id="CE34-5_lb_073r_06"
-                /><label><num><w>LXXXVII</w></num></label>
+
+        <p n="87" xml:id="CE34-5_p_073r_87">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_073r_06"/><label><num><w>LXXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
           <w>rupto</w>
@@ -13254,8 +13389,9 @@
           <w>mercedes</w>
           <w>medici</w>
         </p>
-        <p n="88" xml:id="CE34-5_p_073r_88"><lb n="9" type="rubric" xml:id="CE34-5_lb_073r_09"
-                /><label><num><w>LXXXVIII</w></num></label>
+
+        <p n="88" xml:id="CE34-5_p_073r_88">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_073r_09"/><label><num><w>LXXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>manu</w>
           <w>abscisa</w>
@@ -13314,8 +13450,9 @@
             </choice>
           </w>
         </p>
-        <p n="89" xml:id="CE34-5_p_073r_89"><lb n="11" type="rubric" xml:id="CE34-5_lb_073r_11"
-                /><label><num><w>LXXXVIIII</w></num></label>
+
+        <p n="89" xml:id="CE34-5_p_073r_89">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_073r_11"/><label><num><w>LXXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digita</w>
           <w>manus</w>
@@ -13366,7 +13503,9 @@
           <w>mercedes</w>
           <w>medici</w>
         </p>
-        <p n="90" xml:id="CE34-5_p_073r_90"><lb n="14" type="rubric" xml:id="CE34-5_lb_073r_14"
+
+        <p n="90" xml:id="CE34-5_p_073r_90">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_073r_14"
               /><label><num><w>XC</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>secundum</w>
@@ -13393,7 +13532,9 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
-        <p n="91" xml:id="CE34-5_p_073r_91"><lb n="15" type="rubric" xml:id="CE34-5_lb_073r_15"
+
+        <p n="91" xml:id="CE34-5_p_073r_91">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_073r_15"
               /><label><num><w>XCI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -13421,7 +13562,9 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
-        <p n="92" xml:id="CE34-5_p_073r_92"><lb n="16" type="rubric" xml:id="CE34-5_lb_073r_16"
+
+        <p n="92" xml:id="CE34-5_p_073r_92">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_073r_16"
               /><label><num><w>XCII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -13446,8 +13589,9 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
-        <p n="93" xml:id="CE34-5_p_073r_93"><lb n="17" type="rubric" xml:id="CE34-5_lb_073r_17"
-                /><label><num><w>XCIII</w></num></label>
+
+        <p n="93" xml:id="CE34-5_p_073r_93">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_073r_17"/><label><num><w>XCIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -13473,8 +13617,9 @@
           </w>
           <measure quantity="4" type="currency" unit="soldi"><w>IIII</w></measure>
         </p>
-        <p n="94" xml:id="CE34-5_p_073r_94"><lb n="18" type="rubric" xml:id="CE34-5_lb_073r_18"
-                /><label><num><w>XCIIII</w></num></label>
+
+        <p n="94" xml:id="CE34-5_p_073r_94">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_073r_18"/><label><num><w>XCIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>coxa</w>
           <w>rupta</w>
@@ -13535,7 +13680,9 @@
           <w>mercedes</w>
           <w>medici</w>
         </p>
-        <p n="95" xml:id="CE34-5_p_073r_95"><lb n="21" type="rubric" xml:id="CE34-5_lb_073r_21"
+
+        <p n="95" xml:id="CE34-5_p_073r_95">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_073r_21"
               /><label><num><w>XCV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>pede</w>
@@ -13575,7 +13722,9 @@
             </choice>
           </w>
         </p>
-        <p n="96" xml:id="CE34-5_p_073r_96"><lb n="23" type="rubric" xml:id="CE34-5_lb_073r_23"
+
+        <p n="96" xml:id="CE34-5_p_073r_96">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_073r_23"
               /><label><num><w>XCVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digita</w>
@@ -13621,8 +13770,9 @@
           <w>mercedes</w>
           <w>medici</w>
         </p>
-        <p n="97" xml:id="CE34-5_p_073r_97"><lb n="26" type="rubric" xml:id="CE34-5_lb_073r_26"
-                /><label><num><w>XCVII</w></num></label>
+
+        <p n="97" xml:id="CE34-5_p_073r_97">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_073r_26"/><label><num><w>XCVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>secundum</w>
           <w>
@@ -13674,7 +13824,9 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
-        <p n="99" xml:id="CE34-5_p_073v_99"><lb n="2" type="rubric" xml:id="CE34-5_lb_073v_02"/>
+
+        <p n="99" xml:id="CE34-5_p_073v_99">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_073v_02"/>
           <label><num><w>XCVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quartum</w>
@@ -13695,7 +13847,9 @@
           </w>
           <measure quantity="1" type="currency" unit="soldi"><w>I</w></measure>
         </p>
-        <p n="100" xml:id="CE34-5_p_073v_100"><lb n="3" type="rubric" xml:id="CE34-5_lb_073v_03"/>
+
+        <p n="100" xml:id="CE34-5_p_073v_100">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_073v_03"/>
           <label><num><w>C</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -13721,7 +13875,9 @@
           </w>
           <measure quantity="1" type="currency" unit="soldi"><w>I</w></measure>
         </p>
-        <p n="101" xml:id="CE34-5_p_073v_101"><lb n="4" type="rubric" xml:id="CE34-5_lb_073v_04"/>
+
+        <p n="101" xml:id="CE34-5_p_073v_101">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_073v_04"/>
           <label><num><w>CI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
@@ -13770,7 +13926,9 @@
           <w>mercedes</w>
           <w>medici</w>
         </p>
-        <p n="102" xml:id="CE34-5_p_073v_102"><lb n="8" type="rubric" xml:id="CE34-5_lb_073v_08"/>
+
+        <p n="102" xml:id="CE34-5_p_073v_102">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_073v_08"/>
           <label><num><w>CII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -13835,7 +13993,9 @@
           </w>
           <measure quantity="1" type="currency" unit="soldi"><w>I</w></measure>
         </p>
-        <p n="103" xml:id="CE34-5_p_073v_103"><lb n="12" type="rubric" xml:id="CE34-5_lb_073v_12"/>
+
+        <p n="103" xml:id="CE34-5_p_073v_103">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_073v_12"/>
           <label><num><w>CIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
@@ -13943,7 +14103,9 @@
             <reg>numerentur</reg>
           </choice></w>
         </p>
-        <p n="104" xml:id="CE34-5_p_073v_104"><lb n="18" type="rubric" xml:id="CE34-5_lb_073v_18"/>
+
+        <p n="104" xml:id="CE34-5_p_073v_104">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_073v_18"/>
           <label><num><w>CIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
@@ -13983,7 +14145,9 @@
           </w>
           <measure quantity="1" type="currency" unit="soldi"><w>I</w></measure>
         </p>
-        <p n="105" xml:id="CE34-5_p_073v_105"><lb n="20" type="rubric" xml:id="CE34-5_lb_073v_20"/>
+
+        <p n="105" xml:id="CE34-5_p_073v_105">
+          <lb n="20" type="rubric" xml:id="CE34-5_lb_073v_20"/>
           <label><num><w>CV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>oculo</w>
@@ -14035,7 +14199,9 @@
             </choice>
           </w>
         </p>
-        <p n="106" xml:id="CE34-5_p_073v_106"><lb n="23" type="rubric" xml:id="CE34-5_lb_073v_23"/>
+
+        <p n="106" xml:id="CE34-5_p_073v_106">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_073v_23"/>
           <label><num><w>CVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>naso</w>
@@ -14073,7 +14239,9 @@
           <lb n="25" xml:id="CE34-5_lb_073v_25"/>
           <w>medici</w>
         </p>
-        <p n="107" xml:id="CE34-5_p_073v_107"><lb n="26" type="rubric" xml:id="CE34-5_lb_073v_26"/>
+
+        <p n="107" xml:id="CE34-5_p_073v_107">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_073v_26"/>
           <label><num><w>CVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -14112,7 +14280,9 @@
           <w>mercedes</w>
           <w>medici</w>
         </p>
-        <p n="108" xml:id="CE34-5_p_074r_108"><lb n="2" type="rubric" xml:id="CE34-5_lb_074r_02"/>
+
+        <p n="108" xml:id="CE34-5_p_074r_108">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_074r_02"/>
           <label><num><w>CVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><add place="above">la</add>bro</w>
@@ -14152,7 +14322,9 @@
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>III</w></measure>
         </p>
-        <p n="109" xml:id="CE34-5_p_074r_109"><lb n="4" type="rubric" xml:id="CE34-5_lb_074r_04"/>
+
+        <p n="109" xml:id="CE34-5_p_074r_109">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_074r_04"/>
           <label><num><w>CVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>dentes</w>
@@ -14223,7 +14395,9 @@
             </choice>
           </w>
         </p>
-        <p n="110" xml:id="CE34-5_p_074r_110"><lb n="8" type="rubric" xml:id="CE34-5_lb_074r_08"/>
+
+        <p n="110" xml:id="CE34-5_p_074r_110">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_074r_08"/>
           <label><num><w>CX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
@@ -14280,7 +14454,9 @@
           <w>mercedes</w>
           <w>medici</w>
         </p>
-        <p n="111" xml:id="CE34-5_p_074r_111"><lb n="11" type="rubric" xml:id="CE34-5_lb_074r_11"/>
+
+        <p n="111" xml:id="CE34-5_p_074r_111">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_074r_11"/>
           <label><num><w>CXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>plaga</w>
@@ -14377,7 +14553,9 @@
             </choice>
           </w>
         </p>
-        <p n="112" xml:id="CE34-5_p_074r_112"><lb n="17" type="rubric" xml:id="CE34-5_lb_074r_17"/>
+
+        <p n="112" xml:id="CE34-5_p_074r_112">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_074r_17"/>
           <label><num><w>CXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
@@ -14487,7 +14665,9 @@
             </w>
           </add>
         </p>
-        <p n="113" xml:id="CE34-5_p_074r_113"><lb n="22" type="rubric" xml:id="CE34-5_lb_074r_22"/>
+
+        <p n="113" xml:id="CE34-5_p_074r_113">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_074r_22"/>
           <label><num><w>CXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>manu</w>
@@ -14526,7 +14706,9 @@
             </choice>
           </w>
         </p>
-        <p n="114" xml:id="CE34-5_p_074r_114"><lb n="24" type="rubric" xml:id="CE34-5_lb_074r_24"/>
+
+        <p n="114" xml:id="CE34-5_p_074r_114">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_074r_24"/>
           <label><num><w>CXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digita</w>
@@ -14575,7 +14757,9 @@
           </w>
           <measure quantity="4" type="currency" unit="soldi"><w>IIII</w></measure>
         </p>
-        <p n="115" xml:id="CE34-5_p_074r_115"><lb n="26" type="rubric" xml:id="CE34-5_lb_074r_26"/>
+
+        <p n="115" xml:id="CE34-5_p_074r_115">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_074r_26"/>
           <label><num><w>CXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>secundum</w>
@@ -14630,8 +14814,9 @@
             <measure quantity="1" type="currency" unit="soldi"><w>I</w></measure>
           </add>
         </p>
-        <p n="117" xml:id="CE34-5_p_074v_117"><lb n="2" type="rubric" xml:id="CE34-5_lb_074v_02"
-                /><label><num><w>CXVII</w></num></label>
+
+        <p n="117" xml:id="CE34-5_p_074v_117">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_074v_02"/><label><num><w>CXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quartum</w>
           <w>excusserit</w>
@@ -14649,8 +14834,9 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
-        <p n="118" xml:id="CE34-5_p_074v_118"><lb n="3" type="rubric" xml:id="CE34-5_lb_074v_03"
-                /><label><num><w>CXVIII</w></num></label>
+
+        <p n="118" xml:id="CE34-5_p_074v_118">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_074v_03"/><label><num><w>CXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quintum</w>
           <w>digitum</w>
@@ -14677,8 +14863,9 @@
           <w>mercedes</w>
           <w>medici</w>
         </p>
-        <p n="119" xml:id="CE34-5_p_074v_119"><lb n="5" type="rubric" xml:id="CE34-5_lb_074v_05"
-                /><label><num><w>CXVIIII</w></num></label>
+
+        <p n="119" xml:id="CE34-5_p_074v_119">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_074v_05"/><label><num><w>CXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>pede</w>
           <w>seruo</w>
@@ -14713,7 +14900,9 @@
           <w>ut</w>
           <w>supra</w>
         </p>
-        <p n="120" xml:id="CE34-5_p_074v_120"><lb n="7" type="rubric" xml:id="CE34-5_lb_074v_07"
+
+        <p n="120" xml:id="CE34-5_p_074v_120">
+          <lb n="7" type="rubric" xml:id="CE34-5_lb_074v_07"
               /><label><num><w>CXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>digitas</w>
@@ -14756,8 +14945,9 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
-        <p n="121" xml:id="CE34-5_p_074v_121"><lb n="9" type="rubric" xml:id="CE34-5_lb_074v_09"
-                /><label><num><w>CXXI</w></num></label>
+
+        <p n="121" xml:id="CE34-5_p_074v_121">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_074v_09"/><label><num><w>CXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -14782,8 +14972,9 @@
           </w>
           <measure quantity="2" type="currency" unit="soldi"><w>II</w></measure>
         </p>
-        <p n="122" xml:id="CE34-5_p_074v_122"><lb n="10" type="rubric" xml:id="CE34-5_lb_074v_10"
-                /><label><num><w>CXXII</w></num></label>
+
+        <p n="122" xml:id="CE34-5_p_074v_122">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_074v_10"/><label><num><w>CXXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>tertio</w>
           <w>excusserit</w>
@@ -14801,8 +14992,9 @@
           </w>
           <measure quantity="1" type="currency" unit="soldi"><w>I</w></measure>
         </p>
-        <p n="123" xml:id="CE34-5_p_074v_123"><lb n="11" type="rubric" xml:id="CE34-5_lb_074v_11"
-                /><label><num><w>CXXIII</w></num></label>
+
+        <p n="123" xml:id="CE34-5_p_074v_123">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_074v_11"/><label><num><w>CXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -14825,8 +15017,9 @@
           </w>
           <w>medio</w>
         </p>
-        <p n="124" xml:id="CE34-5_p_074v_124"><lb n="12" type="rubric" xml:id="CE34-5_lb_074v_12"
-                /><label><num><w>CXXIIII</w></num></label>
+
+        <p n="124" xml:id="CE34-5_p_074v_124">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_074v_12"/><label><num><w>CXXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -14855,8 +15048,9 @@
           </w>
           <w>medio</w>
         </p>
-        <p n="125" xml:id="CE34-5_p_074v_125"><lb n="13" type="rubric" xml:id="CE34-5_lb_074v_13"
-                /><label><num><w>CXXV</w></num></label>
+
+        <p n="125" xml:id="CE34-5_p_074v_125">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_074v_13"/><label><num><w>CXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>rusticano</w>
@@ -14939,8 +15133,8 @@
           <w>numeret<g ref="#ur"/></w>
         </p>
 
-        <p n="126" xml:id="CE34-5_p_074v_126"><lb n="17" type="rubric" xml:id="CE34-5_lb_074v_17"
-                /><label><num><w>CXXVI</w></num></label>
+        <p n="126" xml:id="CE34-5_p_074v_126">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_074v_17"/><label><num><w>CXXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>membro</w>
           <w>sideratum</w>
@@ -15011,8 +15205,9 @@
           <w>eum</w>
           <w>occidissit</w>
         </p>
-        <p n="127" xml:id="CE34-5_p_074v_127"><lb n="23" type="rubric" xml:id="CE34-5_lb_074v_23"
-                /><label><num><w>CXXVII</w></num></label>
+
+        <p n="127" xml:id="CE34-5_p_074v_127">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_074v_23"/><label><num><w>CXXVII</w></num></label>
           <w>
             <choice>
               <abbr><hi rend="cap">O</hi><am><g ref="#mtilde"/></am>s</abbr>
@@ -15187,8 +15382,9 @@
           <w>mortui</w>
           <w>reput<g ref="#openetlig"/>ur</w>
         </p>
-        <p n="128" xml:id="CE34-5_p_075r_128"><lb n="9" type="rubric" xml:id="CE34-5_lb_075r_09"
-                /><label><num><w>CXXVIII</w></num></label>
+
+        <p n="128" xml:id="CE34-5_p_075r_128">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_075r_09"/><label><num><w>CXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>eos</w>
           <w>qui</w>
@@ -15261,8 +15457,9 @@
           </w>
           <w>fuerit</w>
         </p>
-        <p n="129" xml:id="CE34-5_p_075r_129"><lb n="14" type="rubric" xml:id="CE34-5_lb_075r_14"
-                /><label><num><w>CXXVIIII</w></num></label>
+
+        <p n="129" xml:id="CE34-5_p_075r_129">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_075r_14"/><label><num><w>CXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#aldius"><w>aldio</w></term>
           <w>occiso</w>
@@ -15291,8 +15488,9 @@
           </w>
           <measure quantity="40" type="currency" unit="soldi"><w>XL</w></measure>
         </p>
-        <p n="130" xml:id="CE34-5_p_075r_130"><lb n="16" type="rubric" xml:id="CE34-5_lb_075r_16"
-                /><label><num><w>CXXX</w></num></label>
+
+        <p n="130" xml:id="CE34-5_p_075r_130">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_075r_16"/><label><num><w>CXXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>ministeriale</w>
@@ -15321,8 +15519,9 @@
           </w>
           <measure quantity="50" type="currency" unit="soldi"><w>L</w></measure>
         </p>
-        <p n="131" xml:id="CE34-5_p_075r_131"><lb n="18" type="rubric" xml:id="CE34-5_lb_075r_18"
-                /><label><num><w>CXXXI</w></num></label>
+
+        <p n="131" xml:id="CE34-5_p_075r_131">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_075r_18"/><label><num><w>CXXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#aldius"><w>aldio</w></term>
           <w><c corresp="#v">u</c>ero</w>
@@ -15352,8 +15551,9 @@
           </w>
           <measure quantity="25" type="currency" unit="soldi"><w>XXV</w></measure>
         </p>
-        <p n="132" xml:id="CE34-5_p_075r_132"><lb n="21" type="rubric" xml:id="CE34-5_lb_075r_21"
-                /><label><num><w>CXXXII</w></num></label>
+
+        <p n="132" xml:id="CE34-5_p_075r_132">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_075r_21"/><label><num><w>CXXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>massario</w>
@@ -15384,8 +15584,9 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
-        <p n="133" xml:id="CE34-5_p_075r_133"><lb n="23" type="rubric" xml:id="CE34-5_lb_075r_23"
-                /><label><num><w>CXXXIII</w></num></label>
+
+        <p n="133" xml:id="CE34-5_p_075r_133">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_075r_23"/><label><num><w>CXXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>bo<c corresp="#v">u</c>ulco</w>
           <w>occiso</w>
@@ -15419,8 +15620,9 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
-        <p n="134" xml:id="CE34-5_p_075r_134"><lb n="25" type="rubric" xml:id="CE34-5_lb_075r_25"
-                /><label><num><w>CXXXIIII</w></num></label>
+
+        <p n="134" xml:id="CE34-5_p_075r_134">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_075r_25"/><label><num><w>CXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>rusticano</w>
@@ -15517,8 +15719,9 @@
           </w>
           <measure quantity="25" type="currency" unit="soldi"><w>XXV</w></measure>
         </p>
-        <p n="136" xml:id="CE34-5_p_075v_136"><lb n="5" type="rubric" xml:id="CE34-5_lb_075v_05"
-                /><label><num><w>CXXXVI</w></num></label>
+
+        <p n="136" xml:id="CE34-5_p_075v_136">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_075v_05"/><label><num><w>CXXXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>porcario</w>
           <w>cabrario</w>
@@ -15595,8 +15798,9 @@
           <w>propria</w>
           <w>exeunt</w>
         </p>
-        <p n="137" xml:id="CE34-5_p_075v_137"><lb n="10" type="rubric" xml:id="CE34-5_lb_075v_10"
-                /><label><num><w>CXXXVII</w></num></label>
+
+        <p n="137" xml:id="CE34-5_p_075v_137">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_075v_10"/><label><num><w>CXXXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w><choice>
@@ -15671,8 +15875,8 @@
           </seg>
         </p>
 
-        <p n="138" xml:id="CE34-5_p_075v_138"><lb n="14" type="rubric" xml:id="CE34-5_lb_075v_14"
-                /><label><num><w>CXXXUIII</w></num></label>
+        <p n="138" xml:id="CE34-5_p_075v_138">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_075v_14"/><label><num><w>CXXXUIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>arbore</w>
           <space quantity="6" unit="chars"/><!-- CHECK <del rend="erasure"><gap quantity="6" unit="chars"/></del> ??? -->
@@ -15846,8 +16050,9 @@
           <w>nolendo</w>
           <w>fecerunt</w>
         </p>
-        <p n="139" xml:id="CE34-5_p_075v_139"><lb n="25" type="rubric" xml:id="CE34-5_lb_075v_25"
-                /><label><num><w>CXXXVIIII</w></num></label>
+
+        <p n="139" xml:id="CE34-5_p_075v_139">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_075v_25"/><label><num><w>CXXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>eneno</w>
           <w>temperato</w>
@@ -15909,7 +16114,9 @@
           <w>confusi</w>
           <w>fuerit</w>
         </p>
-        <p n="140" xml:id="CE34-5_p_076r_140"><lb n="2" type="rubric" xml:id="CE34-5_lb_076r_02"
+
+        <p n="140" xml:id="CE34-5_p_076r_140">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_076r_02"
               /><label><num><w>CXL</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>liber</w>
@@ -15974,8 +16181,9 @@
               </choice>
             </w></surplus>
         </p>
-        <p n="141" xml:id="CE34-5_p_076r_141"><lb n="6" type="rubric" xml:id="CE34-5_lb_076r_06"
-                /><label><num><w>CXLI</w></num></label>
+
+        <p n="141" xml:id="CE34-5_p_076r_141">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_076r_06"/><label><num><w>CXLI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <add hand="scribe_1" place="above"><w>alii</w></add>
@@ -16010,8 +16218,9 @@
           <w>integrum</w>
           <w>conponatur</w>
         </p>
-        <p n="142" xml:id="CE34-5_p_076r_142"><lb n="9" type="rubric" xml:id="CE34-5_lb_076r_09"
-                /><label><num><w>CXLII</w></num></label>
+
+        <p n="142" xml:id="CE34-5_p_076r_142">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_076r_09"/><label><num><w>CXLII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w><c corresp="#v">u</c>el</w>
@@ -16148,8 +16357,9 @@
             </damage>
           </add>
         </p>
-        <p n="143" xml:id="CE34-5_p_076r_143"><lb n="19" type="rubric" xml:id="CE34-5_lb_076r_19"
-                /><label><num><w>CXLIII</w></num></label>
+
+        <p n="143" xml:id="CE34-5_p_076r_143">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_076r_19"/><label><num><w>CXLIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>eo</w>
           <w>qui</w>
@@ -16297,8 +16507,9 @@
             </choice>
           </w>
         </p>
-        <p n="144" xml:id="CE34-5_p_076v_144"><lb n="3" type="rubric" xml:id="CE34-5_lb_076v_03"
-                /><label><num><w>CXLIIII</w></num></label>
+
+        <p n="144" xml:id="CE34-5_p_076v_144">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_076v_03"/><label><num><w>CXLIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>magistros</w>
           <w>commacinos</w>
@@ -16450,8 +16661,9 @@
           <lb n="11" xml:id="CE34-5_lb_076v_11"/>
           <w>susteneat</w>
         </p>
-        <p n="145" xml:id="CE34-5_p_076v_145"><lb n="12" type="rubric" xml:id="CE34-5_lb_076v_12"
-                /><label><num><w>CXLV</w></num></label>
+
+        <p n="145" xml:id="CE34-5_p_076v_145">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_076v_12"/><label><num><w>CXLV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>rogatos</w>
           <w>aut</w>
@@ -16560,8 +16772,8 @@
       </div>
 
       <div n="Capp. 146-152" subtype="reati_contro_cose" type="capitula" xml:id="CE34-5_div_146-152">
-        <p n="146" xml:id="CE34-5_p_076v_146"><lb n="21" type="rubric" xml:id="CE34-5_lb_076v_21"
-                /><label><num><w>CXLVI</w></num></label>
+        <p n="146" xml:id="CE34-5_p_076v_146">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_076v_21"/><label><num><w>CXLVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><choice>
             <orig>Incendium</orig>
@@ -16722,8 +16934,9 @@
           <w>mal<g ref="#jnodotenl"/></w>
           <w>penet<gap extent="5" unit="chars"/><supplied reason="illegible" resp="alim-pi">ravit</supplied></w>
         </p>
-        <p n="147" xml:id="CE34-5_p_077r_147"><lb n="3" type="rubric" xml:id="CE34-5_lb_077r_03"
-                /><label><num><w>CXL<del rend="strikethrough">VII</del></w></num></label><!-- CHECK more is deleted -->
+
+        <p n="147" xml:id="CE34-5_p_077r_147">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_077r_03"/><label><num><w>CXL<del rend="strikethrough">VII</del></w></num></label><!-- CHECK more is deleted -->
           <add hand="scribe_1" place="above"><!-- CHECK meaning -->
             <w><g ref="#hstrok"/><g ref="#dstrok"/></w>
           </add>
@@ -16755,6 +16968,7 @@
           <w>neglegenter</w>
           <w>dimittat</w>
         </p>
+
         <p>
           <lb n="5" xml:id="CE34-5_lb_077r_05"/>
           <label><num><w>CXLVII</w></num></label>
@@ -16857,8 +17071,8 @@
           <w>requiratur</w>
         </p>
 
-        <p n="148" xml:id="CE34-5_p_077r_148"><lb n="11" type="rubric" xml:id="CE34-5_lb_077r_11"
-                /><label><num><w>CXLVIII</w></num></label>
+        <p n="148" xml:id="CE34-5_p_077r_148">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_077r_11"/><label><num><w>CXLVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -16981,8 +17195,9 @@
           <w>foco</w>
           <w>dimisit</w>
         </p>
-        <p n="149" xml:id="CE34-5_p_077r_149"><lb n="22" type="rubric" xml:id="CE34-5_lb_077r_22"
-                /><label><num><w>CXLVIIII</w></num></label>
+
+        <p n="149" xml:id="CE34-5_p_077r_149">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_077r_22"/><label><num><w>CXLVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>molino</w>
           <w>incenso</w>
@@ -17032,7 +17247,9 @@
           <w>cremata</w>
           <w>sunt</w>
         </p>
-        <p n="150" xml:id="CE34-5_p_077r_150"><lb n="25" type="rubric" xml:id="CE34-5_lb_077r_25"
+
+        <p n="150" xml:id="CE34-5_p_077r_150">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_077r_25"
               /><label><num><w>CL</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -17133,7 +17350,9 @@
             <w>stollestatio</w>
           </term>
         </p>
-        <p n="151" xml:id="CE34-5_p_077v_151"><lb n="5" type="rubric" xml:id="CE34-5_lb_077v_05"
+
+        <p n="151" xml:id="CE34-5_p_077v_151">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_077v_05"
               /><label><num><w>CLI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
@@ -17224,8 +17443,9 @@
           <w>alienum</w>
           <w>est</w>
         </p>
-        <p n="152" xml:id="CE34-5_p_077v_152"><lb n="9" type="rubric" xml:id="CE34-5_lb_077v_09"
-                /><label><num><w>CLII</w></num></label>
+
+        <p n="152" xml:id="CE34-5_p_077v_152">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_077v_09"/><label><num><w>CLII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>operarius</w>
@@ -17366,8 +17586,8 @@
       </div>
 
       <div n="Capp. 153-171" subtype="figli_legittimi" type="capitula" xml:id="CE34-5_div_153-171">
-        <p n="153" xml:id="CE34-5_p_077v_153"><lb n="18" type="rubric" xml:id="CE34-5_lb_077v_18"
-                /><label><num><w>CLIII</w></num></label>
+        <p n="153" xml:id="CE34-5_p_077v_153">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_077v_18"/><label><num><w>CLIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>grados</w>
           <w>cognationum</w>
@@ -17688,8 +17908,9 @@
           <w>patris</w>
           <w>substantia</w>
         </p>
-        <p n="155" xml:id="CE34-5_p_078r_155"><lb n="13" type="rubric" xml:id="CE34-5_lb_078r_13"
-                /><label><num><w>CLV</w></num></label>
+
+        <p n="155" xml:id="CE34-5_p_078r_155">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_078r_13"/><label><num><w>CLV</w></num></label>
           <w><hi rend="cap">N</hi>ulli</w>
           <w>sit</w>
           <w>
@@ -17728,8 +17949,8 @@
           <w>habuerint</w>
         </p>
 
-        <p n="156" xml:id="CE34-5_p_078r_156"><lb n="17" type="rubric" xml:id="CE34-5_lb_078r_17"
-                /><label><num><w>CLVI</w></num></label>
+        <p n="156" xml:id="CE34-5_p_078r_156">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_078r_17"/><label><num><w>CLVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>filio</w>
           <w>naturale</w>
@@ -17793,8 +18014,9 @@
           <w>ipsas</w>
           <w>res</w>
         </p>
-        <p n="157" xml:id="CE34-5_p_078r_157"><lb n="22" type="rubric" xml:id="CE34-5_lb_078r_22"
-                /><label><num><w>CLVII</w></num></label>
+
+        <p n="157" xml:id="CE34-5_p_078r_157">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_078r_22"/><label><num><w>CLVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>eo</w>
           <w>qui</w>
@@ -17847,8 +18069,9 @@
             </choice>
           </w>
         </p>
-        <p n="158" xml:id="CE34-5_p_078r_158"><lb n="25" type="rubric" xml:id="CE34-5_lb_078r_25"
-                /><label><num><w>CLVIII</w></num></label>
+
+        <p n="158" xml:id="CE34-5_p_078r_158">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_078r_25"/><label><num><w>CLVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>de</w>
@@ -17940,8 +18163,9 @@
           <measure quantity="4" type="currency" unit="soldi"><w>quattuor</w></measure>
           <w>uncias</w>
         </p>
-        <p n="159" xml:id="CE34-5_p_078v_159"><lb n="8" type="rubric" xml:id="CE34-5_lb_078v_08"
-                /><label><num><w>CLVIIII</w></num></label>
+
+        <p n="159" xml:id="CE34-5_p_078v_159">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_078v_08"/><label><num><w>CLVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -18015,8 +18239,9 @@
           <w>uncias</w>
           <w>suscipiat</w>
         </p>
-        <p n="160" xml:id="CE34-5_p_078v_160"><lb n="15" type="rubric" xml:id="CE34-5_lb_078v_15"
-                /><label><num><w>CLX</w></num></label>
+
+        <p n="160" xml:id="CE34-5_p_078v_160">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_078v_15"/><label><num><w>CLX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>dereliquerit</w>
@@ -18100,8 +18325,9 @@
           <w>partes</w>
           <w>duas</w>
         </p>
-        <p n="161" xml:id="CE34-5_p_078v_161"><lb n="24" type="rubric" xml:id="CE34-5_lb_078v_24"
-                /><label><num><w>CLXI</w></num></label>
+
+        <p n="161" xml:id="CE34-5_p_078v_161">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_078v_24"/><label><num><w>CLXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#mundio" xml:lang="lng"><w>mundio</w></term>
           <w><choice>
@@ -18152,7 +18378,9 @@
             <expan>tertia<ex>m</ex></expan>
           </choice></w>
         </p>
-        <p n="162" xml:id="CE34-5_p_079r_162"><lb n="2" type="rubric" xml:id="CE34-5_lb_079r_02"/>
+
+        <p n="162" xml:id="CE34-5_p_079r_162">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_079r_02"/>
           <label><num><w>CLXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>fuerint</w>
@@ -18250,8 +18478,9 @@
             <w>pacificandi</w>
           </gloss>
         </p>
-        <p n="163" xml:id="CE34-5_p_079r_163"><lb n="9" type="rubric" xml:id="CE34-5_lb_079r_09"
-                /><label><num><w>CLXIII</w></num></label>
+
+        <p n="163" xml:id="CE34-5_p_079r_163">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_079r_09"/><label><num><w>CLXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -18400,8 +18629,9 @@
           <w>regia</w>
           <w>succedat</w>
         </p>
-        <p n="164" xml:id="CE34-5_p_079r_164"><lb n="19" type="rubric" xml:id="CE34-5_lb_079r_19"
-                /><label><num><w>CLXIIII</w></num></label>
+
+        <p n="164" xml:id="CE34-5_p_079r_164">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_079r_19"/><label><num><w>CLXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>de</w>
@@ -18554,8 +18784,9 @@
           <w>pugna</w>
           <w>dimittatur</w>
         </p>
-        <p n="165" xml:id="CE34-5_p_079v_165"><lb n="3" type="rubric" xml:id="CE34-5_lb_079v_03"
-                /><label><num><w>CLXV</w></num></label>
+
+        <p n="165" xml:id="CE34-5_p_079v_165">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_079v_03"/><label><num><w>CLXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>dixerit</w>
@@ -18662,8 +18893,9 @@
           <w>pugna</w>
           <w>dimittatur</w>
         </p>
-        <p n="166" xml:id="CE34-5_p_079v_166"><lb n="11" type="rubric" xml:id="CE34-5_lb_079v_11"
-                /><label><num><w>CLXVI</w></num></label>
+
+        <p n="166" xml:id="CE34-5_p_079v_166">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_079v_11"/><label><num><w>CLXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>suspectus</w>
           <w>fuerit</w>
@@ -18764,8 +18996,9 @@
           <w>pugna</w>
           <w>dimittatur</w>
         </p>
-        <p n="167" xml:id="CE34-5_p_079v_167"><lb n="18" type="rubric" xml:id="CE34-5_lb_079v_18"
-                /><label><num><w>CLXVII</w></num></label>
+
+        <p n="167" xml:id="CE34-5_p_079v_167">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_079v_18"/><label><num><w>CLXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>fratres</w>
           <w><choice>
@@ -18957,8 +19190,9 @@
           <lb n="5" xml:id="CE34-5_lb_080r_05"/>
           <w>di<c corresp="#v">u</c>idant</w>
         </p>
-        <p n="168" xml:id="CE34-5_p_080r_168"><lb n="6" type="rubric" xml:id="CE34-5_lb_080r_06"
-                /><label><num><w>CLXVIII</w></num></label>
+
+        <p n="168" xml:id="CE34-5_p_080r_168">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_080r_06"/><label><num><w>CLXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>exhereditatem</w>
           <w>
@@ -18991,8 +19225,9 @@
           <w>alii</w>
           <w>thingare</w>
         </p>
-        <p n="169" xml:id="CE34-5_p_080r_169"><lb n="9" type="rubric" xml:id="CE34-5_lb_080r_09"
-                /><label><num><w>CLXVIIII</w></num></label>
+
+        <p n="169" xml:id="CE34-5_p_080r_169">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_080r_09"/><label><num><w>CLXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <space quantity="15" unit="chars"/>
           <w>Iustas</w>
@@ -19057,8 +19292,9 @@
           <w>patre</w>
           <w>exhereditatur</w>
         </p>
-        <p n="170" xml:id="CE34-5_p_080r_170"><lb n="14" type="rubric" xml:id="CE34-5_lb_080r_14"
-                /><label><num><w>CLXX</w></num></label>
+
+        <p n="170" xml:id="CE34-5_p_080r_170">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_080r_14"/><label><num><w>CLXX</w></num></label>
           <w>Item</w>
           <w>sicut</w>
           <w>ne</w>
@@ -19120,8 +19356,9 @@
           <w>legem</w>
           <w>con<lb n="19" xml:id="CE34-5_lb_080r_19"/>ser<c corresp="#v">u</c>et</w>
         </p>
-        <p n="171" xml:id="CE34-5_p_080r_171"><lb n="20" type="rubric" xml:id="CE34-5_lb_080r_20"
-                /><label><num><w>CLXXI</w></num></label>
+
+        <p n="171" xml:id="CE34-5_p_080r_171">
+          <lb n="20" type="rubric" xml:id="CE34-5_lb_080r_20"/><label><num><w>CLXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -19298,8 +19535,8 @@
       </div>
 
       <div n="Capp. 172-177" subtype="successioni" type="capitula" xml:id="CE34-5_div_172-177">
-        <p n="172" xml:id="CE34-5_p_080v_172"><lb n="7" type="rubric" xml:id="CE34-5_lb_080v_07"
-                /><label><num><w>CLXXII</w></num></label>
+        <p n="172" xml:id="CE34-5_p_080v_172">
+          <lb n="7" type="rubric" xml:id="CE34-5_lb_080v_07"/><label><num><w>CLXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#thinx" xml:id="CE34-5_term_thinx_172" xml:lang="lng">
             <w>thinx</w>
@@ -19354,8 +19591,9 @@
           <w>oriat<g ref="#ur"/></w>
           <add hand="scribe_2" place="below"><w>intentio</w></add>
         </p>
-        <p n="173" xml:id="CE34-5_p_080v_173"><lb n="11" type="rubric" xml:id="CE34-5_lb_080v_11"
-                /><label><num><w>CLXXIII</w></num></label>
+
+        <p n="173" xml:id="CE34-5_p_080v_173">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_080v_11"/><label><num><w>CLXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -19493,8 +19731,9 @@
           <w>qui</w>
           <w>accepit</w>
         </p>
-        <p n="174" xml:id="CE34-5_p_080v_174"><lb n="21" type="rubric" xml:id="CE34-5_lb_080v_21"
-                /><label><num><w>CLXXIIII</w></num></label>
+
+        <p n="174" xml:id="CE34-5_p_080v_174">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_080v_21"/><label><num><w>CLXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#thinx" xml:id="CE34-5_term_thinx_174" xml:lang="lng">
             <w>thinx</w>
@@ -19631,8 +19870,9 @@
           <w>nexu</w>
           <w>posite</w>
         </p>
-        <p n="175" xml:id="CE34-5_p_081r_175"><lb n="5" type="rubric" xml:id="CE34-5_lb_081r_05"
-                /><label><num><w>CLXXV</w></num></label>
+
+        <p n="175" xml:id="CE34-5_p_081r_175">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_081r_05"/><label><num><w>CLXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#launegild" xml:id="CE34-5_term_launegild_175" xml:lang="lng">
             <w>launichild</w>
@@ -19703,8 +19943,9 @@
           <w>sit</w>
           <w>absolutus</w>
         </p>
-        <p n="176" xml:id="CE34-5_p_081r_176"><lb n="11" type="rubric" xml:id="CE34-5_lb_081r_11"
-                /><label><num><w>CLXXVI</w></num></label>
+
+        <p n="176" xml:id="CE34-5_p_081r_176">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_081r_11"/><label><num><w>CLXXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>lebroso</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -19802,8 +20043,9 @@
           <w>intuitu</w>
           <w>nutriatur</w>
         </p>
-        <p n="177" xml:id="CE34-5_p_081r_177"><lb n="18" type="rubric" xml:id="CE34-5_lb_081r_18"
-                /><label><num><w>CLXXVII</w></num></label>
+
+        <p n="177" xml:id="CE34-5_p_081r_177">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_081r_18"/><label><num><w>CLXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>homine</w>
           <w>libero</w>
@@ -19894,8 +20136,8 @@
       </div>
 
       <div n="Capp. 178-223" subtype="matrimoni" type="capitula" xml:id="CE34-5_div_178-223">
-        <p n="178" xml:id="CE34-5_p_081r_178"><lb n="24" type="rubric" xml:id="CE34-5_lb_081r_24"
-                /><label><num><w>CLXXVIII</w></num></label>
+        <p n="178" xml:id="CE34-5_p_081r_178">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_081r_24"/><label><num><w>CLXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -20043,8 +20285,9 @@
           </choice></w>
           <w>causa</w>
         </p>
-        <p n="179" xml:id="CE34-5_p_081v_179"><lb n="9" type="rubric" xml:id="CE34-5_lb_081v_09"
-                /><label><num><w>CLXXVIIII</w></num></label>
+
+        <p n="179" xml:id="CE34-5_p_081v_179">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_081v_09"/><label><num><w>CLXXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -20185,8 +20428,9 @@
           <w>conscriptum</w>
           <w>est</w>
         </p>
-        <p n="180" xml:id="CE34-5_p_081v_180"><lb n="19" type="rubric" xml:id="CE34-5_lb_081v_19"
-                /><label><num><w>CLXXX</w></num></label>
+
+        <p n="180" xml:id="CE34-5_p_081v_180">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_081v_19"/><label><num><w>CLXXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>puella</w>
           <w>sponsata</w>
@@ -20275,8 +20519,9 @@
           </w>
           <add hand="scribe_2" place="above"><unclear><w>a<c corresp="#v">u</c>eniente</w></unclear></add>
         </p>
-        <p n="181" xml:id="CE34-5_p_081v_181"><lb n="26" type="rubric" xml:id="CE34-5_lb_081v_26"
-                /><label><num><w>CLXXXJ</w>
+
+        <p n="181" xml:id="CE34-5_p_081v_181">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_081v_26"/><label><num><w>CLXXXJ</w>
               <w><hi rend="cap">S</hi>i</w></num></label>
           <w>pater</w>
           <w>
@@ -20353,8 +20598,9 @@
           <lb n="4" xml:id="CE34-5_lb_082r_04"/>
           <w>requiratur</w>
         </p>
-        <p n="182" xml:id="CE34-5_p_082r_182"><lb n="5" type="rubric" xml:id="CE34-5_lb_082r_05"
-                /><label><num><w>CLXXXII</w></num></label>
+
+        <p n="182" xml:id="CE34-5_p_082r_182">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_082r_05"/><label><num><w>CLXXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>idua</w>
           <w>qualem</w>
@@ -20806,8 +21052,9 @@
           <w>subsistere</w>
           <w>firmitate</w>
         </p>
-        <p n="184" xml:id="CE34-5_p_082v_184"><lb n="10" type="rubric" xml:id="CE34-5_lb_082v_10"
-                /><label><num><w>CLXXXIIII</w></num></label>
+
+        <p n="184" xml:id="CE34-5_p_082v_184">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_082v_10"/><label><num><w>CLXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>exenio</w>
           <w>nuptialem</w>
@@ -20878,8 +21125,9 @@
             </choice>
           </w>
         </p>
-        <p n="185" xml:id="CE34-5_p_082v_185"><lb n="15" type="rubric" xml:id="CE34-5_lb_082v_15"
-                /><label><num><w>CLXXXV</w></num></label>
+
+        <p n="185" xml:id="CE34-5_p_082v_185">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_082v_15"/><label><num><w>CLXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>incestas</w>
           <w><g ref="#openetlig"/></w>
@@ -21043,8 +21291,9 @@
           <w>est</w>
           <w>separentur</w>
         </p>
-        <p n="186" xml:id="CE34-5_p_082v_186"><lb n="24" type="rubric" xml:id="CE34-5_lb_082v_24"
-                /><label><num><w>CLXXXVI</w></num></label>
+
+        <p n="186" xml:id="CE34-5_p_082v_186">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_082v_24"/><label><num><w>CLXXXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w><c corresp="#v">u</c>ero</w>
           <w>mul<g ref="#jnodotenl"/>eri</w>
@@ -21188,8 +21437,9 @@
           <w>ipsa</w>
           <w>elegerit</w>
         </p>
-        <p n="187" xml:id="CE34-5_p_083r_187"><lb n="8" type="rubric" xml:id="CE34-5_lb_083r_08"
-                /><label><num><w>CLXXXVII</w></num></label>
+
+        <p n="187" xml:id="CE34-5_p_083r_187">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_083r_08"/><label><num><w>CLXXXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -21339,8 +21589,9 @@
             </choice>
           </w>
         </p>
-        <p n="188" xml:id="CE34-5_p_083r_188"><lb n="16" type="rubric" xml:id="CE34-5_lb_083r_16"
-                /><label><num><w>CLXXXVIII</w></num></label>
+
+        <p n="188" xml:id="CE34-5_p_083r_188">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_083r_16"/><label><num><w>CLXXXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>puella</w>
           <w>libera</w>
@@ -21486,8 +21737,9 @@
           <w>facere</w>
           <w>neglexit</w>
         </p>
-        <p n="189" xml:id="CE34-5_p_083r_189"><lb n="24" type="rubric" xml:id="CE34-5_lb_083r_24"
-                /><label><num><w>CLXXXVIIII</w></num></label>
+
+        <p n="189" xml:id="CE34-5_p_083r_189">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_083r_24"/><label><num><w>CLXXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fornicationis</w>
           <w>causa</w>
@@ -21669,7 +21921,9 @@
           <w>regis</w>
           <w>placuerit</w>
         </p>
-        <p n="190" xml:id="CE34-5_p_083v_190"><lb n="9" type="rubric" xml:id="CE34-5_lb_083v_09"
+
+        <p n="190" xml:id="CE34-5_p_083v_190">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_083v_09"
               /><label><num><w>CXC</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sponsata</w>
@@ -21852,8 +22106,9 @@
           <w>non</w>
           <w>requirat</w>
         </p>
-        <p n="191" xml:id="CE34-5_p_083v_191"><lb n="19" type="rubric" xml:id="CE34-5_lb_083v_19"
-                /><label><num><w>CXCI</w></num></label>
+
+        <p n="191" xml:id="CE34-5_p_083v_191">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_083v_19"/><label><num><w>CXCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>rapto</w>
           <w>sponsata</w>
@@ -22010,8 +22265,9 @@
           <w>conpositionis</w>
           <w>pena</w>
         </p>
-        <p n="192" xml:id="CE34-5_p_084r_192"><lb n="4" type="rubric" xml:id="CE34-5_lb_084r_04"
-                /><label><num><w>CXCII</w></num></label>
+
+        <p n="192" xml:id="CE34-5_p_084r_192">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_084r_04"/><label><num><w>CXCII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>parentes</w>
           <w>de</w>
@@ -22147,8 +22403,9 @@
           </w>
           <w>re<lb n="12" xml:id="CE34-5_lb_084r_12"/>quirat</w>
         </p>
-        <p n="193" xml:id="CE34-5_p_084r_193"><lb n="13" type="rubric" xml:id="CE34-5_lb_084r_13"
-                /><label><num><w>CXCIII</w></num></label>
+
+        <p n="193" xml:id="CE34-5_p_084r_193">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_084r_13"/><label><num><w>CXCIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>puella</w>
           <w>libera</w>
@@ -22209,8 +22466,9 @@
           </w>
           <w>requiratur</w>
         </p>
-        <p n="194" xml:id="CE34-5_p_084r_194"><lb n="17" type="rubric" xml:id="CE34-5_lb_084r_17"
-                /><label><num><w>CXCIIII</w></num></label>
+
+        <p n="194" xml:id="CE34-5_p_084r_194">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_084r_17"/><label><num><w>CXCIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -22262,8 +22520,9 @@
           </w>
           <measure quantity="12" type="currency" unit="soldi"><w>XII</w></measure>
         </p>
-        <p n="195" xml:id="CE34-5_p_084r_195"><lb n="19" type="rubric" xml:id="CE34-5_lb_084r_19"
-                /><label><num><w>CXCV</w></num></label>
+
+        <p n="195" xml:id="CE34-5_p_084r_195">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_084r_19"/><label><num><w>CXCV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>crimen</w>
           <w><choice>
@@ -22426,8 +22685,9 @@
           <w>se</w>
           <w>purifica<c corresp="#v">u</c>erit</w>
         </p>
-        <p n="196" xml:id="CE34-5_p_084v_196"><lb n="6" type="rubric" xml:id="CE34-5_lb_084v_06"
-                /><label><num><w>CXCVI</w></num></label>
+
+        <p n="196" xml:id="CE34-5_p_084v_196">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_084v_06"/><label><num><w>CXCVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>crimen</w>
           <w>adulterii</w>
@@ -22552,8 +22812,9 @@
           <w>habuit</w>
           <w>ha<lb rend="align_right" type="extra"/>bere</w>
         </p>
-        <p n="197" xml:id="CE34-5_p_084v_197"><lb n="13" type="rubric" xml:id="CE34-5_lb_084v_13"
-                /><label><num><w>CXCVII</w></num></label>
+
+        <p n="197" xml:id="CE34-5_p_084v_197">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_084v_13"/><label><num><w>CXCVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>crimen</w>
           <w>nefando</w>
@@ -22668,8 +22929,9 @@
           <w>se</w>
           <w>purificat</w>
         </p>
-        <p n="198" xml:id="CE34-5_p_084v_198"><lb n="21" type="rubric" xml:id="CE34-5_lb_084v_21"
-                /><label><num><w>CXCVIII</w></num></label>
+
+        <p n="198" xml:id="CE34-5_p_084v_198">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_084v_21"/><label><num><w>CXCVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>crimen</w>
           <w>puelle</w>
@@ -22931,8 +23193,9 @@
             </choice>
           </w>
         </p>
-        <p n="199" xml:id="CE34-5_p_085r_199"><lb n="9" type="rubric" xml:id="CE34-5_lb_085r_09"
-                /><label><num><w>CXCVIIII</w></num></label>
+
+        <p n="199" xml:id="CE34-5_p_085r_199">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_085r_09"/><label><num><w>CXCVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w><c corresp="#v">u</c>idua</w>
           <w><choice>
@@ -23232,7 +23495,9 @@
           <w>heres</w>
           <w>succidat</w>
         </p>
-        <p n="200" xml:id="CE34-5_p_085r_200"><lb n="26" type="rubric" xml:id="CE34-5_lb_085r_26"
+
+        <p n="200" xml:id="CE34-5_p_085r_200">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_085r_26"
               /><label><num><w>CC</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>occisionis</w>
@@ -23398,7 +23663,9 @@
             </choice>
           </w>
         </p>
-        <p n="201" xml:id="CE34-5_p_085v_201"><lb n="9" type="rubric" xml:id="CE34-5_lb_085v_09"
+
+        <p n="201" xml:id="CE34-5_p_085v_201">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_085v_09"
               /><label><num><w>CCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>muliere</w>
@@ -23501,8 +23768,9 @@
           <w>eam</w>
           <w>occiderit</w>
         </p>
-        <p n="202" xml:id="CE34-5_p_085v_202"><lb n="14" type="rubric" xml:id="CE34-5_lb_085v_14"
-                /><label><num><w>CCII</w></num></label>
+
+        <p n="202" xml:id="CE34-5_p_085v_202">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_085v_14"/><label><num><w>CCII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>mulier</w>
           <w><choice>
@@ -23596,8 +23864,9 @@
             <expan>pugna<ex>m</ex></expan>
           </choice></w>
         </p>
-        <p n="203" xml:id="CE34-5_p_085v_203"><lb n="18" type="rubric" xml:id="CE34-5_lb_085v_18"
-                /><label><num><w>CCIII</w></num></label>
+
+        <p n="203" xml:id="CE34-5_p_085v_203">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_085v_18"/><label><num><w>CCIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>mulier</w>
           <w>maritum</w>
@@ -23618,8 +23887,9 @@
           <w>haberent</w>
           <w>potestatem</w>
         </p>
-        <p n="204" xml:id="CE34-5_p_085v_204"><lb n="20" type="rubric" xml:id="CE34-5_lb_085v_20"
-                /><label><num><w>CCIIII</w></num></label>
+
+        <p n="204" xml:id="CE34-5_p_085v_204">
+          <lb n="20" type="rubric" xml:id="CE34-5_lb_085v_20"/><label><num><w>CCIIII</w></num></label>
           <w>
             <choice>
               <sic>Nullie</sic>
@@ -23726,8 +23996,9 @@
           <w>aut</w>
           <w>al<g ref="#jnodotenl"/>enandi</w>
         </p>
-        <p n="205" xml:id="CE34-5_p_085v_205"><lb n="26" type="rubric" xml:id="CE34-5_lb_085v_26"
-                /><label><num><w>CCV</w></num></label>
+
+        <p n="205" xml:id="CE34-5_p_085v_205">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_085v_26"/><label><num><w>CCV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aldia</w>
           <w><c corresp="#v">u</c>iolentiata</w>
@@ -23777,8 +24048,9 @@
           </w>
           <measure quantity="40" type="currency" unit="soldi"><w>xl</w></measure>
         </p>
-        <p n="206" xml:id="CE34-5_p_086r_206"><lb n="2" type="rubric" xml:id="CE34-5_lb_086r_02"
-                /><label><num><w>CCVI</w></num></label>
+
+        <p n="206" xml:id="CE34-5_p_086r_206">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_086r_02"/><label><num><w>CCVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>liberta</w>
           <w><c corresp="#v">u</c>iolentiata</w>
@@ -23829,8 +24101,9 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
-        <p n="207" xml:id="CE34-5_p_086r_207"><lb n="4" type="rubric" xml:id="CE34-5_lb_086r_04"
-                /><label><num><w>CCVII</w></num></label>
+
+        <p n="207" xml:id="CE34-5_p_086r_207">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_086r_04"/><label><num><w>CCVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><choice>
             <sic>ancilla</sic>
@@ -23869,8 +24142,9 @@
             <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
           </add>
         </p>
-        <p n="208" xml:id="CE34-5_p_086r_208"><lb n="5" type="rubric" xml:id="CE34-5_lb_086r_05"
-                /><label><num><w>CCVIII</w></num></label>
+
+        <p n="208" xml:id="CE34-5_p_086r_208">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_086r_05"/><label><num><w>CCVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>rapto</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -23949,8 +24223,9 @@
           <w>aldia</w>
           <w>fuit</w>
         </p>
-        <p n="209" xml:id="CE34-5_p_086r_209"><lb n="9" type="rubric" xml:id="CE34-5_lb_086r_09"
-                /><label><num><w>CCVIIII</w></num></label>
+
+        <p n="209" xml:id="CE34-5_p_086r_209">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_086r_09"/><label><num><w>CCVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ancilla</w>
           <w>rapta</w>
@@ -24025,8 +24300,9 @@
           <w>ancilla</w>
           <w>fuit</w>
         </p>
-        <p n="210" xml:id="CE34-5_p_086r_210"><lb n="13" type="rubric" xml:id="CE34-5_lb_086r_13"
-                /><label><num><w>CCX</w></num></label>
+
+        <p n="210" xml:id="CE34-5_p_086r_210">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_086r_13"/><label><num><w>CCX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>rapto</w>
           <w>qui</w>
@@ -24133,8 +24409,9 @@
             <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
           </add>
         </p>
-        <p n="211" xml:id="CE34-5_p_086r_211"><lb n="17" type="rubric" xml:id="CE34-5_lb_086r_17"
-                /><label><num><w>CCXI</w></num></label>
+
+        <p n="211" xml:id="CE34-5_p_086r_211">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_086r_17"/><label><num><w>CCXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>liber</w>
           <w>aut</w>
@@ -24161,8 +24438,9 @@
           <w>ambo</w>
           <w>consenserint</w>
         </p>
-        <p n="212" xml:id="CE34-5_p_086r_212"><lb n="19" type="rubric" xml:id="CE34-5_lb_086r_19"
-                /><label><num><w>CCXII</w></num></label>
+
+        <p n="212" xml:id="CE34-5_p_086r_212">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_086r_19"/><label><num><w>CCXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -24236,8 +24514,9 @@
             </choice>
           </w>
         </p>
-        <p n="213" xml:id="CE34-5_p_086r_213"><lb n="22" type="rubric" xml:id="CE34-5_lb_086r_22"
-                /><label><num><w>CCXIII</w></num></label>
+
+        <p n="213" xml:id="CE34-5_p_086r_213">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_086r_22"/><label><num><w>CCXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>crimen</w>
           <w>adulterii</w>
@@ -24300,8 +24579,9 @@
           </choice></w>
           <w>periculum</w>
         </p>
-        <p n="214" xml:id="CE34-5_p_086r_214"><lb n="26" type="rubric" xml:id="CE34-5_lb_086r_26"
-                /><label><num><w>CCXIIII</w></num></label>
+
+        <p n="214" xml:id="CE34-5_p_086r_214">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_086r_26"/><label><num><w>CCXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -24398,8 +24678,9 @@
             </choice>
           </w>
         </p>
-        <p n="215" xml:id="CE34-5_p_086v_215"><lb n="3" type="rubric" xml:id="CE34-5_lb_086v_03"
-                /><label><num><w>CCXV</w></num></label>
+
+        <p n="215" xml:id="CE34-5_p_086v_215">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_086v_03"/><label><num><w>CCXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sponsata</w>
           <w>mortua</w>
@@ -24491,8 +24772,9 @@
           <w>mortua</w>
           <w>est</w>
         </p>
-        <p n="216" xml:id="CE34-5_p_086v_216"><lb n="10" type="rubric" xml:id="CE34-5_lb_086v_10"
-                /><label><num><w>CCXVI</w></num></label>
+
+        <p n="216" xml:id="CE34-5_p_086v_216">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_086v_10"/><label><num><w>CCXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -24662,8 +24944,9 @@
           <w>ubi</w>
           <w><c corresp="#v">u</c>oluerint</w>
         </p>
-        <p n="217" xml:id="CE34-5_p_086v_217"><lb n="21" type="rubric" xml:id="CE34-5_lb_086v_21"
-                /><label><num><w>CCXVII</w></num></label>
+
+        <p n="217" xml:id="CE34-5_p_086v_217">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_086v_21"/><label><num><w>CCXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aldia</w>
           <w>qui</w>
@@ -24777,8 +25060,9 @@
           <w>ser<c corresp="#v">u</c>um</w>
           <w>consensit</w>
         </p>
-        <p n="218" xml:id="CE34-5_p_087r_218"><lb n="2" type="rubric" xml:id="CE34-5_lb_087r_02"
-                /><label><num><w>CCXVIII</w></num></label>
+
+        <p n="218" xml:id="CE34-5_p_087r_218">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_087r_02"/><label><num><w>CCXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>aldius</w>
           <w>aldia</w>
@@ -24817,8 +25101,9 @@
           <w><g ref="#openetlig"/></w>
           <w>pater</w>
         </p>
-        <p n="219" xml:id="CE34-5_p_087r_219"><lb n="5" type="rubric" xml:id="CE34-5_lb_087r_05"
-                /><label><num><w>CCXVIIII</w></num></label>
+
+        <p n="219" xml:id="CE34-5_p_087r_219">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_087r_05"/><label><num><w>CCXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>aldius</w>
           <w>
@@ -24856,8 +25141,9 @@
           </w>
           <w>ancilla</w>
         </p>
-        <p n="220" xml:id="CE34-5_p_087r_220"><lb n="7" type="rubric" xml:id="CE34-5_lb_087r_07"
-                /><label><num><w>CCXX</w></num></label>
+
+        <p n="220" xml:id="CE34-5_p_087r_220">
+          <lb n="7" type="rubric" xml:id="CE34-5_lb_087r_07"/><label><num><w>CCXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ancilla</w>
           <w>
@@ -24904,8 +25190,9 @@
             </choice>
           </w>
         </p>
-        <p n="221" xml:id="CE34-5_p_087r_221"><lb n="10" type="rubric" xml:id="CE34-5_lb_087r_10"
-                /><label><num><w>CCXXI</w></num></label>
+
+        <p n="221" xml:id="CE34-5_p_087r_221">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_087r_10"/><label><num><w>CCXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>libera</w>
@@ -24993,7 +25280,9 @@
           <w>ancillas</w>
           <w>mittere</w>
         </p>
-        <p n="222" xml:id="CE34-5_p_087r_222"><lb n="17" type="rubric" xml:id="CE34-5_lb_087r_17"/><label><num><w>CCXXII</w></num></label>
+
+        <p n="222" xml:id="CE34-5_p_087r_222">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_087r_17"/><label><num><w>CCXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ancilla</w>
           <w>matrimonii</w>
@@ -25088,8 +25377,9 @@
           <lb n="22" xml:id="CE34-5_lb_087r_22"/><w>patris</w>
           <w>efficiantur</w>
         </p>
-        <p n="223" xml:id="CE34-5_p_087r_223"><lb n="23" type="rubric" xml:id="CE34-5_lb_087r_23"
-                /><label><num><w>CCXXIII</w></num></label>
+
+        <p n="223" xml:id="CE34-5_p_087r_223">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_087r_23"/><label><num><w>CCXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>eo</w>
           <w>qui</w>
@@ -25192,8 +25482,8 @@
       </div>
 
       <div n="Capp. 224-226" subtype="manomissioni" type="capitula" xml:id="CE34-5_div_224-226">
-        <p n="224" xml:id="CE34-5_p_087v_224_part1"><lb n="3" type="rubric" xml:id="CE34-5_lb_087v_03"
-                /><label><num><w>CCXXIIII</w></num></label>
+        <p n="224" xml:id="CE34-5_p_087v_224_part1">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_087v_03"/><label><num><w>CCXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -25439,6 +25729,7 @@
           </w>
           <w>patroni</w>
         </p>
+
         <p xml:id="CE34-5_p_087v_224_part2">
           <lb n="17" xml:id="CE34-5_lb_087v_17"/>
           <w>
@@ -25482,6 +25773,7 @@
             </choice>
           </w>
         </p>
+
         <p xml:id="CE34-5_p_087v_224_part3">
           <lb n="19" xml:id="CE34-5_lb_087v_19"/>
           <w>
@@ -25557,6 +25849,7 @@
           <w>scriptum</w>
           <w>est</w>
         </p>
+
         <p xml:id="CE34-5_p_087v_224_part4">
           <lb n="24" xml:id="CE34-5_lb_087v_24"/>
           <w>
@@ -25651,8 +25944,9 @@
             </choice>
           </w>
         </p>
-        <p n="225" xml:id="CE34-5_p_088r_225"><lb n="3" type="rubric" xml:id="CE34-5_lb_088r_03"
-                /><label><num><w>CCXXV</w></num></label>
+
+        <p n="225" xml:id="CE34-5_p_088r_225">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_088r_03"/><label><num><w>CCXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>filios</w>
           <w>libertus</w>
@@ -25848,8 +26142,9 @@
           <w>parenti</w>
           <w>suo</w>
         </p>
-        <p n="226" xml:id="CE34-5_p_088r_226"><lb n="14" type="rubric" xml:id="CE34-5_lb_088r_14"
-                /><label><num><w>CCXXVI</w></num></label>
+
+        <p n="226" xml:id="CE34-5_p_088r_226">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_088r_14"/><label><num><w>CCXXVI</w></num></label>
           <w>
             <choice>
               <abbr><hi rend="cap">O</hi><am><g ref="#mtilde"/></am>s</abbr>
@@ -25920,8 +26215,8 @@
       </div>
 
       <div n="Capp. 227-244" subtype="proprietà" type="capitula" xml:id="CE34-5_div_227-244">
-        <p n="227" xml:id="CE34-5_p_088r_227"><lb n="17" type="rubric" xml:id="CE34-5_lb_088r_17"
-                /><label><num><w>CCXXVII</w></num></label>
+        <p n="227" xml:id="CE34-5_p_088r_227">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_088r_17"/><label><num><w>CCXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -26157,8 +26452,9 @@
           <w>si</w>
           <w>potuerit</w>
         </p>
-        <p n="229" xml:id="CE34-5_p_088v_229"><lb n="6" type="rubric" xml:id="CE34-5_lb_088v_06"
-                /><label><num><w>CCXXVIIII</w></num></label>
+
+        <p n="229" xml:id="CE34-5_p_088v_229">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_088v_06"/><label><num><w>CCXXVIIII</w></num></label>
           <w><hi rend="cap">Q</hi>ui</w>
           <w>rem</w>
           <w>
@@ -26284,8 +26580,9 @@
           <w>qualiter</w>
           <w>scit</w>
         </p>
-        <p n="230" xml:id="CE34-5_p_088v_230"><lb n="12" type="rubric" xml:id="CE34-5_lb_088v_12"
-                /><label><num><w>CCXXX</w></num></label>
+
+        <p n="230" xml:id="CE34-5_p_088v_230">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_088v_12"/><label><num><w>CCXXX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>mancipio</w>
           <w>lebroso</w>
@@ -26355,8 +26652,9 @@
           <w>non</w>
           <w>calumnientur</w>
         </p>
-        <p n="231" xml:id="CE34-5_p_088v_231"><lb n="17" type="rubric" xml:id="CE34-5_lb_088v_17"
-                /><label><num><w>CCXXXI</w></num></label>
+
+        <p n="231" xml:id="CE34-5_p_088v_231">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_088v_17"/><label><num><w>CCXXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ancilla</w>
           <w>conparata</w>
@@ -26555,8 +26853,9 @@
           <w>regis</w>
           <w>ceciderunt</w>
         </p>
-        <p n="232" xml:id="CE34-5_p_089r_232"><lb n="5" type="rubric" xml:id="CE34-5_lb_089r_05"
-                /><label><num><w>CCXXXII</w></num></label>
+
+        <p n="232" xml:id="CE34-5_p_089r_232">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_089r_05"/><label><num><w>CCXXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>caballo</w>
           <w>conparato</w>
@@ -26799,8 +27098,9 @@
             </choice>
           </w>
         </p>
-        <p n="233" xml:id="CE34-5_p_089r_233"><lb n="18" type="rubric" xml:id="CE34-5_lb_089r_18"
-                /><label><num><w>CCXXXIII</w></num></label>
+
+        <p n="233" xml:id="CE34-5_p_089r_233">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_089r_18"/><label><num><w>CCXXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -26899,8 +27199,9 @@
           </w>
           <w>restituat</w>
         </p>
-        <p n="234" xml:id="CE34-5_p_089r_234"><lb n="23" type="rubric" xml:id="CE34-5_lb_089r_23"
-                /><label><num><w>CCXXXIIII</w></num></label>
+
+        <p n="234" xml:id="CE34-5_p_089r_234">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_089r_23"/><label><num><w>CCXXXIIII</w></num></label>
           <space quantity="13" unit="chars"/>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
@@ -26969,8 +27270,9 @@
           <w>non</w>
           <w>dispereat</w>
         </p>
-        <p n="235" xml:id="CE34-5_p_089v_235"><lb n="4" type="rubric" xml:id="CE34-5_lb_089v_04"
-                /><label><num><w>CCXXXV</w></num></label>
+
+        <p n="235" xml:id="CE34-5_p_089v_235">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_089v_04"/><label><num><w>CCXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>aldius</w>
           <w>non</w>
@@ -27009,8 +27311,9 @@
           </w>
           <w>dimittere</w>
         </p>
-        <p n="236" xml:id="CE34-5_p_089v_236"><lb n="7" type="rubric" xml:id="CE34-5_lb_089v_07"
-                /><label><num><w>CCXXXVI</w></num></label>
+
+        <p n="236" xml:id="CE34-5_p_089v_236">
+          <lb n="7" type="rubric" xml:id="CE34-5_lb_089v_07"/><label><num><w>CCXXXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>terminos</w>
           <w>effossus</w>
@@ -27053,8 +27356,9 @@
           <w>terminum</w>
           <w>fuerint</w>
         </p>
-        <p n="237" xml:id="CE34-5_p_089v_237"><lb n="11" type="rubric" xml:id="CE34-5_lb_089v_11"
-                /><label><num><w>CCXXXVII</w></num></label>
+
+        <p n="237" xml:id="CE34-5_p_089v_237">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_089v_11"/><label><num><w>CCXXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>qui</w>
@@ -27085,8 +27389,9 @@
             </choice>
           </w>
         </p>
-        <p n="238" xml:id="CE34-5_p_089v_238"><lb n="14" type="rubric" xml:id="CE34-5_lb_089v_14"
-                /><label><num><w>CCXXXVIII</w></num></label>
+
+        <p n="238" xml:id="CE34-5_p_089v_238">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_089v_14"/><label><num><w>CCXXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>arbore</w>
           <w>signato</w>
@@ -27189,8 +27494,9 @@
             </choice>
           </w>
         </p>
-        <p n="239" xml:id="CE34-5_p_089v_239"><lb n="19" type="rubric" xml:id="CE34-5_lb_089v_19"
-                /><label><num><w>CCXXXVIIII</w></num></label>
+
+        <p n="239" xml:id="CE34-5_p_089v_239">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_089v_19"/><label><num><w>CCXXXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -27242,8 +27548,9 @@
             </choice>
           </w>
         </p>
-        <p n="240" xml:id="CE34-5_p_089v_240"><lb n="22" type="rubric" xml:id="CE34-5_lb_089v_22"
-                /><label><num><w>CCXL</w></num></label>
+
+        <p n="240" xml:id="CE34-5_p_089v_240">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_089v_22"/><label><num><w>CCXL</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#snaida" xml:id="CE34-5_term_snaida_240" xml:lang="lng">
             <w>senaida</w>
@@ -27324,8 +27631,9 @@
           <w>sil<c corresp="#v">u</c>a</w>
           <w>fuerit</w>
         </p>
-        <p n="241" xml:id="CE34-5_p_090r_241"><lb n="2" type="rubric" xml:id="CE34-5_lb_090r_02"
-                /><label><num><w>CCXLI</w></num></label>
+
+        <p n="241" xml:id="CE34-5_p_090r_241">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_090r_02"/><label><num><w>CCXLI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>qui</w>
@@ -27390,8 +27698,9 @@
             </choice>
           </w>
         </p>
-        <p n="242" xml:id="CE34-5_p_090r_242"><lb n="6" type="rubric" xml:id="CE34-5_lb_090r_06"
-                /><label><num><w>CCXLII</w></num></label>
+
+        <p n="242" xml:id="CE34-5_p_090r_242">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_090r_06"/><label><num><w>CCXLII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>sine</w>
@@ -27425,8 +27734,9 @@
             <reg>incidatur</reg>
           </choice></w>
         </p>
-        <p n="243" xml:id="CE34-5_p_090r_243"><lb n="8" type="rubric" xml:id="CE34-5_lb_090r_08"
-                /><label><num><w>CCXLIII</w></num></label>
+
+        <p n="243" xml:id="CE34-5_p_090r_243">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_090r_08"/><label><num><w>CCXLIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>cartola</w>
           <w>falsa</w>
@@ -27446,8 +27756,9 @@
             <reg>incidatur</reg>
           </choice></w>
         </p>
-        <p n="244" xml:id="CE34-5_p_090r_244"><lb n="10" type="rubric" xml:id="CE34-5_lb_090r_10"
-                /><label><num><w>CCXLIIII</w></num></label>
+
+        <p n="244" xml:id="CE34-5_p_090r_244">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_090r_10"/><label><num><w>CCXLIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>
@@ -27543,8 +27854,8 @@
       </div>
 
       <div n="Capp. 245-252" subtype="obbligazioni" type="capitula" xml:id="CE34-5_div_245-252">
-        <p n="245" xml:id="CE34-5_p_090r_245"><lb n="15" type="rubric" xml:id="CE34-5_lb_090r_15"
-                /><label><num><w>CCXLV</w></num></label>
+        <p n="245" xml:id="CE34-5_p_090r_245">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_090r_15"/><label><num><w>CCXLV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -27613,8 +27924,9 @@
           <w>lecitum</w>
           <w>est</w>
         </p>
-        <p n="246" xml:id="CE34-5_p_090r_246"><lb n="19" type="rubric" xml:id="CE34-5_lb_090r_19"
-                /><label><num><w>CCXLVI</w></num></label>
+
+        <p n="246" xml:id="CE34-5_p_090r_246">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_090r_19"/><label><num><w>CCXLVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -27668,8 +27980,9 @@
             </choice>
           </w>
         </p>
-        <p n="247" xml:id="CE34-5_p_090r_247"><lb n="24" type="rubric" xml:id="CE34-5_lb_090r_24"
-                /><label><num><w>CCXLVII</w></num></label>
+
+        <p n="247" xml:id="CE34-5_p_090r_247">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_090r_24"/><label><num><w>CCXLVII</w></num></label>
           <w><hi rend="cap">N</hi>ulli</w>
           <w>liceat</w>
           <w>alium</w>
@@ -27875,8 +28188,9 @@
             <w>actigild</w>
           </term>
         </p>
-        <p n="249" xml:id="CE34-5_p_090v_249"><lb n="10" type="rubric" xml:id="CE34-5_lb_090v_10"
-                /><label><num><w>CCXLVIIII</w></num></label>
+
+        <p n="249" xml:id="CE34-5_p_090v_249">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_090v_10"/><label><num><w>CCXLVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>gregis</w>
           <w>
@@ -28032,8 +28346,9 @@
           <w>secutus</w>
           <w>est</w>
         </p>
-        <p n="250" xml:id="CE34-5_p_090v_250"><lb n="19" type="rubric" xml:id="CE34-5_lb_090v_19"
-                /><label><num><w>CCL</w></num></label>
+
+        <p n="250" xml:id="CE34-5_p_090v_250">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_090v_19"/><label><num><w>CCL</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -28073,8 +28388,9 @@
             </choice>
           </w>
         </p>
-        <p n="251" xml:id="CE34-5_p_090v_251"><lb n="21" type="rubric" xml:id="CE34-5_lb_090v_21"
-                /><label><num><w>CCLI</w></num></label>
+
+        <p n="251" xml:id="CE34-5_p_090v_251">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_090v_21"/><label><num><w>CCLI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>homo</w>
           <w>liber</w>
@@ -28200,8 +28516,9 @@
             </choice>
           </w>
         </p>
-        <p n="252" xml:id="CE34-5_p_091r_252"><lb n="2" type="rubric" xml:id="CE34-5_lb_091r_02"
-                /><label><num><w>CCLII</w></num></label>
+
+        <p n="252" xml:id="CE34-5_p_091r_252">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_091r_02"/><label><num><w>CCLII</w></num></label>
           <w><hi rend="cap">N</hi>ulli</w>
           <w>leceat</w>
           <w>pro</w>
@@ -28501,8 +28818,8 @@
       </div>
 
       <div n="Capp. 253-358" subtype="reati_minori" type="capitula" xml:id="CE34-5_div_253-358">
-        <p n="253" xml:id="CE34-5_p_091r_253"><lb n="18" type="rubric" xml:id="CE34-5_lb_091r_18"
-                /><label><num><w>CCLIII</w></num></label>
+        <p n="253" xml:id="CE34-5_p_091r_253">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_091r_18"/><label><num><w>CCLIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>furtis</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -28568,8 +28885,9 @@
           </choice></w>
           <w>periculum</w>
         </p>
-        <p n="254" xml:id="CE34-5_p_091r_254"><lb n="22" type="rubric" xml:id="CE34-5_lb_091r_22"
-                /><label><num><w>CCLIIII</w></num></label>
+
+        <p n="254" xml:id="CE34-5_p_091r_254">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_091r_22"/><label><num><w>CCLIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>furtum</w>
@@ -28614,8 +28932,9 @@
           <w>aut</w>
           <w>occidatur</w>
         </p>
-        <p n="255" xml:id="CE34-5_p_091r_255"><lb n="25" type="rubric" xml:id="CE34-5_lb_091r_25"
-                /><label><num><w>CCLV</w></num></label>
+
+        <p n="255" xml:id="CE34-5_p_091r_255">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_091r_25"/><label><num><w>CCLV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -28669,8 +28988,9 @@
           <w>ei</w>
           <w>restituat</w>
         </p>
-        <p n="256" xml:id="CE34-5_p_091r_256"><lb n="27" type="rubric" xml:id="CE34-5_lb_091r_27"
-                /><label><num><w>CCLVI</w></num></label>
+
+        <p n="256" xml:id="CE34-5_p_091r_256">
+          <lb n="27" type="rubric" xml:id="CE34-5_lb_091r_27"/><label><num><w>CCLVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>dum</w>
@@ -28781,6 +29101,7 @@
           <w>fuga</w>
           <w>fuit</w>
         </p>
+
         <p n="257" xml:id="CE34-5_p_091v_257">
           <lb n="7" type="rubric" xml:id="CE34-5_lb_091v_07"/><label><num><w>CCLVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -28846,6 +29167,7 @@
           <w>facere</w>
           <w>tempta<c corresp="#v">u</c>it</w>
         </p>
+
         <p n="258" xml:id="CE34-5_p_091v_258">
           <lb n="11" type="rubric" xml:id="CE34-5_lb_091v_11"/><label><num><w>CCLVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -28910,6 +29232,7 @@
           </w>
           <measure quantity="40" type="currency" unit="soldi"><w>XL</w></measure>
         </p>
+
         <p n="259" xml:id="CE34-5_p_091v_259">
           <lb n="13" type="rubric" xml:id="CE34-5_lb_091v_13"/><label><num><w>CCLVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -29014,6 +29337,7 @@
             </choice>
           </w>
         </p>
+
         <p n="260" xml:id="CE34-5_p_091v_260">
           <lb n="18" type="rubric" xml:id="CE34-5_lb_091v_18"/><label><num><w>CCLX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -29063,6 +29387,7 @@
           <w>nono</w>
           <w>reddat</w>
         </p>
+
         <p n="261" xml:id="CE34-5_p_091v_261">
           <lb n="21" type="rubric" xml:id="CE34-5_lb_091v_21"/><label><num><w>CCLXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -29208,8 +29533,9 @@
           <w>eas</w>
           <w>reddat</w>
         </p>
-        <p n="263" xml:id="CE34-5_p_092r_263"><lb n="5" type="rubric" xml:id="CE34-5_lb_092r_05"
-                /><label><num><w>CCLXIII</w></num></label>
+
+        <p n="263" xml:id="CE34-5_p_092r_263">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_092r_05"/><label><num><w>CCLXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>plures</w>
           <w>homines</w>
@@ -29282,6 +29608,7 @@
           <w>sibi</w>
           <w>nono</w>
         </p>
+
         <p n="264" xml:id="CE34-5_p_092r_264">
           <lb n="9" type="rubric" xml:id="CE34-5_lb_092r_09"/><label><num><w>CCLXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -29489,8 +29816,9 @@
           <w>ipse</w>
           <w>requirat<g ref="#ur"/></w>
         </p>
-        <p n="265" xml:id="CE34-5_p_092r_265"><lb n="23" type="rubric" xml:id="CE34-5_lb_092r_23"
-                /><label><num><w>CCLXV</w></num></label>
+
+        <p n="265" xml:id="CE34-5_p_092r_265">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_092r_23"/><label><num><w>CCLXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>portonario</w>
           <w>qui</w>
@@ -29582,8 +29910,9 @@
           <w>ad</w>
           <w>calomnia</w>
         </p>
-        <p n="266" xml:id="CE34-5_p_092v_266"><lb n="3" type="rubric" xml:id="CE34-5_lb_092v_03"
-                /><label><num><w>CCLXVI</w></num></label>
+
+        <p n="266" xml:id="CE34-5_p_092v_266">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_092v_03"/><label><num><w>CCLXVI</w></num></label>
           <w><hi rend="black and red">S</hi>i</w>
           <w>portonarius</w>
           <w>furonem</w>
@@ -29627,26 +29956,49 @@
             </choice>
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
-          <add place="margin-left">
+          <add resp="MT" place="margin-left">
             <w>Ista</w>
-            <w>lex<g ref="#jnodotenl"/></w>
-            <w>pa</w>
-            <w><c corresp="#v">u</c>acua</w>
-            <w>duna</w>
             <w>lex</w>
-            <w>li<space/>p<add>r</add>andi</w>
-            <w>siq</w>
-            <space/>
+            <w><choice>
+              <abbr><g ref="#jnodotenl"/>p<am><g ref="#amacr"/></am></abbr>
+              <expan>ip<ex>s</ex>a</expan>
+            </choice></w>
+            <w><c corresp="#v">u</c>acuo</w>
+            <w><choice><!-- CHECK -->
+              <abbr>d<am><g ref="#umacr"/></am></abbr>
+              <expan>du<ex>m</ex></expan>
+            </choice></w>
+            <w>na<supplied>m</supplied></w><!-- CHECK -->
+            <w>lex</w>
+            <w><choice>
+              <orig>li<space/>p<add place="above">r</add>andi</orig>
+              <reg>Liprandi</reg>
+            </choice></w>
+            <w>si</w>
+            <w><choice>
+              <abbr><am><g>q</g></am>s</abbr>
+              <expan>q<ex>ui</ex>s</expan>
+            </choice></w>
             <w>res</w>
             <w>suas</w>
-            <space/>
-            <w>icuiq</w>
-            <w>q</w>
+            <w><choice>
+              <abbr><am><g ref="#imacr"/></am></abbr>
+              <expan>i<ex>n</ex></expan>
+            </choice></w>
+              <w><choice>
+                <abbr>cui<am><g ref="#cogon"/></am></abbr>
+                <expan>cuic<ex>um</ex></expan>
+              </choice></w>
+            <w><choice>
+              <abbr>q<am>;</am></abbr>
+              <expan>q<ex>ue</ex></expan>
+            </choice></w>
             <w>causa</w>
             <w>declitto</w>
             <w>suo</w>
           </add>
         </p>
+
         <p n="267" xml:id="CE34-5_p_092v_267">
           <lb n="7" type="rubric" xml:id="CE34-5_lb_092v_07"/><label><num><w>CCLVII</w></num></label>
           <w><hi rend="black and red">S</hi>i</w>
@@ -29751,6 +30103,7 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
+
         <p n="268" xml:id="CE34-5_p_092v_268">
           <lb n="16" type="rubric" xml:id="CE34-5_lb_092v_16"/><label><num><w>CCLVIII</w></num></label>
           <w><hi rend="black and red">S</hi>i</w>
@@ -29821,6 +30174,7 @@
           <w>antecedere</w>
           <w>debuit</w>
         </p>
+
         <p n="269" xml:id="CE34-5_p_092v_269">
           <lb n="22" type="rubric" xml:id="CE34-5_lb_092v_22"/><label><num><w>CCLVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -29939,6 +30293,7 @@
           <w>sit</w>
           <w>exsolutus</w>
         </p>
+
         <p n="270" xml:id="CE34-5_p_093r_270">
           <lb n="3" type="rubric" xml:id="CE34-5_lb_093r_03"/><label><num><w>CCLXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -29985,8 +30340,9 @@
           </w>
           <w>conponat</w>
         </p>
-        <p n="271" xml:id="CE34-5_p_093r_271"><lb n="8" type="rubric" xml:id="CE34-5_lb_093r_08"
-                /><label><num><w>CCLXXI</w></num></label>
+
+        <p n="271" xml:id="CE34-5_p_093r_271">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_093r_08"/><label><num><w>CCLXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>curte</w>
           <w>regis</w>
@@ -29994,18 +30350,25 @@
           <w>quis</w>
           <w>mancipius</w>
           <w>cuiuscumque</w>
-          <!--<add hand="scribe_2" place="margin-right">
-            <unclear>
+          <add resp="MT" hand="scribe_2" place="margin-right">
+            <unclear><!-- CHECK global unclear? -->
               <w>capitulo</w>
-              <w>borto</w>
-              <w>iq</w>
-              <w>qi</w>
-              <w>pro</w>
-              <w>sit</w>
+              <w><choice>
+                <orig>lodo<supplied>v</supplied>ic<g ref="#jnodotenl"/></orig>
+                <reg>Lodo<supplied>v</supplied>ici</reg>
+              </choice></w>
+              <w><choice>
+                <abbr>q<am><g ref="#qbardes"/></am></abbr>
+                <expan>q<ex>uod</ex></expan>
+              </choice></w>
+              <w><choice>
+                <abbr><am><g ref="#imacr"/></am>c<g ref="#jnodotenl"/>pit</abbr>
+                <expan>i<ex>n</ex>cipit</expan>
+              </choice></w>
+              <w>sic</w><reg>:</reg>
               <w>si</w>
               <w>macjpio</w>
-              <w>de</w>
-              <w>de</w>
+              <w>deinde</w>
               <w>
                 <choice>
                   <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
@@ -30013,15 +30376,18 @@
                 </choice>
               </w>
               <w>suo</w>
-              <w>fugierit</w>
-              <w>nahetia</w>
+              <w>fugerit</w>
+              <w>in</w>
+              <w>aliena</w>
               <w>potestate</w>
-              <w>eo</w>
-              <w>coedase</w>
-              <w>exto</w>
-              <w>q</w>
+              <w><choice>
+                <abbr>c<am><g ref="#omacr"/></am>coeda</abbr>
+                <expan>co<ex>n</ex>coeda</expan>
+              </choice></w>
+              <w>se</w>
+              <w>exfugitori</w>
               <w>ipsa</w>
-              <w>legi</w>
+              <w>lege</w>
               <w>de</w>
               <w>ac</w>
               <w>
@@ -30030,19 +30396,15 @@
                   <expan>p<ex>rae</ex>dicta</expan>
                 </choice>
               </w>
-              <w>scdm</w>
-              <w>
-                <choice>
-                  <abbr>e<am><g/></am></abbr>
-                  <expan>ea<ex>m</ex></expan>
-                </choice>
-              </w>
+              <w><choice>
+                <abbr>s<am>c<g ref="#dstrok"/>m</am></abbr>
+                <expan>s<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
+              </choice></w>
+              <w>eas</w>
               <gap extent="5" unit="chars"/>
-              <w>re</w>
-              <w>a</w>
-              <w>gra<unclear reason="faded"/></w>
+              <w>re<unclear reason="faded">cogietur</unclear></w>
             </unclear>
-          </add>-->
+          </add>
           <lb n="9" xml:id="CE34-5_lb_093r_09"/>
           <w>in</w>
           <w>curte</w>
@@ -30167,8 +30529,9 @@
           </w>
           <measure quantity="40" type="currency" unit="soldi"><w>xL</w></measure>
         </p>
-        <p n="272" xml:id="CE34-5_p_093r_272"><lb n="17" type="rubric" xml:id="CE34-5_lb_093r_17"
-                /><label><num><w>CCLXXII</w></num></label>
+
+        <p n="272" xml:id="CE34-5_p_093r_272">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_093r_17"/><label><num><w>CCLXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -30560,7 +30923,7 @@
           <w>recipere</w>
           <w>nisi</w>
           <w><c corresp="#v">u</c>oluerit</w>
-          <add hand="scribe_2" place="margin-left">
+          <add resp="MT" hand="scribe_2" place="margin-left">
             <unclear reason="faded">
               <w><gap extent="3" unit="chars"/><supplied reason="illegible" resp="alim-pi">man</supplied>c<g
                   ref="#jnodotenl"/>piu</w>
@@ -30571,17 +30934,16 @@
                 </choice>
               </w>
               <w>manua</w>
-              <w>capiendu</w>
-              <w>
-                <choice>
-                  <abbr>eo<am><g ref="#qbardes"/></am></abbr>
-                  <expan>eoq<ex>ue</ex></expan>
-                </choice>
-              </w>
+              <w>capiendum</w>
+              <w>eo</w>
+              <w><choice>
+                <abbr><am><g ref="#qbardes"/></am></abbr>
+                <expan>q<ex>uod</ex></expan>
+              </choice></w>
+              <w>in</w>
               <w>ostes</w>
-              <w>reqre</w>
-              <w>si</w>
-              <w>eu</w>
+              <w>requireri</w>
+              <w>fieri</w>
               <w>
                 <choice>
                   <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
@@ -30591,8 +30953,9 @@
             </unclear>
           </add>
         </p>
-        <p n="274" xml:id="CE34-5_p_093v_274"><lb n="14" type="rubric" xml:id="CE34-5_lb_093v_14"
-                /><label><num><w>CCLXXIIII</w></num></label>
+
+        <p n="274" xml:id="CE34-5_p_093v_274">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_093v_14"/><label><num><w>CCLXXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -30697,6 +31060,7 @@
           <w>se</w>
           <w>habu<add hand="scribe_2" place="above">it</add></w>
         </p>
+
         <p n="275" xml:id="CE34-5_p_093v_275">
           <lb n="19" type="rubric" xml:id="CE34-5_lb_093v_19"/><label><num><w>CCLXXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
@@ -30819,8 +31183,9 @@
           <w><g ref="#openetlig"/></w>
           <w>operas</w>
         </p>
-        <p n="276" xml:id="CE34-5_p_093v_276"><lb n="26" type="rubric" xml:id="CE34-5_lb_093v_26"
-                /><label><num><w>CCLXXVI</w></num></label>
+
+        <p n="276" xml:id="CE34-5_p_093v_276">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_093v_26"/><label><num><w>CCLXXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>
@@ -30847,11 +31212,9 @@
   
         <pb n="094r" xml:id="CE34-5_folio_094r"/>
   
-        <fw place="top-right" type="fol"><add hand="unknown">94</add></fw>
-
           <add hand="scribe_2" place="top">
             <unclear>
-              <w><c corresp="#v">u</c>ada</w>
+              <!--<w><c corresp="#v">u</c>ada</w>
               <w>lio</w>
               <w>andore</w>
               <w>actua</w>
@@ -30877,30 +31240,52 @@
               <w>sal<c corresp="#v">u</c>abit</w>
               <w>p</w>
               <w>quia</w>
-              <w>actinex</w>
-              <w>capł</w>
-              <w>lodo</w>
-              <w>itj</w>
-              <w>q</w>
-              <w>ic<g ref="#jnodotenl"/>pit</w>
-              <w><hi rend="cap">S</hi>i</w>
-              <w>ser<c corresp="#v">u</c>i</w>
-              <w>
-                <choice>
-                  <abbr><am><g ref="#pbardes"/></am>cotum</abbr>
-                  <expan>p<ex>er</ex>cotum</expan>
-                </choice>
-              </w>
-              <w>al<g ref="#jnodotenl"/>o</w>
-              <w>collecti</w>
-              <w>ille</w>
-              <w>y</w>
-              <w>uolrue</w>
-              <w>ox</w>
-              <w>c</w>
-              <w>annu</w>
-            </unclear>
+              <w>actinex</w>-->
+              <gap extent="20" unit="word" reason="illegible"/>
+              --------------------------------------------------------------------------
+              <lb/>---------------------------------------------------------------------
+              <w><choice>
+                <abbr>capt<am><g ref="#lstrok">ł</g></am></abbr>
+                <expan>capit<ex>u</ex>l<ex>o</ex></expan>
+              </choice></w>
+              <w><choice>
+                <orig>lodoici</orig>
+                <reg>Lodovici</reg>
+              </choice></w>
+              <w><choice>
+                <abbr><am><g ref="#qbardes"/></am></abbr>
+                <expan>q<ex>uod</ex></expan>
+              </choice></w>
+              <w><choice>
+                <abbr><am><g ref="#imacr"/></am>c<g ref="#jnodotenl"/>pit</abbr>
+                <expan>i<ex>n</ex>c<g ref="#jnodotenl"/>pit</expan>
+              </choice></w>
+              </unclear>
           </add>
+
+          <fw place="top-right" type="fol"><add hand="unknown">94</add></fw>
+          <add place="margin-right">
+            <w><hi rend="cap">S</hi>i</w>
+            <w>ser<c corresp="#v">u</c>i</w>
+            <w>
+              <choice>
+                <abbr><am><g ref="#pbardes"/></am></abbr>
+                <expan>p<ex>er</ex></expan>
+              </choice>
+            </w>
+            <w><choice>
+              <abbr>c<am><g ref="#omacr"/></am>tumac<g ref="#jnodotenl"/>o</abbr>
+              <expan>co<ex>n</ex>tumac<g ref="#jnodotenl"/>o</expan>
+            </choice></w>
+            <w>colleo</w>
+            <w>tulle<supplied>r</supplied>i<supplied>t</supplied></w>
+            <gap extent="10" unit="char" reason="illegible"/>
+            <w><choice>
+              <abbr>ann<am><g ref="#umacr"/></am></abbr>
+              <expan>annu<ex>m</ex></expan>
+            </choice></w>
+          </add>
+          
           <lb n="1" xml:id="CE34-5_lb_094r_01"/>
           <w>ipse</w>
           <w>fuga</w>
@@ -30923,7 +31308,10 @@
           <w>ano<lb n="2" xml:id="CE34-5_lb_094r_02"/>nam</w>
           <w>dedit</w>
           <w>aut</w>
-          <w><c corresp="#v">u</c>ia</w>
+          <w><choice>
+            <abbr><c corresp="#v">u</c>i<am><g ref="#amacr"/></am></abbr>
+            <expan><c corresp="#v">u</c>ia<ex>m</ex></expan>
+          </choice></w>
           <w>ostendere</w>
           <w>
             <choice>
@@ -30951,7 +31339,8 @@
           <w>mancipium</w>
           <w>simul</w>
           <w>et</w>
-          <w>deres</w>
+          <w>de</w>
+          <w>res</w>
           <w>quas</w>
           <w>
             <choice>
@@ -30972,48 +31361,54 @@
           <w>ipsum</w>
           <w><g ref="#openetlig"/></w>
           <w>opera</w>
-          <add hand="scribe_2" place="margin-right">
+          <add hand="scribe_2" place="margin-right" resp="MT">
             <w><hi rend="cap">S</hi>i</w>
-            <w>o</w>
+            <w><choice>
+              <abbr><am><g ref="#omacr"/></am></abbr>
+              <expan>o<ex>mo</ex></expan>
+            </choice></w>
             <w>romano</w>
             <w>abuerit</w>
             <w>filii</w>
             <w>de</w>
             <w>femina</w>
             <w>langobarda</w>
-            <w>erat</w>
-            <w>equa</w>
-            <w>ad</w>
-            <w>legitima</w>
-            <w>uxore</w>
-            <w>tullerit</w>
-            <w>filio</w>
-            <w>fabuerit</w>
             <w>ex</w>
-            <w>postea</w>
-            <w>a</w>
+            <w>antequam</w>
+            <w>de</w>
+            <w>legitimam</w>
+            <w>uxorem</w>
+            <w>tullerit</w>
+            <w>filios</w>
+            <w>abuerit</w>
+            <w>ex</w>
+            <w>post</w>
+            <w>ea</w>
             <w>legitima</w>
             <w>fecerit</w>
             <w>filio</w>
             <w>abuerit</w>
-            <w>quali</w>
+            <w>qualiter</w>
             <w>di<c corresp="#v">u</c>idat</w>
-            <w>ui</w>
+            <w>uius</w>
             <w>fratre</w>
             <w>patris</w>
             <w>aut</w>
-            <w>a<c corresp="#v">u</c>iculu</w>
+            <w>a<c corresp="#v">u</c>iculum</w>
             <w>fratre</w>
             <w>matris</w>
           </add>
         </p>
-        <p n="277" xml:id="CE34-5_p_094r_277"><lb n="5" type="rubric" xml:id="CE34-5_lb_094r_05"
-                /><label><num><w>CCLXXVII</w></num></label>
+
+        <p n="277" xml:id="CE34-5_p_094r_277">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_094r_05"/><label><num><w>CCLXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#haistan" xml:id="CE34-5_term_haistan_277" xml:lang="lng">
-            <w>aistan</w>
+            <w><choice>
+              <orig>aistan<supplied>d</supplied>i</orig>
+              <reg>haistan</reg>
+            </choice></w>
           </term>
-          <w>i</w>
           <gloss target="#CE34-5_term_haistan_277" xml:id="CE34-5_gloss_haistan_277">
             <w>id</w>
             <w>est</w>
@@ -31061,8 +31456,9 @@
           <w>curte</w>
           <w>fuerit</w>
         </p>
-        <p n="278" xml:id="CE34-5_p_094r_278"><lb n="7" type="rubric" xml:id="CE34-5_lb_094r_07"
-                /><label><num><w>CCLXXVIII</w></num></label>
+
+        <p n="278" xml:id="CE34-5_p_094r_278">
+          <lb n="7" type="rubric" xml:id="CE34-5_lb_094r_07"/><label><num><w>CCLXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#hoberos" xml:id="CE34-5_term_hoberos_278" xml:lang="lng">
             <w>oberus</w>
@@ -31126,8 +31522,9 @@
           <w>facere</w>
           <w>possit</w>
         </p>
-        <p n="279" xml:id="CE34-5_p_094r_279"><lb n="10" type="rubric" xml:id="CE34-5_lb_094r_10"
-                /><label><num><w>CCLXXVIIII</w></num></label>
+
+        <p n="279" xml:id="CE34-5_p_094r_279">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_094r_10"/><label><num><w>CCLXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>concilio</w>
           <w>rusticanorum</w>
@@ -31267,8 +31664,9 @@
             </choice>
           </w>
         </p>
-        <p n="280" xml:id="CE34-5_p_094r_280"><lb n="17" type="rubric" xml:id="CE34-5_lb_094r_17"
-                /><label><num><w>III</w></num></label><w>CCLXXX</w>
+
+        <p n="280" xml:id="CE34-5_p_094r_280">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_094r_17"/><label><w>CCLXXX</w></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>rusticanorum</w>
           <w>seditionem</w>
@@ -31515,8 +31913,9 @@
           <w>hoc</w>
           <w>egit</w>
         </p>
-        <p n="281" xml:id="CE34-5_p_094v_281"><lb n="6" type="rubric" xml:id="CE34-5_lb_094v_06"
-                /><label><num><w>CCLXXXI</w></num></label>
+
+        <p n="281" xml:id="CE34-5_p_094v_281">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_094v_06"/><label><num><w>CCLXXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>furta</w>
           <w><g ref="#openetlig"/></w>
@@ -31537,6 +31936,10 @@
           </w>
           <w>illi</w>
           <add hand="scribe_2" place="above">
+            <choice>
+              <abbr><am><g ref="#slongtwodot"/></am></abbr><!-- CHECK need new g -->
+              <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan><!-- CHECK meaning -->
+            </choice>
             <w>somo</w>
           </add>
           <w>cuius</w>
@@ -31550,8 +31953,9 @@
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
-        <p n="282" xml:id="CE34-5_p_094v_282"><lb n="9" type="rubric" xml:id="CE34-5_lb_094v_09"
-                /><label><num><w>CCLXXXII</w></num></label>
+
+        <p n="282" xml:id="CE34-5_p_094v_282">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_094v_09"/><label><num><w>CCLXXXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>de</w>
@@ -31607,8 +32011,9 @@
             <w>ser<c corresp="#v">u</c>o</w>
           </add>
         </p>
-        <p n="283" xml:id="CE34-5_p_094v_283"><lb n="11" type="rubric" xml:id="CE34-5_lb_094v_11"
-                /><label><num><w>CCLXXXIII</w></num></label>
+
+        <p n="283" xml:id="CE34-5_p_094v_283">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_094v_11"/><label><num><w>CCLXXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>lignamen</w>
           <w>adunatum</w>
@@ -31654,7 +32059,9 @@
             <w>actigild</w>
           </term>
         </p>
-        <p n="284" xml:id="CE34-5_p_094v_284"><lb n="15" type="rubric" xml:id="CE34-5_lb_094v_15"
+
+        <p n="284" xml:id="CE34-5_p_094v_284">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_094v_15"
                   /><label><num><w>CCLXXXIII<gap extent="1" unit="chars"/><supplied>I</supplied></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>orto</w>
@@ -31699,8 +32106,9 @@
           <w>sit</w>
           <w>culpa<c corresp="#v">u</c>ilis</w>
         </p>
-        <p n="285" xml:id="CE34-5_p_094v_285"><lb n="19" type="rubric" xml:id="CE34-5_lb_094v_19"
-                /><label><num><w>CCLXXXV</w></num></label>
+
+        <p n="285" xml:id="CE34-5_p_094v_285">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_094v_19"/><label><num><w>CCLXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#iderzun" xml:id="CE34-5_term_iderzun_285" xml:lang="lng">
             <w>iderzon</w>
@@ -31709,7 +32117,7 @@
           <w>quis</w>
           <w>sepe</w>
           <w>alienam</w>
-          <w>rape<lb n="20" xml:id="CE34-5_lb_094v_20"/>rit</w>
+          <w>rupe<lb n="20" xml:id="CE34-5_lb_094v_20"/>rit</w>
           <w>id</w>
           <w>est</w>
           <term ref="#iderzun" xml:lang="lng"><w>iderzon</w></term>
@@ -31727,8 +32135,9 @@
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
-        <p n="286" xml:id="CE34-5_p_094v_286"><lb n="21" type="rubric" xml:id="CE34-5_lb_094v_21"
-                /><label><num><w>CCLXXXVI</w></num></label>
+
+        <p n="286" xml:id="CE34-5_p_094v_286">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_094v_21"/><label><num><w>CCLXXXVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>axegias</w>
           <w>si</w>
@@ -31737,7 +32146,7 @@
           <w>de</w>
           <w>sepe</w>
           <lb n="22" xml:id="CE34-5_lb_094v_22"/>
-          <w>Id</w>
+          <w>id</w>
           <w>est</w>
           <term ref="#axegiato" xml:id="CE34-5_term_axegiato_286" xml:lang="lng">
             <w>axigiato</w>
@@ -31755,13 +32164,14 @@
           <w>
             <choice>
               <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
-              <expan>sol<ex>idos</ex></expan>
+              <expan>sol<ex>ido</ex></expan>
             </choice>
           </w>
           <measure quantity="1" type="currency" unit="soldi"><w>I</w></measure>
         </p>
-        <p n="287" xml:id="CE34-5_p_094v_287"><lb n="23" type="rubric" xml:id="CE34-5_lb_094v_23"
-                /><label><num><w>CCLXXXVII</w></num></label>
+
+        <p n="287" xml:id="CE34-5_p_094v_287">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_094v_23"/><label><num><w>CCLXXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sepe</w>
           <w>stantaria</w>
@@ -31782,7 +32192,7 @@
           <w>
             <choice>
               <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
-              <expan>sol<ex>idos</ex></expan>
+              <expan>sol<ex>ido</ex></expan>
             </choice>
           </w>
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
@@ -31816,8 +32226,9 @@
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>tres</w></measure>
         </p>
-        <p n="288" xml:id="CE34-5_p_094v_288"><lb n="26" type="rubric" xml:id="CE34-5_lb_094v_26"
-                /><label><num><w>CCLXXXVIII</w></num></label>
+
+        <p n="288" xml:id="CE34-5_p_094v_288">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_094v_26"/><label><num><w>CCLXXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#plovum" xml:id="CE34-5_term_plovum_288" xml:lang="lng">
             <w>plo<c corresp="#v">u</c>o</w>
@@ -31830,7 +32241,7 @@
           <w>ali<lb n="27" xml:id="CE34-5_lb_094v_27"/>enum</w>
           <w>iniquum</w>
           <w>animum</w>
-          <w>capella<c corresp="#v">u</c>erit</w>
+          <w>capela<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
               <abbr>con<am><g ref="#ptilde"/></am></abbr>
@@ -31860,8 +32271,9 @@
           </choice></w>
           <term ref="#actogild" xml:id="CE34-5_term_actogild_288" xml:lang="lng"><w>actigild</w></term>
         </p>
-        <p n="289" xml:id="CE34-5_p_095r_289"><lb n="2" type="rubric" xml:id="CE34-5_lb_095r_02"
-                /><label><num><w>CCLXXXVIIII</w></num></label>
+
+        <p n="289" xml:id="CE34-5_p_095r_289">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_095r_02"/><label><num><w>CCLXXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tentinno</w>
           <w>si</w>
@@ -31888,7 +32300,9 @@
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
-        <p n="290" xml:id="CE34-5_p_095r_290"><lb n="4" type="rubric" xml:id="CE34-5_lb_095r_04"
+
+        <p n="290" xml:id="CE34-5_p_095r_290">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_095r_04"
                   /><label><num><w>CC<del>L</del>XC</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>iugum</w>
@@ -31909,8 +32323,8 @@
             </choice>
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure></p>
-        <p n="291" xml:id="CE34-5_p_095r_291"><lb n="5" type="rubric" xml:id="CE34-5_lb_095r_05"
-                /><label><num><w>CCXCI</w></num></label>
+        <p n="291" xml:id="CE34-5_p_095r_291">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_095r_05"/><label><num><w>CCXCI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sugas</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -32000,8 +32414,9 @@
           <w>constitutum</w>
           <w>est</w>
         </p>
-        <p n="292" xml:id="CE34-5_p_095r_292"><lb n="10" type="rubric" xml:id="CE34-5_lb_095r_10"
-                /><label><num><w>CCXCII</w></num></label>
+
+        <p n="292" xml:id="CE34-5_p_095r_292">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_095r_10"/><label><num><w>CCXCII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -32047,8 +32462,9 @@
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>VI</w></measure>
         </p>
-        <p n="293" xml:id="CE34-5_p_095r_293"><lb n="12" type="rubric" xml:id="CE34-5_lb_095r_12"
-                /><label><num><w>CCXCIII</w></num></label>
+
+        <p n="293" xml:id="CE34-5_p_095r_293">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_095r_12"/><label><num><w>CCXCIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>palo</w>
           <w>quod</w>
@@ -32080,8 +32496,9 @@
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>VI</w></measure>
         </p>
-        <p n="294" xml:id="CE34-5_p_095r_294"><lb n="13" type="rubric" xml:id="CE34-5_lb_095r_13"
-                /><label><num><w>CCXCIIII</w></num></label>
+
+        <p n="294" xml:id="CE34-5_p_095r_294">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_095r_13"/><label><num><w>CCXCIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>ite</w>
           <w><choice>
@@ -32116,8 +32533,9 @@
           </w>
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
         </p>
-        <p n="295" xml:id="CE34-5_p_095r_295"><lb n="15" type="rubric" xml:id="CE34-5_lb_095r_15"
-                /><label><num><w>CCXCV</w></num></label>
+
+        <p n="295" xml:id="CE34-5_p_095r_295">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_095r_15"/><label><num><w>CCXCV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>tra<c corresp="#v">u</c>icem</w>
           <w><c corresp="#v">u</c>itis</w>
@@ -32147,8 +32565,9 @@
             </choice>
           </w>
         </p>
-        <p n="296" xml:id="CE34-5_p_095r_296"><lb n="17" type="rubric" xml:id="CE34-5_lb_095r_17"
-                /><label><num><w>CCXCVI</w></num></label>
+
+        <p n="296" xml:id="CE34-5_p_095r_296">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_095r_17"/><label><num><w>CCXCVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ubas</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -32197,8 +32616,9 @@
           <w>sit</w>
           <w>culpa<c corresp="#v">u</c>ilis</w>
         </p>
-        <p n="297" xml:id="CE34-5_p_095r_297"><lb n="19" type="rubric" xml:id="CE34-5_lb_095r_19"
-                /><label><num><w>CCXCVII</w></num></label>
+
+        <p n="297" xml:id="CE34-5_p_095r_297">
+          <lb n="19" type="rubric" xml:id="CE34-5_lb_095r_19"/><label><num><w>CCXCVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ambulatorias</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -32223,8 +32643,9 @@
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>VI</w></measure>
         </p>
-        <p n="298" xml:id="CE34-5_p_095r_298"><lb n="21" type="rubric" xml:id="CE34-5_lb_095r_21"
-                /><label><num><w>CCXCVIII</w></num></label>
+
+        <p n="298" xml:id="CE34-5_p_095r_298">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_095r_21"/><label><num><w>CCXCVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>capistro</w>
           <w>si</w>
@@ -32254,8 +32675,9 @@
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>VI</w></measure>
         </p>
-        <p n="299" xml:id="CE34-5_p_095r_299"><lb n="22" type="rubric" xml:id="CE34-5_lb_095r_22"
-                /><label><num><w>CCXCVIIII</w></num></label>
+
+        <p n="299" xml:id="CE34-5_p_095r_299">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_095r_22"/><label><num><w>CCXCVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>rete</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -32293,8 +32715,9 @@
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>III</w></measure>
         </p>
-        <p n="300" xml:id="CE34-5_p_095r_300"><lb n="24" type="rubric" xml:id="CE34-5_lb_095r_24"
-                /><label><num><w>CCC</w></num></label>
+
+        <p n="300" xml:id="CE34-5_p_095r_300">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_095r_24"/><label><num><w>CCC</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>arbores</w>
           <w>si</w>
@@ -32398,8 +32821,9 @@
           <w>sit</w>
           <w>culpa<c corresp="#v">u</c>ilis</w>
         </p>
-        <p n="301" xml:id="CE34-5_p_095v_301"><lb n="3" type="rubric" xml:id="CE34-5_lb_095v_03"
-                /><label><num><w>CCCI</w></num></label>
+
+        <p n="301" xml:id="CE34-5_p_095v_301">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_095v_03"/><label><num><w>CCCI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>q<c corresp="#v">u</c>is</w>
           <w>castenea</w>
@@ -32426,8 +32850,9 @@
           </w>
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
         </p>
-        <p n="302" xml:id="CE34-5_p_095v_302"><lb n="5" type="rubric" xml:id="CE34-5_lb_095v_05"
-                /><label><num><w>CCCII</w></num></label>
+
+        <p n="302" xml:id="CE34-5_p_095v_302">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_095v_05"/><label><num><w>CCCII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -32453,8 +32878,9 @@
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>III</w></measure>
         </p>
-        <p n="303" xml:id="CE34-5_p_095v_303"><lb n="6" type="rubric" xml:id="CE34-5_lb_095v_06"
-                /><label><num><w>CCCIII</w></num></label>
+
+        <p n="303" xml:id="CE34-5_p_095v_303">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_095v_06"/><label><num><w>CCCIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>homo</w>
           <w>aut</w>
@@ -32560,8 +32986,9 @@
           <w>aut</w>
           <w>lesione</w>
         </p>
-        <p n="304" xml:id="CE34-5_p_095v_304"><lb n="11" type="rubric" xml:id="CE34-5_lb_095v_11"
-                /><label><num><w>CCCIIII</w></num></label>
+
+        <p n="304" xml:id="CE34-5_p_095v_304">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_095v_11"/><label><num><w>CCCIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>caballus</w>
           <w>aut</w>
@@ -32643,8 +33070,9 @@
           <w>cuius</w>
           <w>clausura</w>
         </p>
-        <p n="305" xml:id="CE34-5_p_095v_305"><lb n="16" type="rubric" xml:id="CE34-5_lb_095v_16"
-                /><label><num><w>CCCV</w></num></label>
+
+        <p n="305" xml:id="CE34-5_p_095v_305">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_095v_16"/><label><num><w>CCCV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>fossatum</w>
@@ -32723,8 +33151,9 @@
           <w>occulte</w>
           <w>fecit</w>
         </p>
-        <p n="306" xml:id="CE34-5_p_095v_306"><lb n="22" type="rubric" xml:id="CE34-5_lb_095v_22"
-                /><label><num><w>CCCVI</w></num></label>
+
+        <p n="306" xml:id="CE34-5_p_095v_306">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_095v_22"/><label><num><w>CCCVI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>puteo</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -32779,8 +33208,9 @@
             <reg>invenitur</reg>
           </choice></w>
         </p>
-        <p n="307" xml:id="CE34-5_p_095v_307"><lb n="26" type="rubric" xml:id="CE34-5_lb_095v_26"
-                /><label><num><w>CCCVII</w></num></label>
+
+        <p n="307" xml:id="CE34-5_p_095v_307">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_095v_26"/><label><num><w>CCCVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>arma</w>
           <w>si</w>
@@ -32874,8 +33304,9 @@
             </choice>
           </w>
         </p>
-        <p n="308" xml:id="CE34-5_p_096r_308"><lb n="5" type="rubric" xml:id="CE34-5_lb_096r_05"
-                /><label><num><w>CCCVIII</w></num></label>
+
+        <p n="308" xml:id="CE34-5_p_096r_308">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_096r_05"/><label><num><w>CCCVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -32932,8 +33363,9 @@
           <w>ea</w>
           <w>fecerit</w>
         </p>
-        <p n="309" xml:id="CE34-5_p_096r_309"><lb n="8" type="rubric" xml:id="CE34-5_lb_096r_08"
-                /><label><num><w>CCCVIIII</w></num></label>
+
+        <p n="309" xml:id="CE34-5_p_096r_309">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_096r_08"/><label><num><w>CCCVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>feras</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -33032,8 +33464,9 @@
             <reg>incitavit</reg>
           </choice></w>
         </p>
-        <p n="310" xml:id="CE34-5_p_096r_310"><lb n="17" type="rubric" xml:id="CE34-5_lb_096r_17"
-                /><label><num><w>CCCX</w></num></label>
+
+        <p n="310" xml:id="CE34-5_p_096r_310">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_096r_17"/><label><num><w>CCCX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>pedica</w>
           <w>aut</w>
@@ -33071,8 +33504,9 @@
           <w>pedica</w>
           <w>misit</w>
         </p>
-        <p n="311" xml:id="CE34-5_p_096r_311"><lb n="20" type="rubric" xml:id="CE34-5_lb_096r_20"
-                /><label><num><w>CCCXI</w></num></label>
+
+        <p n="311" xml:id="CE34-5_p_096r_311">
+          <lb n="20" type="rubric" xml:id="CE34-5_lb_096r_20"/><label><num><w>CCCXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>
@@ -33167,6 +33601,7 @@
           </w>
           <w>mi<add hand="scribe_2" place="above">sit</add></w>
         </p>
+
         <p n="312" xml:id="CE34-5_p_096r_312">
           <lb n="26" type="rubric" xml:id="CE34-5_lb_096r_26"/><label><num><w>CCCXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
@@ -33230,8 +33665,9 @@
           <w>septe</w>
           <w>costas</w>
         </p>
-        <p n="313" xml:id="CE34-5_p_096v_313"><lb n="5" type="rubric" xml:id="CE34-5_lb_096v_05"
-                /><label><num><w>CCCXIII</w></num></label>
+
+        <p n="313" xml:id="CE34-5_p_096v_313">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_096v_05"/><label><num><w>CCCXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>fera</w>
           <w>celata</w>
@@ -33273,8 +33709,9 @@
           <w>eam</w>
           <w>placa<c corresp="#v">u</c>it</w>
         </p>
-        <p n="314" xml:id="CE34-5_p_096v_314"><lb n="8" type="rubric" xml:id="CE34-5_lb_096v_08"
-                /><label><num><w>CCCXIIII</w></num></label>
+
+        <p n="314" xml:id="CE34-5_p_096v_314">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_096v_08"/><label><num><w>CCCXIIII</w></num></label>
           <w><hi rend="cap">Q</hi>uamdiu</w>
           <w>fera</w>
           <w><choice>
@@ -33354,8 +33791,9 @@
           <w>ipsa</w>
           <w>fera</w>
         </p>
-        <p n="315" xml:id="CE34-5_p_096v_315"><lb n="15" type="rubric" xml:id="CE34-5_lb_096v_15"
-                /><label><num><w>CCCXV</w></num></label>
+
+        <p n="315" xml:id="CE34-5_p_096v_315">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_096v_15"/><label><num><w>CCCXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>cer<c corresp="#v">u</c>o</w>
           <w>domestico</w>
@@ -33411,8 +33849,9 @@
           </term>
           <w>reddat</w>
         </p>
-        <p n="316" xml:id="CE34-5_p_096v_316"><lb n="18" type="rubric" xml:id="CE34-5_lb_096v_18"
-                /><label><num><w>CCCXVI</w></num></label>
+
+        <p n="316" xml:id="CE34-5_p_096v_316">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_096v_18"/><label><num><w>CCCXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -33454,8 +33893,9 @@
             <w>actigild</w>
           </term>
         </p>
-        <p n="317" xml:id="CE34-5_p_096v_317"><lb n="20" type="rubric" xml:id="CE34-5_lb_096v_20"
-                /><label><num><w>CCCXVII</w></num></label>
+
+        <p n="317" xml:id="CE34-5_p_096v_317">
+          <lb n="20" type="rubric" xml:id="CE34-5_lb_096v_20"/><label><num><w>CCCXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -33487,8 +33927,8 @@
             </choice>
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>VI</w></measure></p>
-        <p n="318" xml:id="CE34-5_p_096v_318"><lb n="22" type="rubric" xml:id="CE34-5_lb_096v_22"
-                /><label><num><w>CCCXVIII</w></num></label>
+        <p n="318" xml:id="CE34-5_p_096v_318">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_096v_22"/><label><num><w>CCCXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>apes</w>
           <w><hi rend="cap">S</hi>i</w>
@@ -33522,8 +33962,9 @@
           </w>
           <measure quantity="12" type="currency" unit="soldi"><w>XII</w></measure>
         </p>
-        <p n="319" xml:id="CE34-5_p_096v_319"><lb n="24" type="rubric" xml:id="CE34-5_lb_096v_24"
-                /><label><num><w>CCCXVIIII</w></num></label>
+
+        <p n="319" xml:id="CE34-5_p_096v_319">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_096v_24"/><label><num><w>CCCXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -33627,8 +34068,8 @@
             </choice>
           </w>
           <w>req<add hand="scribe_2" place="above">u</add>irat</w></p>
-        <p n="320" xml:id="CE34-5_p_097r_320"><lb n="3" type="rubric" xml:id="CE34-5_lb_097r_03"
-                /><label><num><w>CCCXX</w></num></label>
+        <p n="320" xml:id="CE34-5_p_097r_320">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_097r_03"/><label><num><w>CCCXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>de</w>
@@ -33688,8 +34129,8 @@
             </choice>
           </w>
           <measure quantity="12" type="currency" unit="soldi"><w>XII</w></measure></p>
-        <p n="321" xml:id="CE34-5_p_097r_321"><lb n="7" type="rubric" xml:id="CE34-5_lb_097r_07"
-                /><label><num><w>CCCXXI</w></num></label>
+        <p n="321" xml:id="CE34-5_p_097r_321">
+          <lb n="7" type="rubric" xml:id="CE34-5_lb_097r_07"/><label><num><w>CCCXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -33724,8 +34165,8 @@
             </choice>
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>VI</w></measure></p>
-        <p n="322" xml:id="CE34-5_p_097r_322"><lb n="9" type="rubric" xml:id="CE34-5_lb_097r_09"
-                /><label><num><w>CCCXXII</w></num></label>
+        <p n="322" xml:id="CE34-5_p_097r_322">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_097r_09"/><label><num><w>CCCXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>canes</w>
           <w>incitatos</w>
@@ -33768,8 +34209,9 @@
           <w>eos</w>
           <w>incita<c corresp="#v">u</c>it</w>
         </p>
-        <p n="323" xml:id="CE34-5_p_097r_323"><lb n="12" type="rubric" xml:id="CE34-5_lb_097r_12"
-                /><label><num><w>CCCXXIII</w></num></label>
+
+        <p n="323" xml:id="CE34-5_p_097r_323">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_097r_12"/><label><num><w>CCCXXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>homine</w>
           <w>rabioso</w>
@@ -33836,8 +34278,9 @@
           <w>non</w>
           <w>occidat<g ref="#ur"/></w>
         </p>
-        <p n="324" xml:id="CE34-5_p_097r_324"><lb n="17" type="rubric" xml:id="CE34-5_lb_097r_17"
-                /><label><num><w>CCCXXIIII</w></num></label>
+
+        <p n="324" xml:id="CE34-5_p_097r_324">
+          <lb n="17" type="rubric" xml:id="CE34-5_lb_097r_17"/><label><num><w>CCCXXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>canes</w>
           <w>aut</w>
@@ -33893,8 +34336,9 @@
             <w>supra</w>
           </damage>
         </p>
-        <p n="325" xml:id="CE34-5_p_097r_325"><lb n="21" type="rubric" xml:id="CE34-5_lb_097r_21"
-                /><label><num><w>CCCXXV</w></num></label>
+
+        <p n="325" xml:id="CE34-5_p_097r_325">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_097r_21"/><label><num><w>CCCXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>quadrupedia</w>
           <w>si</w>
@@ -33930,8 +34374,9 @@
           <w>fuerit</w>
           <w>pecul<g ref="#jnodotenl"/>um</w>
         </p>
-        <p n="326" xml:id="CE34-5_p_097r_326"><lb n="23" type="rubric" xml:id="CE34-5_lb_097r_23"
-                /><label><num><w>CCCXXVI</w></num></label>
+
+        <p n="326" xml:id="CE34-5_p_097r_326">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_097r_23"/><label><num><w>CCCXXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>caballus</w>
           <w>cum</w>
@@ -34011,8 +34456,9 @@
             </w>
           </add>
         </p>
-        <p n="327" xml:id="CE34-5_p_097v_327"><lb n="3" type="rubric" xml:id="CE34-5_lb_097v_03"
-                /><label><num><w>CCCXXVII</w></num></label>
+
+        <p n="327" xml:id="CE34-5_p_097v_327">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_097v_03"/><label><num><w>CCCXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>caballo</w>
           <w>conducto</w>
@@ -34093,8 +34539,9 @@
           <w>animal</w>
           <w>fue<lb rend="align_right" type="extra"/>rit</w>
         </p>
-        <p n="328" xml:id="CE34-5_p_097v_328"><lb n="8" type="rubric" xml:id="CE34-5_lb_097v_08"
-                /><label><num><w>CCCXXVIII</w></num></label>
+
+        <p n="328" xml:id="CE34-5_p_097v_328">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_097v_08"/><label><num><w>CCCXXVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>animalis</w>
           <w>alienum</w>
@@ -34198,8 +34645,9 @@
           <w>hoc</w>
           <w>fecit</w>
         </p>
-        <p n="329" xml:id="CE34-5_p_097v_329"><lb n="15" type="rubric" xml:id="CE34-5_lb_097v_15"
-                /><label><num><w>CCCXXVIIII</w></num></label>
+
+        <p n="329" xml:id="CE34-5_p_097v_329">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_097v_15"/><label><num><w>CCCXXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>cane</w>
           <w>furato</w>
@@ -34221,8 +34669,9 @@
           </w>
           <w>redda<gap extent="1" unit="chars"/><supplied reason="illegible" resp="alim-pi">t</supplied></w>
         </p>
-        <p n="330" xml:id="CE34-5_p_097v_330"><lb n="16" type="rubric" xml:id="CE34-5_lb_097v_16"
-                /><label><num><w>CCCXXX</w></num></label>
+
+        <p n="330" xml:id="CE34-5_p_097v_330">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_097v_16"/><label><num><w>CCCXXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -34290,8 +34739,9 @@
             <w>semilem</w>
           </gloss>
         </p>
-        <p n="331" xml:id="CE34-5_p_097v_331"><lb n="21" type="rubric" xml:id="CE34-5_lb_097v_21"
-                /><label><num><w>CCCXXXI</w></num></label>
+
+        <p n="331" xml:id="CE34-5_p_097v_331">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_097v_21"/><label><num><w>CCCXXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -34354,8 +34804,9 @@
           <w>eius</w>
           <w>reddat</w>
         </p>
-        <p n="332" xml:id="CE34-5_p_097v_332"><lb n="24" type="rubric" xml:id="CE34-5_lb_097v_24"
-                /><label><num><w>CCCXXXII</w></num></label>
+
+        <p n="332" xml:id="CE34-5_p_097v_332">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_097v_24"/><label><num><w>CCCXXXII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w><c corresp="#v">u</c>acca</w>
           <w>
@@ -34499,8 +34950,9 @@
             <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
           </add>
         </p>
-        <p n="334" xml:id="CE34-5_p_098r_334"><lb n="3" type="rubric" xml:id="CE34-5_lb_098r_03"
-                /><label><num><w>CCCXXXIIII</w></num></label>
+
+        <p n="334" xml:id="CE34-5_p_098r_334">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_098r_03"/><label><num><w>CCCXXXIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w><w>
               <choice>
@@ -34569,8 +35021,9 @@
           <w>mortuus</w>
           <w>fuerit</w>
         </p>
-        <p n="335" xml:id="CE34-5_p_098r_335"><lb n="6" type="rubric" xml:id="CE34-5_lb_098r_06"
-                /><label><num><w>CCCXXXV</w></num></label>
+
+        <p n="335" xml:id="CE34-5_p_098r_335">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_098r_06"/><label><num><w>CCCXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>animale</w>
           <w>excoriato</w>
@@ -34640,8 +35093,8 @@
             </choice>
           </w>
           <measure quantity="12" type="currency" unit="soldi"><w>XII</w></measure></p>
-        <p n="336" xml:id="CE34-5_p_098r_336"><lb n="9" type="rubric" xml:id="CE34-5_lb_098r_09"
-                /><label><num><w>CCCXXXVI</w></num></label>
+        <p n="336" xml:id="CE34-5_p_098r_336">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_098r_09"/><label><num><w>CCCXXXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>in</w>
           <w>flumine</w>
@@ -34688,8 +35141,9 @@
           </w>
           <measure quantity="12" type="currency" unit="soldi"><w>XII</w></measure>
         </p>
-        <p n="337" xml:id="CE34-5_p_098r_337"><lb n="11" type="rubric" xml:id="CE34-5_lb_098r_11"
-                /><label><num><w>CCCXXXVII</w></num></label>
+
+        <p n="337" xml:id="CE34-5_p_098r_337">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_098r_11"/><label><num><w>CCCXXXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>caballo</w>
           <w>placato</w>
@@ -34744,8 +35198,9 @@
             </w>
           </gloss>
         </p>
-        <p n="338" xml:id="CE34-5_p_098r_338"><lb n="14" type="rubric" xml:id="CE34-5_lb_098r_14"
-                /><label><num><w>CCCXXXVIII</w></num></label>
+
+        <p n="338" xml:id="CE34-5_p_098r_338">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_098r_14"/><label><num><w>CCCXXXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>cauda</w>
           <w>ca<c corresp="#v">u</c>all<g ref="#jnodotenl"/></w>
@@ -34896,8 +35351,9 @@
           <gap extent="11" unit="chars"/><supplied reason="omitted-in-original" resp="alim-pi"><label><num
                 xml:id="CE34-5_p_098r_339"><w>CCCXXXVIIII</w></num></label></supplied>
         </p>
-        <p n="340" xml:id="CE34-5_p_098r_340"><lb n="25" type="rubric" xml:id="CE34-5_lb_098r_25"
-                /><label><num><w>CCCXL</w></num></label>
+
+        <p n="340" xml:id="CE34-5_p_098r_340">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_098r_25"/><label><num><w>CCCXL</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -34981,8 +35437,9 @@
           <w>eum</w>
           <w>reddat</w>
         </p>
-        <p n="341" xml:id="CE34-5_p_098v_341"><lb n="3" type="rubric" xml:id="CE34-5_lb_098v_03"
-                /><label><num><w>CCCXLI</w></num></label>
+
+        <p n="341" xml:id="CE34-5_p_098v_341">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_098v_03"/><label><num><w>CCCXLI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>disficurato</w>
           <w>caballo</w>
@@ -35030,8 +35487,9 @@
           <w>sibi</w>
           <w>nonu</w>
         </p>
-        <p n="342" xml:id="CE34-5_p_098v_342"><lb n="6" type="rubric" xml:id="CE34-5_lb_098v_06"
-                /><label><num><w>CCCXLII</w></num></label>
+
+        <p n="342" xml:id="CE34-5_p_098v_342">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_098v_06"/><label><num><w>CCCXLII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -35238,7 +35696,9 @@
           <w>ut</w>
           <w>su<add hand="scribe_1" place="above">pra</add></w>
         </p>
-        <p n="343" xml:id="CE34-5_p_098v_343"><lb n="15" type="rubric" xml:id="CE34-5_lb_098v_15"/>
+
+        <p n="343" xml:id="CE34-5_p_098v_343">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_098v_15"/>
           <label>
             <num>
               <w>
@@ -35478,8 +35938,9 @@
           <w>ad</w>
           <w>calumnia</w>
         </p>
-        <p n="344" xml:id="CE34-5_p_099r_344"><lb n="3" type="rubric" xml:id="CE34-5_lb_099r_03"
-                /><label><num><w>CCCXLIIII</w></num></label>
+
+        <p n="344" xml:id="CE34-5_p_099r_344">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_099r_03"/><label><num><w>CCCXLIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -35588,8 +36049,9 @@
             </choice>
           </w>
         </p>
-        <p n="345" xml:id="CE34-5_p_099r_345"><lb n="9" type="rubric" xml:id="CE34-5_lb_099r_09"
-                /><label><num><w>CCCXLV</w></num></label>
+
+        <p n="345" xml:id="CE34-5_p_099r_345">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_099r_09"/><label><num><w>CCCXLV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -35642,8 +36104,9 @@
             </choice>
           </w>
         </p>
-        <p n="346" xml:id="CE34-5_p_099r_346"><lb n="11" type="rubric" xml:id="CE34-5_lb_099r_11"
-                /><label><num><w>CCCXLVI</w></num></label>
+
+        <p n="346" xml:id="CE34-5_p_099r_346">
+          <lb n="11" type="rubric" xml:id="CE34-5_lb_099r_11"/><label><num><w>CCCXLVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -35916,8 +36379,9 @@
             </choice>
           </w>
         </p>
-        <p n="347" xml:id="CE34-5_p_099r_347"><lb n="26" type="rubric" xml:id="CE34-5_lb_099r_26"
-                /><label><num><w>CCCXLVII</w></num></label>
+
+        <p n="347" xml:id="CE34-5_p_099r_347">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_099r_26"/><label><num><w>CCCXLVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>hominem</w>
           <w>
@@ -36039,8 +36503,9 @@
           <w>sequere</w>
           <w>coepit</w>
         </p>
-        <p n="348" xml:id="CE34-5_p_099v_348"><lb n="6" type="rubric" xml:id="CE34-5_lb_099v_06"
-                /><label><num><w>CCCXLVIII</w></num></label>
+
+        <p n="348" xml:id="CE34-5_p_099v_348">
+          <lb n="6" type="rubric" xml:id="CE34-5_lb_099v_06"/><label><num><w>CCCXLVIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>ab</w>
@@ -36185,8 +36650,9 @@
           <w>est</w>
           <w>conser<c corresp="#v">u</c>it</w>
         </p>
-        <p n="349" xml:id="CE34-5_p_099v_349"><lb n="18" type="rubric" xml:id="CE34-5_lb_099v_18"
-                /><label><num><w>CCCLXVIIII</w></num></label>
+
+        <p n="349" xml:id="CE34-5_p_099v_349">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_099v_18"/><label><num><w>CCCLXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>porcus</w>
           <w>si</w>
@@ -36266,8 +36732,9 @@
           </term>
           <add hand="scribe_1" place="above"><w>simile</w></add>
         </p>
-        <p n="350" xml:id="CE34-5_p_099v_350"><lb n="25" type="rubric" xml:id="CE34-5_lb_099v_25"
-                /><label><num><w>CCCL</w></num></label>
+
+        <p n="350" xml:id="CE34-5_p_099v_350">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_099v_25"/><label><num><w>CCCL</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>in</w>
@@ -36436,8 +36903,9 @@
           <lb rend="align_right" type="extra"/>
           <w>reddatur</w>
         </p>
-        <p n="352" xml:id="CE34-5_p_100r_352"><lb n="9" type="rubric" xml:id="CE34-5_lb_100r_09"
-                /><label><num><w>CCCLII</w></num></label>
+
+        <p n="352" xml:id="CE34-5_p_100r_352">
+          <lb n="9" type="rubric" xml:id="CE34-5_lb_100r_09"/><label><num><w>CCCLII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>porcario</w>
           <w>battudo</w>
@@ -36501,8 +36969,9 @@
           <w><g ref="#openetlig"/></w>
           <w>conponantur</w>
         </p>
-        <p n="353" xml:id="CE34-5_p_100r_353"><lb n="15" type="rubric" xml:id="CE34-5_lb_100r_15"
-                /><label><num><w>CCCLIII</w></num></label>
+
+        <p n="353" xml:id="CE34-5_p_100r_353">
+          <lb n="15" type="rubric" xml:id="CE34-5_lb_100r_15"/><label><num><w>CCCLIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>duo</w>
           <w>porcarii</w>
@@ -36530,8 +36999,9 @@
           <w>non</w>
           <w>requiratur</w>
         </p>
-        <p n="354" xml:id="CE34-5_p_100r_354"><lb n="18" type="rubric" xml:id="CE34-5_lb_100r_18"
-                /><label><num><w>CCCLIIII</w></num></label>
+
+        <p n="354" xml:id="CE34-5_p_100r_354">
+          <lb n="18" type="rubric" xml:id="CE34-5_lb_100r_18"/><label><num><w>CCCLIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>campum</w>
@@ -36570,8 +37040,9 @@
           <w>habeat</w>
           <w>frugas</w>
         </p>
-        <p n="355" xml:id="CE34-5_p_100r_355"><lb n="22" type="rubric" xml:id="CE34-5_lb_100r_22"
-                /><label><num><w>CCCLV</w></num></label>
+
+        <p n="355" xml:id="CE34-5_p_100r_355">
+          <lb n="22" type="rubric" xml:id="CE34-5_lb_100r_22"/><label><num><w>CCCLV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>exara<c corresp="#v">u</c>erit</w>
@@ -36624,8 +37095,9 @@
           <w><g ref="#arbar"/>n</w>
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
-        <p n="356" xml:id="CE34-5_p_100r_356"><lb n="26" type="rubric" xml:id="CE34-5_lb_100r_26"
-                /><label><num><w>CCCLVI</w></num></label>
+
+        <p n="356" xml:id="CE34-5_p_100r_356">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_100r_26"/><label><num><w>CCCLVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>prato</w>
@@ -36658,8 +37130,9 @@
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>VI</w></measure>
         </p>
-        <p n="357" xml:id="CE34-5_p_100v_357"><lb n="3" type="rubric" xml:id="CE34-5_lb_100v_03"
-                /><label><num><w>CCCLVII</w></num></label>
+
+        <p n="357" xml:id="CE34-5_p_100v_357">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_100v_03"/><label><num><w>CCCLVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>campum</w>
@@ -36689,8 +37162,9 @@
           </w>
           <measure quantity="6" type="currency" unit="soldi"><w>VI</w></measure>
         </p>
-        <p n="358" xml:id="CE34-5_p_100v_358"><lb n="5" type="rubric" xml:id="CE34-5_lb_100v_05"
-                /><label><num><w>CCCLVIII</w></num></label>
+
+        <p n="358" xml:id="CE34-5_p_100v_358">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_100v_05"/><label><num><w>CCCLVIII</w></num></label>
           <w><hi rend="cap">N</hi>ulli</w>
           <w>sit</w>
           <w>licentia</w>
@@ -36790,8 +37264,8 @@
       </div>
 
       <div n="Capp. 359-366" subtype="procedura_civile" type="capitula" xml:id="CE34-5_div_359-366">
-        <p n="359" xml:id="CE34-5_p_100v_359"><lb n="14" type="rubric" xml:id="CE34-5_lb_100v_14"
-                /><label><num><w>CCCLVIIII</w></num></label>
+        <p n="359" xml:id="CE34-5_p_100v_359">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_100v_14"/><label><num><w>CCCLVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>sacramentis</w>
           <w>si</w>
@@ -36975,8 +37449,9 @@
           <w>sit</w>
           <w>ipse</w>
         </p>
-        <p n="360" xml:id="CE34-5_p_101r_360"><lb n="2" type="rubric" xml:id="CE34-5_lb_101r_02"
-                /><label><num><w>CCCLX</w></num></label>
+
+        <p n="360" xml:id="CE34-5_p_101r_360">
+          <lb n="2" type="rubric" xml:id="CE34-5_lb_101r_02"/><label><num><w>CCCLX</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#wadia" xml:id="CE34-5_term_wadia_360" xml:lang="lng">
             <w><c corresp="#v">u</c><c corresp="#v">u</c>adia</w>
@@ -37160,8 +37635,9 @@
             <measure quantity="36" type="currency" unit="soldi"><w>XXXVI</w></measure>
           </add>
         </p>
-        <p n="361" xml:id="CE34-5_p_101r_361"><lb n="12" type="rubric" xml:id="CE34-5_lb_101r_12"
-                /><label><num><w>CCCLXI</w></num></label>
+
+        <p n="361" xml:id="CE34-5_p_101r_361">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_101r_12"/><label><num><w>CCCLXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>alii</w>
@@ -37317,8 +37793,9 @@
           </w>
           <w>possedeat</w>
         </p>
-        <p n="362" xml:id="CE34-5_p_101r_362"><lb n="26" type="rubric" xml:id="CE34-5_lb_101r_26"
-                /><label><num><w>CCCLXII</w></num></label>
+
+        <p n="362" xml:id="CE34-5_p_101r_362">
+          <lb n="26" type="rubric" xml:id="CE34-5_lb_101r_26"/><label><num><w>CCCLXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>post</w>
           <w>sacramentum</w>
@@ -37588,8 +38065,9 @@
             </choice>
           </w>
         </p>
-        <p n="363" xml:id="CE34-5_p_101v_363"><lb n="16" type="rubric" xml:id="CE34-5_lb_101v_16"
-                /><label><num><w>CCCLXIII</w></num></label>
+
+        <p n="363" xml:id="CE34-5_p_101v_363">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_101v_16"/><label><num><w>CCCLXIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -37682,8 +38160,9 @@
           </w>
           <w>rupto</w>
         </p>
-        <p n="364" xml:id="CE34-5_p_101v_364"><lb n="20" type="rubric" xml:id="CE34-5_lb_101v_20"
-                /><label><num><w>CCCLXIIII</w></num></label>
+
+        <p n="364" xml:id="CE34-5_p_101v_364">
+          <lb n="20" type="rubric" xml:id="CE34-5_lb_101v_20"/><label><num><w>CCCLXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>eo</w>
           <w>quod</w>
@@ -37836,8 +38315,9 @@
           <w>statum</w>
           <w><add hand="scribe_2" place="above">re</add><c corresp="#v">u</c>ocare</w>
         </p>
-        <p n="365" xml:id="CE34-5_p_102r_365"><lb n="3" type="rubric" xml:id="CE34-5_lb_102r_03"
-                /><label><num><w>CCCLXV</w></num></label>
+
+        <p n="365" xml:id="CE34-5_p_102r_365">
+          <lb n="3" type="rubric" xml:id="CE34-5_lb_102r_03"/><label><num><w>CCCLXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>debitum</w>
           <w>patris</w>
@@ -37920,8 +38400,9 @@
           <w>si</w>
           <w>potuerit</w>
         </p>
-        <p n="366" xml:id="CE34-5_p_102r_366"><lb n="8" type="rubric" xml:id="CE34-5_lb_102r_08"
-                /><label><num><w>CCCLXVI</w></num></label>
+
+        <p n="366" xml:id="CE34-5_p_102r_366">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_102r_08"/><label><num><w>CCCLXVI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>aliqua</w>
           <w><choice>
@@ -38020,8 +38501,8 @@
       </div>
 
       <div n="Capp. 367-385" subtype="miscellaneo" type="capitula" xml:id="CE34-5_div_367-385">
-        <p n="367" xml:id="CE34-5_p_102r_367"><lb n="14" type="rubric" xml:id="CE34-5_lb_102r_14"
-                /><label><num><w>CCCLXVII</w></num></label>
+        <p n="367" xml:id="CE34-5_p_102r_367">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_102r_14"/><label><num><w>CCCLXVII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term ref="#waregang" xml:id="CE34-5_term_waregang_367" xml:lang="lng">
             <w><c corresp="#v">u</c><c corresp="#v">u</c>aregan</w></term>
@@ -38141,8 +38622,9 @@
           <w>tetulo</w>
           <w>al<g ref="#jnodotenl"/>enare</w>
         </p>
-        <p n="368" xml:id="CE34-5_p_102r_368"><lb n="21" type="rubric" xml:id="CE34-5_lb_102r_21"
-                /><label><num><w>CCCLXVIII</w></num></label>
+
+        <p n="368" xml:id="CE34-5_p_102r_368">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_102r_21"/><label><num><w>CCCLXVIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
@@ -38294,8 +38776,9 @@
           <w>ad</w>
           <w>certamen</w>
         </p>
-        <p n="369" xml:id="CE34-5_p_102v_369"><lb n="4" type="rubric" xml:id="CE34-5_lb_102v_04"
-                /><label><num><w>CCCLXVIIII</w></num></label>
+
+        <p n="369" xml:id="CE34-5_p_102v_369">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_102v_04"/><label><num><w>CCCLXVIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>causas</w>
           <w>regalis</w>
@@ -38410,8 +38893,9 @@
             </choice>
           </w>
         </p>
-        <p n="370" xml:id="CE34-5_p_102v_370"><lb n="10" type="rubric" xml:id="CE34-5_lb_102v_10"
-                /><label><num><w>CCCLXX</w></num></label>
+
+        <p n="370" xml:id="CE34-5_p_102v_370">
+          <lb n="10" type="rubric" xml:id="CE34-5_lb_102v_10"/><label><num><w>CCCLXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>regis</w>
@@ -38484,8 +38968,9 @@
             </choice>
           </w>
         </p>
-        <p n="371" xml:id="CE34-5_p_102v_371"><lb n="13" type="rubric" xml:id="CE34-5_lb_102v_13"
-                /><label><num><w>CCCLXXI</w></num></label>
+
+        <p n="371" xml:id="CE34-5_p_102v_371">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_102v_13"/><label><num><w>CCCLXXI</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>alias</w>
           <w><c corresp="#v">u</c>ero</w>
@@ -38607,8 +39092,9 @@
           <w>curtes</w>
           <w>regis</w>
         </p>
-        <p n="372" xml:id="CE34-5_p_102v_372"><lb n="20" type="rubric" xml:id="CE34-5_lb_102v_20"
-                /><label><num><w>CCCLXXII</w></num></label>
+
+        <p n="372" xml:id="CE34-5_p_102v_372">
+          <lb n="20" type="rubric" xml:id="CE34-5_lb_102v_20"/><label><num><w>CCCLXXII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>regis</w>
@@ -38639,8 +39125,9 @@
             </term>
           </add>
         </p>
-        <p n="373" xml:id="CE34-5_p_102v_373"><lb n="21" type="rubric" xml:id="CE34-5_lb_102v_21"
-                /><label><num><w>CCCLXXIII</w></num></label>
+
+        <p n="373" xml:id="CE34-5_p_102v_373">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_102v_21"/><label><num><w>CCCLXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>regis</w>
@@ -38693,8 +39180,9 @@
             </choice>
           </w>
         </p>
-        <p n="374" xml:id="CE34-5_p_102v_374"><lb n="24" type="rubric" xml:id="CE34-5_lb_102v_24"
-                /><label><num><w>CCCLXXIIII</w></num></label>
+
+        <p n="374" xml:id="CE34-5_p_102v_374">
+          <lb n="24" type="rubric" xml:id="CE34-5_lb_102v_24"/><label><num><w>CCCLXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <term xml:lang="lng">
             <w>sculdahis</w>
@@ -38866,8 +39354,9 @@
           </w>
           <measure quantity="80" type="currency" unit="soldi"><w>Lxxx</w></measure>
         </p>
-        <p n="375" xml:id="CE34-5_p_103r_375"><lb n="5" type="rubric" xml:id="CE34-5_lb_103r_05"
-                /><label><num><w>CCCLXXV</w></num></label>
+
+        <p n="375" xml:id="CE34-5_p_103r_375">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_103r_05"/><label><num><w>CCCLXXV</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <term xml:lang="lng"><w>gastaldius</w></term>
           <w>aut</w>
@@ -38991,8 +39480,9 @@
             <w>ipsius</w>
           </add>
         </p>
-        <p n="376" xml:id="CE34-5_p_103r_376"><lb n="12" type="rubric" xml:id="CE34-5_lb_103r_12"
-                /><label><num><w>CCCLXXVI</w></num></label>
+
+        <p n="376" xml:id="CE34-5_p_103r_376">
+          <lb n="12" type="rubric" xml:id="CE34-5_lb_103r_12"/><label><num><w>CCCLXXVI</w></num></label>
           <w><hi rend="cap">N</hi>ullus</w>
           <w>
             <choice>
@@ -39213,8 +39703,9 @@
             </choice>
           </w>
         </p>
-        <p n="377" xml:id="CE34-5_p_103r_377"><lb n="23" type="rubric" xml:id="CE34-5_lb_103r_23"
-                /><label><num><w>CCCLXXVII</w></num></label>
+
+        <p n="377" xml:id="CE34-5_p_103r_377">
+          <lb n="23" type="rubric" xml:id="CE34-5_lb_103r_23"/><label><num><w>CCCLXXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>homini</w>
           <w>libero</w>
@@ -39440,8 +39931,9 @@
           <w>mulieribus</w>
           <w>facere</w>
         </p>
-        <p n="379" xml:id="CE34-5_p_103v_379"><lb n="8" type="rubric" xml:id="CE34-5_lb_103v_08"
-                /><label><num><w>CCCLXXVIIII</w></num></label>
+
+        <p n="379" xml:id="CE34-5_p_103v_379">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_103v_08"/><label><num><w>CCCLXXVIIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -39553,8 +40045,9 @@
             <w>aritraib</w>
           </term>
         </p>
-        <p n="380" xml:id="CE34-5_p_103v_380"><lb n="14" type="rubric" xml:id="CE34-5_lb_103v_14"
-                /><label><num><w>CCCLXXX</w></num></label>
+
+        <p n="380" xml:id="CE34-5_p_103v_380">
+          <lb n="14" type="rubric" xml:id="CE34-5_lb_103v_14"/><label><num><w>CCCLXXX</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>
             <choice>
@@ -39596,8 +40089,9 @@
           <space quantity="6" unit="chars"/>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
-        <p n="381" xml:id="CE34-5_p_103v_381"><lb n="16" type="rubric" xml:id="CE34-5_lb_103v_16"
-                /><label><num><w>CCCLXXXI</w></num></label>
+
+        <p n="381" xml:id="CE34-5_p_103v_381">
+          <lb n="16" type="rubric" xml:id="CE34-5_lb_103v_16"/><label><num><w>CCCLXXXI</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>alium</w>
@@ -39701,8 +40195,9 @@
           <gap extent="10" unit="chars"/><supplied reason="omitted-in-original" resp="alim-pi"
                   ><label><num><w>CCCLXXXII</w></num></label></supplied>
         </p>
-        <p n="383" xml:id="CE34-5_p_103v_383"><lb n="21" type="rubric" xml:id="CE34-5_lb_103v_21"
-                /><label><num><w>CCCLXXXIII</w></num></label>
+
+        <p n="383" xml:id="CE34-5_p_103v_383">
+          <lb n="21" type="rubric" xml:id="CE34-5_lb_103v_21"/><label><num><w>CCCLXXXIII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>hominem</w>
@@ -39761,8 +40256,9 @@
           <w>ferita</w>
           <w>una</w>
         </p>
-        <p n="384" xml:id="CE34-5_p_103v_384"><lb n="25" type="rubric" xml:id="CE34-5_lb_103v_25"
-                /><label><num><w>CCCLXXXIIII</w></num></label>
+
+        <p n="384" xml:id="CE34-5_p_103v_384">
+          <lb n="25" type="rubric" xml:id="CE34-5_lb_103v_25"/><label><num><w>CCCLXXXIIII</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>brachio</w>
           <w>coxa</w>
@@ -39925,7 +40421,9 @@
           <w>parte</w>
           <w>pretii</w>
         </p>
-        <p n="382" xml:id="CE34-5_p_104r_382"><lb n="5" type="rubric" xml:id="CE34-5_lb_104r_05"/>
+
+        <p n="382" xml:id="CE34-5_p_104r_382">
+          <lb n="5" type="rubric" xml:id="CE34-5_lb_104r_05"/>
           <label>
             <num>
               <w>
@@ -40071,8 +40569,9 @@
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>III</w></measure>
         </p>
-        <p n="385" xml:id="CE34-5_p_104r_385"><lb n="8" type="rubric" xml:id="CE34-5_lb_104r_08"
-                /><label><num><w>CCCLXXXV</w></num></label>
+
+        <p n="385" xml:id="CE34-5_p_104r_385">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_104r_08"/><label><num><w>CCCLXXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>mundio</w>
           <w>puelle</w>
@@ -40146,8 +40645,8 @@
       </div>
 
       <div n="Capp. 386-388" subtype="epilogo" type="capitula" xml:id="CE34-5_div_386-388">
-        <p n="386" xml:id="CE34-5_p_104r_386"><lb n="13" type="rubric" xml:id="CE34-5_lb_104r_13"
-                /><label><num><w>CCCLXXXVI</w></num></label>
+        <p n="386" xml:id="CE34-5_p_104r_386">
+          <lb n="13" type="rubric" xml:id="CE34-5_lb_104r_13"/><label><num><w>CCCLXXXVI</w></num></label>
           <w><hi rend="cap">P</hi>resentem</w>
           <w><c corresp="#v">u</c>ero</w>
           <w>dispositionis</w>
@@ -40408,8 +40907,9 @@
           <w>subiectis</w>
           <w>custodiatur</w>
         </p>
-        <p n="387" xml:id="CE34-5_p_104v_387"><lb n="4" type="rubric" xml:id="CE34-5_lb_104v_04"
-                /><label><num><w>CCCLXXXVII</w></num></label>
+
+        <p n="387" xml:id="CE34-5_p_104v_387">
+          <lb n="4" type="rubric" xml:id="CE34-5_lb_104v_04"/><label><num><w>CCCLXXXVII</w></num></label>
           <w><hi rend="cap">S</hi>i</w>
           <w>quis</w>
           <w>homine</w>
@@ -40446,8 +40946,9 @@
           <w>nolendo</w>
           <w>fecit</w>
         </p>
-        <p n="388" xml:id="CE34-5_p_104v_388"><lb n="8" type="rubric" xml:id="CE34-5_lb_104v_08"
-                /><label><num><w>CCCLXXXVIII</w></num></label>
+
+        <p n="388" xml:id="CE34-5_p_104v_388">
+          <lb n="8" type="rubric" xml:id="CE34-5_lb_104v_08"/><label><num><w>CCCLXXXVIII</w></num></label>
           <w><hi rend="cap">E</hi>t</w>
           <w>addimus</w>
           <w>adque</w>

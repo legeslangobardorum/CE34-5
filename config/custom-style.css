@@ -20,6 +20,18 @@
 
 /* ***************************************************************** */
 
+.diplomaticEdition .add[data-place = "top"] {
+/*     padding-left: 10px !important; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+/*    margin-left: 4% !important; */
+    text-align: left;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    background-color: beige !important;
+    font-size: 90%;
+}
+
 .diplomaticEdition .add[data-place = "margin"],
 .add[data-place = "margin-right"],
 .add[data-place = "margin-left"] {
@@ -36,12 +48,16 @@
     font-size: 90%;
 }
 
+.diplomaticEdition .del[data-rend="expunction"] {
+  border-bottom: 3px dotted red !important;
+}
+
 .interpretativeEdition .surplus {
   display: none !important;
 }
 
 .diplomaticEdition .surplus {
-  border-bottom: 3px dotted red !important;
+  border-bottom: 3px solid red !important;
 }
 
 .diplomaticEdition .seg[data-type="interpretative"] {
