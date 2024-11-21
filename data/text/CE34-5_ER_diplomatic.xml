@@ -31980,12 +31980,16 @@
             <w>lex</w>
             <w>
               <choice>
-                <abbr>q<am><g ref="#twodot"/></am></abbr>
+                <abbr>q<am>;</am></abbr>
                 <expan>q<ex>ui</ex></expan>
               </choice>
             </w>
-            <w>froabet</w>
-            <w>qa</w>
+            <unclear><w>staoabet</w></unclear><!-- CHECK ??? -->
+            <w><choice>
+              <abbr><am><g ref="#qbardes"/></am></abbr>
+              <expan>q<ex>uod</ex></expan>
+            </choice></w>
+            <w>a</w>
             <w>lignam</w>
             <w>et</w>
             <w>tinet</w>
@@ -31996,7 +32000,10 @@
               </choice>
             </w>
             <w>ista</w>
-            <w>coposicione</w>
+            <w><choice>
+              <abbr>c<am><g ref="#omacr"/></am>posicione</abbr>
+              <expan>co<ex>n</ex>posicione</expan>
+            </choice></w>
             <w>de</w>
             <w>libero</w>
             <w>
@@ -32908,55 +32915,85 @@
           <add hand="scribe_2" place="margin-left">
             <unclear>
               <w>Quare</w>
-              <w>q</w>
+              <w><choice>
+                <abbr><am><g ref="#qbardes"/></am></abbr>
+                <expan>q<ex>uod</ex></expan>
+              </choice></w>
               <w>ille</w>
-              <w>cui</w>
-              <w>pi</w>
+              <w>cuius</w>
+              <w>sepi</w> <!-- CHECK ??? -->
               <space/>
-              <w>anec</w>
-              <w>suu</w>
+              <w>et</w>
+              <w>nec</w>
+              <w><choice>
+                <abbr>su<am><g ref="#umacr"/></am></abbr>
+                <expan>suu<ex>m</ex></expan>
+              </choice></w>
               <w>
                 <choice>
-                  <abbr><am><g ref="#pbardes"/></am></abbr>
-                  <expan>p<ex>er</ex></expan>
+                  <abbr><am><g ref="#pbardes"/></am>tine<am>te</am></abbr>
+                  <expan>p<ex>er</ex>tine<ex>n</ex>te</expan>
                 </choice>
               </w>
-              <w>aneto</w>
-              <w>i</w>
-              <w>uo</w>
-              <w><c corresp="#v">u</c>ita</w>
-              <w>saliendu</w>
-              <w>ex</w>
+              <w><choice>
+                <abbr><am><g ref="#imacr"/></am></abbr>
+                <expan>i<ex>n</ex></expan>
+              </choice></w>
+              <w>uo<c corresp="#v">u</c>ita</w>
+              <w><choice>
+                <abbr>saliend<am><g ref="#umacr"/></am></abbr>
+                <expan>saliendu<ex>m</ex></expan>
+              </choice></w>
+              <w>et</w>
               <w>sic</w>
-              <w>feceri</w>
-              <w>cop</w>
+              <w>feceri<supplied>t</supplied></w>
+              <w><choice>
+                <abbr>c<am><g ref="#omacr"/></am>p</abbr>
+                <expan>co<ex>n</ex>p<ex>onat</ex></expan>
+              </choice></w>
               <w><c corresp="#v">u</c>ero</w>
-              <w>q</w>
+              <w><choice>
+                <abbr><am><g ref="#qbardes"/></am></abbr>
+                <expan>q<ex>uod</ex></expan>
+              </choice></w>
               <w>a</w>
               <w>ipso</w>
               <w>cui</w>
               <w>sepe</w>
-              <w>ee</w>
+              <w><choice>
+                <abbr><am><g ref="#emacr"/></am></abbr>
+                <expan>e<ex>st</ex></expan>
+              </choice></w>
               <w>clusura</w>
-              <w>e</w>
+              <w><choice>
+                <abbr><am><g ref="#emacr"/></am></abbr>
+                <expan>e<ex>st</ex></expan>
+              </choice></w>
               <w>ut</w>
-              <w>suu</w>
-              <w>pciete</w>
-              <w>mo<c corresp="#v">u</c>e</w>
-              <w>baas<g ref="#jnodotenl"/></w>
-              <w>aljen</w>
-              <w>eu</w>
-              <w>animo</w>
-              <w><c corresp="#v">u</c>inichil</w>
+              <w><choice>
+                <abbr>su<am><g ref="#umacr"/></am></abbr>
+                <expan>suu<ex>m</ex></expan>
+              </choice></w>
+              <w><choice>
+                  <abbr><am><g ref="#pbardes"/></am>tine<am>te</am></abbr>
+                  <expan>p<ex>er</ex>tine<ex>n</ex>te</expan>
+                </choice></w>
+              <w>mo<c corresp="#v">u</c>ebat</w>
+              <w>a</w>
+              <w>sal<g ref="#jnodotenl"/>endum</w>
+              <w>et</w>
+              <w>sic</w>
+              <w>mo<c corresp="#v">u</c>i</w>
+              <w>nichil</w>
               <space/>
-              <w>posu</w>
-              <w>m</w>
-              <w>dice</w>
+              <w>conponat</w>
+              <w>et</w>
+              <w>possumus</w>
+              <w>dicere</w>
               <space/>
               <damage agent="rubbing"/>
-              <w>gra</w>
-              <w>suo</w>
-              <w>ca</w>
+              <w>integram</w>
+              <w>provocasset</w>
             </unclear>
           </add>
           <lb n="8" xml:id="CE34-5_lb_095v_08"/>
@@ -37571,48 +37608,59 @@
           <w>inuenitur</w>
           <add hand="scribe_2" place="margin-right">
             <w><hi rend="cap">S</hi>i</w>
-            <w>qs</w>
+            <w><choice>
+              <abbr><am><g ref="#qbardes"/></am>s</abbr>
+              <expan>q<ex>ui</ex>s</expan>
+            </choice></w>
             <w>alii</w>
-            <w>uuactia</w>
+            <w>uuadia</w>
             <w>dederit</w>
             <w><g ref="#openetlig"/></w>
-            <w>e</w>
-            <w>aon</w>
+            <w>et</w>
+            <w>eam</w>
             <w>recipere</w>
-            <w>ne</w>
-            <w>de</w>
-            <w>xeri</w>
+            <w>neglexerit</w>
             <w>
               <choice>
                 <abbr><am><g ref="#pbardes"/></am></abbr>
-                <expan>p<ex>er</ex></expan>
+                <expan>p<ex>ro</ex></expan>
               </choice>
             </w>
-            <w>siderius</w>
-            <w>se</w>
-            <w>rera</w>
-            <w>puteu</w>
-            <w>re</w>
+            <w>fides</w>
+            <w>iuret</w>
+            <w>quod</w>
+            <w>aput</w>
+            <w>eum</w>
             <w>remanserit</w>
             <w>una</w>
             <w>nocte</w>
             <w>aut</w>
             <w>due</w>
-            <w>ut</w>
+            <w>vel</w>
             <w>trex</w>
             <w>nichil</w>
-            <w>cop</w>
+            <w><choice>
+              <abbr>c<am><g ref="#omacr"/></am>p</abbr>
+              <expan>co<ex>n</ex>p<ex>onat</ex></expan>
+            </choice></w>
             <w>si</w>
             <w>remanserit</w>
             <w>quarta</w>
             <w>nocte</w>
             <measure quantity="12" type="currency" unit="soldi"><w>XII</w></measure>
             <w>solidos</w>
-            <w>cop</w>
+            <w><choice>
+              <abbr>c<am><g ref="#omacr"/></am>p</abbr>
+              <expan>co<ex>n</ex>p<ex>onat</ex></expan>
+            </choice></w>
+            <w>si</w>
             <w>remanserit</w>
             <w>quinta</w>
             <w>nocte</w>
-            <w>cop</w>
+            <w><choice>
+              <abbr>c<am><g ref="#omacr"/></am>p</abbr>
+              <expan>co<ex>n</ex>p<ex>onat</ex></expan>
+            </choice></w>
             <w>
               <choice>
                 <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
@@ -37625,7 +37673,10 @@
             <w>remanserint</w>
             <w>sesta</w>
             <w>nocte</w>
-            <w>cop</w>
+            <w><choice>
+              <abbr>c<am><g ref="#omacr"/></am>p</abbr>
+              <expan>co<ex>n</ex>p<ex>onat</ex></expan>
+            </choice></w>
             <w>
               <choice>
                 <abbr>so<am><g ref="#lhighstrok"/></am></abbr>
@@ -40471,43 +40522,43 @@
             <w>
               <choice>
                 <abbr><am><g ref="#qtilde"/></am></abbr>
-                <expan>q<ex>uis</ex></expan>
+                <expan>q<ex>ui</ex></expan>
               </choice>
             </w>
             <w>fueri</w>
             <w>pintus</w>
             <w><g ref="#openetlig"/></w>
-            <w>ceperi</w>
-            <unclear><w>ei</w><w>accepibi</w></unclear>
+            <w>ceperi<supplied>t</supplied></w>
+            <unclear><w>et</w><w>accepibi<supplied>t</supplied></w></unclear>
             <w>plagas</w>
-            <w>n</w>
-            <w>coponatur</w>
-            <w>nixi</w>
+            <w>non</w>
+            <w>conponatur</w>
+            <w>iuxta</w>
             <w>de</w>
             <w>plagas</w>
-            <w>ex</w>
+            <w>et</w>
             <w>si</w>
             <w>cecideri</w>
-            <w>ex</w>
-            <w>n</w>
-            <w>aceper</w>
+            <w>et</w>
+            <w>non</w>
+            <w>aceperi<supplied>t</supplied></w>
             <w>ibi</w>
             <w>plagas</w>
-            <w>ex</w>
-            <w>lesione</w>
-            <w>n</w>
-            <w>nrxari</w>
+            <w>et</w>
+            <w>lesionem</w>
+            <w>non</w>
+            <w>iuxta</w>
+            <w>eius</w>
             <w>
               <choice>
-                <abbr><am><g ref="#pbardes"/></am></abbr>
-                <expan>p<ex>er</ex></expan>
+                <abbr><am><g ref="#pbardes"/></am>dictus</abbr>
+                <expan>p<ex>re</ex>dictus</expan>
               </choice>
             </w>
-            <w>di</w>
             <w>sicut</w>
             <w>ista</w>
             <w>lex</w>
-            <w>di<damage agent="rubbing"/></w>
+            <w>di<damage agent="rubbing">cit</damage></w>
           </add>
           <lb n="6" xml:id="CE34-5_lb_104r_06"/>
           <w>sic</w>
