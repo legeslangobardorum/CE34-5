@@ -3441,7 +3441,7 @@
               <expan>scandalu<ex>m</ex></expan>
             </choice>
           </w>
-          <w>pene<lb n="2" xml:id="CE34-5_lb_059r_02"/>tra<c corresp="#v">u</c>erit</w>
+          <w>pene<lb n="2" xml:id="CE34-5_lb_059r_02"/><seg rend="indent-50">tra<c corresp="#v">u</c>erit</seg></w>
         </ab>
 
         <ab corresp="#CE34-5_p_069v_37">
@@ -3458,7 +3458,7 @@
           <w>ubi</w>
           <w>rex</w>
           <w>est</w>
-          <w>scanda<lb n="4" xml:id="CE34-5_lb_059r_04"/>lum</w>
+          <w>scanda<lb n="4" xml:id="CE34-5_lb_059r_04"/><seg rend="indent-50">lum</seg></w>
           <w>penetra<c corresp="#v">u</c>erit</w>
         </ab>
 
@@ -3481,7 +3481,7 @@
               <expan>scandalu<ex>m</ex></expan>
             </choice>
           </w>
-          <lb n="6" xml:id="CE34-5_lb_059r_06"/><w>commiserit</w>
+          <lb n="6" xml:id="CE34-5_lb_059r_06"/><seg rend="indent-50"><w>commiserit</w></seg>
         </ab>
 
         <ab corresp="#CE34-5_p_070r_39">
@@ -3603,7 +3603,7 @@
           <w>ut</w>
           <w>ossa</w>
           <lb n="16" xml:id="CE34-5_lb_059r_16"/>
-          <w>rumpantur</w>
+          <seg rend="indent-50"><w>rumpantur</w></seg>
         </ab>
 
         <ab corresp="#CE34-5_p_070v_48">
@@ -3827,12 +3827,12 @@
           <w>feritas</w>
           <w>superius</w>
           <lb n="18" xml:id="CE34-5_lb_059v_18"/>
-          <w>scriptas</w>
+          <seg rend="indent-50"><w>scriptas</w>
           <w>que</w>
           <w>inter</w>
           <w>homines</w>
           <w>liberos</w>
-          <w>e<c corresp="#v">u</c>enerit</w>
+          <w>e<c corresp="#v">u</c>enerit</w></seg>
         </ab>
 
         <ab corresp="#CE34-5_p_072r_75">
@@ -4309,7 +4309,7 @@
           <w>de</w>
           <term ref="#aldius"><w>aldio</w></term>
           <lb n="20" xml:id="CE34-5_lb_060v_20"/>
-          <w>quam</w>
+          <seg rend="indent-50"><w>quam</w>
           <w>de</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <w>
@@ -4320,7 +4320,7 @@
           </w>
           <w>hoc</w>
           <w>tinore</w>
-          <w>finiantur</w>
+          <w>finiantur</w></seg>
         </ab>
         
         <ab corresp="#CE34-5_p_075r_128">
@@ -4747,7 +4747,7 @@
           <w>legitimas</w>
           <w><g ref="#openetlig"/></w>
           <w>sororer</w>
-          <w>le<lb n="2" xml:id="CE34-5_lb_061v_02"/>gitimas</w>
+          <w>le<lb n="2" xml:id="CE34-5_lb_061v_02"/><seg rend="indent-50">gitimas</seg></w>
           <w><g ref="#openetlig"/></w>
           <w>filium</w>
           <w>legitimum</w>
@@ -4764,9 +4764,9 @@
           <w><g ref="#openetlig"/></w>
           <w>sorores</w>
           <lb n="4" xml:id="CE34-5_lb_061v_04"/>
-          <w>pro</w>
+          <seg rend="indent-50"><w>pro</w>
           <w>mundio</w>
-          <w>earum</w>
+          <w>earum</w></seg>
         </ab>
         
         <ab corresp="#CE34-5_p_079r_162">
@@ -4853,14 +4853,14 @@
           <w>quod</w>
           <w>mundius</w>
           <lb n="9" xml:id="CE34-5_lb_061v_09"/>
-          <w>ad</w>
+          <seg rend="indent-50"><w>ad</w>
           <w>ipsum</w>
           <w>
             <choice>
               <abbr><am><g ref="#pbardes"/></am>tineat</abbr>
               <expan>p<ex>er</ex>tineat</expan>
             </choice>
-          </w>
+          </w></seg>
         </ab>
         
         <ab corresp="#CE34-5_p_079v_166">
@@ -4937,8 +4937,8 @@
           <w>filius</w>
           <w>
             <choice>
-              <abbr>cui<lb n="15" xml:id="CE34-5_lb_061v_15_abbr"/>cumq<am><g ref="#twodot"/></am></abbr>
-              <expan>cui<lb n="15" xml:id="CE34-5_lb_061v_15_expan"/>cumq<ex>ue</ex></expan>
+              <abbr>cui<lb n="15" xml:id="CE34-5_lb_061v_15_abbr"/><seg rend="indent-50">cumq<am><g ref="#twodot"/></am></seg></abbr>
+              <expan>cui<lb n="15" xml:id="CE34-5_lb_061v_15_expan"/><seg rend="indent-50">cumq<ex>ue</ex></seg></expan>
             </choice>
           </w>
           <w>thingare</w>
@@ -5062,8 +5062,8 @@
           <w>sponsata</w>
           <w>habet</w>
           <lb n="26" xml:id="CE34-5_lb_061v_26"/>
-          <w>lebrosa</w>
-          <w>appar<c corresp="#v">u</c><space quantity="6" unit="chars"/>erit</w>
+          <seg rend="indent-50"><w>lebrosa</w>
+          <w>appar<c corresp="#v">u</c><space quantity="6" unit="chars"/>erit</w></seg>
         </ab>
 
         <pb n="062r" xml:id="CE34-5_folio_062r"/>
@@ -5153,8 +5153,8 @@
           <w><c corresp="#v">u</c>oluntate</w>
           <w>
             <choice>
-              <abbr>pa<lb n="9" xml:id="CE34-5_lb_062r_09_abbr"/>rent<am><g ref="#utilde"/></am></abbr>
-              <expan>pa<lb n="9" xml:id="CE34-5_lb_062r_09_expan"/>rentu<ex>m</ex></expan>
+              <abbr>pa<lb n="9" xml:id="CE34-5_lb_062r_09_abbr"/><seg rend="indent-50">rent<am><g ref="#utilde"/></am></seg></abbr>
+              <expan>pa<lb n="9" xml:id="CE34-5_lb_062r_09_expan"/><seg rend="indent-50">rentu<ex>m</ex></seg></expan>
             </choice>
           </w>
           <w>ad</w>
@@ -5222,8 +5222,8 @@
             </choice>
           </w>
           <lb n="15" xml:id="CE34-5_lb_062r_15"/>
-          <w>secuta</w>
-          <w>fuerit</w>
+          <seg rend="indent-50"><w>secuta</w>
+          <w>fuerit</w></seg>
         </ab>
         
         <ab corresp="#CE34-5_p_084r_194">
@@ -5500,8 +5500,9 @@
               <expan>parentu<ex>m</ex></expan>
             </choice>
           </w>
-          <lb n="10" xml:id="CE34-5_lb_062v_10"/><w>duxerit</w>
-          <w>uxorem</w>
+          <lb n="10" xml:id="CE34-5_lb_062v_10"/>
+          <seg rend="indent-50"><w>duxerit</w>
+          <w>uxorem</w></seg>
         </ab>
         
         <ab corresp="#CE34-5_p_086v_215">
@@ -5887,12 +5888,12 @@
           <w>castro</w>
           <w>aut</w>
           <lb n="17" xml:id="CE34-5_lb_063r_17"/>
-          <w>ci<c corresp="#v">u</c>itatem</w>
+          <seg rend="indent-50"><w>ci<c corresp="#v">u</c>itatem</w>
           <w>discenderit</w>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>.</reg>
-          </choice>
+          </choice></seg>
         </ab>
 
         <ab corresp="#CE34-5_p_090r_244">
@@ -5985,7 +5986,7 @@
           <w>ca<c corresp="#v">u</c>allus</w>
           <w>domitus</w>
           <lb n="24" rend="align_right" xml:id="CE34-5_lb_063r_24"/>
-          <w>aut</w>
+          <seg rend="indent-100"><w>aut</w>
           <w>bo<c corresp="#v">u</c>es</w>
           <w>domitos</w>
           <w>
@@ -5993,7 +5994,7 @@
               <abbr>pig<am><g ref="#ntilde"/></am>p</abbr>
               <expan>pign<ex>eraverit</ex></expan>
             </choice>
-          </w>
+          </w></seg>
         </ab>
         
         <ab corresp="#CE34-5_p_090v_251">
@@ -6017,9 +6018,9 @@
           <w>hab<g ref="#openetlig"/></w>
           <w>nisi</w>
           <w>ca<c corresp="#v">u</c>allos</w>
-          <lb n="27" rend="align_right" xml:id="CE34-5_lb_063r_27"/>
-          <w>aut</w>
-          <w>bo<c corresp="#v">u</c>es</w>
+          <lb rend="align_right" xml:id="CE34-5_lb_063r_27"/>
+          <seg rend="align-right"><w>aut</w>
+          <w>bo<c corresp="#v">u</c>es</w></seg>
         </ab>
 
         <pb n="063v" xml:id="CE34-5_folio_063v"/>
@@ -6030,7 +6031,7 @@
           <w>liceat</w>
           <w>casa</w>
           <w>ordinata</w>
-          <w>tributa<lb n="2" xml:id="CE34-5_lb_063v_02"/>ria</w>
+          <w>tributa<lb n="2" xml:id="CE34-5_lb_063v_02"/><seg rend="indent-50">ria</seg></w>
           <w>pro</w>
           <w>quolibet</w>
           <w>
@@ -6231,7 +6232,7 @@
           <w>est</w>
           <w>res</w>
           <w>al<g ref="#jnodotenl"/>enas</w>
-          <w>cuil<g ref="#jnodotenl"/><lb n="13" xml:id="CE34-5_lb_063v_13"/>b<g ref="#openetlig"/></w>
+          <w>cuil<g ref="#jnodotenl"/><lb n="13" xml:id="CE34-5_lb_063v_13"/><seg rend="indent-50">b<g ref="#openetlig"/></seg></w>
           <w>commenda<c corresp="#v">u</c>erit</w>
         </ab>
         
@@ -6254,7 +6255,7 @@
           <w>foris</w>
           <w>pro<c corresp="#v">u</c>incia</w>
           <lb n="16" xml:id="CE34-5_lb_063v_16"/>
-          <w>fugire</w>
+          <seg rend="indent-50"><w>fugire</w></seg>
         </ab>
         
         <ab corresp="#CE34-5_p_092r_265">
@@ -6323,10 +6324,10 @@
           </w>
           <damage/><space extent="10" unit="chars"/>
           <w>mancipius</w>
-          <lb n="21" xml:id="CE34-5_lb_063v_21"/><w>al<g ref="#jnodotenl"/>ena</w>
+          <lb n="21" xml:id="CE34-5_lb_063v_21"/><seg rend="indent-50"><w>al<g ref="#jnodotenl"/>ena</w>
           <w>fugi<c corresp="#v">u</c>erit</w>
           <w><g ref="#openetlig"/></w>
-          <w>nolui</w>
+          <w>nolui</w></seg>
           <w>
             <choice>
               <abbr>e<am><g ref="#atilde"/></am></abbr>
@@ -6378,7 +6379,7 @@
           <w>casa</w>
           <w>sua</w>
           <lb n="26" xml:id="CE34-5_lb_063v_26"/>
-          <w>
+          <seg rend="indent-50"><w>
             <choice>
               <abbr>su<am><g ref="#pbardes"/></am></abbr>
               <expan>sup<ex>er</ex></expan>
@@ -6387,15 +6388,15 @@
           <w>no<c corresp="#v">u</c>em</w>
           <w>noctes</w>
           <w>ha<damage/><space extent="12" unit="chars"/>buerit</w>
-          <w>nesciente</w>
-          <lb n="27" rend="align_right" xml:id="CE34-5_lb_063v_27"/>
-          <w>
+          <w>nesciente</w></seg>
+          <lb rend="align_right" xml:id="CE34-5_lb_063v_27"/>
+          <seg rend="align-right"><w>
             <choice>
               <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
-          <w>eius</w>
+          <w>eius</w></seg>
         </ab>
 
         <pb n="064r" xml:id="CE34-5_folio_064r"/>

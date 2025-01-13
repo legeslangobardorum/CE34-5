@@ -102,6 +102,20 @@
 	font-size: 120% !important;
 }
 
+.seg[data-rend="align-right"] {
+  display: inline !important;
+  margin-left: 200px !important;
+}
+
+.seg[data-rend="indent-50"] {
+  display: inline !important;
+  margin-left: 50px !important;
+}
+
+.seg[data-rend="indent-100"] {
+  display: inline !important;
+  margin-left: 100px !important;
+}
 .title {
   font-style: italic !important;
 }
