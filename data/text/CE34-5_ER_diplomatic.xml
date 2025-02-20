@@ -27009,9 +27009,9 @@
               <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan>
             </choice>  
             <unclear>
-              <w><choice><!-- CHECK clearly meaningless at the moment -->
-                <abbr>achll<am><g ref="#umacr"/></am>top<!-- CHECK missing #us? --></abbr>
-                <expan>achllutop<ex>m</ex></expan>
+              <w><choice><!-- CHECK -->
+                <abbr>adill<am><g ref="#umacr"/></am>t<am><g ref="#emacr"/></am>p<g ref="#us"/></abbr>
+                <expan>ad illum te<ex>m</ex>p<ex>us</ex></expan>
               </choice></w>
             </unclear>
           </add>
@@ -29966,7 +29966,7 @@
             </choice>
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
-          <add resp="MT" place="margin-left">
+          <add resp="MT" place="margin-left"><!-- CHECK spostare al 267 come da trascrizione BAV -->
             <w>Ista</w>
             <w>lex</w>
             <w><choice>
