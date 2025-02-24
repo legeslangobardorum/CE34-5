@@ -30396,8 +30396,8 @@
               <w><surplus>n</surplus>aliena</w>
               <w>potestate</w>
               <w><choice>
-                <abbr>c<am><g ref="#omacr"/></am>coeda</abbr>
-                <expan>co<ex>n</ex>coeda</expan>
+                <abbr>c<am><g ref="#omacr"/></am>coeda</abbr><!-- CHECK special char for oe? -->
+                <expan>co<ex>n</ex>ceda</expan>
               </choice></w>
               <w>se</w>
               <w>exfugitori</w>
@@ -31279,7 +31279,7 @@
               <w>jurate</w>
               <w><choice>
                 <abbr>d<am><g ref="#rmacr"/></am></abbr><!-- CHECK correct ref -->
-                <expan>d<ex>icitu</ex>r<ex>m</ex></expan>
+                <expan>d<ex>icitu</ex>r</expan>
               </choice></w>
               <w>uix<g ref="#emacr"/></w><!-- CHECK ??? -->
               <w>dubio</w>
