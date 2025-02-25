@@ -30796,7 +30796,7 @@
               <abbr><am><g ref="#slongtwodot"/></am></abbr><!-- CHECK need new g -->
               <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan><!-- CHECK meaning -->
             </choice>
-            <w>somo</w>
+            <w>omo</w>
           </add>
           <w>cuius</w>
           <w>curtes</w>
@@ -32485,7 +32485,11 @@
           <term ref="#figangit" xml:id="CE34-5_term_figangit_291" xml:lang="lng">
             <w>fegangit</w>
           </term>
-          <add hand="scribe_2" place="above"><w>trasatantiate</w></add>
+          <add hand="scribe_2" place="above">
+            <choice>
+              <abbr><am><g ref="#Itwodot"/></am></abbr><!-- CHECK need new g + ONLY ONE DOT -->
+              <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan>
+            </choice><w>transata</w> <w>morte</w></add>
           <w>nisi</w>
           <w>
             <choice>
@@ -33000,18 +33004,18 @@
           <w>mortuus</w>
           <w>aut</w>
           <w>al<g ref="#jnodotenl"/>qua</w>
-          <add hand="scribe_2" place="margin-left">
+          <add hand="scribe_2" place="margin-left"><!-- CHECK all, currently based on BAV -->
             <unclear>
               <w>Quare</w>
               <w><choice>
                 <abbr><am><g ref="#qbardes"/></am></abbr>
-                <expan>q<ex>uod</ex></expan>
+                <expan>q<ex>ui</ex></expan>
               </choice></w>
               <w>ille</w>
               <w>cuius</w>
               <w>sepi</w> <!-- CHECK ??? -->
               <space/>
-              <w>et</w>
+              <w>est</w>
               <w>nec</w>
               <w><choice>
                 <abbr>su<am><g ref="#umacr"/></am></abbr>
@@ -33020,14 +33024,14 @@
               <w>
                 <choice>
                   <abbr><am><g ref="#pbardes"/></am>tine<am>te</am></abbr>
-                  <expan>p<ex>er</ex>tine<ex>n</ex>te</expan>
+                  <expan>p<ex>er</ex>tine<ex>n</ex>te<ex>m</ex></expan>
                 </choice>
               </w>
               <w><choice>
-                <abbr><am><g ref="#imacr"/></am></abbr>
-                <expan>i<ex>n</ex></expan>
+                <abbr><am><g ref="#imacr"/></am>uo<c corresp="#v">u</c>it</abbr>
+                <expan>i<ex>n</ex>vovit</expan>
               </choice></w>
-              <w>uo<c corresp="#v">u</c>ita</w>
+              <w>a</w>
               <w><choice>
                 <abbr>saliend<am><g ref="#umacr"/></am></abbr>
                 <expan>saliendu<ex>m</ex></expan>
@@ -33039,10 +33043,11 @@
                 <abbr>c<am><g ref="#omacr"/></am>p</abbr>
                 <expan>co<ex>n</ex>p<ex>onat</ex></expan>
               </choice></w>
-              <w><c corresp="#v">u</c>ero</w>
+              <w>pro</w>
+              <w>eo</w>
               <w><choice>
-                <abbr><am><g ref="#qbardes"/></am></abbr>
-                <expan>q<ex>uod</ex></expan>
+                <abbr><am><g ref="#qbardes"/></am>a</abbr>
+                <expan>q<ex>ui</ex>a</expan>
               </choice></w>
               <w>a</w>
               <w>ipso</w>
