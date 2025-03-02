@@ -33049,15 +33049,14 @@
                 <abbr><am><g ref="#qbardes"/></am>a</abbr>
                 <expan>q<ex>ui</ex>a</expan>
               </choice></w>
-              <w>a</w>
               <w>ipso</w>
-              <w>cui</w>
+              <w>cujus</w>
               <w>sepe</w>
               <w><choice>
                 <abbr><am><g ref="#emacr"/></am></abbr>
-                <expan>e<ex>st</ex></expan>
+                <expan>e<ex>sse</ex></expan>
               </choice></w>
-              <w>clusura</w>
+              <w>clausura</w>
               <w><choice>
                 <abbr><am><g ref="#emacr"/></am></abbr>
                 <expan>e<ex>st</ex></expan>
@@ -33075,8 +33074,9 @@
               <w>a</w>
               <w>sal<g ref="#jnodotenl"/>endum</w>
               <w>et</w>
-              <w>sic</w>
-              <w>mo<c corresp="#v">u</c>i</w>
+              <w>si</w>
+              <w>non</w>
+             <w>mo<c corresp="#v">u</c>i</w>
               <w>nichil</w>
               <space/>
               <w>conponat</w>
@@ -33085,7 +33085,8 @@
               <w>dicere</w>
               <space/>
               <damage agent="rubbing"/>
-              <w>integram</w>
+              <w>verbi</w>
+              <w>gratia</w>
               <w>provocasset</w>
             </unclear>
           </add>
@@ -34712,8 +34713,12 @@
           <add hand="scribe_2" place="above">
             <w>
               <choice>
+                <abbr><am><g ref="#Itwodot"/></am></abbr><!-- CHECK need new g -->
+                <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan>
+              </choice>
+              <choice>
                 <abbr>plagat<am><g ref="#utilde"/></am></abbr>
-                <expan>plgatu<ex>m</ex></expan>
+                <expan>plagatu<ex>m</ex></expan>
               </choice>
             </w>
           </add>
@@ -34729,7 +34734,15 @@
           <w>aut</w>
           <w>minuadum</w>
           <w>iubemus</w>
-          <add hand="scribe_2" place="above"><w>comandem</w></add>
+          <add hand="scribe_2" place="above">
+            <choice>
+              <abbr><am><g ref="#Itwodot"/></am></abbr><!-- CHECK need new g -->
+              <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan>
+            </choice>
+            <w><choice>
+              <abbr>comandem<am><g ref="#us"/></am></abbr><!-- CHECK g -->
+              <expan>comandem<ex>us</ex></expan>
+            </choice></w></add>
           <w>ut</w>
           <w>consignet</w>
           <w>
@@ -34749,7 +34762,12 @@
             </choice>
           </w>
           <w>intrica<c corresp="#v">u</c>it</w>
-          <add hand="scribe_2" place="above"><w>plaga<c corresp="#v">u</c>i</w></add>
+          <add hand="scribe_2" place="above">
+            <choice>
+              <abbr><am><g ref="#Itwodot"/></am></abbr><!-- CHECK need new g -->
+              <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan>
+            </choice>
+            <w>plaga<c corresp="#v">u</c>i</w></add>
           <w><g ref="#openetlig"/></w>
           <w>
             <choice>
@@ -34845,7 +34863,12 @@
           <w>mediocris</w>
           <w>spata</w>
           <w>nam</w>
-          <add hand="scribe_2" place="above"><w>certe</w></add>
+          <add hand="scribe_2" place="above">
+            <choice>
+              <abbr><am><g ref="#Itwodot"/></am></abbr><!-- CHECK need new g -->
+              <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan>
+            </choice>
+            <w>certe</w></add>
           <w>si</w>
           <w>post</w>
           <w>ipsum</w>
@@ -34970,7 +34993,7 @@
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
-          <w>tres<add hand="scribe_2" place="above">misse</add></w>
+          <w>tres<add hand="scribe_2" place="above">misse</add></w><!-- CHECK add space? -->
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
           <w><g ref="#openetlig"/></w>
           <w>si</w>
@@ -35052,7 +35075,7 @@
               <expan>sup<ex>ra</ex></expan>
             </choice>
           </w>
-          <add hand="scribe_2" place="margin-right">
+          <add hand="scribe_2" place="margin-right"><!-- HERE -->
             <w><hi rend="cap">S</hi>i</w>
             <w>
               <choice>
@@ -35061,9 +35084,18 @@
               </choice>
             </w>
             <w>a</w>
-            <w>caballu</w>
-            <w>a<gap extent="2" unit="chars"/><supplied reason="illegible" resp="alim-pi">li</supplied>enu</w>
-            <w>auru</w>
+            <w><choice>
+              <abbr>caball<am><g ref="#umacr"/></am></abbr>
+              <expan>caballu<ex>m</ex></expan>
+            </choice></w>
+            <w><choice>
+              <abbr>a<gap extent="2" unit="chars"/><supplied reason="illegible" resp="alim-pi">li</supplied>en<am><g ref="#umacr"/></am></abbr>
+              <expan>a<gap extent="2" unit="chars"/><supplied reason="illegible" resp="alim-pi">li</supplied>enu<ex>m</ex></expan>
+            </choice></w>
+            <w><choice>
+              <abbr>vir<am><g ref="#umacr"/></am></abbr>
+              <expan>viru<ex>m</ex></expan>
+            </choice></w>
             <w>cu</w>
             <w>da</w>
             <w>capella<c corresp="#v">u</c>erii</w>
