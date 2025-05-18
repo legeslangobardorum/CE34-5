@@ -249,7 +249,7 @@
         </char>
 
         <glyph xml:id="Eunc">
-          <localProp name="Name" value="LATIN CAPITAL LETTER E UNCIAL FORM"/>
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER E UNCIAL FORM"/>
           <mapping subtype="MUFI-PUA" type="codepoint">U+F10A</mapping>
           <mapping type="diplomatic"></mapping>
           <mapping type="normalized">E</mapping>
@@ -621,6 +621,7 @@
           <mapping type="diplomatic">m̃</mapping>
           <mapping type="normalized">m</mapping>
         </char>
+
         <!-- aggiunto 2019-03-20 -->
         <char xml:id="ur">
           <unicodeProp name="Name" value="COMBINING UR ABOVE"/>
@@ -654,6 +655,7 @@
           <mapping type="diplomatic">;</mapping>
           <mapping type="normalized">us</mapping>
         </char>
+
         <!-- aggiunto 2020-01-14 -->
         <char xml:id="bstrok">
           <unicodeProp name="Name" value="LATIN SMALL LETTER B WITH STROKE"/>
@@ -2575,7 +2577,7 @@
           <w>rex</w>
           <w>ex</w>
           <w>genere</w>
-          <persName xml:lang="lng" ref="#Gugingus"><!-- CHECK ref; per la critica: dittografia? -->
+          <persName xml:lang="lng" ref="#Gugingus"><!-- CHECK ref -->
             <w><choice>
               <orig>gunzingus</orig>
               <reg>Gunzingus</reg>
@@ -2692,7 +2694,7 @@
             <reg>Clef</reg>
           </choice></w></persName>
           <lb n="9" xml:id="CE34-5_lb_058r_09"/>
-          <persName ref="#Aginulf"><w><hi rend="black and red">A</hi>ginulf</w></persName>
+          <persName ref="#Aginulf"><w><hi rend="black and red">A</hi>ginulf</w><!-- CHECK Agilulf? --></persName>
           <w>turingus</w>
           <w>ex</w>
           <w>genere</w>
@@ -2705,7 +2707,7 @@
           <persName ref="#Adawald"><w><hi rend="black and red">A</hi>dal<c corresp="#v">u</c><c corresp="#v"
               >u</c>ald</w></persName>
           <w>filius</w>
-          <persName ref="#Aginulf"><w><choice>
+          <persName ref="#Aginulf"><w><choice><!-- CHECK Agilulf? -->
             <orig>aginulf</orig>
             <reg>Aginulf</reg>
           </choice></w></persName>
