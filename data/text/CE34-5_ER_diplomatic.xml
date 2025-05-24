@@ -830,6 +830,7 @@
     - abbreviazioni con tilde verticale invece macron su vocale
     - <g ref="#eogon"/> non è un segno di abbreviazione, correggere se è usato in <abbr>/<expan>
     - controllare tutti i <g ref="#arbar"/>
+    - rmacr manca nella versione di Junicode usata in EVT 2 >>> chiedere a Chiara
     
     -->
 
@@ -39588,7 +39589,7 @@
             <w>si</w>
             <w>antesteri</w>
             <w><choice>
-              <abbr>vi<am><g ref="#amacr"/></am></abbr>
+              <abbr><c corresp="#v">u</c>i<am><g ref="#amacr"/></am></abbr>
               <expan>via<ex>m</ex></expan>
             </choice></w>
           </add>
