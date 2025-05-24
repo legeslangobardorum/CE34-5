@@ -705,6 +705,14 @@
           <mapping type="normalized">N</mapping>
         </char>
 
+        <!-- aggiunto 2025-05-24 -->
+        <char xml:id="nmacrddot">
+          <localProp name="Name" value="LATIN SMALL LETTER N WITH MACRON AND DOT ABOVE+BELOW"/>
+          <mapping subtype="composed" type="codepoint">U+006E + U+0304 + U+0307 + U+0323</mapping>
+          <mapping type="diplomatic">ṇ̄̇</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+        
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="pmacr">
           <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH MACRON"/>
@@ -19501,7 +19509,10 @@
               <expan>p<ex>er</ex></expan>
             </choice>
           </w>
-          <w>quolebet</w>
+          <w><choice>
+            <sic>quolebet</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <lb n="17" xml:id="CE34-5_lb_080r_17"/>
           <w>titulo</w>
           <w>alienare</w>
@@ -23865,7 +23876,10 @@
               <expan>p<ex>er</ex></expan>
             </choice>
           </w>
-          <w>qua<lb n="10" xml:id="CE34-5_lb_085v_10"/>lebit</w>
+          <w><choice>
+            <sic>qua<lb n="10" xml:id="CE34-5_lb_085v_10_sic"/>lebit</sic>
+            <corr>qua<lb n="10" xml:id="CE34-5_lb_085v_10_corr"/>libet</corr>
+          </choice></w>
           <w>occisionem</w>
           <w>occiderit</w>
           <w>
@@ -27910,7 +27924,10 @@
           <w>scripserit</w>
           <lb n="9" xml:id="CE34-5_lb_090r_09"/>
           <w>aut</w>
-          <w>quolebit</w>
+          <w><choice>
+            <sic>quolebit</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <w>membranum</w>
           <w>manus</w>
           <w>ei</w>
@@ -28685,7 +28702,10 @@
           <w><hi rend="cap">N</hi>ulli</w>
           <w>leceat</w>
           <w>pro</w>
-          <w>quolebit</w>
+          <w><choice>
+            <sic>quolebit</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <w>
             <choice>
               <abbr>debit<am><g ref="#umacr"/></am></abbr>
@@ -28846,7 +28866,10 @@
             </choice>
           </w>
           <w>aut</w>
-          <w>quolebet</w>
+          <w><choice>
+            <sic>quolebet</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <w>
             <choice>
               <abbr>pecul<g ref="#jnodotenl"/><am><g ref="#umacr"/></am></abbr>
@@ -29657,7 +29680,10 @@
               <expan>cumq<ex>ue</ex></expan>
             </choice>
           </w>
-          <w>lebit</w>
+          <w><choice>
+            <sic>lebit</sic>
+            <corr>libet</corr>
+          </choice></w>
           <w>homini</w>
           <w>commenda<c corresp="#v">u</c>erit</w>
           <w>posteaquae</w>
@@ -32204,7 +32230,10 @@
           <w>casa</w>
           <w>erecta</w>
           <w>lignum</w>
-          <w>quolebit</w>
+          <w><choice>
+            <sic>quolebit</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <lb n="10" xml:id="CE34-5_lb_094v_10"/>
           <w>aut</w>
           <w>scandola</w>
@@ -33277,7 +33306,10 @@
           <w><hi rend="cap">S</hi>i</w>
           <w>caballus</w>
           <w>aut</w>
-          <w>quislebit</w>
+          <w><choice>
+            <sic>quislebit</sic>
+            <corr>quislibet</corr>
+          </choice></w>
           <w>peculius</w>
           <w><choice>
             <orig>In</orig>
@@ -33668,7 +33700,10 @@
           <w>hominem</w>
           <w>occiderit</w>
           <w>aut</w>
-          <w>quolebit</w>
+          <w><choice>
+            <sic>quolebit</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <w>dam<lb n="10" xml:id="CE34-5_lb_096r_10"/>num</w>
           <w>fecerit</w>
           <w><hi rend="cap">T</hi>unc</w>
@@ -34008,7 +34043,10 @@
           <w><hi rend="cap">S</hi>i</w>
           <w>cer<c corresp="#v">u</c>us</w>
           <w>aut</w>
-          <w>qualebit</w>
+          <w><choice>
+            <sic>qualebit</sic>
+            <corr>qualibet</corr>
+          </choice></w>
           <w>fera</w>
           <w>ab</w>
           <w>al<g ref="#jnodotenl"/>o</w>
@@ -35810,7 +35848,10 @@
           <w>caballo</w>
           <w>al<g ref="#jnodotenl"/>eno</w>
           <w>aut</w>
-          <w>quolebit</w>
+          <w><choice>
+            <sic>quolebit</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <w>
             <choice>
               <abbr>pecul<g ref="#jnodotenl"/><am><g ref="#umacr"/></am></abbr>
@@ -36042,7 +36083,10 @@
           <w>al<g ref="#jnodotenl"/>eno</w>
           <w>aut</w>
           <lb n="16" xml:id="CE34-5_lb_098v_16"/>
-          <w>quolebit</w>
+          <w><choice>
+            <sic>quolebit</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <w>pecul<g ref="#jnodotenl"/>u</w>
           <w>damno</w>
           <w>
@@ -36278,7 +36322,10 @@
           </choice></w>
           <w>prato</w>
           <w><c corresp="#v">u</c>el</w>
-          <w>quolebit</w>
+          <w><choice>
+            <sic>quolebit</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <w>
             <choice>
               <abbr>damn<am><g ref="#umacr"/></am></abbr>
@@ -36698,7 +36745,10 @@
           </w>
           <w>caballus</w>
           <w>aut</w>
-          <w>quis<lb rend="align_right" type="extra"/>lebit</w>
+          <w><choice>
+            <sic>quis<lb rend="align_right" type="extra"/>lebit</sic>
+            <corr>quis<lb rend="align_right" type="extra"/>libet</corr>
+          </choice></w>
           <w>pecul<g ref="#jnodotenl"/>us</w>
   
         <pb n="099v" xml:id="CE34-5_folio_099v"/>
@@ -36821,7 +36871,10 @@
           <w>fuerit</w>
           <w>ca<lb n="7" xml:id="CE34-5_lb_099v_07"/>ballum</w>
           <w>aut</w>
-          <w>quolebit</w>
+          <w><choice>
+            <sic>quolebit</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <w>peculium</w>
           <add hand="scribe_2" place="above"><unclear><w><choice>
             <abbr>salit<am><g ref="#umacr"/></am></abbr>
@@ -37421,7 +37474,7 @@
               <expan>sol<ex>idos</ex></expan>
             </choice>
           </w>
-          <w><g ref="#arbar"/>n</w><!-- CHECK -->
+          <w><g ref="#nmacrddot"/></w><!-- CHECK 1. correct composed character 2. for possible expansion -->
           <measure quantity="6" type="currency" unit="soldi"><w>sex</w></measure>
         </p>
 
@@ -38607,7 +38660,8 @@
                 <abbr><am><g ref="#lhighstrok"/></am></abbr>
                 <expan>l<ex>egitur</ex></expan>
               </choice>
-              <w>
+            </w>
+             <w>
               <choice>
                 <abbr>n<am><g ref="#amacr"/></am></abbr>
                 <expan>na<ex>m</ex></expan>
@@ -39002,7 +39056,10 @@
               <expan>p<ex>er</ex></expan>
             </choice>
           </w>
-          <w>quolebit</w>
+          <w><choice>
+            <sic>quolebit</sic>
+            <corr>quolibet</corr>
+          </choice></w>
           <w>tetulo</w>
           <w>al<g ref="#jnodotenl"/>enare</w>
         </p>
@@ -39272,7 +39329,7 @@
           <w>
             <choice>
               <sic>exeqguant<g ref="#ur"/></sic>
-              <corr resp="alim-pi azzara beyerle">exequantur</corr>
+              <corr resp="alim-pi azzara beyerle">exequant<ex>ur</ex></corr>
             </choice>
           </w>
         </p>
@@ -39447,10 +39504,7 @@
           <w>regis</w>
           <w>si</w>
           <w>fecerit</w>
-          <w><choice>
-            <orig>anime</orig>
-            <reg>animae</reg>
-          </choice></w>
+          <w>anime</w>
           <w>sue</w>
           <w><choice>
             <orig>Incurrat</orig>
@@ -39515,26 +39569,52 @@
           <term ref="#hoberus" xml:id="CE34-5_term_hoberus_373" xml:lang="lng">
             <w>hoberos</w>
           </term>
-          <add hand="scribe_2" place="above"><w>curtis</w><w>ruture</w></add>
+          <add hand="scribe_2" place="above">
+            <choice>
+              <abbr><am><g ref="#Itwodot"/></am></abbr><!-- CHECK need new g -->
+              <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan>
+            </choice>
+            <w>curtis</w>
+            <w><choice>
+              <sic>ruture</sic>
+              <corr>rupture</corr>
+            </choice></w>
+          </add>
           <w>aut</w>
           <term ref="#wecvorin" xml:id="CE34-5_term_wecvorin_373" xml:lang="lng">
             <w><c corresp="#v">u</c>eccororit</w>
           </term>
           <add hand="scribe_2" place="above">
-            <w>si</w><w>ante</w><w>faceri</w><w>via</w></add>
+            <w>si</w>
+            <w>antesteri</w>
+            <w><choice>
+              <abbr>vi<am><g ref="#amacr"/></am></abbr>
+              <expan>via<ex>m</ex></expan>
+            </choice></w>
+          </add>
           <w>seu</w>
           <term ref="#marahvorf" xml:id="CE34-5_term_marahvorf_373" xml:lang="lng">
             <w>mara<lb n="22" xml:id="CE34-5_lb_102v_22"/><c corresp="#v">u</c>orf</w>
           </term>
           <add hand="scribe_2" place="above">
+            <choice>
+              <abbr><am><g ref="#Itwodot"/></am></abbr><!-- CHECK need new g -->
+              <expan><w><ex>id</ex></w> <w><ex>est</ex></w></expan>
+            </choice>
             <w>iacta<c corresp="#v">u</c>eri</w>
-            <w>ome</w>
+            <w><choice>
+              <abbr>o<am><g ref="#mmacr"/></am>e</abbr>
+              <expan>om<ex>n</ex>e</expan>
+            </choice></w>
             <w>liberi</w>
             <w>de</w>
             <w>caballo</w>
           </add>
           <w>aut</w>
-          <w>qualebit</w>
+          <w><choice>
+            <sic>qualebit</sic>
+            <corr>qualibet</corr>
+          </choice></w>
           <w>al<g ref="#jnodotenl"/>a</w>
           <w>culpa</w>
           <w>minore</w>
@@ -39868,7 +39948,7 @@
           <w>
             <choice>
               <abbr><am><g ref="#pmacr"/></am>sumat</abbr>
-              <expan>p<ex>er</ex>sumat</expan>
+              <expan>p<ex>re</ex>sumat</expan>
             </choice>
           </w>
           <w>aldia</w>
@@ -39888,7 +39968,6 @@
           </term>
           <w>occideret</w>
           <w>quod</w>
-          <w>xp-anis</w>
           <w>
             <choice>
               <sic>x<am><g ref="#pmacr"/></am>anis</sic>
@@ -39935,8 +40014,8 @@
           <w>talem</w>
           <lb n="16" xml:id="CE34-5_lb_103r_16"/>
           <w><choice>
-            <orig>Inlecita</orig>
-            <reg>inlecita</reg>
+            <orig><abbr>Inlecit<am><g ref="#amacr"/></am></abbr></orig>
+            <reg><expan>inlecita<ex>m</ex></expan></reg>
           </choice></w>
           <w><g ref="#openetlig"/></w>
           <w>nefanda</w>
@@ -40063,7 +40142,11 @@
           <w>iudex</w>
           <w>huic</w>
           <w>opus</w>
-          <w>ma<lb n="22" xml:id="CE34-5_lb_103r_22"/>le <add hand="scribe_2" place="above">u</add></w>
+          <w><choice>
+            <abbr>ma<lb n="22" xml:id="CE34-5_lb_103r_22_abbr"/>l<subst><del rend="expunction">e</del><add hand="scribe_2"
+            place="above"><am><g ref="#umacr"/></am></add></subst></abbr>
+            <expan>ma<lb n="22" xml:id="CE34-5_lb_103r_22_expan"/>lu<ex>m</ex></expan></choice>
+          </w>
           <w>penetrare</w>
           <w>iusserit</w>
           <w>ipse</w>
@@ -40091,6 +40174,7 @@
           <w>homini</w>
           <w>libero</w>
           <w>unum</w>
+          <w>oculum</w>
           <w>
             <choice>
               <abbr>habent<am><g ref="#emacr"/></am></abbr>
@@ -40113,7 +40197,7 @@
           <w>
             <choice>
               <abbr>ad<am><g ref="#pmacr"/></am>tiatus</abbr>
-              <expan>adp<ex>rae</ex>tiatus</expan>
+              <expan>adp<ex>re</ex>tiatus</expan>
             </choice>
           </w>
           <w>fuerit</w>
@@ -40226,7 +40310,7 @@
           <w>
             <choice>
               <abbr>ad<am><g ref="#pmacr"/></am>tietur</abbr>
-              <expan>adp<ex>rae</ex>tietur</expan>
+              <expan>adp<ex>re</ex>tietur</expan>
             </choice>
           </w>
           <w>
@@ -40569,7 +40653,7 @@
           <w>ut</w>
           <w>
             <choice>
-              <abbr>su<am><g ref="#pbardes"/></am></abbr>
+              <abbr>su<am><g ref="#pmacr"/></am></abbr>
               <expan>sup<ex>ra</ex></expan>
             </choice>
           </w>
@@ -41192,8 +41276,7 @@
               <expan>p<ex>er</ex></expan>
             </choice>
           </w>
-          <w>nos</w>
-          <w>metipsos</w>
+          <w>nosmetipsos</w>
           <lb n="24" xml:id="CE34-5_lb_104r_24"/>
           <w>quam</w>
           <w>
@@ -41306,7 +41389,7 @@
           <w>
             <choice>
               <abbr>ad<am><g ref="#pmacr"/></am>tiatus</abbr>
-              <expan>adp<ex>rae</ex>tiatus</expan>
+              <expan>adp<ex>re</ex>tiatus</expan>
             </choice>
           </w>
           <w>fuerit</w>
@@ -41346,7 +41429,7 @@
           <w>que</w>
           <w>autem</w>
           <w>non</w>
-          <w>sint</w>
+          <w>sunt</w>
           <w>fenitae</w>
           <w><g ref="#openetlig"/></w>
           <w>a</w>
