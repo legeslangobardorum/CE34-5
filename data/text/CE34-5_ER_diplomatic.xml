@@ -723,9 +723,9 @@
 
         <char xml:id="Pmacr">
           <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH MACRON"/>
-          <mapping subtype="composed" type="codepoint">U+004E + U+0304</mapping>
-          <mapping type="diplomatic">M̄</mapping>
-          <mapping type="normalized">M</mapping>
+          <mapping subtype="composed" type="codepoint">U+0050 + U+0304</mapping>
+          <mapping type="diplomatic">P̄</mapping>
+          <mapping type="normalized">P</mapping>
         </char>
 
         <!-- aggiunto 2018-11-21 -->
@@ -748,6 +748,13 @@
           <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
           <mapping type="diplomatic">t̄</mapping>
           <mapping type="normalized">t</mapping>
+        </char>
+
+        <char xml:id="Tmacr">
+          <localProp name="Name" value="LATIN CAPITAL LETTER T WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
+          <mapping type="diplomatic">T̄</mapping>
+          <mapping type="normalized">T</mapping>
         </char>
 
         <char xml:id="xmacr">
@@ -31123,7 +31130,7 @@
           <add resp="MT" hand="scribe_2" place="margin-left">
             <unclear reason="faded">
               <gap extent="3" unit="chars"/><w><choice>
-                <abbr><supplied reason="illegible" resp="alim-pi">man</supplied>c<g ref="#jnodotenl"/>piu<am><g ref="#umacr"/></am></abbr>
+                <abbr><supplied reason="illegible" resp="alim-pi">man</supplied>c<g ref="#jnodotenl"/>pi<am><g ref="#umacr"/></am></abbr>
                 <expan><supplied reason="illegible" resp="alim-pi">man</supplied>c<g ref="#jnodotenl"/>piu<ex>m</ex></expan>
               </choice></w>
               <w>
@@ -31438,7 +31445,7 @@
                 <expan>e<ex>st</ex></expan>
               </choice></w>
               <w><choice>
-                <abbr>nob<am><g ref="#bstrok"/></am></abbr><!-- CHECK correct ref -->
+                <abbr>no<am><g ref="#bstrok"/></am></abbr><!-- CHECK correct ref -->
                 <expan>nob<ex>is</ex></expan>
               </choice></w>
               <w><choice>
@@ -36836,7 +36843,6 @@
                 <expan>co<ex>n</ex>p<ex>onat</ex></expan>
               </choice>
             </w>
-            <w>ipsu-</w><w>
               <choice>
                 <abbr>ips<am><g ref="#umacr"/></am></abbr>
                 <expan>ipsu<ex>m</ex></expan>
@@ -37966,7 +37972,7 @@
             <w>alii</w>
             <w>uuadia</w>
             <w>dederit</w>
-            <w><g ref="#openetlig"/></w>
+            <!-- <w><g ref="#openetlig"/></w> CHECK -->
             <w>et</w>
             <w>eam</w>
             <w>recipere</w>
@@ -38551,7 +38557,10 @@
           <w>suos</w>
           <w>se</w>
           <add hand="scribe_2" place="margin-left">
-            <w>c</w>
+            <w><choice>
+		<abbr><am><g ref="#cmacr"/></am></abbr>
+		<expan>cum<expan>
+	    </choice></w>
             <w><c corresp="#v">u</c>inserint</w>
             <w>N</w>
             <w>si</w>
@@ -38559,11 +38568,14 @@
             <w>fueri</w>
             <w>iurare</w>
             <w>aut</w>
-            <w>si</w>
+            <w>si</w><!--CHECK correzione proposta -->
             <w>ipse</w>
             <w>ausilias</w>
             <w>de</w>
-            <w>sacramtalis</w>
+            <w><choice>
+		<abbr>sacra<am><g ref="#mmacr"/></am>talis</abbr>
+		<expan>sacram<ex>en</ex>talis<expan>
+            </choice></w>
             <w>ei</w>
           </add>
           <w>sub</w>
@@ -40944,7 +40956,8 @@
             <w>pintus</w>
             <w><g ref="#openetlig"/></w>
             <w>ceperi<supplied>t</supplied></w>
-            <unclear><w>et</w><w>accepibi<supplied>t</supplied></w></unclear>
+            <unclear><w>et</w>
+            <w>accepibi<supplied>t</supplied></w></unclear>
             <w>plagas</w>
             <w>non</w>
             <w>conponatur</w>
